@@ -1,100 +1,1000 @@
-House-2	Bizzarre room	2023-09-24T11:15:52.814Z	Brussels	image-1.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	3	Room	5	3	54411	Transfer;Air conditioner	4	0	51.437573	10.460025
-Apartment-2	The qorst house	2023-09-22T11:15:52.815Z	Cologne	image-2.jpg	image-5.jpg;image-6.jpg	1	0	2.1	Hotel	2	9	69159	Towels;Transfer;Air conditioner	2	0	48.437144	10.24366
-Apartment-2	Bizzarre room	2023-09-23T11:15:52.816Z	Brussels	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	1.3	House	7	4	43600	Transfer;Air conditioner	5	0	51.120087	4.185307
-Apartment-2	The qorst house	2023-09-24T11:15:52.816Z	Brussels	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	5	Room	7	5	1512	Breakfast	3	0	52.198239	5.029306
-House-2	The qorst house	2023-09-22T11:15:52.817Z	Amsterdam	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.8	Hotel	6	4	10036	Transfer;Air conditioner	3	0	52.453551	4.813519
-House-1	Good apartment	2023-09-19T11:15:52.818Z	Brussels	image-1.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	0	0	3.5	Room	1	6	36061	Transfer;Air conditioner	2	0	51.015897	3.932698
-The lost room	The best house	2023-09-20T11:15:52.818Z	Cologne	image-3.jpg	image-6.jpg	0	1	1.7	Room	3	2	33590	Breakfast;Towels;Transfer	3	0	49.3605	4.553624
-House-2	Better apartment	2023-09-22T11:15:52.819Z	Hamburg	image-3.jpg	image-5.jpg;image-6.jpg	0	1	3.8	Room	6	2	28296	Towels;Transfer;Air conditioner	4	0	50.974835	8.779994
-The lost room	Bizzarre room	2023-09-19T11:15:52.819Z	Amsterdam	image-3.jpg	image-1.jpg;image-2.jpg;image-3.jpg	1	1	4.7	Hotel	2	4	95697	Transfer;Air conditioner	2	0	53.972158	10.319145
-House-1	Bizzarre room	2023-09-20T11:15:52.819Z	Brussels	image-6.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	1.9	Room	6	9	31000	Towels;Transfer;Air conditioner	3	0	50.907045	6.947757
-House-2	Good apartment	2023-09-20T11:15:52.819Z	Cologne	image-4.jpg	image-5.jpg;image-6.jpg	1	1	4.3	Room	1	3	54396	Towels;Transfer;Air conditioner	1	0	50.823442	4.511768
-House-2	The best house	2023-09-23T11:15:52.820Z	Cologne	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg	0	1	1.6	Hotel	1	7	82290	Transfer;Air conditioner	1	0	51.713909	9.878392
-House-1	Better apartment	2023-09-22T11:15:52.820Z	Cologne	image-1.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	3	Hotel	7	9	9620	Transfer;Air conditioner	1	0	48.68682	7.501099
-House-2	Better apartment	2023-09-22T11:15:52.820Z	Dusseldorf	image-1.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	1.7	House	4	4	80640	Air conditioner	2	0	51.500064	6.936938
-House-2	The best house	2023-09-22T11:15:52.820Z	Brussels	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	4.3	Room	5	9	75903	Breakfast	4	0	51.147212	2.686707
-Apartment-2	Better apartment	2023-09-20T11:15:52.820Z	Brussels	image-5.jpg	image-6.jpg	1	0	2.2	House	3	7	92811	Towels	1	0	49.816738	9.017651
-Apartment-2	The best house	2023-09-20T11:15:52.820Z	Brussels	image-4.jpg	image-6.jpg	1	1	2.5	Room	4	3	12735	Transfer;Air conditioner	1	0	50.926662	3.456271
-House-2	Better apartment	2023-09-23T11:15:52.821Z	Amsterdam	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	4	House	3	9	11973	Transfer;Air conditioner	4	0	50.340646	6.100784
-House-1	Good apartment	2023-09-18T11:15:52.821Z	Cologne	image-3.jpg	image-5.jpg;image-6.jpg	0	1	4.5	House	2	5	21094	Towels;Transfer;Air conditioner	3	0	52.352622	4.37176
-House-2	The best house	2023-09-23T11:15:52.821Z	Cologne	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	2.1	Hotel	8	6	93155	Towels;Transfer	1	0	49.211474	8.477029
-House-2	Better apartment	2023-09-23T11:15:52.821Z	Amsterdam	image-3.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg	1	1	2.4	Apartment	7	6	2855	Towels;Transfer;Air conditioner	2	0	48.989173	4.136883
-The lost room	The qorst house	2023-09-22T11:15:52.821Z	Hamburg	image-2.jpg	image-2.jpg;image-3.jpg;image-4.jpg	0	1	3.3	House	2	10	11637	Transfer;Air conditioner	3	0	48.569742	3.018965
-The lost room	The qorst house	2023-09-23T11:15:52.821Z	Amsterdam	image-1.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	4.7	Room	4	8	55067	Transfer;Air conditioner	2	0	51.051583	8.078013
-Apartment-2	The best house	2023-09-18T11:15:52.821Z	Amsterdam	image-1.jpg	image-5.jpg;image-6.jpg	1	1	4.1	Apartment	5	7	17222	Breakfast;Towels	4	0	49.943003	4.034563
-House-1	Better apartment	2023-09-22T11:15:52.822Z	Hamburg	image-3.jpg	image-1.jpg	0	1	3.8	Apartment	7	1	65637	Towels;Transfer;Air conditioner	3	0	51.77152	5.6453
-House-1	The best house	2023-09-19T11:15:52.822Z	Brussels	image-6.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	3.2	Room	4	5	64822	Air conditioner	3	0	53.007188	8.098354
-House-1	The best house	2023-09-19T11:15:52.822Z	Brussels	image-4.jpg	image-5.jpg;image-6.jpg	0	1	1.1	Apartment	1	5	88999	Breakfast;Towels;Transfer;Air conditioner	5	0	49.52587	4.268887
-House-2	Bizzarre room	2023-09-20T11:15:52.822Z	Cologne	image-5.jpg	image-6.jpg	1	0	3.5	House	5	6	93374	Towels;Transfer	5	0	50.645342	8.386787
-House-2	The qorst house	2023-09-24T11:15:52.822Z	Hamburg	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.2	Room	7	7	64441	Towels;Transfer	3	0	52.381842	3.313528
-Apartment-2	The qorst house	2023-09-22T11:15:52.822Z	Hamburg	image-5.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	1	0	2.5	House	3	9	26872	Transfer;Air conditioner	3	0	51.872578	8.778758
-Apartment-2	The best house	2023-09-19T11:15:52.822Z	Hamburg	image-5.jpg	image-6.jpg	1	1	3.1	House	4	8	60223	Transfer;Air conditioner	3	0	50.592126	7.295327
-Apartment-2	The best house	2023-09-21T11:15:52.822Z	Amsterdam	image-2.jpg	image-5.jpg;image-6.jpg	1	0	1.3	House	1	6	41841	Air conditioner	1	0	53.805077	10.030185
-Apartment-2	The qorst house	2023-09-19T11:15:52.823Z	Amsterdam	image-6.jpg	image-5.jpg;image-6.jpg	1	0	4.3	Hotel	4	6	989	Breakfast	5	0	52.967436	10.632248
-House-1	Better apartment	2023-09-18T11:15:52.823Z	Hamburg	image-1.jpg	image-5.jpg;image-6.jpg	0	1	4.9	Apartment	3	9	97427	Transfer;Air conditioner	5	0	51.871984	10.48417
-The lost room	The qorst house	2023-09-21T11:15:52.823Z	Hamburg	image-4.jpg	image-1.jpg;image-2.jpg	0	1	1.2	Room	2	8	98165	Air conditioner	2	0	53.424301	3.005812
-House-1	The best house	2023-09-24T11:15:52.823Z	Amsterdam	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.8	House	6	4	70301	Transfer;Air conditioner	4	0	53.440434	5.734217
-Apartment-2	The best house	2023-09-20T11:15:52.823Z	Amsterdam	image-1.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	1.1	Apartment	3	3	85027	Transfer;Air conditioner	4	0	50.458276	4.719641
-House-1	Good apartment	2023-09-21T11:15:52.823Z	Brussels	image-6.jpg	image-3.jpg;image-4.jpg	1	1	4.1	Hotel	7	9	75230	Towels	2	0	51.21932	8.443027
-House-1	Better apartment	2023-09-22T11:15:52.823Z	Brussels	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	3	House	7	7	70236	Towels	4	0	48.71888	3.81029
-House-2	The best house	2023-09-20T11:15:52.824Z	Amsterdam	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	4.3	House	1	8	93372	Air conditioner	5	0	49.275141	2.717372
-House-1	The best house	2023-09-22T11:15:52.824Z	Cologne	image-3.jpg	image-5.jpg;image-6.jpg	0	1	4.7	Room	5	2	6537	Towels;Transfer;Air conditioner	2	0	51.567021	7.978377
-House-1	Better apartment	2023-09-20T11:15:52.824Z	Paris	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg	0	0	3.4	House	7	8	9956	Transfer;Air conditioner	3	0	49.300274	6.13128
-House-1	The best house	2023-09-22T11:15:52.824Z	Amsterdam	image-2.jpg	image-5.jpg;image-6.jpg	0	1	2.6	Room	1	9	43563	Transfer;Air conditioner	4	0	48.018282	8.151831
-Apartment-2	Better apartment	2023-09-19T11:15:52.824Z	Dusseldorf	image-2.jpg	image-5.jpg;image-6.jpg	0	1	1.4	House	2	6	91754	Transfer;Air conditioner	3	0	50.654876	4.277916
-Apartment-2	The best house	2023-09-21T11:15:52.824Z	Amsterdam	image-2.jpg	image-5.jpg;image-6.jpg	1	1	2.6	House	4	6	12256	Breakfast;Towels;Transfer	1	0	50.917466	8.259103
-Apartment-2	Better apartment	2023-09-23T11:15:52.824Z	Hamburg	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	3.8	Room	4	9	25139	Air conditioner	4	0	50.148909	7.414546
-House-1	Better apartment	2023-09-20T11:15:52.824Z	Brussels	image-6.jpg	image-1.jpg;image-2.jpg	1	1	4.6	Apartment	2	7	2218	Transfer;Air conditioner	2	0	48.291096	10.320621
-The lost room	Better apartment	2023-09-19T11:15:52.825Z	Hamburg	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	2.8	House	3	10	18090	Towels;Transfer	2	0	50.562773	5.652003
-House-2	The best house	2023-09-20T11:15:52.825Z	Cologne	image-5.jpg	image-5.jpg;image-6.jpg	1	1	4.7	Hotel	6	2	45428	Transfer;Air conditioner	4	0	52.967169	4.391677
-Apartment-1	Better apartment	2023-09-18T11:15:52.825Z	Amsterdam	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	1	1	4	House	3	2	92718	Transfer;Air conditioner	2	0	51.916348	4.338634
-House-1	The qorst house	2023-09-23T11:15:52.825Z	Brussels	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.1	Hotel	1	3	80575	Transfer;Air conditioner	2	0	51.456805	3.715992
-Apartment-1	Better apartment	2023-09-22T11:15:52.825Z	Dusseldorf	image-1.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	1.4	House	1	3	82736	Air conditioner	3	0	52.389239	2.949183
-The lost room	The best house	2023-09-21T11:15:52.825Z	Hamburg	image-1.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	3	House	7	9	51647	Transfer;Air conditioner	3	0	51.297975	5.753606
-House-1	Better apartment	2023-09-19T11:15:52.825Z	Brussels	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	0	2.2	Hotel	8	9	61602	Towels;Transfer;Air conditioner	4	0	51.990969	10.650085
-House-1	Bizzarre room	2023-09-21T11:15:52.825Z	Hamburg	image-5.jpg	image-5.jpg;image-6.jpg	0	1	1.4	Hotel	6	10	6672	Towels;Transfer	2	0	52.335377	3.67729
-The lost room	The best house	2023-09-22T11:15:52.825Z	Dusseldorf	image-6.jpg	image-5.jpg;image-6.jpg	1	0	1.6	House	4	2	4300	Towels;Transfer;Air conditioner	4	0	50.946163	6.251941
-Apartment-2	The best house	2023-09-19T11:15:52.826Z	Cologne	image-3.jpg	image-5.jpg;image-6.jpg	1	0	1.3	Room	7	4	10130	Towels;Transfer	5	0	48.972293	6.095711
-House-1	Bizzarre room	2023-09-24T11:15:52.826Z	Amsterdam	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	2.6	Room	8	7	38020	Air conditioner	4	0	52.662728	10.716893
-House-2	The best house	2023-09-23T11:15:52.826Z	Cologne	image-4.jpg	image-5.jpg;image-6.jpg	0	1	1.8	Room	3	3	36268	Breakfast	5	0	52.288524	8.450263
-House-2	Good apartment	2023-09-21T11:15:52.826Z	Brussels	image-1.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	1.9	Apartment	6	4	25419	Transfer;Air conditioner	2	0	49.881693	5.435464
-Apartment-2	The qorst house	2023-09-22T11:15:52.826Z	Amsterdam	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	3.4	Hotel	5	4	31061	Towels;Transfer;Air conditioner	3	0	49.504727	7.128344
-House-2	The qorst house	2023-09-24T11:15:52.826Z	Brussels	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	4.6	Room	2	1	78605	Air conditioner	5	0	52.451483	3.702405
-House-2	The best house	2023-09-20T11:15:52.826Z	Brussels	image-1.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg	1	0	1.9	Apartment	7	3	72976	Air conditioner	4	0	53.462383	9.741514
-House-2	The best house	2023-09-23T11:15:52.826Z	Brussels	image-5.jpg	image-3.jpg;image-4.jpg	1	0	1.7	Room	6	1	39668	Towels;Transfer;Air conditioner	3	0	53.707668	3.086672
-Apartment-2	The best house	2023-09-18T11:15:52.827Z	Brussels	image-2.jpg	image-5.jpg;image-6.jpg	0	1	4.2	House	4	4	78929	Air conditioner	2	0	53.739208	10.696501
-The lost room	Better apartment	2023-09-21T11:15:52.827Z	Cologne	image-3.jpg	image-3.jpg;image-4.jpg	1	1	2.4	Hotel	3	6	43358	Transfer;Air conditioner	2	0	50.114087	9.091917
-House-2	The best house	2023-09-22T11:15:52.827Z	Brussels	image-5.jpg	image-6.jpg	1	1	2.8	Room	3	7	77316	Transfer;Air conditioner	5	0	52.550775	8.970658
-House-2	Good apartment	2023-09-19T11:15:52.827Z	Brussels	image-4.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	1	1	2.8	Room	6	6	88784	Transfer;Air conditioner	2	0	49.503273	3.817742
-The lost room	Better apartment	2023-09-19T11:15:52.827Z	Cologne	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	3.7	Room	1	4	63935	Towels;Transfer;Air conditioner	2	0	51.995829	4.403643
-Apartment-2	The best house	2023-09-24T11:15:52.827Z	Amsterdam	image-2.jpg	image-5.jpg;image-6.jpg	1	0	1.9	Room	2	6	30335	Breakfast;Towels;Transfer	2	0	52.000675	4.775691
-Apartment-2	Better apartment	2023-09-18T11:15:52.827Z	Cologne	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	2.9	Hotel	8	2	63766	Air conditioner	5	0	50.764586	3.514005
-House-2	Good apartment	2023-09-21T11:15:52.827Z	Hamburg	image-1.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.5	Room	3	3	29427	Transfer;Air conditioner	3	0	49.010338	9.372697
-House-1	Better apartment	2023-09-19T11:15:52.827Z	Paris	image-5.jpg	image-6.jpg	1	1	4.7	House	2	3	69324	Breakfast;Towels;Transfer	4	0	48.293731	8.595037
-Apartment-2	The qorst house	2023-09-24T11:15:52.828Z	Hamburg	image-1.jpg	image-5.jpg;image-6.jpg	0	1	1.2	House	1	5	40372	Towels;Transfer	4	0	51.918245	6.418041
-Apartment-2	The qorst house	2023-09-22T11:15:52.828Z	Brussels	image-3.jpg	image-6.jpg	1	1	4.7	Room	4	7	52827	Air conditioner	2	0	51.302591	3.67799
-House-2	The qorst house	2023-09-21T11:15:52.828Z	Hamburg	image-4.jpg	image-2.jpg	1	0	5	House	6	6	90876	Air conditioner	2	0	50.723037	4.642209
-Apartment-1	Better apartment	2023-09-19T11:15:52.828Z	Hamburg	image-1.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	0	1	4	Hotel	7	4	60042	Transfer;Air conditioner	2	0	48.70015	2.539916
-House-2	Bizzarre room	2023-09-20T11:15:52.828Z	Paris	image-6.jpg	image-5.jpg;image-6.jpg	1	1	1.8	House	6	2	77896	Air conditioner	3	0	51.70627	7.185624
-House-1	The best house	2023-09-23T11:15:52.828Z	Paris	image-4.jpg	image-2.jpg	1	0	2.4	House	5	3	15591	Towels;Transfer;Air conditioner	4	0	52.005969	7.19456
-Apartment-1	Better apartment	2023-09-19T11:15:52.828Z	Amsterdam	image-4.jpg	image-6.jpg	1	0	4.5	House	5	9	82207	Towels;Transfer	2	0	53.545147	3.999838
-House-1	Bizzarre room	2023-09-23T11:15:52.828Z	Cologne	image-1.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	4.5	Apartment	5	7	14758	Air conditioner	2	0	51.506802	3.423101
-Apartment-2	The qorst house	2023-09-24T11:15:52.829Z	Amsterdam	image-3.jpg	image-5.jpg;image-6.jpg	1	1	4.3	Hotel	5	4	37876	Towels;Transfer;Air conditioner	2	0	53.365587	3.761079
-House-2	Bizzarre room	2023-09-23T11:15:52.829Z	Cologne	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	2.9	Hotel	7	6	19048	Breakfast	1	0	50.190739	10.278833
-Apartment-2	Better apartment	2023-09-21T11:15:52.829Z	Amsterdam	image-5.jpg	image-5.jpg;image-6.jpg	0	1	3.3	Room	5	2	54881	Towels;Transfer;Air conditioner	5	0	52.39285	9.33641
-House-1	The qorst house	2023-09-24T11:15:52.829Z	Cologne	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	3.1	Hotel	4	3	92427	Towels;Transfer	2	0	53.291928	2.006079
-House-1	The best house	2023-09-22T11:15:52.829Z	Amsterdam	image-4.jpg	image-2.jpg;image-3.jpg	0	0	3	House	2	3	74536	Transfer;Air conditioner	1	0	49.667252	3.962842
-Apartment-2	The best house	2023-09-21T11:15:52.829Z	Amsterdam	image-5.jpg	image-6.jpg	1	0	2.3	Apartment	6	3	36750	Towels;Transfer	1	0	48.849585	5.425029
-The lost room	Good apartment	2023-09-21T11:15:52.829Z	Brussels	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	1.8	Room	6	1	84077	Transfer;Air conditioner	3	0	53.469336	8.588067
-Apartment-2	The qorst house	2023-09-21T11:15:52.829Z	Cologne	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg	1	1	2.7	Apartment	5	5	11089	Towels;Transfer	1	0	51.285693	5.851627
-House-1	Better apartment	2023-09-20T11:15:52.830Z	Amsterdam	image-1.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	4.1	Hotel	5	6	38451	Transfer;Air conditioner	4	0	50.885308	8.959878
-Apartment-1	Better apartment	2023-09-19T11:15:52.830Z	Hamburg	image-1.jpg	image-5.jpg;image-6.jpg	0	1	2.5	Room	3	4	39742	Transfer;Air conditioner	3	0	53.51597	6.514412
-Apartment-1	The best house	2023-09-20T11:15:52.830Z	Amsterdam	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	3.2	Hotel	6	2	35916	Transfer;Air conditioner	5	0	48.660163	9.387849
-Apartment-2	Better apartment	2023-09-22T11:15:52.830Z	Amsterdam	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	3.6	House	6	9	19341	Towels;Transfer	4	0	52.659961	4.244162
-House-2	The qorst house	2023-09-22T11:15:52.830Z	Dusseldorf	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	3.9	Room	6	10	38195	Transfer;Air conditioner	3	0	53.357786	8.280927
-House-2	Better apartment	2023-09-21T11:15:52.830Z	Amsterdam	image-3.jpg	image-6.jpg	0	1	4	Hotel	7	4	50561	Towels;Transfer;Air conditioner	5	0	53.327511	7.964645
-House-2	The best house	2023-09-20T11:15:52.830Z	Brussels	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	2.4	Room	6	2	20449	Transfer;Air conditioner	4	0	52.683539	10.082476
-Apartment-2	Better apartment	2023-09-21T11:15:52.830Z	Cologne	image-1.jpg	image-6.jpg	1	1	1.7	House	5	4	78876		2	0	51.610968	6.650378
-Apartment-1	The qorst house	2023-09-18T11:15:52.830Z	Amsterdam	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	0	3.3	Apartment	6	8	34899	Transfer;Air conditioner	2	0	49.657296	8.24204
-Apartment-1	The qorst house	2023-09-23T11:15:52.831Z	Brussels	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	0	1.4	House	3	2	95901	Transfer;Air conditioner	4	0	52.03241	10.31161
-House-2	Better apartment	2023-09-23T11:15:52.831Z	Hamburg	image-4.jpg	image-5.jpg;image-6.jpg	0	1	1.9	House	2	7	43148	Towels;Transfer;Air conditioner	4	0	52.726609	7.530465
+Apartment-1	The best house	2023-09-20T12:57:33.572Z	Hamburg	image-5.jpg	image-1.jpg;image-2.jpg	0	0	3.5	Hotel	2	2	21795	Breakfast;Towels;Transfer	4	0	52.493916	3.316585
+Apartment-2	Better apartment	2023-09-24T12:57:33.574Z	Paris	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	1	4.6	Room	3	7	91301	Towels;Transfer;Air conditioner	3	0	49.182925	10.740654
+Apartment-2	Bizzarre room	2023-09-21T12:57:33.574Z	Cologne	image-6.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	0	2	Apartment	7	8	25278	Transfer;Air conditioner	3	0	51.809326	3.981696
+Apartment-2	The best house	2023-09-21T12:57:33.575Z	Cologne	image-3.jpg	image-1.jpg;image-2.jpg	0	0	3.5	Apartment	6	7	10884	Breakfast;Towels	3	0	48.416033	10.649338
+Apartment-2	Better apartment	2023-09-22T12:57:33.580Z	Paris	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	2	House	6	6	79181		2	0	52.261485	7.012853
+House-1	Better apartment	2023-09-20T12:57:33.581Z	Paris	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.6	Apartment	2	8	32266	Transfer;Air conditioner	4	0	49.609463	7.368465
+Apartment-2	Good apartment	2023-09-20T12:57:33.582Z	Brussels	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.3	Apartment	2	9	8507	Towels	2	0	48.513472	9.500102
+Apartment-2	Bizzarre room	2023-09-20T12:57:33.582Z	Cologne	image-3.jpg	image-6.jpg	0	1	1.9	Hotel	7	4	90654	Towels;Transfer;Air conditioner	2	0	49.029266	8.424387
+House-2	The best house	2023-09-21T12:57:33.583Z	Amsterdam	image-2.jpg	image-5.jpg;image-6.jpg	1	1	4.1	Room	4	2	93724	Transfer;Air conditioner	5	0	48.69902	7.393484
+Apartment-1	The best house	2023-09-18T12:57:33.583Z	Paris	image-4.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	1	1	4.4	Hotel	7	3	9189	Breakfast	3	0	48.321888	9.900609
+Apartment-2	The qorst house	2023-09-23T12:57:33.584Z	Cologne	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.8	Apartment	3	3	15077	Air conditioner	3	0	50.476189	2.0744
+House-2	Better apartment	2023-09-20T12:57:33.584Z	Hamburg	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	4.6	House	1	6	4185	Breakfast;Towels;Transfer;Air conditioner	2	0	48.379677	4.605941
+House-2	Bizzarre room	2023-09-22T12:57:33.584Z	Amsterdam	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	1.2	Apartment	3	3	78461	Towels;Transfer;Air conditioner	4	0	52.729656	8.352642
+House-1	Better apartment	2023-09-22T12:57:33.584Z	Brussels	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	3.8	Room	4	9	28105	Towels	2	0	50.19224	7.792451
+Apartment-2	The best house	2023-09-21T12:57:33.585Z	Paris	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	4.4	Apartment	6	4	81697	Towels;Transfer	4	0	50.046563	2.565185
+Apartment-2	The best house	2023-09-24T12:57:33.585Z	Dusseldorf	image-6.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	0	4	Room	6	8	1361	Towels;Transfer;Air conditioner	1	0	51.078126	10.711207
+The lost room	Better apartment	2023-09-19T12:57:33.585Z	Brussels	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	1	0	3.5	Hotel	3	7	83506	Air conditioner	4	0	48.521889	4.072377
+House-2	Bizzarre room	2023-09-20T12:57:33.585Z	Brussels	image-6.jpg	image-6.jpg	0	0	2.4	Apartment	3	3	14645	Towels;Transfer;Air conditioner	2	0	48.265397	3.39777
+Apartment-2	The best house	2023-09-21T12:57:33.585Z	Amsterdam	image-6.jpg	image-1.jpg;image-2.jpg;image-3.jpg	0	0	3.2	House	8	6	52982	Towels;Transfer;Air conditioner	1	0	50.447488	3.382639
+House-1	Bizzarre room	2023-09-20T12:57:33.585Z	Brussels	image-1.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	1.3	Hotel	3	6	97023	Towels;Transfer;Air conditioner	5	0	53.685234	7.088099
+House-1	The best house	2023-09-20T12:57:33.585Z	Dusseldorf	image-1.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	1	1.3	Room	6	8	39769	Transfer;Air conditioner	5	0	50.530459	10.30345
+Apartment-1	The qorst house	2023-09-21T12:57:33.586Z	Amsterdam	image-5.jpg	image-2.jpg;image-3.jpg	1	0	1.7	Room	3	1	92226	Transfer;Air conditioner	3	0	48.742792	9.928288
+House-2	The qorst house	2023-09-24T12:57:33.586Z	Paris	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	3.9	Room	7	5	38860	Transfer;Air conditioner	3	0	49.548752	3.367837
+The lost room	The qorst house	2023-09-19T12:57:33.586Z	Cologne	image-4.jpg	image-5.jpg;image-6.jpg	0	1	1.2	Room	8	7	15651	Breakfast;Towels;Transfer	1	0	52.975337	3.497765
+House-1	The best house	2023-09-23T12:57:33.586Z	Amsterdam	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	4.8	Hotel	1	3	35007	Towels;Transfer	2	0	53.420241	2.940741
+The lost room	The best house	2023-09-21T12:57:33.586Z	Hamburg	image-6.jpg	image-5.jpg;image-6.jpg	1	1	2.4	House	6	7	53625	Towels;Transfer	4	0	51.193121	2.253309
+Apartment-1	Bizzarre room	2023-09-18T12:57:33.586Z	Hamburg	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	3.2	House	6	7	90349	Breakfast;Towels;Transfer	3	0	53.430358	5.447247
+House-2	The best house	2023-09-19T12:57:33.586Z	Hamburg	image-3.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	4.7	House	3	9	84739	Towels;Transfer;Air conditioner	3	0	53.965318	2.00855
+The lost room	Bizzarre room	2023-09-23T12:57:33.586Z	Hamburg	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	4.7	Room	3	2	59114	Air conditioner	2	0	48.223101	10.049829
+Apartment-2	Bizzarre room	2023-09-22T12:57:33.587Z	Amsterdam	image-3.jpg	image-5.jpg;image-6.jpg	0	0	1.5	House	6	3	49372	Air conditioner	2	0	48.137974	2.679547
+House-2	The qorst house	2023-09-22T12:57:33.587Z	Cologne	image-1.jpg		0	1	4	Room	3	2	75301	Air conditioner	3	0	50.585056	8.387966
+Apartment-1	Good apartment	2023-09-24T12:57:33.587Z	Brussels	image-1.jpg	image-1.jpg;image-2.jpg	0	0	1.7	Room	6	5	6663	Air conditioner	4	0	51.066328	4.735472
+Apartment-2	The best house	2023-09-23T12:57:33.587Z	Amsterdam	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	4.6	House	2	2	13817	Breakfast;Towels;Transfer;Air conditioner	2	0	52.832016	3.892244
+Apartment-1	The qorst house	2023-09-21T12:57:33.587Z	Cologne	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	1.2	Room	5	4	5226	Transfer;Air conditioner	5	0	53.156784	4.113888
+House-1	The qorst house	2023-09-19T12:57:33.587Z	Amsterdam	image-6.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	1.8	Apartment	8	9	8906	Transfer;Air conditioner	4	0	50.470825	5.461187
+House-2	Better apartment	2023-09-21T12:57:33.587Z	Dusseldorf	image-1.jpg	image-2.jpg;image-3.jpg;image-4.jpg	1	0	2.6	Hotel	7	4	38393	Transfer;Air conditioner	4	0	49.306954	3.175965
+The lost room	Good apartment	2023-09-20T12:57:33.587Z	Cologne	image-1.jpg	image-5.jpg;image-6.jpg	0	1	4.4	Hotel	4	6	33766	Air conditioner	3	0	50.325331	5.915321
+House-2	Better apartment	2023-09-19T12:57:33.588Z	Brussels	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	3.2	Room	5	5	76139	Towels;Transfer;Air conditioner	4	0	53.591415	4.371434
+Apartment-1	The qorst house	2023-09-20T12:57:33.588Z	Hamburg	image-4.jpg	image-5.jpg;image-6.jpg	1	1	2.8	Room	3	9	9643	Towels;Transfer	4	0	53.860879	10.64089
+The lost room	Bizzarre room	2023-09-24T12:57:33.588Z	Dusseldorf	image-6.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.3	Apartment	5	5	70470	Breakfast;Towels;Transfer	2	0	50.159298	3.408681
+House-2	Bizzarre room	2023-09-23T12:57:33.588Z	Amsterdam	image-2.jpg	image-5.jpg;image-6.jpg	1	0	3.7	Room	4	2	82971	Transfer;Air conditioner	5	0	51.511795	5.182672
+Apartment-2	The qorst house	2023-09-23T12:57:33.588Z	Brussels	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	2	Room	3	4	8965	Transfer;Air conditioner	4	0	50.300363	4.729066
+Apartment-1	The best house	2023-09-18T12:57:33.588Z	Paris	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.8	House	8	10	5332	Transfer;Air conditioner	5	0	51.641553	10.065797
+House-2	The best house	2023-09-20T12:57:33.588Z	Cologne	image-3.jpg	image-6.jpg	0	1	1.9	House	5	8	41871	Towels;Transfer;Air conditioner	4	0	51.196307	7.605841
+Apartment-2	The best house	2023-09-24T12:57:33.588Z	Dusseldorf	image-2.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	1	0	2.1	House	6	8	41512	Transfer;Air conditioner	1	0	51.215076	3.238748
+House-1	The best house	2023-09-22T12:57:33.589Z	Amsterdam	image-2.jpg	image-5.jpg;image-6.jpg	1	1	1.8	House	6	8	46930	Transfer;Air conditioner	3	0	51.632578	10.143895
+House-1	The best house	2023-09-20T12:57:33.589Z	Cologne	image-6.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	1.9	House	6	3	98666	Air conditioner	3	0	48.271535	2.037182
+The lost room	Better apartment	2023-09-18T12:57:33.589Z	Hamburg	image-2.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	0	0	2.7	House	3	5	57009	Towels;Transfer;Air conditioner	4	0	50.615867	7.145811
+House-1	The qorst house	2023-09-23T12:57:33.589Z	Paris	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.4	Apartment	8	5	95680	Air conditioner	3	0	48.935864	10.861529
+House-1	Better apartment	2023-09-18T12:57:33.589Z	Amsterdam	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	3.8	Hotel	8	6	33254	Towels	4	0	48.971759	2.846215
+House-1	The best house	2023-09-18T12:57:33.589Z	Cologne	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	1.2	Apartment	4	3	60988	Transfer;Air conditioner	5	0	48.97742	4.509003
+Apartment-1	Bizzarre room	2023-09-21T12:57:33.589Z	Brussels	image-4.jpg	image-6.jpg	1	1	2.1	Room	7	9	6082	Transfer;Air conditioner	4	0	51.006844	7.924852
+Apartment-1	The best house	2023-09-20T12:57:33.589Z	Brussels	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	2.2	Room	2	3	50693	Towels;Transfer;Air conditioner	4	0	49.69127	7.254462
+House-2	Good apartment	2023-09-20T12:57:33.589Z	Brussels	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	2.3	Room	2	5	12521	Transfer;Air conditioner	2	0	49.844738	3.879648
+House-1	Better apartment	2023-09-22T12:57:33.590Z	Hamburg	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	4.2	Apartment	1	7	13978	Towels;Transfer	2	0	53.18333	6.30224
+Apartment-2	Bizzarre room	2023-09-21T12:57:33.590Z	Hamburg	image-5.jpg	image-5.jpg;image-6.jpg	0	1	1.7	Hotel	4	2	70907	Towels;Transfer	3	0	53.475611	4.937611
+The lost room	The qorst house	2023-09-20T12:57:33.590Z	Dusseldorf	image-2.jpg	image-3.jpg;image-4.jpg	1	1	4.3	Room	5	6	94973	Towels;Transfer;Air conditioner	3	0	53.539648	4.378959
+House-1	The best house	2023-09-22T12:57:33.590Z	Cologne	image-2.jpg	image-5.jpg;image-6.jpg	1	0	1.3	Room	2	7	97917		1	0	52.902354	10.324376
+House-1	The qorst house	2023-09-23T12:57:33.590Z	Brussels	image-4.jpg	image-5.jpg;image-6.jpg	1	0	2.1	House	5	6	53823	Transfer;Air conditioner	2	0	53.136906	6.259725
+Apartment-2	The qorst house	2023-09-22T12:57:33.590Z	Hamburg	image-6.jpg	image-6.jpg	1	1	4.8	Hotel	6	6	86944	Transfer;Air conditioner	2	0	51.171695	10.72594
+House-1	Better apartment	2023-09-21T12:57:33.590Z	Dusseldorf	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	0	4.8	Room	7	9	60264	Breakfast	2	0	49.136491	8.277173
+Apartment-2	Better apartment	2023-09-21T12:57:33.591Z	Hamburg	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	1.4	Room	4	1	59689	Towels	2	0	50.311884	2.044369
+House-1	The qorst house	2023-09-18T12:57:33.591Z	Hamburg	image-6.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	4.7	House	4	4	61912	Towels;Transfer;Air conditioner	1	0	51.008036	6.993564
+House-1	The best house	2023-09-21T12:57:33.591Z	Hamburg	image-5.jpg	image-5.jpg;image-6.jpg	1	1	1.8	House	3	2	19906	Air conditioner	1	0	52.065148	4.605619
+Apartment-2	The best house	2023-09-24T12:57:33.591Z	Brussels	image-4.jpg	image-2.jpg;image-3.jpg	0	0	2.4	House	6	6	44993	Towels;Transfer	3	0	53.366745	8.699846
+Apartment-1	Good apartment	2023-09-19T12:57:33.591Z	Cologne	image-6.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	1.8	Room	1	7	81970	Towels	1	0	52.658083	2.504594
+The lost room	The qorst house	2023-09-21T12:57:33.591Z	Amsterdam	image-1.jpg	image-5.jpg;image-6.jpg	0	1	3.4	Hotel	1	6	1007	Air conditioner	4	0	51.664311	4.151983
+Apartment-2	The qorst house	2023-09-21T12:57:33.591Z	Brussels	image-4.jpg	image-5.jpg;image-6.jpg	1	0	2.9	House	5	5	5175	Transfer;Air conditioner	4	0	49.489288	10.063291
+Apartment-1	The best house	2023-09-19T12:57:33.591Z	Cologne	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	3.1	Room	6	7	46701	Transfer;Air conditioner	4	0	49.730019	10.392208
+House-1	The qorst house	2023-09-23T12:57:33.592Z	Cologne	image-5.jpg	image-5.jpg;image-6.jpg	1	0	3.3	House	3	9	15584	Transfer;Air conditioner	3	0	49.701386	2.464076
+House-1	Better apartment	2023-09-19T12:57:33.592Z	Amsterdam	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	1	1.9	Room	7	1	37232	Air conditioner	3	0	51.376409	6.139603
+House-2	Better apartment	2023-09-22T12:57:33.592Z	Amsterdam	image-6.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	1	1	4.4	House	6	2	65285	Towels;Transfer	4	0	49.531746	7.757274
+House-1	The qorst house	2023-09-22T12:57:33.592Z	Cologne	image-5.jpg	image-6.jpg	0	0	4.5	House	7	4	69380	Transfer;Air conditioner	5	0	49.408199	2.476683
+House-1	The best house	2023-09-23T12:57:33.592Z	Hamburg	image-6.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	1	0	4.9	Room	5	8	33234	Towels;Transfer	3	0	53.968226	2.459357
+House-1	Bizzarre room	2023-09-19T12:57:33.592Z	Hamburg	image-6.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg	0	1	4.8	House	4	9	56554	Breakfast;Towels	3	0	50.794793	10.852617
+House-1	Good apartment	2023-09-20T12:57:33.592Z	Brussels	image-3.jpg	image-1.jpg;image-2.jpg;image-3.jpg	0	0	1.4	Room	7	6	89687	Towels;Transfer	5	0	49.455601	5.980262
+Apartment-2	The qorst house	2023-09-23T12:57:33.592Z	Cologne	image-2.jpg	image-1.jpg;image-2.jpg	1	1	3	Hotel	7	3	64707	Air conditioner	2	0	49.151269	4.067797
+The lost room	Good apartment	2023-09-23T12:57:33.592Z	Dusseldorf	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.5	Room	8	8	76087	Transfer;Air conditioner	2	0	48.788967	6.546471
+Apartment-2	The best house	2023-09-24T12:57:33.593Z	Dusseldorf	image-4.jpg	image-6.jpg	1	0	4.1	Room	6	3	76083	Transfer;Air conditioner	5	0	51.906778	8.172247
+House-2	Better apartment	2023-09-19T12:57:33.593Z	Cologne	image-6.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.3	Room	7	4	44972	Transfer;Air conditioner	4	0	48.920947	6.648995
+House-2	Bizzarre room	2023-09-20T12:57:33.593Z	Dusseldorf	image-6.jpg	image-5.jpg;image-6.jpg	1	0	2.4	House	6	4	6150	Transfer;Air conditioner	3	0	50.034309	6.667869
+House-2	The best house	2023-09-18T12:57:33.593Z	Cologne	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	1.4	House	3	6	18284	Air conditioner	3	0	48.859671	4.931327
+The lost room	Good apartment	2023-09-23T12:57:33.593Z	Amsterdam	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	5	Room	2	7	93918	Breakfast;Towels;Transfer;Air conditioner	4	0	48.166394	3.175586
+Apartment-2	Good apartment	2023-09-23T12:57:33.593Z	Cologne	image-2.jpg	image-6.jpg	1	0	3.1	Room	4	4	75054	Transfer;Air conditioner	2	0	53.538724	10.544423
+House-1	The best house	2023-09-22T12:57:33.593Z	Amsterdam	image-2.jpg	image-2.jpg;image-3.jpg;image-4.jpg	1	1	3	Apartment	4	2	20472	Transfer;Air conditioner	1	0	52.095901	4.291312
+Apartment-1	Better apartment	2023-09-23T12:57:33.593Z	Paris	image-3.jpg	image-5.jpg;image-6.jpg	1	1	3.9	Room	7	9	17021	Towels;Transfer	3	0	50.17888	3.28401
+Apartment-1	Good apartment	2023-09-20T12:57:33.594Z	Hamburg	image-6.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg	0	0	2.1	House	3	6	18053	Towels;Transfer;Air conditioner	2	0	49.162038	6.585812
+Apartment-2	Better apartment	2023-09-21T12:57:33.594Z	Amsterdam	image-2.jpg	image-2.jpg;image-3.jpg;image-4.jpg	1	1	2.1	Hotel	4	10	21446	Transfer;Air conditioner	3	0	49.116176	2.063308
+The lost room	The qorst house	2023-09-21T12:57:33.594Z	Amsterdam	image-4.jpg	image-5.jpg;image-6.jpg	0	1	2.2	Room	2	10	61328	Transfer;Air conditioner	4	0	49.026096	3.455819
+Apartment-1	The best house	2023-09-20T12:57:33.594Z	Amsterdam	image-1.jpg	image-5.jpg;image-6.jpg	0	0	3	Apartment	6	10	71111	Towels;Transfer	2	0	48.445016	8.305246
+House-2	The best house	2023-09-24T12:57:33.594Z	Paris	image-5.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	0	1	2.7	House	8	6	83117	Transfer;Air conditioner	3	0	52.331505	5.955096
+Apartment-2	Good apartment	2023-09-23T12:57:33.594Z	Cologne	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	3.7	House	3	10	64129	Transfer;Air conditioner	3	0	49.181986	7.952147
+Apartment-1	Better apartment	2023-09-24T12:57:33.594Z	Brussels	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.6	House	3	6	98712	Towels;Transfer;Air conditioner	3	0	53.760082	7.957844
+House-1	The best house	2023-09-22T12:57:33.594Z	Dusseldorf	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	2	Room	6	3	3093	Transfer;Air conditioner	1	0	50.330797	10.509586
+House-1	The best house	2023-09-18T12:57:33.594Z	Amsterdam	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	1	4.4	Room	2	2	34676	Transfer;Air conditioner	3	0	48.345783	6.724691
+Apartment-2	The best house	2023-09-21T12:57:33.595Z	Amsterdam	image-4.jpg	image-6.jpg	0	0	3.8	Apartment	5	7	15068	Transfer;Air conditioner	1	0	51.88038	9.034459
+House-2	Bizzarre room	2023-09-20T12:57:33.595Z	Brussels	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	4.7	Room	6	5	39701	Air conditioner	4	0	51.512036	5.836729
+House-2	The best house	2023-09-22T12:57:33.595Z	Amsterdam	image-6.jpg	image-6.jpg	1	1	1	House	6	8	77555	Breakfast;Towels	2	0	53.275822	10.781745
+House-1	Better apartment	2023-09-22T12:57:33.595Z	Cologne	image-4.jpg	image-2.jpg;image-3.jpg	0	0	2.6	Room	3	2	19014	Transfer;Air conditioner	4	0	48.60617	8.823282
+Apartment-2	Better apartment	2023-09-23T12:57:33.595Z	Amsterdam	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	4.8	House	5	3	48945	Towels;Transfer;Air conditioner	1	0	48.897403	2.471524
+House-1	The best house	2023-09-18T12:57:33.595Z	Amsterdam	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	4.7	Apartment	2	3	51080	Towels;Transfer	1	0	49.723733	4.795881
+House-2	The best house	2023-09-20T12:57:33.595Z	Hamburg	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.5	Hotel	3	8	12048	Towels;Transfer;Air conditioner	1	0	51.797339	3.875486
+House-1	The qorst house	2023-09-24T12:57:33.595Z	Brussels	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	4.3	Apartment	6	1	77780	Transfer;Air conditioner	5	0	52.655028	7.012951
+House-2	Bizzarre room	2023-09-22T12:57:33.596Z	Hamburg	image-3.jpg	image-1.jpg;image-2.jpg	1	0	2.1	Hotel	7	7	1813	Transfer;Air conditioner	2	0	49.235079	4.988997
+Apartment-2	Good apartment	2023-09-20T12:57:33.596Z	Brussels	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	3.6	Room	7	9	80695	Transfer;Air conditioner	1	0	50.382769	8.881829
+The lost room	The qorst house	2023-09-23T12:57:33.596Z	Amsterdam	image-1.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	4.4	Apartment	2	6	90699	Transfer;Air conditioner	5	0	51.176891	7.044585
+House-2	The best house	2023-09-19T12:57:33.596Z	Hamburg	image-5.jpg	image-5.jpg;image-6.jpg	0	1	3.5	Room	8	3	63466	Transfer;Air conditioner	4	0	48.404583	4.317541
+Apartment-1	Bizzarre room	2023-09-20T12:57:33.596Z	Hamburg	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	1	3.3	Room	4	9	34577	Towels;Transfer;Air conditioner	4	0	53.283915	7.647053
+House-2	Good apartment	2023-09-22T12:57:33.596Z	Paris	image-4.jpg	image-3.jpg;image-4.jpg	0	0	4.9	Room	6	8	80579	Air conditioner	3	0	51.322075	3.752983
+Apartment-2	Bizzarre room	2023-09-23T12:57:33.596Z	Cologne	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.4	Room	5	4	66286	Towels;Transfer;Air conditioner	3	0	52.395788	3.144719
+House-2	Better apartment	2023-09-20T12:57:33.597Z	Dusseldorf	image-3.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.7	Room	4	10	13466	Air conditioner	1	0	52.784394	2.880282
+House-2	The best house	2023-09-24T12:57:33.597Z	Hamburg	image-1.jpg	image-6.jpg	0	0	1.2	Apartment	6	5	79607	Transfer;Air conditioner	4	0	53.493021	9.336529
+Apartment-1	Good apartment	2023-09-20T12:57:33.597Z	Hamburg	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	3	Hotel	1	8	21878		4	0	53.786722	6.452977
+House-2	The best house	2023-09-19T12:57:33.597Z	Hamburg	image-6.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	4.9	Apartment	2	3	42123	Towels	3	0	51.029152	9.013115
+Apartment-1	The best house	2023-09-24T12:57:33.597Z	Amsterdam	image-1.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg	0	0	3.5	Apartment	1	9	16151	Transfer;Air conditioner	3	0	53.078444	2.359953
+Apartment-1	The qorst house	2023-09-23T12:57:33.597Z	Cologne	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	0	1.7	House	2	6	35872	Towels;Transfer	3	0	51.316855	4.979661
+House-1	The best house	2023-09-23T12:57:33.597Z	Cologne	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	2.7	House	8	4	97182	Breakfast;Towels;Transfer	4	0	53.281704	5.914637
+Apartment-1	Better apartment	2023-09-18T12:57:33.597Z	Amsterdam	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.6	Hotel	4	4	572	Air conditioner	3	0	51.052003	9.659983
+Apartment-1	The qorst house	2023-09-18T12:57:33.598Z	Cologne	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	0	4.2	Room	5	5	14094	Transfer;Air conditioner	3	0	50.651822	4.349337
+House-2	The qorst house	2023-09-20T12:57:33.598Z	Cologne	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	1	1.4	House	7	7	68918	Towels;Transfer	2	0	49.941519	8.447033
+Apartment-2	Good apartment	2023-09-18T12:57:33.598Z	Amsterdam	image-5.jpg	image-5.jpg;image-6.jpg	0	1	3	House	5	4	99109	Towels;Transfer;Air conditioner	5	0	48.331232	10.433597
+House-1	The qorst house	2023-09-24T12:57:33.598Z	Brussels	image-1.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	3.7	Hotel	7	1	97196	Transfer;Air conditioner	5	0	48.51895	6.337001
+House-2	The best house	2023-09-22T12:57:33.598Z	Brussels	image-5.jpg	image-5.jpg;image-6.jpg	1	0	1.6	House	3	5	73718	Transfer;Air conditioner	5	0	52.480013	6.753219
+Apartment-2	Good apartment	2023-09-22T12:57:33.598Z	Dusseldorf	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.3	Room	6	7	32005	Breakfast;Towels	2	0	50.062793	2.502043
+House-1	Bizzarre room	2023-09-24T12:57:33.598Z	Cologne	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	2.5	House	8	9	69429	Towels;Transfer;Air conditioner	4	0	52.855867	5.35974
+House-1	The qorst house	2023-09-20T12:57:33.598Z	Dusseldorf	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	2	Room	7	7	47302	Transfer;Air conditioner	2	0	50.800235	3.736163
+Apartment-1	Better apartment	2023-09-20T12:57:33.599Z	Amsterdam	image-5.jpg	image-6.jpg	0	0	2.7	House	7	7	38978	Air conditioner	2	0	50.811684	2.275774
+House-1	The best house	2023-09-23T12:57:33.599Z	Amsterdam	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.4	Hotel	4	6	17212	Breakfast	5	0	51.14815	3.235047
+Apartment-1	Better apartment	2023-09-20T12:57:33.599Z	Amsterdam	image-3.jpg	image-3.jpg;image-4.jpg	1	0	4.1	House	3	8	40466	Transfer;Air conditioner	4	0	50.913911	8.9013
+House-2	Better apartment	2023-09-19T12:57:33.599Z	Paris	image-4.jpg	image-5.jpg;image-6.jpg	1	1	3.7	House	7	8	25724	Towels;Transfer	2	0	51.22788	7.040339
+House-2	The qorst house	2023-09-24T12:57:33.599Z	Paris	image-5.jpg	image-6.jpg	0	1	3.7	Apartment	5	7	1094	Towels	1	0	49.73548	7.139104
+House-1	Better apartment	2023-09-22T12:57:33.599Z	Amsterdam	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	1	4.4	Room	7	1	44307	Air conditioner	2	0	48.726666	5.267334
+House-1	The qorst house	2023-09-23T12:57:33.599Z	Paris	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	1.6	House	6	3	59343	Towels;Transfer;Air conditioner	2	0	49.44339	5.192002
+The lost room	Bizzarre room	2023-09-21T12:57:33.599Z	Paris	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	3.3	Room	4	5	51971		3	0	53.25105	2.060091
+Apartment-1	The best house	2023-09-23T12:57:33.600Z	Cologne	image-1.jpg	image-5.jpg;image-6.jpg	0	1	1.8	House	5	3	65795	Breakfast;Towels	3	0	51.859473	7.897201
+Apartment-1	Good apartment	2023-09-24T12:57:33.600Z	Brussels	image-1.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	4.3	Apartment	7	4	73195	Air conditioner	2	0	50.752971	6.690956
+House-2	Good apartment	2023-09-21T12:57:33.600Z	Paris	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	2	Room	8	7	71113	Transfer;Air conditioner	2	0	49.616091	10.445052
+House-2	The qorst house	2023-09-22T12:57:33.600Z	Hamburg	image-5.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.8	Room	7	8	11774	Breakfast;Towels;Transfer	1	0	51.410787	7.288977
+House-2	The qorst house	2023-09-24T12:57:33.600Z	Cologne	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	1.7	House	3	4	42390	Breakfast;Towels;Transfer	2	0	49.123728	6.021759
+Apartment-2	Better apartment	2023-09-21T12:57:33.600Z	Cologne	image-2.jpg	image-2.jpg;image-3.jpg;image-4.jpg	0	0	2.8	House	8	8	81049	Towels;Transfer	4	0	50.076648	8.610231
+House-1	The qorst house	2023-09-23T12:57:33.600Z	Hamburg	image-1.jpg	image-5.jpg;image-6.jpg	0	1	2.5	Room	4	2	66525	Transfer;Air conditioner	4	0	50.500057	2.469006
+Apartment-2	Better apartment	2023-09-20T12:57:33.600Z	Brussels	image-2.jpg	image-6.jpg	0	0	2.5	House	3	8	55196	Towels;Transfer	4	0	52.141972	8.887743
+House-2	Better apartment	2023-09-23T12:57:33.601Z	Brussels	image-3.jpg	image-6.jpg	0	0	3.8	House	1	7	23227	Breakfast;Towels;Transfer	5	0	49.463962	5.561192
+House-2	The best house	2023-09-21T12:57:33.601Z	Cologne	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	1.3	Room	5	5	66280	Transfer;Air conditioner	4	0	53.534996	4.353362
+House-1	Better apartment	2023-09-23T12:57:33.601Z	Brussels	image-2.jpg	image-2.jpg;image-3.jpg;image-4.jpg	1	1	3.6	Apartment	7	7	37691	Breakfast;Towels;Transfer	3	0	53.86891	2.511289
+Apartment-1	The qorst house	2023-09-19T12:57:33.601Z	Hamburg	image-2.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	4.9	Apartment	8	3	55681	Breakfast;Towels;Transfer	1	0	51.587502	4.975857
+Apartment-2	The qorst house	2023-09-23T12:57:33.601Z	Amsterdam	image-4.jpg	image-5.jpg;image-6.jpg	1	1	4.5	Room	4	6	2335	Breakfast	3	0	49.902442	6.474073
+House-2	Better apartment	2023-09-19T12:57:33.601Z	Hamburg	image-5.jpg	image-6.jpg	1	1	1.5	Room	4	9	79510	Transfer;Air conditioner	5	0	53.563874	4.650031
+House-2	Good apartment	2023-09-22T12:57:33.601Z	Paris	image-6.jpg	image-3.jpg;image-4.jpg	1	0	2.5	Room	3	6	90640	Air conditioner	2	0	49.981852	10.773226
+The lost room	Good apartment	2023-09-19T12:57:33.601Z	Brussels	image-6.jpg	image-2.jpg;image-3.jpg	0	1	4.3	House	2	1	97426	Breakfast;Towels	1	0	51.538461	4.734266
+Apartment-2	The qorst house	2023-09-19T12:57:33.601Z	Cologne	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	4.7	Apartment	4	7	78217	Towels;Transfer	2	0	53.043578	8.282474
+The lost room	Good apartment	2023-09-22T12:57:33.602Z	Amsterdam	image-2.jpg	image-2.jpg;image-3.jpg;image-4.jpg	1	1	2.4	Apartment	5	7	91880	Breakfast	3	0	51.668403	8.500186
+House-2	Bizzarre room	2023-09-22T12:57:33.602Z	Dusseldorf	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	4.3	Apartment	6	5	6358	Air conditioner	1	0	49.494576	2.24343
+The lost room	The best house	2023-09-19T12:57:33.602Z	Paris	image-2.jpg	image-5.jpg;image-6.jpg	0	1	3.2	House	3	4	22832	Towels;Transfer;Air conditioner	4	0	49.352108	4.91965
+Apartment-1	The qorst house	2023-09-20T12:57:33.602Z	Amsterdam	image-5.jpg	image-1.jpg;image-2.jpg	0	0	3.3	Apartment	7	5	97561	Transfer;Air conditioner	2	0	48.848658	8.945657
+House-1	The qorst house	2023-09-22T12:57:33.602Z	Paris	image-3.jpg	image-3.jpg;image-4.jpg	1	1	1.9	House	3	9	6564	Air conditioner	4	0	53.833833	7.810221
+House-2	Bizzarre room	2023-09-23T12:57:33.602Z	Hamburg	image-3.jpg	image-1.jpg;image-2.jpg;image-3.jpg	1	0	3.2	Room	5	2	10199	Towels;Transfer	3	0	48.229857	6.769079
+House-2	Better apartment	2023-09-18T12:57:33.602Z	Hamburg	image-2.jpg	image-5.jpg;image-6.jpg	0	0	4.6	Hotel	2	5	10382	Transfer;Air conditioner	1	0	49.424222	5.409574
+Apartment-2	The qorst house	2023-09-22T12:57:33.602Z	Amsterdam	image-2.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	1	1	3	Room	2	5	59071	Air conditioner	4	0	50.659335	9.37112
+House-1	The best house	2023-09-21T12:57:33.603Z	Amsterdam	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	3.3	House	1	7	87452	Air conditioner	2	0	53.174115	5.718236
+House-1	The qorst house	2023-09-21T12:57:33.603Z	Amsterdam	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg	1	0	3.9	Room	3	8	98664	Towels;Transfer;Air conditioner	1	0	52.23803	5.030923
+Apartment-1	Good apartment	2023-09-20T12:57:33.603Z	Cologne	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.6	House	4	8	71701	Towels;Transfer;Air conditioner	3	0	50.780161	9.780918
+House-1	Bizzarre room	2023-09-23T12:57:33.603Z	Hamburg	image-5.jpg	image-6.jpg	0	1	3.1	Room	2	3	32063	Transfer;Air conditioner	3	0	51.657036	2.850018
+Apartment-2	Bizzarre room	2023-09-20T12:57:33.603Z	Cologne	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg	1	1	4.4	House	2	2	20179	Transfer;Air conditioner	3	0	51.182783	6.805087
+House-2	The best house	2023-09-24T12:57:33.603Z	Brussels	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	1.6	Apartment	4	3	56269	Transfer;Air conditioner	3	0	50.675436	4.837585
+House-2	The qorst house	2023-09-24T12:57:33.603Z	Brussels	image-6.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	1.2	House	5	7	69996	Air conditioner	3	0	53.56134	5.007422
+Apartment-1	Bizzarre room	2023-09-23T12:57:33.603Z	Brussels	image-6.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	4.3	Room	3	3	57798	Transfer;Air conditioner	4	0	48.485948	3.509254
+Apartment-2	The qorst house	2023-09-20T12:57:33.604Z	Cologne	image-6.jpg	image-6.jpg	0	1	1.9	House	3	7	98080	Breakfast;Towels	4	0	49.586342	6.034211
+The lost room	Good apartment	2023-09-19T12:57:33.604Z	Brussels	image-1.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	3.6	Hotel	4	8	21831	Towels;Transfer	2	0	49.258212	10.477024
+House-2	The qorst house	2023-09-19T12:57:33.604Z	Brussels	image-1.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	3.8	House	4	8	50588	Towels;Transfer	2	0	48.472883	5.611386
+Apartment-2	The best house	2023-09-22T12:57:33.604Z	Amsterdam	image-6.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	3.9	House	3	7	84136	Breakfast;Towels	5	0	52.734364	9.256093
+Apartment-1	Better apartment	2023-09-22T12:57:33.604Z	Brussels	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	1.8	House	7	3	68794	Breakfast;Towels	2	0	52.455717	7.03128
+House-2	The qorst house	2023-09-20T12:57:33.604Z	Cologne	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	1	1.2	Hotel	2	1	55205	Towels;Transfer	4	0	51.774962	9.537339
+House-2	Bizzarre room	2023-09-22T12:57:33.604Z	Hamburg	image-1.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	4	Hotel	8	3	12226	Breakfast	3	0	49.00938	10.997681
+House-2	Better apartment	2023-09-19T12:57:33.604Z	Amsterdam	image-2.jpg	image-5.jpg;image-6.jpg	0	0	3.6	House	2	1	11053	Breakfast	1	0	48.258419	6.843884
+House-1	The qorst house	2023-09-23T12:57:33.604Z	Dusseldorf	image-6.jpg	image-6.jpg	0	0	1.5	Room	7	5	8675	Towels;Transfer;Air conditioner	3	0	52.04906	4.861069
+Apartment-2	The best house	2023-09-20T12:57:33.605Z	Brussels	image-1.jpg	image-1.jpg	1	1	1.5	Hotel	2	5	14560	Transfer;Air conditioner	1	0	49.121379	7.406887
+Apartment-1	Better apartment	2023-09-22T12:57:33.605Z	Dusseldorf	image-5.jpg	image-5.jpg;image-6.jpg	0	0	1.2	House	4	9	75808	Towels;Transfer;Air conditioner	4	0	53.81725	2.346214
+Apartment-2	The qorst house	2023-09-19T12:57:33.605Z	Cologne	image-4.jpg	image-2.jpg	1	1	2.3	Room	7	5	82203	Air conditioner	2	0	48.94596	8.496432
+House-1	Bizzarre room	2023-09-20T12:57:33.605Z	Amsterdam	image-6.jpg	image-5.jpg;image-6.jpg	0	1	3.6	Apartment	7	9	43539	Towels;Transfer;Air conditioner	3	0	53.262965	6.158487
+House-2	The qorst house	2023-09-19T12:57:33.605Z	Dusseldorf	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	3	House	3	4	16495	Breakfast;Towels	4	0	52.781424	7.127255
+House-1	The qorst house	2023-09-20T12:57:33.605Z	Hamburg	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	1	0	2	House	5	5	98974	Air conditioner	3	0	50.729756	7.787585
+Apartment-2	The qorst house	2023-09-22T12:57:33.605Z	Hamburg	image-1.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	4.6	Hotel	7	9	3787	Breakfast;Towels	1	0	53.220948	6.05172
+House-2	The best house	2023-09-19T12:57:33.605Z	Cologne	image-1.jpg	image-2.jpg;image-3.jpg;image-4.jpg	1	1	4.8	House	6	1	90580	Air conditioner	3	0	50.381535	3.979293
+Apartment-1	Better apartment	2023-09-22T12:57:33.606Z	Cologne	image-1.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	4	House	3	9	92850	Towels;Transfer;Air conditioner	3	0	50.243632	5.058819
+Apartment-2	The qorst house	2023-09-23T12:57:33.606Z	Paris	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	4.7	Room	5	2	45137		1	0	50.232735	5.094667
+Apartment-2	Good apartment	2023-09-19T12:57:33.606Z	Cologne	image-5.jpg	image-2.jpg	1	1	1.6	Room	6	6	82474	Transfer;Air conditioner	4	0	48.902813	9.124668
+House-1	Better apartment	2023-09-19T12:57:33.606Z	Cologne	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	1	4.7	Room	3	3	95183		5	0	53.460822	4.336517
+Apartment-2	Better apartment	2023-09-21T12:57:33.606Z	Brussels	image-5.jpg	image-5.jpg;image-6.jpg	1	0	4	House	6	5	27864	Breakfast;Towels	3	0	53.437205	3.221919
+Apartment-1	Better apartment	2023-09-21T12:57:33.606Z	Hamburg	image-3.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg	0	0	4	Room	5	4	59577	Transfer;Air conditioner	4	0	53.872121	6.772465
+House-2	Better apartment	2023-09-19T12:57:33.606Z	Hamburg	image-5.jpg	image-6.jpg	0	0	1.5	Hotel	6	3	10819	Air conditioner	3	0	49.973482	4.128832
+House-1	Better apartment	2023-09-22T12:57:33.606Z	Dusseldorf	image-6.jpg	image-5.jpg;image-6.jpg	1	0	3.4	Apartment	8	5	64713	Towels;Transfer;Air conditioner	3	0	49.612682	9.891664
+The lost room	The best house	2023-09-23T12:57:33.607Z	Brussels	image-3.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg	1	1	2	House	4	9	76048	Air conditioner	1	0	51.417223	7.660818
+Apartment-2	The best house	2023-09-23T12:57:33.607Z	Cologne	image-3.jpg	image-3.jpg;image-4.jpg	0	0	4.1	House	1	9	69762	Transfer;Air conditioner	1	0	52.360816	8.807896
+Apartment-2	Better apartment	2023-09-19T12:57:33.607Z	Amsterdam	image-2.jpg	image-2.jpg;image-3.jpg;image-4.jpg	1	0	4	House	5	4	62890	Transfer;Air conditioner	3	0	49.973447	3.071823
+House-1	The qorst house	2023-09-20T12:57:33.607Z	Brussels	image-2.jpg	image-3.jpg;image-4.jpg	0	1	1.8	Room	6	3	32777	Transfer;Air conditioner	3	0	50.997521	5.228573
+Apartment-1	The qorst house	2023-09-19T12:57:33.607Z	Amsterdam	image-4.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg	0	1	2.1	Room	8	2	16662	Transfer;Air conditioner	2	0	49.767126	4.20137
+House-2	Better apartment	2023-09-24T12:57:33.607Z	Amsterdam	image-4.jpg	image-5.jpg;image-6.jpg	1	0	2.8	Room	8	2	8921	Breakfast;Towels;Transfer	4	0	49.506039	6.500357
+The lost room	Better apartment	2023-09-19T12:57:33.607Z	Paris	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	4.1	Room	3	3	62372	Air conditioner	4	0	52.906326	6.537269
+House-1	Bizzarre room	2023-09-19T12:57:33.607Z	Brussels	image-6.jpg	image-5.jpg;image-6.jpg	1	0	2.1	House	6	5	79798	Transfer;Air conditioner	3	0	53.975942	3.604843
+House-2	Bizzarre room	2023-09-19T12:57:33.607Z	Cologne	image-1.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	4.5	Apartment	4	10	93497	Towels;Transfer	2	0	49.97681	3.61984
+Apartment-2	Better apartment	2023-09-23T12:57:33.607Z	Hamburg	image-3.jpg	image-1.jpg	1	1	4.8	Room	6	1	2345	Breakfast;Towels	4	0	50.747087	7.025447
+Apartment-2	The best house	2023-09-21T12:57:33.608Z	Paris	image-1.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	1.5	House	3	5	18786	Air conditioner	4	0	51.93868	2.619152
+The lost room	Bizzarre room	2023-09-19T12:57:33.608Z	Hamburg	image-6.jpg	image-6.jpg	0	0	1.9	House	2	5	3684	Air conditioner	4	0	49.990296	2.474321
+Apartment-2	The qorst house	2023-09-22T12:57:33.608Z	Hamburg	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	4.7	Room	1	9	12079	Towels	3	0	51.027319	4.883414
+The lost room	Better apartment	2023-09-21T12:57:33.608Z	Brussels	image-4.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	1	1	2.7	Hotel	2	8	41017	Transfer;Air conditioner	4	0	53.877701	9.587941
+The lost room	Better apartment	2023-09-24T12:57:33.608Z	Dusseldorf	image-4.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	2.9	Apartment	3	5	99284	Air conditioner	1	0	52.717076	7.196873
+House-1	Good apartment	2023-09-21T12:57:33.608Z	Brussels	image-3.jpg	image-6.jpg	0	0	2	House	6	9	82739	Transfer;Air conditioner	2	0	51.212317	9.570485
+House-2	The qorst house	2023-09-18T12:57:33.608Z	Hamburg	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	4.5	House	2	4	85057	Towels;Transfer;Air conditioner	4	0	48.584408	5.397862
+House-2	Good apartment	2023-09-22T12:57:33.608Z	Hamburg	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	4.1	Room	6	7	48798	Air conditioner	5	0	49.522823	6.930001
+Apartment-2	Better apartment	2023-09-21T12:57:33.608Z	Brussels	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	1.1	House	4	9	8792	Air conditioner	4	0	51.655867	8.27122
+House-2	The best house	2023-09-21T12:57:33.609Z	Hamburg	image-1.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	1	2.2	Apartment	7	2	74310	Transfer;Air conditioner	2	0	51.000126	5.705087
+House-2	The qorst house	2023-09-22T12:57:33.609Z	Hamburg	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	3.1	Hotel	3	4	56020	Transfer;Air conditioner	2	0	49.987825	8.548408
+The lost room	Better apartment	2023-09-22T12:57:33.609Z	Dusseldorf	image-4.jpg	image-2.jpg;image-3.jpg	0	1	1.4	Hotel	1	1	89009	Transfer;Air conditioner	4	0	49.62484	9.264426
+Apartment-2	The best house	2023-09-24T12:57:33.609Z	Amsterdam	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	1	House	3	9	36322	Air conditioner	4	0	51.281149	2.846897
+House-1	The best house	2023-09-22T12:57:33.609Z	Brussels	image-1.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg	0	1	4	House	2	8	73050	Air conditioner	4	0	50.370336	9.124101
+House-2	The best house	2023-09-23T12:57:33.609Z	Amsterdam	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	1.5	Room	3	4	57911	Transfer;Air conditioner	3	0	52.177835	10.524558
+House-1	The qorst house	2023-09-20T12:57:33.609Z	Brussels	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	0	2.2	Hotel	1	6	28385	Air conditioner	2	0	49.759026	9.03093
+House-2	Bizzarre room	2023-09-22T12:57:33.609Z	Hamburg	image-5.jpg	image-5.jpg;image-6.jpg	1	0	2.7	Apartment	2	10	91928	Transfer;Air conditioner	5	0	50.899097	9.998347
+House-2	The qorst house	2023-09-23T12:57:33.609Z	Amsterdam	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	4.2	House	6	3	5014	Towels;Transfer;Air conditioner	3	0	53.707965	3.327255
+The lost room	The qorst house	2023-09-23T12:57:33.609Z	Dusseldorf	image-4.jpg	image-5.jpg;image-6.jpg	0	0	3	House	2	4	85400	Transfer;Air conditioner	2	0	50.903874	2.093596
+House-1	Better apartment	2023-09-22T12:57:33.609Z	Cologne	image-5.jpg	image-2.jpg;image-3.jpg	0	1	4.2	Apartment	4	6	88312	Breakfast;Towels	1	0	51.068042	2.565614
+House-1	Good apartment	2023-09-22T12:57:33.610Z	Cologne	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	0	0	1.6	Hotel	3	3	53609	Breakfast;Towels;Transfer;Air conditioner	3	0	49.630573	2.219544
+House-2	The qorst house	2023-09-20T12:57:33.610Z	Brussels	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	1	3.5	Apartment	5	5	86637	Air conditioner	3	0	53.070885	9.893391
+House-2	The best house	2023-09-22T12:57:33.610Z	Hamburg	image-2.jpg	image-5.jpg;image-6.jpg	0	0	4.7	House	8	2	58361	Towels;Transfer	2	0	52.486712	7.732462
+House-1	The best house	2023-09-23T12:57:33.610Z	Cologne	image-2.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	1	1	2.3	House	6	3	23240	Transfer;Air conditioner	3	0	48.981227	8.115697
+House-2	Better apartment	2023-09-24T12:57:33.610Z	Cologne	image-3.jpg	image-6.jpg	1	0	3.7	Hotel	4	1	27216	Breakfast;Towels	2	0	52.247821	6.513445
+Apartment-1	Bizzarre room	2023-09-20T12:57:33.610Z	Dusseldorf	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	2.4	Hotel	7	3	77278	Breakfast;Towels;Transfer	4	0	51.203711	10.800931
+House-1	The best house	2023-09-21T12:57:33.610Z	Paris	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	0	3.3	House	5	4	51085	Transfer;Air conditioner	2	0	48.80793	2.370417
+House-2	The best house	2023-09-20T12:57:33.611Z	Dusseldorf	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	1	1	1.7	Room	4	4	67774	Towels;Transfer	3	0	48.493101	4.487055
+House-1	The best house	2023-09-23T12:57:33.611Z	Amsterdam	image-2.jpg	image-6.jpg	0	1	2	Apartment	3	8	49588	Towels;Transfer;Air conditioner	3	0	53.83563	6.012455
+Apartment-2	The qorst house	2023-09-18T12:57:33.611Z	Dusseldorf	image-6.jpg	image-6.jpg	0	0	3.8	Room	8	2	74858	Towels;Transfer;Air conditioner	4	0	53.663252	7.826727
+The lost room	Good apartment	2023-09-20T12:57:33.611Z	Paris	image-2.jpg	image-1.jpg	1	1	1.7	Room	3	5	40004	Towels	3	0	51.750742	8.147786
+House-2	The best house	2023-09-21T12:57:33.611Z	Cologne	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	0	3.3	House	7	7	65293	Towels;Transfer;Air conditioner	2	0	49.535206	2.917559
+The lost room	The best house	2023-09-20T12:57:33.611Z	Hamburg	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	1.2	Hotel	6	2	15867	Towels;Transfer;Air conditioner	5	0	51.318025	9.707373
+Apartment-1	The qorst house	2023-09-21T12:57:33.611Z	Hamburg	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	1.5	Apartment	5	8	35053	Towels;Transfer	5	0	53.844162	9.295063
+House-2	Better apartment	2023-09-23T12:57:33.611Z	Hamburg	image-1.jpg	image-1.jpg	0	1	1.6	Room	2	2	86338	Air conditioner	4	0	52.227942	4.628902
+House-1	Better apartment	2023-09-23T12:57:33.612Z	Cologne	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	0	2.7	House	6	2	56112	Towels;Transfer;Air conditioner	2	0	53.009816	5.861998
+Apartment-1	Bizzarre room	2023-09-21T12:57:33.612Z	Amsterdam	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	1.3	Apartment	4	5	21206	Towels;Transfer;Air conditioner	2	0	50.525792	2.926075
+Apartment-1	Better apartment	2023-09-22T12:57:33.612Z	Cologne	image-2.jpg	image-5.jpg;image-6.jpg	1	1	2.1	Room	7	10	3593	Transfer;Air conditioner	2	0	51.555484	5.828572
+Apartment-2	The best house	2023-09-21T12:57:33.612Z	Cologne	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.6	House	8	7	43922	Air conditioner	4	0	49.95602	7.479221
+Apartment-2	The qorst house	2023-09-24T12:57:33.612Z	Cologne	image-6.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	2.8	House	4	8	60192	Air conditioner	2	0	48.666034	4.722097
+Apartment-2	The best house	2023-09-19T12:57:33.612Z	Brussels	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	2.6	Hotel	8	5	67147	Transfer;Air conditioner	4	0	52.194471	3.869144
+House-2	The best house	2023-09-21T12:57:33.612Z	Hamburg	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	1.5	Room	7	8	95677	Transfer;Air conditioner	4	0	52.389846	6.763405
+The lost room	The qorst house	2023-09-19T12:57:33.612Z	Cologne	image-6.jpg	image-6.jpg	0	0	1.9	House	8	8	44357	Transfer;Air conditioner	3	0	51.462813	6.37236
+House-1	Good apartment	2023-09-23T12:57:33.613Z	Amsterdam	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	1.7	Apartment	3	10	78133	Air conditioner	4	0	53.338694	8.632466
+The lost room	Better apartment	2023-09-18T12:57:33.613Z	Amsterdam	image-2.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	1.3	House	7	1	36036	Transfer;Air conditioner	5	0	52.769227	2.952355
+Apartment-1	The best house	2023-09-19T12:57:33.613Z	Hamburg	image-6.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.5	Room	1	8	11474	Transfer;Air conditioner	3	0	53.726494	6.683943
+House-1	The qorst house	2023-09-22T12:57:33.613Z	Dusseldorf	image-1.jpg	image-2.jpg;image-3.jpg;image-4.jpg	0	1	1.6	Room	5	7	85310		4	0	50.585531	7.216914
+House-1	The qorst house	2023-09-21T12:57:33.613Z	Brussels	image-1.jpg	image-2.jpg;image-3.jpg	0	0	4.4	House	3	6	38731	Transfer;Air conditioner	3	0	52.262497	10.057448
+House-1	The qorst house	2023-09-20T12:57:33.613Z	Cologne	image-3.jpg	image-2.jpg	0	0	4.3	Room	6	2	95914	Breakfast;Towels;Transfer	5	0	49.981035	10.560008
+The lost room	Better apartment	2023-09-22T12:57:33.613Z	Cologne	image-3.jpg	image-5.jpg;image-6.jpg	1	0	4.1	House	1	1	43443	Towels;Transfer	2	0	51.615708	2.936784
+House-1	Better apartment	2023-09-23T12:57:33.613Z	Hamburg	image-4.jpg	image-5.jpg;image-6.jpg	0	1	2.4	Apartment	3	8	33267	Air conditioner	2	0	51.278563	4.05717
+House-2	Bizzarre room	2023-09-22T12:57:33.614Z	Paris	image-6.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	3.9	Room	5	7	46220	Transfer;Air conditioner	1	0	51.327237	5.685355
+Apartment-2	The qorst house	2023-09-22T12:57:33.614Z	Brussels	image-3.jpg	image-5.jpg;image-6.jpg	0	0	3.3	Hotel	4	1	72729	Transfer;Air conditioner	5	0	48.675709	7.55996
+The lost room	Bizzarre room	2023-09-22T12:57:33.614Z	Cologne	image-1.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	3.4	Room	1	9	75263	Towels;Transfer	3	0	52.327537	9.291224
+Apartment-1	Bizzarre room	2023-09-22T12:57:33.614Z	Amsterdam	image-5.jpg	image-3.jpg;image-4.jpg	0	0	4.3	Room	3	1	26037	Towels;Transfer;Air conditioner	4	0	48.107174	7.639624
+House-1	Better apartment	2023-09-24T12:57:33.614Z	Brussels	image-1.jpg	image-5.jpg;image-6.jpg	1	0	4.1	Room	5	7	79703	Transfer;Air conditioner	2	0	50.883631	8.426941
+House-2	The best house	2023-09-19T12:57:33.614Z	Hamburg	image-1.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	2.5	Room	5	4	30761	Towels;Transfer	3	0	53.351414	9.640734
+Apartment-2	Good apartment	2023-09-20T12:57:33.614Z	Brussels	image-4.jpg	image-5.jpg;image-6.jpg	0	0	1.7	House	5	9	80439	Transfer;Air conditioner	2	0	51.880062	9.499226
+House-1	The best house	2023-09-18T12:57:33.614Z	Cologne	image-1.jpg	image-6.jpg	0	1	3.2	Room	3	6	74614	Towels;Transfer;Air conditioner	2	0	51.144812	2.1649
+Apartment-1	Better apartment	2023-09-18T12:57:33.615Z	Cologne	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg	1	0	2	House	3	5	92731	Towels;Transfer;Air conditioner	5	0	48.585574	2.268391
+House-1	Better apartment	2023-09-21T12:57:33.615Z	Dusseldorf	image-5.jpg	image-5.jpg;image-6.jpg	1	0	1.1	House	6	7	20216	Towels;Transfer	1	0	50.440446	7.617534
+House-2	Better apartment	2023-09-19T12:57:33.615Z	Paris	image-4.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	0	1	1.6	House	6	4	59960	Transfer;Air conditioner	1	0	53.2434	4.519484
+House-1	The best house	2023-09-24T12:57:33.615Z	Paris	image-3.jpg	image-6.jpg	0	0	1.3	House	6	10	99058	Transfer;Air conditioner	4	0	49.596511	6.970059
+House-2	Better apartment	2023-09-22T12:57:33.615Z	Hamburg	image-1.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	2.1	Apartment	7	3	57890	Towels;Transfer;Air conditioner	5	0	48.687099	7.649903
+House-2	The best house	2023-09-23T12:57:33.615Z	Hamburg	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	2.5	Room	6	3	1496	Towels;Transfer;Air conditioner	4	0	52.573332	10.966064
+Apartment-2	Good apartment	2023-09-19T12:57:33.615Z	Paris	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	3.5	Hotel	3	3	68142	Air conditioner	2	0	51.220876	4.671871
+House-2	The best house	2023-09-19T12:57:33.616Z	Cologne	image-2.jpg	image-5.jpg;image-6.jpg	1	1	1.9	House	5	8	55264	Transfer;Air conditioner	3	0	48.887525	2.736505
+The lost room	The qorst house	2023-09-19T12:57:33.616Z	Brussels	image-2.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg	1	0	2.9	House	1	9	3072	Transfer;Air conditioner	3	0	51.565693	7.32538
+Apartment-1	Good apartment	2023-09-20T12:57:33.616Z	Brussels	image-1.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	1	0	4.4	Room	4	9	31985	Air conditioner	2	0	48.01927	2.760833
+The lost room	The qorst house	2023-09-21T12:57:33.616Z	Dusseldorf	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.9	Apartment	3	10	82195	Towels;Transfer;Air conditioner	5	0	51.505852	5.428781
+House-2	The best house	2023-09-23T12:57:33.616Z	Cologne	image-3.jpg	image-6.jpg	0	0	4.2	Room	3	2	1873	Air conditioner	1	0	48.606544	9.685373
+House-2	The best house	2023-09-22T12:57:33.616Z	Dusseldorf	image-1.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	1	0	3.2	Hotel	1	7	79279	Towels;Transfer	2	0	50.230812	2.819612
+Apartment-2	Better apartment	2023-09-24T12:57:33.616Z	Amsterdam	image-6.jpg	image-2.jpg	1	0	4.2	Room	7	4	40591	Transfer;Air conditioner	2	0	50.70708	5.783042
+House-1	Better apartment	2023-09-22T12:57:33.616Z	Paris	image-3.jpg		1	1	1.7	House	2	8	8809	Air conditioner	2	0	50.888191	3.738755
+Apartment-2	The best house	2023-09-21T12:57:33.617Z	Cologne	image-6.jpg	image-5.jpg;image-6.jpg	1	1	2.3	Hotel	7	2	1536	Air conditioner	4	0	49.828169	3.215285
+House-1	Bizzarre room	2023-09-23T12:57:33.617Z	Brussels	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	4.3	Room	2	4	29787	Transfer;Air conditioner	5	0	53.040978	7.777433
+Apartment-1	Bizzarre room	2023-09-23T12:57:33.617Z	Paris	image-1.jpg	image-3.jpg;image-4.jpg	0	0	4.8	Room	2	8	97475	Towels;Transfer	1	0	51.991337	2.94432
+Apartment-2	The qorst house	2023-09-18T12:57:33.617Z	Amsterdam	image-5.jpg	image-2.jpg	1	0	4.3	House	3	1	39088	Breakfast;Towels;Transfer	4	0	51.562501	2.532185
+The lost room	Better apartment	2023-09-23T12:57:33.617Z	Amsterdam	image-2.jpg	image-5.jpg;image-6.jpg	0	1	2.8	Hotel	8	2	99074	Breakfast;Towels;Transfer;Air conditioner	4	0	49.457862	6.397706
+Apartment-2	The best house	2023-09-24T12:57:33.617Z	Brussels	image-6.jpg	image-5.jpg;image-6.jpg	1	1	2.4	Room	8	2	690	Towels;Transfer;Air conditioner	4	0	48.317108	9.833646
+Apartment-1	Bizzarre room	2023-09-22T12:57:33.617Z	Dusseldorf	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	0	4.4	House	4	5	62532	Towels;Transfer;Air conditioner	4	0	53.242376	10.771038
+House-1	The best house	2023-09-24T12:57:33.617Z	Brussels	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	4.2	House	2	4	64714	Transfer;Air conditioner	3	0	48.90291	6.209234
+The lost room	Better apartment	2023-09-22T12:57:33.617Z	Brussels	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg	0	0	1.5	Hotel	8	7	36364	Air conditioner	3	0	48.366974	4.93052
+Apartment-2	The best house	2023-09-24T12:57:33.618Z	Cologne	image-2.jpg	image-2.jpg	0	0	4.6	Apartment	4	10	48082	Towels	3	0	48.260084	5.201597
+House-2	The qorst house	2023-09-19T12:57:33.618Z	Paris	image-4.jpg	image-5.jpg;image-6.jpg	0	0	4.9	Apartment	3	4	44798	Breakfast;Towels	2	0	48.960151	5.579697
+House-2	The best house	2023-09-19T12:57:33.618Z	Hamburg	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	1	3.4	Hotel	2	2	2977	Towels;Transfer;Air conditioner	1	0	53.573687	2.183992
+House-1	Good apartment	2023-09-21T12:57:33.618Z	Brussels	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	1.7	Room	6	8	29154	Air conditioner	3	0	50.747752	4.998571
+House-1	The qorst house	2023-09-22T12:57:33.618Z	Amsterdam	image-5.jpg	image-2.jpg;image-3.jpg	0	1	3.9	House	4	2	59888	Air conditioner	2	0	51.349715	9.495916
+Apartment-1	Better apartment	2023-09-21T12:57:33.618Z	Hamburg	image-2.jpg	image-5.jpg;image-6.jpg	0	1	1.2	Room	8	10	68663	Air conditioner	1	0	51.621495	8.197473
+House-1	The best house	2023-09-21T12:57:33.618Z	Dusseldorf	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	3.6	Room	7	4	98693	Transfer;Air conditioner	2	0	52.275771	9.104498
+Apartment-1	The best house	2023-09-23T12:57:33.618Z	Brussels	image-5.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg	0	0	2.4	Apartment	5	2	7084	Transfer;Air conditioner	3	0	48.708103	2.536035
+House-2	Better apartment	2023-09-22T12:57:33.619Z	Amsterdam	image-3.jpg	image-5.jpg;image-6.jpg	1	0	2.1	House	2	2	92693	Towels;Transfer;Air conditioner	4	0	50.600638	6.176642
+House-1	The qorst house	2023-09-20T12:57:33.619Z	Brussels	image-3.jpg	image-6.jpg	1	0	1.9	Apartment	7	7	986	Towels;Transfer;Air conditioner	4	0	48.857782	5.161409
+House-2	The best house	2023-09-21T12:57:33.619Z	Cologne	image-1.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	4.9	Room	7	4	96494	Air conditioner	1	0	51.605743	9.271629
+House-1	Bizzarre room	2023-09-22T12:57:33.619Z	Hamburg	image-2.jpg	image-5.jpg;image-6.jpg	0	1	2.6	Hotel	3	9	36060		3	0	48.945295	5.6452
+House-1	Good apartment	2023-09-20T12:57:33.619Z	Brussels	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	1.6	Room	6	2	55748	Breakfast;Towels	4	0	52.118266	6.429456
+Apartment-2	Better apartment	2023-09-19T12:57:33.619Z	Brussels	image-5.jpg	image-5.jpg;image-6.jpg	0	1	3.3	Apartment	7	8	6619	Towels;Transfer	3	0	53.097892	5.538746
+Apartment-2	Better apartment	2023-09-22T12:57:33.619Z	Brussels	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	0	2.8	House	2	5	77611	Breakfast	1	0	50.423943	9.144692
+House-1	Bizzarre room	2023-09-20T12:57:33.619Z	Cologne	image-3.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg	1	0	2.8	Apartment	7	5	67185	Air conditioner	5	0	51.924359	3.552441
+Apartment-1	Better apartment	2023-09-19T12:57:33.620Z	Hamburg	image-6.jpg	image-6.jpg	1	1	3.7	Apartment	6	5	5217	Transfer;Air conditioner	4	0	50.449198	3.591363
+House-2	Better apartment	2023-09-20T12:57:33.620Z	Amsterdam	image-1.jpg	image-2.jpg;image-3.jpg;image-4.jpg	0	1	1	Room	7	2	18896	Air conditioner	1	0	49.15487	3.117958
+Apartment-1	Good apartment	2023-09-20T12:57:33.620Z	Cologne	image-6.jpg	image-3.jpg;image-4.jpg	0	1	4.4	Hotel	6	4	48379	Breakfast;Towels;Transfer;Air conditioner	4	0	53.118396	6.49074
+House-1	The best house	2023-09-22T12:57:33.620Z	Amsterdam	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	1.2	Room	5	2	54713	Air conditioner	1	0	49.862528	4.561228
+Apartment-1	Better apartment	2023-09-19T12:57:33.620Z	Paris	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg	1	0	2.7	Apartment	6	9	9623	Air conditioner	2	0	49.994572	3.973214
+The lost room	Good apartment	2023-09-21T12:57:33.620Z	Hamburg	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	3.8	Room	6	8	14095	Breakfast;Towels;Transfer;Air conditioner	4	0	53.130254	7.943695
+House-1	The qorst house	2023-09-24T12:57:33.620Z	Dusseldorf	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.1	Room	6	7	92637	Towels;Transfer;Air conditioner	1	0	51.406683	5.763808
+House-2	The qorst house	2023-09-23T12:57:33.620Z	Brussels	image-2.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	4.7	Apartment	4	3	66630	Towels	2	0	48.922353	4.62213
+House-1	Better apartment	2023-09-20T12:57:33.621Z	Dusseldorf	image-6.jpg	image-5.jpg;image-6.jpg	1	0	2.4	Room	2	4	17888	Air conditioner	3	0	49.332397	4.259063
+House-1	Better apartment	2023-09-18T12:57:33.621Z	Hamburg	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	4.2	Apartment	8	7	53931	Transfer;Air conditioner	1	0	53.272829	3.850258
+The lost room	Bizzarre room	2023-09-22T12:57:33.621Z	Hamburg	image-3.jpg	image-5.jpg;image-6.jpg	0	1	3.5	House	4	8	14397	Transfer;Air conditioner	1	0	50.278734	6.082689
+Apartment-2	The best house	2023-09-21T12:57:33.621Z	Paris	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	4.1	Room	3	2	38995	Transfer;Air conditioner	2	0	53.053419	2.728594
+Apartment-2	Better apartment	2023-09-21T12:57:33.621Z	Amsterdam	image-3.jpg	image-5.jpg;image-6.jpg	0	1	3.9	Room	5	8	42781	Transfer;Air conditioner	1	0	49.091728	10.327823
+House-2	The qorst house	2023-09-20T12:57:33.621Z	Brussels	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	1	2.5	Room	5	8	13371	Breakfast	4	0	49.730696	9.109759
+Apartment-2	Good apartment	2023-09-18T12:57:33.621Z	Hamburg	image-2.jpg	image-6.jpg	0	1	4.8	House	4	5	79127	Transfer;Air conditioner	5	0	48.272443	10.574238
+Apartment-1	The best house	2023-09-21T12:57:33.621Z	Paris	image-4.jpg	image-5.jpg;image-6.jpg	0	1	3.4	Apartment	6	3	53201	Transfer;Air conditioner	5	0	51.682638	4.646197
+The lost room	The qorst house	2023-09-19T12:57:33.622Z	Cologne	image-2.jpg	image-5.jpg;image-6.jpg	1	1	2.5	Room	6	5	87968	Transfer;Air conditioner	3	0	52.885307	10.381383
+Apartment-1	The qorst house	2023-09-19T12:57:33.622Z	Amsterdam	image-6.jpg	image-5.jpg;image-6.jpg	0	1	3.4	Room	6	1	99395	Breakfast;Towels;Transfer;Air conditioner	3	0	53.349861	6.354026
+Apartment-2	The best house	2023-09-23T12:57:33.622Z	Brussels	image-6.jpg	image-3.jpg;image-4.jpg	1	1	1.4	Room	7	9	73545	Breakfast	1	0	49.165168	8.767227
+Apartment-2	The best house	2023-09-22T12:57:33.622Z	Amsterdam	image-6.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	0	2.4	Apartment	4	8	78690	Towels;Transfer	2	0	48.159431	9.661173
+House-2	Better apartment	2023-09-20T12:57:33.622Z	Brussels	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg	0	0	2.1	Hotel	7	7	54337	Towels;Transfer	3	0	50.14685	8.796086
+House-1	The qorst house	2023-09-19T12:57:33.622Z	Brussels	image-1.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	4.4	Room	3	3	32181	Towels;Transfer	3	0	52.823286	10.756171
+The lost room	Good apartment	2023-09-20T12:57:33.622Z	Hamburg	image-6.jpg	image-2.jpg	0	0	1.6	Room	3	7	28148	Towels;Transfer;Air conditioner	5	0	49.009869	6.297116
+House-2	The best house	2023-09-19T12:57:33.622Z	Hamburg	image-3.jpg	image-5.jpg;image-6.jpg	1	0	2.5	Room	4	9	82784	Towels	3	0	51.990182	9.467293
+Apartment-2	The qorst house	2023-09-23T12:57:33.622Z	Brussels	image-3.jpg	image-2.jpg;image-3.jpg	1	1	3.3	Room	7	8	56577	Towels;Transfer;Air conditioner	5	0	52.263043	9.544451
+House-2	The best house	2023-09-21T12:57:33.623Z	Cologne	image-2.jpg	image-5.jpg;image-6.jpg	0	1	2.9	Hotel	5	9	21180	Breakfast;Towels;Transfer	2	0	49.915674	9.804375
+The lost room	The qorst house	2023-09-24T12:57:33.623Z	Cologne	image-4.jpg	image-5.jpg;image-6.jpg	1	0	4	House	4	1	79050	Towels	3	0	50.79095	9.799651
+House-1	The qorst house	2023-09-21T12:57:33.623Z	Brussels	image-2.jpg	image-5.jpg;image-6.jpg	0	1	3.2	Apartment	6	2	33295	Towels;Transfer;Air conditioner	3	0	50.370713	6.856994
+House-2	Good apartment	2023-09-22T12:57:33.623Z	Cologne	image-6.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	4.7	Hotel	2	3	9094	Air conditioner	3	0	53.137442	2.694774
+Apartment-1	Bizzarre room	2023-09-23T12:57:33.623Z	Dusseldorf	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	1.4	Hotel	5	5	72562	Transfer;Air conditioner	4	0	52.103858	6.839191
+Apartment-1	The qorst house	2023-09-21T12:57:33.623Z	Brussels	image-1.jpg	image-5.jpg;image-6.jpg	0	1	3.4	House	1	9	53432	Breakfast	3	0	51.218435	7.912232
+Apartment-2	Good apartment	2023-09-22T12:57:33.623Z	Brussels	image-5.jpg	image-5.jpg;image-6.jpg	0	0	1.4	House	1	8	65371	Towels;Transfer;Air conditioner	4	0	50.474943	4.889546
+House-1	The qorst house	2023-09-19T12:57:33.623Z	Cologne	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg	0	0	3.8	House	8	2	54331	Towels;Transfer;Air conditioner	2	0	49.19871	2.711748
+Apartment-2	The qorst house	2023-09-23T12:57:33.624Z	Dusseldorf	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	3.3	Room	8	2	16226	Transfer;Air conditioner	4	0	50.610049	4.874211
+The lost room	The best house	2023-09-19T12:57:33.624Z	Amsterdam	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	2.4	Hotel	4	2	99896	Breakfast;Towels;Transfer;Air conditioner	4	0	52.763634	10.803935
+House-1	The best house	2023-09-22T12:57:33.624Z	Brussels	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	1.1	Room	5	9	54103	Air conditioner	1	0	51.553753	9.475822
+House-2	Better apartment	2023-09-22T12:57:33.624Z	Amsterdam	image-6.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	0	3.3	Apartment	3	3	63536	Transfer;Air conditioner	3	0	50.084804	10.063368
+Apartment-2	Good apartment	2023-09-22T12:57:33.624Z	Hamburg	image-5.jpg	image-6.jpg	1	1	3.1	Room	5	7	52113	Breakfast	1	0	48.019978	10.135189
+House-2	Better apartment	2023-09-20T12:57:33.624Z	Hamburg	image-3.jpg	image-6.jpg	0	0	2	Room	5	3	48668	Transfer;Air conditioner	4	0	51.918961	5.480466
+Apartment-2	Better apartment	2023-09-21T12:57:33.624Z	Hamburg	image-2.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	2.4	House	2	5	9213	Air conditioner	5	0	53.029801	3.10196
+House-1	The qorst house	2023-09-21T12:57:33.624Z	Cologne	image-1.jpg	image-5.jpg;image-6.jpg	1	0	4.2	House	1	1	95766	Towels;Transfer	4	0	48.752822	6.464433
+House-2	Better apartment	2023-09-20T12:57:33.624Z	Amsterdam	image-6.jpg	image-1.jpg	1	0	1.1	Apartment	2	8	30069	Towels;Transfer;Air conditioner	1	0	49.648771	4.123112
+House-1	Better apartment	2023-09-21T12:57:33.625Z	Brussels	image-6.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	1.7	Hotel	6	8	45681	Air conditioner	3	0	50.472925	4.594211
+The lost room	The qorst house	2023-09-19T12:57:33.625Z	Cologne	image-2.jpg	image-1.jpg	0	0	4.8	House	2	5	98052	Transfer;Air conditioner	3	0	51.391591	3.711397
+Apartment-2	Better apartment	2023-09-23T12:57:33.625Z	Dusseldorf	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	3.1	Room	1	7	2768	Air conditioner	3	0	53.94572	4.55138
+Apartment-1	Good apartment	2023-09-20T12:57:33.625Z	Dusseldorf	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	0	2.6	House	7	2	31478	Breakfast;Towels;Transfer	5	0	53.793031	10.232007
+The lost room	Better apartment	2023-09-19T12:57:33.625Z	Paris	image-4.jpg	image-5.jpg;image-6.jpg	1	1	1.1	Room	6	5	2416	Transfer;Air conditioner	1	0	48.861025	9.865208
+House-2	Better apartment	2023-09-22T12:57:33.625Z	Brussels	image-1.jpg	image-5.jpg;image-6.jpg	0	0	4.8	Hotel	3	6	15876	Transfer;Air conditioner	4	0	53.589709	10.94303
+House-1	The best house	2023-09-20T12:57:33.625Z	Amsterdam	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	1.5	Room	3	9	76195	Towels;Transfer;Air conditioner	3	0	50.176866	7.604191
+The lost room	The qorst house	2023-09-19T12:57:33.626Z	Paris	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	2.4	Hotel	5	5	96594	Air conditioner	4	0	52.813057	7.497605
+Apartment-1	The best house	2023-09-20T12:57:33.626Z	Brussels	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	1.2	House	2	10	10606	Transfer;Air conditioner	4	0	50.019222	5.093949
+House-2	Better apartment	2023-09-24T12:57:33.626Z	Dusseldorf	image-5.jpg	image-1.jpg;image-2.jpg	1	0	1.2	House	6	4	68859	Air conditioner	2	0	52.798352	8.812812
+House-2	The best house	2023-09-18T12:57:33.626Z	Hamburg	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	1	1	2.4	Hotel	4	3	18427	Transfer;Air conditioner	4	0	50.287367	9.901244
+Apartment-1	The qorst house	2023-09-22T12:57:33.626Z	Cologne	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	4.8	House	5	4	60759	Towels;Transfer	2	0	49.23357	6.170447
+Apartment-2	The qorst house	2023-09-24T12:57:33.626Z	Paris	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	2.2	Apartment	3	2	68467	Air conditioner	4	0	50.082262	7.622609
+Apartment-2	Better apartment	2023-09-19T12:57:33.626Z	Brussels	image-5.jpg	image-6.jpg	1	1	3.1	Room	2	9	68759	Transfer;Air conditioner	4	0	50.709679	10.965036
+Apartment-2	Good apartment	2023-09-19T12:57:33.626Z	Cologne	image-1.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	3	Room	4	6	66209	Towels;Transfer;Air conditioner	4	0	52.392819	8.450308
+Apartment-2	The best house	2023-09-20T12:57:33.627Z	Cologne	image-5.jpg	image-5.jpg;image-6.jpg	0	0	1.6	Room	6	10	89376	Air conditioner	4	0	53.064655	4.015284
+The lost room	Better apartment	2023-09-20T12:57:33.627Z	Amsterdam	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	1.4	Room	2	1	72888	Transfer;Air conditioner	2	0	49.084255	7.517223
+House-2	Better apartment	2023-09-18T12:57:33.627Z	Amsterdam	image-5.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg	0	1	4.6	House	7	3	71713	Transfer;Air conditioner	2	0	52.815422	7.366507
+Apartment-2	The best house	2023-09-19T12:57:33.627Z	Cologne	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.1	Room	5	3	13063	Transfer;Air conditioner	1	0	50.696179	6.477613
+House-2	Better apartment	2023-09-22T12:57:33.627Z	Hamburg	image-5.jpg	image-1.jpg	0	1	4.2	Room	7	4	85957	Transfer;Air conditioner	1	0	51.348194	5.375772
+House-1	Good apartment	2023-09-19T12:57:33.627Z	Amsterdam	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	1.6	House	4	2	19381	Transfer;Air conditioner	2	0	53.826694	8.86207
+House-2	Better apartment	2023-09-19T12:57:33.627Z	Dusseldorf	image-3.jpg	image-5.jpg;image-6.jpg	1	1	1.9	Hotel	7	3	58139	Breakfast;Towels	1	0	51.697589	8.155832
+House-2	Better apartment	2023-09-19T12:57:33.627Z	Cologne	image-2.jpg	image-5.jpg;image-6.jpg	1	0	4.5	Apartment	2	2	36282	Transfer;Air conditioner	4	0	51.735563	3.860054
+Apartment-2	Better apartment	2023-09-21T12:57:33.628Z	Cologne	image-4.jpg	image-5.jpg;image-6.jpg	0	1	3	House	5	2	12835	Towels;Transfer;Air conditioner	4	0	51.469528	8.185699
+House-1	Good apartment	2023-09-21T12:57:33.628Z	Amsterdam	image-6.jpg	image-2.jpg;image-3.jpg	1	1	3.3	Hotel	3	8	26886	Breakfast;Towels;Transfer;Air conditioner	4	0	49.59867	4.798584
+House-2	The qorst house	2023-09-22T12:57:33.628Z	Amsterdam	image-6.jpg	image-5.jpg;image-6.jpg	0	0	4	Room	4	8	20036	Towels	1	0	49.119314	10.023517
+Apartment-2	The qorst house	2023-09-22T12:57:33.629Z	Cologne	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	1.1	Hotel	7	8	31176	Transfer;Air conditioner	1	0	50.626082	5.213522
+Apartment-2	Good apartment	2023-09-22T12:57:33.629Z	Hamburg	image-4.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	0	1	2.1	House	3	4	39611	Breakfast;Towels	4	0	53.016442	2.111345
+Apartment-2	The qorst house	2023-09-19T12:57:33.629Z	Paris	image-3.jpg	image-3.jpg;image-4.jpg	1	1	2.7	House	6	6	34192	Towels;Transfer;Air conditioner	2	0	48.836082	2.051601
+House-2	The best house	2023-09-19T12:57:33.629Z	Paris	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	0	3.5	House	5	3	9188	Air conditioner	4	0	53.580567	9.187535
+The lost room	The best house	2023-09-21T12:57:33.630Z	Cologne	image-1.jpg	image-5.jpg;image-6.jpg	0	0	4.7	Apartment	2	8	55366	Towels;Transfer;Air conditioner	3	0	50.441124	5.899581
+Apartment-2	Better apartment	2023-09-23T12:57:33.630Z	Paris	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	2.5	House	6	7	27957	Air conditioner	3	0	49.033675	6.899977
+Apartment-2	The qorst house	2023-09-22T12:57:33.630Z	Amsterdam	image-1.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	3.3	Room	1	6	54642	Breakfast;Towels;Transfer	3	0	48.432457	5.111406
+House-1	The best house	2023-09-20T12:57:33.630Z	Paris	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	1	0	4.6	House	7	3	41675	Transfer;Air conditioner	3	0	52.599047	6.642459
+Apartment-2	The qorst house	2023-09-19T12:57:33.630Z	Dusseldorf	image-6.jpg	image-5.jpg;image-6.jpg	1	1	4.5	Room	4	1	59226	Transfer;Air conditioner	2	0	52.535054	2.097046
+Apartment-2	The best house	2023-09-23T12:57:33.630Z	Brussels	image-2.jpg	image-3.jpg;image-4.jpg	1	1	1.5	Apartment	5	2	99687	Air conditioner	4	0	48.129715	3.064601
+House-2	Better apartment	2023-09-21T12:57:33.630Z	Brussels	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	1	1	1.8	House	3	4	14266	Breakfast;Towels	4	0	49.660115	9.984386
+The lost room	Better apartment	2023-09-20T12:57:33.631Z	Brussels	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	0	3.9	Room	3	2	488	Transfer;Air conditioner	5	0	52.541671	10.334925
+House-1	The best house	2023-09-24T12:57:33.631Z	Paris	image-4.jpg	image-5.jpg;image-6.jpg	1	0	2	Room	1	8	31795	Transfer;Air conditioner	2	0	50.15399	7.843515
+The lost room	Good apartment	2023-09-20T12:57:33.631Z	Cologne	image-6.jpg	image-5.jpg;image-6.jpg	0	0	4.7	House	5	8	59414	Transfer;Air conditioner	3	0	53.516627	8.507526
+House-1	Better apartment	2023-09-20T12:57:33.631Z	Cologne	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	4.8	Room	7	1	90592	Towels;Transfer;Air conditioner	4	0	51.874242	3.710447
+House-1	The qorst house	2023-09-24T12:57:33.631Z	Dusseldorf	image-5.jpg	image-5.jpg;image-6.jpg	1	0	4.6	Hotel	4	5	1381		5	0	51.260393	7.417197
+Apartment-2	Better apartment	2023-09-22T12:57:33.631Z	Paris	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	1	4.7	Hotel	7	9	15378	Towels;Transfer;Air conditioner	4	0	50.347816	6.273425
+House-1	Bizzarre room	2023-09-24T12:57:33.631Z	Hamburg	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	2.2	House	5	3	27477	Towels;Transfer	5	0	51.142325	8.75193
+Apartment-2	The best house	2023-09-23T12:57:33.632Z	Brussels	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	1	1.9	Room	3	3	62878	Towels;Transfer;Air conditioner	5	0	49.112269	2.201638
+House-2	Better apartment	2023-09-22T12:57:33.632Z	Brussels	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.6	House	3	10	18424	Transfer;Air conditioner	3	0	50.866377	4.194747
+House-2	Better apartment	2023-09-18T12:57:33.632Z	Amsterdam	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	3.4	Room	7	10	58049	Towels;Transfer;Air conditioner	5	0	51.260209	5.02728
+Apartment-1	Better apartment	2023-09-22T12:57:33.632Z	Hamburg	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg	1	1	2.2	Room	5	4	66976	Breakfast	4	0	51.818942	6.629278
+Apartment-2	The qorst house	2023-09-20T12:57:33.632Z	Dusseldorf	image-3.jpg	image-6.jpg	1	1	4.7	House	4	2	19326	Air conditioner	4	0	51.922043	5.409612
+House-1	Bizzarre room	2023-09-21T12:57:33.632Z	Brussels	image-5.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg	1	0	4.2	Hotel	2	8	30172	Breakfast;Towels;Transfer;Air conditioner	3	0	48.286364	9.412904
+House-2	The best house	2023-09-18T12:57:33.632Z	Hamburg	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	1.1	Room	3	2	68324	Breakfast	1	0	50.794366	3.227955
+The lost room	The qorst house	2023-09-20T12:57:33.632Z	Brussels	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.3	Hotel	3	2	65644	Transfer;Air conditioner	1	0	52.008656	9.080043
+House-1	Better apartment	2023-09-21T12:57:33.633Z	Cologne	image-2.jpg	image-5.jpg;image-6.jpg	0	0	2.3	Apartment	6	7	41957	Air conditioner	4	0	49.403081	10.535832
+House-2	The qorst house	2023-09-23T12:57:33.633Z	Brussels	image-6.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.1	Room	2	6	77048	Air conditioner	3	0	51.175149	10.275664
+House-1	Good apartment	2023-09-24T12:57:33.633Z	Hamburg	image-3.jpg	image-5.jpg;image-6.jpg	0	0	3.1	Apartment	5	5	32200	Towels;Transfer	5	0	50.729201	6.435181
+The lost room	The qorst house	2023-09-19T12:57:33.633Z	Amsterdam	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.5	Room	4	5	31407	Breakfast	3	0	49.013457	5.396481
+House-1	Better apartment	2023-09-20T12:57:33.633Z	Amsterdam	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	1	1.2	Apartment	6	2	8010	Transfer;Air conditioner	3	0	52.718988	7.853869
+Apartment-2	The best house	2023-09-20T12:57:33.633Z	Dusseldorf	image-1.jpg	image-5.jpg;image-6.jpg	0	0	1.6	Apartment	8	2	44356	Transfer;Air conditioner	2	0	48.789772	6.99299
+Apartment-1	Bizzarre room	2023-09-20T12:57:33.633Z	Hamburg	image-1.jpg	image-6.jpg	0	1	3.3	Room	1	5	4843	Transfer;Air conditioner	2	0	53.579142	9.419468
+House-1	The best house	2023-09-19T12:57:33.633Z	Paris	image-1.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	0	2	House	4	9	84696	Towels;Transfer;Air conditioner	5	0	50.383267	10.577373
+Apartment-2	Bizzarre room	2023-09-21T12:57:33.634Z	Brussels	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.8	Room	2	9	84696	Towels;Transfer;Air conditioner	2	0	51.39835	3.102208
+House-2	The qorst house	2023-09-22T12:57:33.634Z	Amsterdam	image-2.jpg	image-5.jpg;image-6.jpg	0	1	2.3	Hotel	4	9	16686	Transfer;Air conditioner	4	0	49.480804	2.471592
+Apartment-1	The best house	2023-09-19T12:57:33.634Z	Amsterdam	image-1.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.6	Apartment	4	7	63478	Transfer;Air conditioner	4	0	50.793294	3.909701
+House-2	The best house	2023-09-21T12:57:33.634Z	Amsterdam	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	4.3	Room	5	5	87467	Transfer;Air conditioner	3	0	51.34218	9.435259
+House-1	The qorst house	2023-09-21T12:57:33.634Z	Amsterdam	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	2	House	6	10	43756	Transfer;Air conditioner	2	0	50.529716	9.099025
+House-1	Better apartment	2023-09-23T12:57:33.634Z	Cologne	image-4.jpg	image-2.jpg	0	1	2.3	Room	3	5	42262	Towels;Transfer	2	0	50.04372	7.32967
+House-1	Better apartment	2023-09-22T12:57:33.634Z	Cologne	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	5	House	6	6	76293	Transfer;Air conditioner	2	0	50.460671	8.164391
+House-1	The best house	2023-09-23T12:57:33.634Z	Cologne	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	0	1.8	Apartment	7	7	98818	Transfer;Air conditioner	1	0	53.920776	3.104803
+The lost room	Good apartment	2023-09-24T12:57:33.634Z	Paris	image-6.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	1.5	Room	5	7	63760	Towels;Transfer	2	0	52.736822	4.480198
+Apartment-2	Better apartment	2023-09-19T12:57:33.635Z	Hamburg	image-1.jpg	image-1.jpg;image-2.jpg;image-3.jpg	1	1	3.5	Room	6	6	55568	Transfer;Air conditioner	3	0	50.633699	5.144462
+House-2	The best house	2023-09-18T12:57:33.635Z	Hamburg	image-4.jpg	image-1.jpg;image-2.jpg	0	1	3.2	Room	8	3	76053	Transfer;Air conditioner	2	0	48.994957	2.582252
+Apartment-2	Better apartment	2023-09-19T12:57:33.635Z	Hamburg	image-5.jpg	image-5.jpg;image-6.jpg	1	1	1.2	Hotel	6	5	77251	Towels;Transfer;Air conditioner	2	0	53.883042	7.394217
+House-1	Better apartment	2023-09-19T12:57:33.635Z	Brussels	image-6.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	1.3	Room	5	5	42740	Transfer;Air conditioner	2	0	48.318827	10.390837
+Apartment-1	Bizzarre room	2023-09-22T12:57:33.635Z	Hamburg	image-3.jpg	image-5.jpg;image-6.jpg	1	0	4.7	Room	2	6	28908	Transfer;Air conditioner	3	0	53.056851	4.936615
+Apartment-2	The best house	2023-09-19T12:57:33.635Z	Paris	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.4	Room	4	4	93037	Transfer;Air conditioner	4	0	50.139626	9.936047
+House-1	The best house	2023-09-21T12:57:33.635Z	Cologne	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.1	Apartment	1	6	30975	Air conditioner	1	0	51.899797	10.995517
+House-2	The qorst house	2023-09-18T12:57:33.636Z	Dusseldorf	image-5.jpg	image-2.jpg	0	1	2.6	Room	7	9	97763	Towels	1	0	51.458584	8.470924
+House-1	Better apartment	2023-09-20T12:57:33.636Z	Brussels	image-2.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	3.1	Room	3	8	3627	Towels	2	0	51.197893	8.945888
+Apartment-1	The qorst house	2023-09-23T12:57:33.636Z	Paris	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	1.2	House	7	7	28068	Towels;Transfer	2	0	51.084857	10.572508
+House-1	Bizzarre room	2023-09-23T12:57:33.636Z	Hamburg	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	4.8	Room	4	7	65420	Towels;Transfer	3	0	49.003242	6.459091
+The lost room	The best house	2023-09-20T12:57:33.636Z	Brussels	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	1.1	Hotel	6	8	67930	Breakfast;Towels;Transfer	4	0	49.418773	5.563308
+Apartment-1	The best house	2023-09-20T12:57:33.636Z	Amsterdam	image-4.jpg	image-5.jpg;image-6.jpg	0	0	3.8	House	6	3	76259	Transfer;Air conditioner	3	0	49.457869	2.929462
+Apartment-2	The qorst house	2023-09-22T12:57:33.636Z	Amsterdam	image-4.jpg	image-6.jpg	1	0	3	Room	7	9	97498	Towels;Transfer;Air conditioner	3	0	49.648168	5.782413
+Apartment-2	The qorst house	2023-09-22T12:57:33.636Z	Amsterdam	image-2.jpg	image-6.jpg	0	1	3.9	House	1	5	47113	Breakfast;Towels;Transfer;Air conditioner	3	0	51.051903	7.08488
+The lost room	Better apartment	2023-09-20T12:57:33.636Z	Cologne	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	1.7	House	8	9	77662	Air conditioner	3	0	51.068955	6.292254
+Apartment-2	The best house	2023-09-24T12:57:33.637Z	Hamburg	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	4.6	Room	3	7	35060	Towels;Transfer;Air conditioner	4	0	53.472413	5.038016
+House-2	Better apartment	2023-09-19T12:57:33.637Z	Cologne	image-2.jpg	image-5.jpg;image-6.jpg	0	1	3	Apartment	5	4	38157	Towels;Transfer	3	0	49.924399	3.636784
+Apartment-1	The best house	2023-09-23T12:57:33.637Z	Paris	image-1.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	2.8	Apartment	6	8	27163	Transfer;Air conditioner	4	0	53.951299	3.025109
+Apartment-2	The best house	2023-09-20T12:57:33.637Z	Cologne	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.4	House	3	9	16401	Transfer;Air conditioner	1	0	53.016702	6.216565
+House-1	Better apartment	2023-09-20T12:57:33.637Z	Brussels	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	0	3.6	Apartment	1	5	86260	Transfer;Air conditioner	3	0	53.069322	3.464557
+House-1	The best house	2023-09-23T12:57:33.637Z	Hamburg	image-5.jpg	image-6.jpg	0	1	2.1	Room	4	3	76011	Transfer;Air conditioner	3	0	48.73456	8.509017
+House-2	Better apartment	2023-09-22T12:57:33.637Z	Brussels	image-5.jpg	image-5.jpg;image-6.jpg	0	0	3.3	House	6	9	51619	Transfer;Air conditioner	5	0	50.041689	3.321417
+Apartment-2	Bizzarre room	2023-09-18T12:57:33.637Z	Amsterdam	image-1.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	4	Apartment	6	5	81983	Towels	5	0	48.850646	8.148708
+Apartment-1	Good apartment	2023-09-18T12:57:33.638Z	Brussels	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	2.8	Room	7	8	7198	Air conditioner	1	0	49.434069	6.511063
+House-1	The qorst house	2023-09-20T12:57:33.638Z	Paris	image-3.jpg	image-6.jpg	0	0	3	Room	5	8	7246	Breakfast;Towels;Transfer	1	0	50.710648	8.534797
+House-1	The qorst house	2023-09-24T12:57:33.638Z	Cologne	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	4	Room	7	9	40219	Transfer;Air conditioner	2	0	49.696833	10.820761
+House-2	The best house	2023-09-19T12:57:33.638Z	Amsterdam	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	2.8	Hotel	2	9	80193	Towels;Transfer	3	0	48.608886	10.564182
+House-1	Bizzarre room	2023-09-18T12:57:33.638Z	Amsterdam	image-6.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	4.2	House	3	2	58983	Air conditioner	3	0	52.020051	4.431765
+Apartment-2	Better apartment	2023-09-23T12:57:33.638Z	Cologne	image-4.jpg	image-5.jpg;image-6.jpg	1	0	1.7	Room	6	1	44975	Transfer;Air conditioner	5	0	48.210199	7.523938
+Apartment-2	The best house	2023-09-24T12:57:33.638Z	Brussels	image-6.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	1.9	Hotel	6	4	88877	Air conditioner	5	0	48.043218	7.807536
+The lost room	Good apartment	2023-09-24T12:57:33.638Z	Cologne	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.7	Hotel	3	5	47156	Air conditioner	1	0	50.053892	3.182895
+House-2	The qorst house	2023-09-20T12:57:33.639Z	Cologne	image-6.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	4.7	Apartment	5	5	57216	Transfer;Air conditioner	5	0	51.895353	2.143119
+Apartment-1	The qorst house	2023-09-24T12:57:33.639Z	Cologne	image-3.jpg	image-1.jpg;image-2.jpg	1	0	1.9	Room	2	7	46455	Transfer;Air conditioner	2	0	48.46948	9.596219
+Apartment-1	Bizzarre room	2023-09-20T12:57:33.639Z	Hamburg	image-2.jpg	image-6.jpg	1	0	1.9	Apartment	5	4	63470	Transfer;Air conditioner	2	0	52.945212	9.154653
+House-2	The best house	2023-09-19T12:57:33.639Z	Dusseldorf	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.7	Hotel	5	9	17633	Transfer;Air conditioner	5	0	50.750479	6.103979
+House-1	Better apartment	2023-09-20T12:57:33.639Z	Amsterdam	image-2.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	3	House	6	8	24879	Transfer;Air conditioner	5	0	48.078243	5.021098
+Apartment-2	The best house	2023-09-23T12:57:33.639Z	Brussels	image-5.jpg	image-1.jpg;image-2.jpg	0	1	2.3	House	2	2	50236	Transfer;Air conditioner	2	0	49.412667	10.937545
+The lost room	Good apartment	2023-09-22T12:57:33.639Z	Amsterdam	image-3.jpg	image-1.jpg;image-2.jpg;image-3.jpg	1	0	1.1	House	8	7	75233	Breakfast	4	0	53.417385	5.957223
+House-2	Good apartment	2023-09-21T12:57:33.639Z	Cologne	image-6.jpg	image-5.jpg;image-6.jpg	1	0	2.9	House	7	2	65746	Air conditioner	5	0	51.199706	4.843697
+House-2	The qorst house	2023-09-20T12:57:33.639Z	Dusseldorf	image-4.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	0	1	3.7	Hotel	6	2	10953	Air conditioner	2	0	52.440755	3.34963
+Apartment-2	Better apartment	2023-09-23T12:57:33.640Z	Brussels	image-2.jpg	image-5.jpg;image-6.jpg	0	1	4.6	Apartment	5	4	34438	Towels;Transfer;Air conditioner	5	0	52.367728	4.880763
+The lost room	Better apartment	2023-09-18T12:57:33.640Z	Amsterdam	image-4.jpg	image-1.jpg;image-2.jpg;image-3.jpg	0	0	1.1	Apartment	2	8	1612	Breakfast;Towels;Transfer	3	0	51.021216	5.035387
+House-2	Good apartment	2023-09-18T12:57:33.640Z	Amsterdam	image-3.jpg	image-5.jpg;image-6.jpg	1	1	3.1	House	5	10	47103	Air conditioner	2	0	51.729389	10.096589
+Apartment-1	Better apartment	2023-09-21T12:57:33.640Z	Cologne	image-2.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	1	0	1	House	3	6	60305	Towels;Transfer;Air conditioner	3	0	50.764737	2.276511
+Apartment-2	Good apartment	2023-09-22T12:57:33.640Z	Amsterdam	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	0	0	3.9	Apartment	2	10	12482	Transfer;Air conditioner	2	0	50.418147	8.718574
+Apartment-1	The qorst house	2023-09-22T12:57:33.640Z	Amsterdam	image-1.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.7	House	4	3	68738	Air conditioner	4	0	50.077698	8.047995
+Apartment-2	Better apartment	2023-09-23T12:57:33.640Z	Amsterdam	image-3.jpg	image-5.jpg;image-6.jpg	0	1	3.6	House	1	8	29474	Air conditioner	2	0	53.908625	5.525802
+Apartment-1	Good apartment	2023-09-19T12:57:33.640Z	Cologne	image-4.jpg	image-2.jpg;image-3.jpg	0	1	2.9	Apartment	7	6	50007	Towels;Transfer;Air conditioner	2	0	53.453343	7.092484
+Apartment-1	The qorst house	2023-09-23T12:57:33.641Z	Cologne	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg	1	1	2.9	Room	7	3	71275	Air conditioner	3	0	51.394968	8.15425
+House-1	Good apartment	2023-09-22T12:57:33.641Z	Cologne	image-3.jpg	image-5.jpg;image-6.jpg	1	1	3.2	House	5	5	78275	Towels;Transfer;Air conditioner	2	0	50.948848	5.553941
+House-1	Better apartment	2023-09-20T12:57:33.641Z	Cologne	image-5.jpg	image-5.jpg;image-6.jpg	1	0	1.7	House	5	4	43521	Towels	1	0	49.982801	4.149257
+House-2	The qorst house	2023-09-19T12:57:33.641Z	Amsterdam	image-4.jpg	image-6.jpg	1	1	1.6	Room	5	3	6403	Transfer;Air conditioner	4	0	51.171286	3.68088
+House-1	The qorst house	2023-09-23T12:57:33.641Z	Cologne	image-6.jpg	image-1.jpg;image-2.jpg;image-3.jpg	0	1	3.5	House	4	5	50687	Air conditioner	2	0	50.738897	2.163701
+House-2	The qorst house	2023-09-19T12:57:33.641Z	Dusseldorf	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	1	1	1.1	House	8	5	55754	Transfer;Air conditioner	3	0	53.570131	8.507524
+House-1	The qorst house	2023-09-19T12:57:33.641Z	Paris	image-1.jpg	image-5.jpg;image-6.jpg	0	1	3.7	Room	7	2	30792	Air conditioner	4	0	50.303893	6.60191
+House-1	The best house	2023-09-23T12:57:33.641Z	Amsterdam	image-5.jpg	image-6.jpg	1	0	3.5	Hotel	6	9	25050	Towels;Transfer	4	0	51.039164	5.301355
+Apartment-1	The qorst house	2023-09-20T12:57:33.641Z	Cologne	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	3.5	Room	3	6	16034	Towels;Transfer;Air conditioner	2	0	48.324619	7.478783
+The lost room	The best house	2023-09-23T12:57:33.642Z	Hamburg	image-2.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	1	Room	7	7	71490	Towels;Transfer	5	0	48.26312	8.6728
+The lost room	The best house	2023-09-20T12:57:33.642Z	Brussels	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	4.7	Room	7	10	2920	Breakfast;Towels;Transfer;Air conditioner	2	0	49.849348	7.957452
+House-1	Good apartment	2023-09-24T12:57:33.642Z	Dusseldorf	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	0	1.8	Room	8	6	22329	Transfer;Air conditioner	5	0	51.510982	2.99726
+House-2	The qorst house	2023-09-20T12:57:33.642Z	Cologne	image-6.jpg	image-5.jpg;image-6.jpg	0	0	5	House	8	5	91209	Transfer;Air conditioner	1	0	53.035701	7.519363
+Apartment-2	Good apartment	2023-09-20T12:57:33.642Z	Brussels	image-3.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	0	1	2.8	Hotel	4	6	24554	Transfer;Air conditioner	2	0	53.666832	8.821388
+The lost room	Better apartment	2023-09-19T12:57:33.642Z	Paris	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	2.2	House	5	8	68244	Transfer;Air conditioner	1	0	50.506164	7.596627
+House-2	The qorst house	2023-09-19T12:57:33.642Z	Amsterdam	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.2	Apartment	5	10	41081	Towels	4	0	49.045782	8.284368
+House-2	Bizzarre room	2023-09-22T12:57:33.643Z	Brussels	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	4.1	Hotel	7	2	72685	Towels;Transfer	2	0	51.298569	6.276715
+The lost room	The qorst house	2023-09-22T12:57:33.643Z	Hamburg	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	1.1	Room	8	3	19165	Towels;Transfer	2	0	53.146199	10.240496
+The lost room	The qorst house	2023-09-21T12:57:33.643Z	Brussels	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	3.4	Room	7	7	25340	Breakfast	1	0	51.716226	3.940195
+Apartment-2	Bizzarre room	2023-09-22T12:57:33.643Z	Paris	image-4.jpg	image-5.jpg;image-6.jpg	0	0	2.4	House	5	6	2695	Towels;Transfer;Air conditioner	1	0	53.483457	2.550931
+House-2	The qorst house	2023-09-21T12:57:33.643Z	Cologne	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	4.4	Apartment	4	6	1172	Air conditioner	2	0	52.865545	10.095862
+House-1	The qorst house	2023-09-23T12:57:33.643Z	Dusseldorf	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg	0	1	3.8	Hotel	1	6	54224	Breakfast;Towels;Transfer	2	0	50.829431	5.123816
+The lost room	The best house	2023-09-23T12:57:33.643Z	Brussels	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	4.2	Hotel	6	6	98983	Towels;Transfer	1	0	52.465787	7.583406
+House-2	The qorst house	2023-09-20T12:57:33.643Z	Hamburg	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg	0	1	4.7	Apartment	4	2	79409	Towels;Transfer	3	0	48.522958	8.677373
+Apartment-2	The best house	2023-09-23T12:57:33.644Z	Brussels	image-1.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	1	0	2.2	Room	3	7	87661	Air conditioner	1	0	53.747331	5.064286
+House-2	Better apartment	2023-09-19T12:57:33.644Z	Paris	image-6.jpg	image-2.jpg;image-3.jpg;image-4.jpg	1	1	2.2	Room	7	3	10868	Towels	1	0	51.493581	8.033684
+The lost room	The qorst house	2023-09-23T12:57:33.644Z	Brussels	image-5.jpg	image-3.jpg;image-4.jpg	0	0	2.8	House	2	6	55198	Transfer;Air conditioner	4	0	49.822256	6.937259
+The lost room	The qorst house	2023-09-21T12:57:33.644Z	Hamburg	image-1.jpg	image-5.jpg;image-6.jpg	1	1	2.8	Apartment	3	6	46807	Air conditioner	5	0	51.233236	5.199227
+House-2	The qorst house	2023-09-21T12:57:33.644Z	Cologne	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	1.7	Hotel	8	9	21149	Towels;Transfer	3	0	52.376717	6.798631
+The lost room	Better apartment	2023-09-22T12:57:33.644Z	Amsterdam	image-5.jpg	image-1.jpg;image-2.jpg;image-3.jpg	1	0	3	House	4	2	41955	Breakfast	5	0	48.327071	3.692851
+House-1	Good apartment	2023-09-20T12:57:33.644Z	Brussels	image-4.jpg	image-6.jpg	1	0	3.2	Apartment	3	1	64356	Breakfast;Towels	3	0	51.112921	8.901556
+House-2	The best house	2023-09-19T12:57:33.644Z	Hamburg	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	3.9	Hotel	3	1	14300		1	0	48.637672	6.711271
+Apartment-2	The best house	2023-09-19T12:57:33.645Z	Amsterdam	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	4.1	Room	6	7	40795	Towels;Transfer;Air conditioner	5	0	49.410264	6.46192
+Apartment-1	Better apartment	2023-09-20T12:57:33.645Z	Amsterdam	image-2.jpg	image-5.jpg;image-6.jpg	1	1	2.7	Room	4	5	49315	Air conditioner	5	0	51.668515	10.098684
+Apartment-2	Better apartment	2023-09-24T12:57:33.645Z	Cologne	image-5.jpg	image-2.jpg	0	0	2.1	Hotel	3	7	71173	Transfer;Air conditioner	3	0	53.791703	8.964167
+House-1	The best house	2023-09-23T12:57:33.645Z	Hamburg	image-2.jpg	image-1.jpg;image-2.jpg	1	1	4	House	1	1	19850	Towels;Transfer;Air conditioner	3	0	48.244978	10.167924
+House-2	Better apartment	2023-09-22T12:57:33.645Z	Amsterdam	image-3.jpg	image-5.jpg;image-6.jpg	1	0	3.5	Apartment	4	5	60874	Towels;Transfer	5	0	53.821923	10.889904
+Apartment-2	Good apartment	2023-09-20T12:57:33.645Z	Cologne	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	2.4	Room	6	8	83498	Transfer;Air conditioner	5	0	53.004574	4.611343
+House-1	The qorst house	2023-09-22T12:57:33.645Z	Amsterdam	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	3.1	Apartment	1	9	55036	Breakfast	4	0	49.714954	10.730327
+Apartment-2	Good apartment	2023-09-23T12:57:33.645Z	Brussels	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	1	2	House	6	3	57126	Breakfast	3	0	53.776661	5.94189
+Apartment-1	The qorst house	2023-09-24T12:57:33.645Z	Amsterdam	image-2.jpg	image-5.jpg;image-6.jpg	0	0	2.4	House	4	7	14581	Transfer;Air conditioner	1	0	48.10683	9.989816
+Apartment-2	Better apartment	2023-09-19T12:57:33.646Z	Amsterdam	image-3.jpg	image-5.jpg;image-6.jpg	1	1	1.6	Apartment	7	8	84075	Transfer;Air conditioner	3	0	52.913244	5.686336
+Apartment-2	Better apartment	2023-09-22T12:57:33.646Z	Amsterdam	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	0	1.5	Room	2	4	22316	Transfer;Air conditioner	5	0	53.089855	10.532503
+Apartment-2	The best house	2023-09-23T12:57:33.646Z	Cologne	image-5.jpg	image-6.jpg	1	0	2.6	House	4	5	81215	Air conditioner	2	0	51.169182	6.980716
+The lost room	The qorst house	2023-09-22T12:57:33.646Z	Paris	image-2.jpg	image-1.jpg;image-2.jpg;image-3.jpg	0	1	3	Room	6	6	63518	Transfer;Air conditioner	3	0	52.25438	9.913237
+Apartment-2	Better apartment	2023-09-22T12:57:33.646Z	Cologne	image-4.jpg	image-5.jpg;image-6.jpg	1	0	4.7	House	4	5	79885	Breakfast;Towels;Transfer	5	0	51.00836	10.172009
+Apartment-1	Better apartment	2023-09-24T12:57:33.646Z	Amsterdam	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	4.1	House	7	5	62295	Air conditioner	1	0	52.73318	10.6448
+Apartment-2	Good apartment	2023-09-21T12:57:33.646Z	Brussels	image-4.jpg	image-6.jpg	1	0	4.4	House	2	8	25997	Towels;Transfer	3	0	50.308586	10.629956
+Apartment-2	Bizzarre room	2023-09-23T12:57:33.647Z	Brussels	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	1.1	House	6	8	83292	Air conditioner	1	0	48.073733	10.483891
+House-2	The qorst house	2023-09-23T12:57:33.647Z	Amsterdam	image-6.jpg	image-2.jpg;image-3.jpg;image-4.jpg	0	1	3.9	Room	5	4	81301	Towels;Transfer;Air conditioner	5	0	53.996603	8.26853
+House-1	The best house	2023-09-21T12:57:33.647Z	Brussels	image-4.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	1	1	1.1	House	2	6	4685	Towels;Transfer	3	0	51.594627	10.621552
+The lost room	The qorst house	2023-09-20T12:57:33.647Z	Amsterdam	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	3.4	House	4	7	17201	Transfer;Air conditioner	4	0	51.413642	7.839931
+Apartment-2	The qorst house	2023-09-21T12:57:33.647Z	Amsterdam	image-6.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.2	House	2	1	48187	Transfer;Air conditioner	5	0	49.848715	3.53965
+House-2	Better apartment	2023-09-21T12:57:33.647Z	Amsterdam	image-4.jpg	image-5.jpg;image-6.jpg	0	0	3.1	Apartment	7	8	42104	Transfer;Air conditioner	4	0	53.58591	4.746031
+Apartment-2	Better apartment	2023-09-23T12:57:33.647Z	Dusseldorf	image-3.jpg	image-6.jpg	1	1	4	Room	6	2	17622	Towels;Transfer;Air conditioner	2	0	50.850244	7.85679
+House-1	Good apartment	2023-09-19T12:57:33.648Z	Hamburg	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.2	Hotel	7	8	34062	Breakfast	4	0	53.060431	10.173956
+Apartment-2	The qorst house	2023-09-20T12:57:33.648Z	Amsterdam	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	2.6	Room	7	5	52019	Air conditioner	2	0	52.590485	4.431168
+Apartment-2	The qorst house	2023-09-21T12:57:33.648Z	Hamburg	image-1.jpg	image-2.jpg	0	1	3.1	House	2	2	55263	Air conditioner	2	0	53.942727	2.676404
+House-2	The qorst house	2023-09-23T12:57:33.648Z	Cologne	image-4.jpg	image-2.jpg	1	0	1.8	House	7	4	14665	Breakfast;Towels	2	0	48.554648	2.835289
+House-1	Good apartment	2023-09-19T12:57:33.648Z	Cologne	image-6.jpg	image-5.jpg;image-6.jpg	0	0	1.3	Hotel	4	3	56185	Transfer;Air conditioner	1	0	53.233479	2.944593
+House-1	Good apartment	2023-09-18T12:57:33.648Z	Dusseldorf	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	4.5	Hotel	7	3	16711	Towels;Transfer;Air conditioner	3	0	50.579115	9.654153
+House-1	The best house	2023-09-19T12:57:33.648Z	Hamburg	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	1	1.5	Room	3	8	20076	Transfer;Air conditioner	3	0	50.547664	2.910506
+The lost room	The best house	2023-09-19T12:57:33.648Z	Hamburg	image-1.jpg	image-3.jpg;image-4.jpg	1	0	1.6	Room	4	7	82541	Transfer;Air conditioner	4	0	51.14987	10.49751
+Apartment-2	The best house	2023-09-23T12:57:33.649Z	Brussels	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	1.4	Hotel	3	4	46194	Transfer;Air conditioner	5	0	48.990873	6.392409
+Apartment-2	Better apartment	2023-09-23T12:57:33.649Z	Paris	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg	1	0	2.7	House	8	8	62004	Towels;Transfer;Air conditioner	3	0	53.809461	8.164258
+House-2	Better apartment	2023-09-21T12:57:33.649Z	Brussels	image-2.jpg	image-3.jpg;image-4.jpg	1	0	4.4	Apartment	3	2	37848	Air conditioner	2	0	51.933993	4.34492
+The lost room	The qorst house	2023-09-23T12:57:33.649Z	Brussels	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	1.7	Hotel	8	2	69182	Transfer;Air conditioner	2	0	49.307264	2.590121
+Apartment-2	The best house	2023-09-18T12:57:33.649Z	Cologne	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	0	3.4	House	5	8	218	Breakfast;Towels;Transfer	1	0	51.308931	3.945539
+The lost room	Better apartment	2023-09-23T12:57:33.650Z	Hamburg	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	3.7	Room	1	5	92802	Towels;Transfer	2	0	50.785204	9.621414
+Apartment-2	Good apartment	2023-09-23T12:57:33.650Z	Brussels	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	0	1	3.1	Apartment	1	2	89057	Towels	2	0	50.736686	10.658095
+House-1	Better apartment	2023-09-22T12:57:33.650Z	Amsterdam	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	1.1	Hotel	4	7	48564	Towels;Transfer	2	0	49.824388	6.361291
+Apartment-2	Bizzarre room	2023-09-20T12:57:33.650Z	Brussels	image-6.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg	0	1	1.3	Room	3	9	22346	Towels;Transfer;Air conditioner	2	0	53.295644	2.665966
+Apartment-1	The qorst house	2023-09-20T12:57:33.651Z	Dusseldorf	image-3.jpg	image-5.jpg;image-6.jpg	1	1	4.9	Room	7	10	28491	Transfer;Air conditioner	2	0	48.599414	8.835399
+Apartment-1	The best house	2023-09-18T12:57:33.651Z	Brussels	image-6.jpg	image-2.jpg;image-3.jpg	1	1	2.8	Room	6	6	2709	Transfer;Air conditioner	4	0	51.224626	4.219618
+House-2	Better apartment	2023-09-21T12:57:33.651Z	Hamburg	image-2.jpg	image-2.jpg	0	1	3.9	Hotel	1	2	5480	Breakfast	1	0	51.765659	2.623903
+Apartment-2	The qorst house	2023-09-23T12:57:33.651Z	Brussels	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	2.1	Room	5	7	82933	Towels;Transfer;Air conditioner	2	0	49.345097	9.727709
+Apartment-1	The best house	2023-09-20T12:57:33.651Z	Brussels	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	4.5	Room	6	8	12642	Air conditioner	4	0	50.910952	9.563859
+House-2	The qorst house	2023-09-22T12:57:33.651Z	Paris	image-1.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	1	0	2.2	Room	5	2	99719	Towels;Transfer	3	0	53.108201	3.164901
+Apartment-2	The best house	2023-09-21T12:57:33.651Z	Hamburg	image-2.jpg	image-5.jpg;image-6.jpg	0	1	2.8	Apartment	1	3	65284	Breakfast;Towels	3	0	50.544113	4.558125
+The lost room	Good apartment	2023-09-19T12:57:33.652Z	Cologne	image-5.jpg	image-1.jpg;image-2.jpg	0	1	4.6	Apartment	6	7	56050	Breakfast	4	0	48.695055	3.872699
+The lost room	The qorst house	2023-09-22T12:57:33.652Z	Hamburg	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	1	1.9	Room	4	1	74075	Air conditioner	2	0	48.642605	3.182678
+Apartment-2	The best house	2023-09-23T12:57:33.652Z	Cologne	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg	1	0	5	House	4	3	27390	Breakfast;Towels	2	0	49.207581	3.559
+House-1	Good apartment	2023-09-21T12:57:33.652Z	Brussels	image-2.jpg	image-1.jpg	0	0	1.7	Room	5	4	4049	Air conditioner	5	0	48.268103	7.453041
+House-2	Good apartment	2023-09-24T12:57:33.652Z	Brussels	image-1.jpg	image-5.jpg;image-6.jpg	1	1	4.2	House	7	6	94986	Air conditioner	3	0	53.277285	9.167805
+Apartment-2	The qorst house	2023-09-21T12:57:33.652Z	Hamburg	image-1.jpg	image-2.jpg;image-3.jpg	0	1	2.3	House	4	3	7301	Transfer;Air conditioner	2	0	50.93056	6.721357
+The lost room	The best house	2023-09-20T12:57:33.652Z	Cologne	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	4.1	House	5	3	95519	Towels;Transfer;Air conditioner	5	0	52.959102	5.403138
+House-2	The qorst house	2023-09-20T12:57:33.653Z	Hamburg	image-1.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg	1	0	4.5	House	7	7	48465	Air conditioner	2	0	52.374726	2.905844
+Apartment-2	Better apartment	2023-09-18T12:57:33.653Z	Dusseldorf	image-1.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	1.1	House	4	1	6762	Breakfast;Towels;Transfer	2	0	50.217726	4.743239
+House-1	The qorst house	2023-09-22T12:57:33.653Z	Dusseldorf	image-5.jpg	image-5.jpg;image-6.jpg	1	0	4.2	House	6	1	85995	Towels;Transfer	3	0	49.103304	6.051718
+House-1	The qorst house	2023-09-23T12:57:33.653Z	Amsterdam	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	1	1	4.3	House	6	2	91380	Towels;Transfer;Air conditioner	2	0	51.196896	8.451413
+House-1	Bizzarre room	2023-09-18T12:57:33.653Z	Cologne	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg	0	0	4.8	House	3	9	49902	Breakfast;Towels	1	0	48.608005	7.036889
+House-2	Better apartment	2023-09-22T12:57:33.653Z	Hamburg	image-2.jpg	image-6.jpg	0	1	2.5	House	6	4	34053	Transfer;Air conditioner	3	0	52.029147	2.582098
+House-2	Good apartment	2023-09-22T12:57:33.653Z	Hamburg	image-3.jpg	image-5.jpg;image-6.jpg	0	0	4	Room	5	5	21533	Transfer;Air conditioner	5	0	52.514347	2.037025
+House-2	The qorst house	2023-09-19T12:57:33.653Z	Amsterdam	image-3.jpg	image-2.jpg	1	1	4.6	House	3	3	47805	Towels;Transfer;Air conditioner	2	0	53.535105	8.836888
+House-2	The qorst house	2023-09-18T12:57:33.654Z	Cologne	image-1.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	4.3	House	8	7	90214	Towels;Transfer;Air conditioner	3	0	53.397531	6.761007
+Apartment-2	The qorst house	2023-09-21T12:57:33.654Z	Amsterdam	image-5.jpg	image-2.jpg	0	0	1.2	Hotel	4	10	47356	Transfer;Air conditioner	4	0	51.017515	7.347766
+House-2	Bizzarre room	2023-09-18T12:57:33.654Z	Hamburg	image-3.jpg		1	0	4.1	Hotel	8	9	61108	Transfer;Air conditioner	3	0	52.037282	6.980431
+House-1	The best house	2023-09-21T12:57:33.654Z	Dusseldorf	image-6.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.4	Hotel	7	9	34398	Breakfast;Towels	1	0	48.190317	5.835438
+House-2	Bizzarre room	2023-09-22T12:57:33.654Z	Amsterdam	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	4.7	Room	5	1	35685	Towels;Transfer	1	0	53.050774	3.610872
+House-2	Good apartment	2023-09-23T12:57:33.654Z	Dusseldorf	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg	1	0	2.5	Hotel	4	6	97810	Air conditioner	4	0	51.546483	6.714453
+Apartment-1	Better apartment	2023-09-18T12:57:33.654Z	Hamburg	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	4.8	Room	6	4	77383	Transfer;Air conditioner	2	0	49.048522	7.409367
+The lost room	The best house	2023-09-24T12:57:33.654Z	Paris	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	3.1	House	4	3	37643		3	0	53.825693	10.540549
+Apartment-2	Bizzarre room	2023-09-24T12:57:33.655Z	Amsterdam	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg	1	0	1.5	Hotel	2	8	93711	Towels;Transfer;Air conditioner	3	0	53.571308	7.606833
+Apartment-1	Bizzarre room	2023-09-24T12:57:33.655Z	Paris	image-6.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	1	3.6	House	6	8	78000	Transfer;Air conditioner	1	0	49.351132	8.648791
+House-2	Better apartment	2023-09-18T12:57:33.655Z	Cologne	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	3.4	House	5	4	556	Transfer;Air conditioner	5	0	51.816763	7.430343
+House-2	The best house	2023-09-23T12:57:33.655Z	Paris	image-2.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg	0	0	2.9	Room	5	3	34512	Towels;Transfer;Air conditioner	3	0	53.639798	6.354219
+House-2	The best house	2023-09-22T12:57:33.655Z	Paris	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	3.6	Room	2	9	57123	Towels;Transfer;Air conditioner	1	0	50.737894	2.465706
+House-1	The best house	2023-09-21T12:57:33.655Z	Dusseldorf	image-3.jpg	image-5.jpg;image-6.jpg	0	0	2.8	Apartment	4	5	19508	Towels;Transfer;Air conditioner	3	0	51.087251	5.002152
+Apartment-2	The qorst house	2023-09-24T12:57:33.656Z	Brussels	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	1	1	4.1	House	3	7	78518	Towels;Transfer;Air conditioner	4	0	50.135212	3.992616
+Apartment-2	The best house	2023-09-19T12:57:33.656Z	Paris	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	1	4.1	Hotel	4	7	42057	Towels;Transfer	4	0	49.141247	4.055117
+Apartment-2	Good apartment	2023-09-19T12:57:33.656Z	Amsterdam	image-5.jpg	image-1.jpg;image-2.jpg	1	1	2.5	House	5	1	35312	Transfer;Air conditioner	5	0	53.497627	6.959397
+Apartment-2	Good apartment	2023-09-19T12:57:33.656Z	Cologne	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	3.3	Apartment	8	4	87477	Transfer;Air conditioner	4	0	48.007255	8.058682
+Apartment-2	Better apartment	2023-09-19T12:57:33.656Z	Paris	image-4.jpg	image-5.jpg;image-6.jpg	0	1	4.5	Room	3	3	91091	Transfer;Air conditioner	4	0	51.711713	3.74671
+Apartment-2	Better apartment	2023-09-21T12:57:33.656Z	Dusseldorf	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	2.4	Room	3	2	41755	Towels;Transfer	3	0	52.975265	4.4358
+House-1	The qorst house	2023-09-22T12:57:33.657Z	Brussels	image-6.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	0	0	3.9	House	2	5	47972	Air conditioner	2	0	53.817124	3.034368
+House-2	The best house	2023-09-23T12:57:33.657Z	Hamburg	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.5	Apartment	7	8	36268	Air conditioner	4	0	50.073933	6.279204
+House-2	The best house	2023-09-19T12:57:33.657Z	Brussels	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	1.9	Apartment	2	2	43665	Towels;Transfer;Air conditioner	1	0	48.316365	4.582018
+Apartment-1	Good apartment	2023-09-21T12:57:33.657Z	Cologne	image-4.jpg	image-6.jpg	0	1	3.2	House	4	6	16495	Transfer;Air conditioner	1	0	50.532926	4.220568
+Apartment-1	The qorst house	2023-09-24T12:57:33.657Z	Dusseldorf	image-5.jpg	image-2.jpg;image-3.jpg	1	1	2.5	Apartment	5	7	94933		5	0	50.984925	8.715157
+Apartment-2	The qorst house	2023-09-24T12:57:33.657Z	Amsterdam	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	4.7	Apartment	2	2	77391	Transfer;Air conditioner	1	0	51.145407	10.785094
+House-1	The best house	2023-09-20T12:57:33.657Z	Brussels	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	3.5	Hotel	7	6	20888	Transfer;Air conditioner	4	0	52.125217	4.135137
+House-2	Better apartment	2023-09-20T12:57:33.658Z	Hamburg	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	1.5	Apartment	3	3	75748	Air conditioner	2	0	48.994748	4.516254
+Apartment-2	Good apartment	2023-09-24T12:57:33.658Z	Amsterdam	image-1.jpg	image-1.jpg	0	1	1.9	Room	7	3	79346	Transfer;Air conditioner	5	0	51.076658	6.682797
+Apartment-1	The best house	2023-09-23T12:57:33.658Z	Amsterdam	image-2.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg	0	0	3.4	House	4	6	58669	Breakfast	4	0	50.211943	8.870611
+Apartment-2	The qorst house	2023-09-21T12:57:33.658Z	Hamburg	image-3.jpg	image-2.jpg	0	1	3.9	House	1	1	69702	Towels	3	0	52.223539	2.82162
+The lost room	The best house	2023-09-20T12:57:33.658Z	Dusseldorf	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	3.9	Room	7	3	10864	Transfer;Air conditioner	4	0	50.182122	8.716816
+House-2	Better apartment	2023-09-22T12:57:33.658Z	Dusseldorf	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	4.9	Room	2	5	1613	Towels	2	0	52.616934	5.139975
+House-2	The qorst house	2023-09-24T12:57:33.658Z	Brussels	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	0	4.5	Room	7	5	73722	Towels;Transfer;Air conditioner	2	0	52.831824	6.652015
+The lost room	Good apartment	2023-09-23T12:57:33.659Z	Dusseldorf	image-4.jpg	image-5.jpg;image-6.jpg	1	0	2.3	House	6	4	27729	Air conditioner	2	0	48.339412	9.255338
+Apartment-2	The best house	2023-09-19T12:57:33.659Z	Paris	image-2.jpg	image-5.jpg;image-6.jpg	0	0	4.1	House	4	4	85675	Towels;Transfer	1	0	53.3256	3.245231
+Apartment-2	The best house	2023-09-24T12:57:33.659Z	Brussels	image-5.jpg	image-5.jpg;image-6.jpg	0	0	3.2	Room	2	3	87407	Transfer;Air conditioner	3	0	50.231987	4.960885
+Apartment-1	The qorst house	2023-09-21T12:57:33.659Z	Hamburg	image-4.jpg	image-5.jpg;image-6.jpg	0	1	3.7	Room	2	5	3518	Transfer;Air conditioner	4	0	53.811113	7.582373
+The lost room	Better apartment	2023-09-21T12:57:33.659Z	Amsterdam	image-6.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	4.9	House	2	7	1318	Towels;Transfer	2	0	53.072908	3.633814
+House-1	Good apartment	2023-09-21T12:57:33.660Z	Hamburg	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	4.3	House	6	7	47056	Transfer;Air conditioner	3	0	49.78568	10.885118
+House-2	Better apartment	2023-09-21T12:57:33.660Z	Hamburg	image-5.jpg	image-6.jpg	1	0	1.1	House	6	3	90621	Breakfast	3	0	48.345139	10.278701
+House-1	Better apartment	2023-09-19T12:57:33.660Z	Hamburg	image-5.jpg	image-6.jpg	0	1	1.1	Room	2	1	75434	Transfer;Air conditioner	3	0	49.605723	10.002567
+House-1	The qorst house	2023-09-20T12:57:33.660Z	Hamburg	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	3.7	Room	3	8	84484	Transfer;Air conditioner	1	0	52.606209	2.096406
+Apartment-2	Better apartment	2023-09-19T12:57:33.660Z	Brussels	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	0	0	2.1	Room	5	9	72525	Air conditioner	3	0	53.030352	6.458837
+The lost room	Better apartment	2023-09-19T12:57:33.660Z	Brussels	image-6.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	2.6	Hotel	7	9	62413	Transfer;Air conditioner	1	0	51.23588	7.878598
+House-1	The best house	2023-09-18T12:57:33.661Z	Cologne	image-1.jpg	image-5.jpg;image-6.jpg	0	1	3.2	Room	7	5	97675	Breakfast	3	0	50.908193	8.739055
+House-1	The qorst house	2023-09-21T12:57:33.661Z	Hamburg	image-4.jpg	image-6.jpg	1	0	3.8	Room	4	6	91850	Towels;Transfer	1	0	48.594229	7.955475
+House-2	Good apartment	2023-09-20T12:57:33.661Z	Brussels	image-3.jpg	image-5.jpg;image-6.jpg	0	0	2.7	Apartment	5	6	25323	Transfer;Air conditioner	2	0	50.64848	3.845591
+House-2	The qorst house	2023-09-23T12:57:33.661Z	Cologne	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	4.2	Room	1	4	17829	Air conditioner	4	0	48.539155	7.632603
+Apartment-1	The best house	2023-09-20T12:57:33.661Z	Brussels	image-2.jpg	image-5.jpg;image-6.jpg	1	0	3.2	House	6	10	68327	Air conditioner	2	0	50.960445	10.673873
+Apartment-2	The best house	2023-09-21T12:57:33.661Z	Paris	image-2.jpg	image-5.jpg;image-6.jpg	0	0	1.9	Hotel	7	5	17606	Towels;Transfer;Air conditioner	3	0	51.045649	7.12353
+Apartment-1	The best house	2023-09-18T12:57:33.662Z	Hamburg	image-4.jpg	image-5.jpg;image-6.jpg	0	1	1.8	Room	4	3	5650	Air conditioner	2	0	49.015695	4.022999
+The lost room	Better apartment	2023-09-19T12:57:33.662Z	Brussels	image-1.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	0	1	2.8	Hotel	4	10	16731	Towels;Transfer	4	0	50.30284	3.994889
+House-2	Good apartment	2023-09-23T12:57:33.662Z	Amsterdam	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	0	2.5	Hotel	7	2	37401	Breakfast;Towels;Transfer;Air conditioner	3	0	51.69655	5.853767
+House-2	The qorst house	2023-09-22T12:57:33.662Z	Amsterdam	image-6.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	0	3.5	House	7	3	97171	Breakfast;Towels;Transfer	2	0	48.297634	2.014792
+Apartment-2	Better apartment	2023-09-20T12:57:33.662Z	Dusseldorf	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	1.4	House	6	9	44647	Air conditioner	3	0	50.000432	2.929215
+House-2	The best house	2023-09-23T12:57:33.662Z	Cologne	image-6.jpg	image-2.jpg;image-3.jpg;image-4.jpg	1	1	3.6	Room	6	3	92009	Breakfast;Towels	3	0	48.180229	7.911903
+House-1	The best house	2023-09-20T12:57:33.662Z	Hamburg	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	3.3	House	4	8	47060	Towels;Transfer	5	0	53.334511	10.808176
+Apartment-2	Bizzarre room	2023-09-18T12:57:33.663Z	Hamburg	image-2.jpg	image-6.jpg	0	0	3	Room	8	5	60643	Air conditioner	1	0	52.610108	8.796667
+House-1	The qorst house	2023-09-20T12:57:33.663Z	Amsterdam	image-4.jpg	image-6.jpg	0	1	4.4	Apartment	2	1	62624	Air conditioner	4	0	51.288373	2.050386
+House-2	Better apartment	2023-09-19T12:57:33.663Z	Dusseldorf	image-2.jpg	image-5.jpg;image-6.jpg	1	0	3.5	Room	2	10	80868	Transfer;Air conditioner	2	0	52.884409	5.783142
+Apartment-2	The best house	2023-09-20T12:57:33.663Z	Hamburg	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	3.5	House	2	9	45762	Towels	2	0	52.049121	2.654591
+House-1	Better apartment	2023-09-20T12:57:33.663Z	Brussels	image-2.jpg	image-5.jpg;image-6.jpg	0	1	3.4	Room	4	9	54153	Towels;Transfer;Air conditioner	5	0	53.188234	7.910331
+House-2	The qorst house	2023-09-22T12:57:33.664Z	Hamburg	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	2.6	Room	6	6	86508	Transfer;Air conditioner	5	0	53.515761	5.870074
+The lost room	The best house	2023-09-22T12:57:33.664Z	Dusseldorf	image-2.jpg	image-5.jpg;image-6.jpg	1	1	2.8	Room	4	9	69838	Air conditioner	2	0	51.825761	5.190319
+House-1	Better apartment	2023-09-20T12:57:33.664Z	Hamburg	image-6.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	2.9	Apartment	7	3	98291	Air conditioner	3	0	49.147979	4.601429
+House-1	The qorst house	2023-09-21T12:57:33.664Z	Amsterdam	image-1.jpg	image-5.jpg;image-6.jpg	0	0	3.2	Room	2	6	82522	Towels;Transfer;Air conditioner	5	0	48.33518	3.745865
+House-1	The best house	2023-09-21T12:57:33.664Z	Amsterdam	image-6.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	3.8	Hotel	2	5	44151	Towels;Transfer	4	0	52.256104	8.368966
+The lost room	Better apartment	2023-09-19T12:57:33.664Z	Hamburg	image-1.jpg	image-1.jpg;image-2.jpg	1	1	1.7	House	3	7	99191	Transfer;Air conditioner	3	0	53.572411	10.334505
+Apartment-2	Better apartment	2023-09-21T12:57:33.664Z	Hamburg	image-1.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	4.6	Apartment	1	5	46859	Towels	5	0	50.276643	2.613184
+Apartment-2	The qorst house	2023-09-18T12:57:33.665Z	Hamburg	image-1.jpg	image-6.jpg	0	0	1.6	Room	3	2	9547	Towels	5	0	53.402219	6.13781
+House-1	The qorst house	2023-09-23T12:57:33.665Z	Brussels	image-6.jpg	image-5.jpg;image-6.jpg	0	0	1.4	Hotel	5	1	3825	Towels;Transfer;Air conditioner	4	0	52.883816	5.864875
+House-2	The best house	2023-09-23T12:57:33.665Z	Hamburg	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	1.4	House	2	8	74606	Towels;Transfer;Air conditioner	4	0	53.601525	4.766581
+House-1	The best house	2023-09-21T12:57:33.665Z	Amsterdam	image-1.jpg	image-5.jpg;image-6.jpg	1	1	4	Room	3	9	62983	Towels;Transfer	4	0	52.667688	6.396825
+House-1	The qorst house	2023-09-20T12:57:33.665Z	Brussels	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	4.7	House	8	7	33348	Transfer;Air conditioner	3	0	51.123086	2.143505
+Apartment-2	The best house	2023-09-20T12:57:33.665Z	Brussels	image-5.jpg	image-1.jpg;image-2.jpg	0	1	4.5	Room	3	5	26814	Breakfast	2	0	51.986597	8.558433
+House-1	The best house	2023-09-20T12:57:33.665Z	Paris	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	3.5	House	6	6	64880	Breakfast;Towels	4	0	53.855135	4.145901
+House-1	The qorst house	2023-09-20T12:57:33.665Z	Paris	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	3.3	Hotel	6	7	83024	Towels;Transfer;Air conditioner	2	0	51.196263	4.337671
+House-2	Better apartment	2023-09-23T12:57:33.665Z	Brussels	image-6.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	0	1	2.8	House	3	5	64809	Transfer;Air conditioner	1	0	51.657789	10.360136
+Apartment-1	Good apartment	2023-09-21T12:57:33.665Z	Hamburg	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	4.8	Room	5	5	29842	Breakfast;Towels	4	0	49.071839	2.190361
+House-1	Better apartment	2023-09-19T12:57:33.666Z	Cologne	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg	1	1	1.5	Room	5	10	66862	Breakfast;Towels;Transfer	3	0	51.984222	7.256417
+Apartment-2	Better apartment	2023-09-21T12:57:33.666Z	Brussels	image-4.jpg	image-5.jpg;image-6.jpg	0	1	4.3	House	8	3	91207	Transfer;Air conditioner	4	0	51.679129	8.095934
+Apartment-1	The qorst house	2023-09-23T12:57:33.666Z	Amsterdam	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	0	1.7	House	6	9	14621	Towels;Transfer;Air conditioner	5	0	49.473692	7.849835
+House-1	Bizzarre room	2023-09-21T12:57:33.666Z	Cologne	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	3.9	House	5	7	21441	Towels;Transfer;Air conditioner	2	0	52.186745	10.205559
+Apartment-1	Bizzarre room	2023-09-23T12:57:33.666Z	Paris	image-2.jpg	image-6.jpg	1	0	1.3	Room	7	8	51331	Breakfast;Towels;Transfer;Air conditioner	2	0	52.676596	3.566339
+Apartment-1	Better apartment	2023-09-19T12:57:33.666Z	Hamburg	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	2.5	Room	4	2	83320	Air conditioner	1	0	53.56583	10.628816
+Apartment-2	The best house	2023-09-23T12:57:33.666Z	Cologne	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg	1	0	4.9	Apartment	1	6	29190	Breakfast;Towels;Transfer	3	0	48.289307	2.385359
+Apartment-1	The qorst house	2023-09-23T12:57:33.666Z	Brussels	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	3.5	Apartment	1	7	49231	Towels	3	0	50.91755	6.217569
+Apartment-1	Bizzarre room	2023-09-20T12:57:33.667Z	Dusseldorf	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	1	0	1.5	Room	6	1	64923	Transfer;Air conditioner	3	0	48.942433	3.419073
+House-2	The best house	2023-09-21T12:57:33.667Z	Dusseldorf	image-1.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	1.2	Room	5	6	74023	Transfer;Air conditioner	2	0	51.67152	6.577009
+House-1	Bizzarre room	2023-09-20T12:57:33.667Z	Brussels	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	1	House	6	4	78466	Transfer;Air conditioner	4	0	52.138748	4.584926
+House-1	Better apartment	2023-09-22T12:57:33.667Z	Cologne	image-1.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	4.5	House	3	6	48407	Towels;Transfer;Air conditioner	4	0	48.054188	3.301921
+The lost room	Better apartment	2023-09-21T12:57:33.667Z	Hamburg	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	0	0	1.1	Apartment	7	4	8137	Breakfast;Towels	4	0	53.050732	8.382385
+Apartment-1	The qorst house	2023-09-22T12:57:33.667Z	Hamburg	image-2.jpg	image-6.jpg	1	1	4.8	House	6	4	25927	Transfer;Air conditioner	1	0	53.286594	5.753816
+House-1	Better apartment	2023-09-21T12:57:33.667Z	Hamburg	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	4.9	Apartment	6	7	67507	Towels;Transfer	2	0	52.600121	3.640447
+House-2	The best house	2023-09-23T12:57:33.667Z	Amsterdam	image-2.jpg	image-5.jpg;image-6.jpg	1	1	1.6	Apartment	5	5	36284	Transfer;Air conditioner	2	0	50.236508	7.387026
+House-2	The best house	2023-09-23T12:57:33.667Z	Hamburg	image-3.jpg	image-5.jpg;image-6.jpg	1	0	4.9	House	4	3	82111	Towels	3	0	50.828758	10.427102
+Apartment-2	The qorst house	2023-09-19T12:57:33.668Z	Brussels	image-5.jpg	image-5.jpg;image-6.jpg	0	0	1.9	House	6	6	2246	Air conditioner	4	0	49.734958	8.660145
+Apartment-2	Better apartment	2023-09-19T12:57:33.668Z	Amsterdam	image-1.jpg	image-6.jpg	1	1	2.1	Hotel	7	9	99539	Air conditioner	4	0	48.359956	6.857523
+Apartment-1	The qorst house	2023-09-20T12:57:33.668Z	Cologne	image-4.jpg	image-1.jpg;image-2.jpg;image-3.jpg	1	0	4.8	Apartment	4	4	84186	Transfer;Air conditioner	5	0	52.650912	3.638201
+House-1	The qorst house	2023-09-22T12:57:33.668Z	Brussels	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.8	Apartment	3	2	88241	Towels;Transfer;Air conditioner	5	0	48.409998	4.26001
+House-1	Bizzarre room	2023-09-18T12:57:33.668Z	Amsterdam	image-5.jpg	image-2.jpg;image-3.jpg	0	1	3	Apartment	4	2	62189	Transfer;Air conditioner	1	0	53.440401	5.311158
+The lost room	The best house	2023-09-21T12:57:33.668Z	Hamburg	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	3.8	Hotel	5	6	35353	Air conditioner	2	0	50.679925	8.739941
+Apartment-2	The qorst house	2023-09-23T12:57:33.668Z	Brussels	image-1.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	4.7	House	7	1	3321	Towels;Transfer	3	0	52.751691	9.704092
+Apartment-1	Better apartment	2023-09-22T12:57:33.668Z	Amsterdam	image-3.jpg	image-2.jpg;image-3.jpg	0	1	1.6	Apartment	7	10	80833	Transfer;Air conditioner	4	0	53.080433	9.01555
+Apartment-2	The qorst house	2023-09-23T12:57:33.669Z	Cologne	image-1.jpg	image-6.jpg	0	1	3.4	Room	6	4	56003	Breakfast	1	0	52.923524	8.529849
+House-1	The qorst house	2023-09-21T12:57:33.669Z	Hamburg	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	1.7	House	2	5	54841	Breakfast;Towels	2	0	51.92045	9.973801
+The lost room	The qorst house	2023-09-19T12:57:33.669Z	Paris	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	4.6	House	5	8	88524	Transfer;Air conditioner	2	0	52.645231	8.930778
+House-1	The qorst house	2023-09-24T12:57:33.669Z	Cologne	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	0	1	2	Room	3	2	82444	Transfer;Air conditioner	5	0	48.847596	7.057059
+Apartment-2	The qorst house	2023-09-21T12:57:33.669Z	Dusseldorf	image-4.jpg	image-2.jpg	1	0	3.1	House	1	7	97980	Transfer;Air conditioner	4	0	53.587	10.666914
+Apartment-2	The qorst house	2023-09-22T12:57:33.669Z	Paris	image-6.jpg	image-5.jpg;image-6.jpg	0	1	2.5	Hotel	1	5	52743	Breakfast;Towels;Transfer;Air conditioner	3	0	51.001187	4.289676
+Apartment-1	The best house	2023-09-21T12:57:33.669Z	Brussels	image-2.jpg	image-5.jpg;image-6.jpg	1	1	1.6	Hotel	6	7	31670	Breakfast	3	0	50.097605	3.101843
+House-2	The best house	2023-09-20T12:57:33.670Z	Hamburg	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.9	Hotel	6	8	95514	Towels	3	0	48.076275	10.66372
+Apartment-2	Good apartment	2023-09-23T12:57:33.670Z	Amsterdam	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	1.8	Room	2	8	9692	Transfer;Air conditioner	4	0	51.654129	3.277234
+Apartment-2	The best house	2023-09-21T12:57:33.670Z	Amsterdam	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	3.7	Hotel	1	7	76844	Towels	4	0	50.401663	6.895802
+Apartment-1	Good apartment	2023-09-23T12:57:33.670Z	Hamburg	image-2.jpg	image-5.jpg;image-6.jpg	0	0	2.9	Apartment	2	7	15495	Air conditioner	4	0	51.654925	2.568724
+Apartment-2	The best house	2023-09-20T12:57:33.670Z	Amsterdam	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	3.4	Hotel	7	7	19359	Towels	2	0	52.4889	10.411989
+House-1	The qorst house	2023-09-23T12:57:33.670Z	Cologne	image-1.jpg	image-5.jpg;image-6.jpg	1	0	2.6	Apartment	3	3	76700	Transfer;Air conditioner	2	0	50.569387	5.081044
+Apartment-2	The best house	2023-09-20T12:57:33.670Z	Amsterdam	image-4.jpg	image-5.jpg;image-6.jpg	0	1	2.5	House	5	4	86063	Towels;Transfer	4	0	50.062755	5.409403
+House-2	Better apartment	2023-09-24T12:57:33.670Z	Brussels	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	3.4	Room	4	6	49891	Air conditioner	2	0	48.280811	4.344188
+Apartment-1	Good apartment	2023-09-20T12:57:33.671Z	Cologne	image-1.jpg	image-6.jpg	0	0	2.6	Hotel	1	5	83909	Transfer;Air conditioner	3	0	51.104865	4.260211
+House-2	The qorst house	2023-09-20T12:57:33.671Z	Cologne	image-6.jpg	image-3.jpg;image-4.jpg	1	1	2.7	Apartment	4	6	50377	Towels	3	0	53.416324	4.127342
+House-2	Bizzarre room	2023-09-19T12:57:33.671Z	Amsterdam	image-6.jpg	image-6.jpg	0	0	1.5	Hotel	5	8	90568	Breakfast;Towels	4	0	49.092615	9.651283
+House-2	Bizzarre room	2023-09-21T12:57:33.671Z	Paris	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	4.2	Room	5	5	22161	Breakfast;Towels;Transfer	3	0	48.99397	4.419809
+The lost room	The best house	2023-09-20T12:57:33.671Z	Brussels	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.9	House	8	9	59434	Transfer;Air conditioner	3	0	52.978264	3.444598
+The lost room	The best house	2023-09-21T12:57:33.673Z	Brussels	image-2.jpg	image-1.jpg;image-2.jpg;image-3.jpg	1	0	2.7	Room	3	5	13802	Breakfast	3	0	49.665425	2.217925
+House-1	Good apartment	2023-09-23T12:57:33.673Z	Paris	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	2.5	House	3	9	48122	Air conditioner	1	0	51.353543	9.618768
+House-1	The qorst house	2023-09-18T12:57:33.673Z	Paris	image-4.jpg	image-1.jpg	0	1	4.2	Hotel	1	7	21555	Towels;Transfer;Air conditioner	1	0	48.815255	8.831101
+Apartment-1	The best house	2023-09-24T12:57:33.673Z	Brussels	image-5.jpg	image-6.jpg	0	1	4.7	House	4	2	17402	Air conditioner	4	0	53.596613	4.236092
+Apartment-2	Bizzarre room	2023-09-20T12:57:33.673Z	Cologne	image-5.jpg		1	0	1.5	Apartment	3	8	37657		2	0	48.507164	9.273651
+Apartment-2	The qorst house	2023-09-22T12:57:33.673Z	Brussels	image-2.jpg	image-2.jpg;image-3.jpg;image-4.jpg	0	0	3.7	Room	1	9	75165	Air conditioner	2	0	48.05617	4.203712
+Apartment-1	Better apartment	2023-09-19T12:57:33.673Z	Brussels	image-3.jpg	image-5.jpg;image-6.jpg	1	1	4.1	House	5	5	55101	Towels;Transfer;Air conditioner	4	0	48.689648	2.094605
+The lost room	Better apartment	2023-09-22T12:57:33.673Z	Dusseldorf	image-1.jpg	image-5.jpg;image-6.jpg	0	1	1.8	Hotel	7	4	34058		2	0	51.826469	4.382024
+House-2	Better apartment	2023-09-19T12:57:33.674Z	Amsterdam	image-4.jpg	image-5.jpg;image-6.jpg	0	0	2.5	House	4	9	94593	Breakfast;Towels	2	0	50.068853	9.463518
+The lost room	Bizzarre room	2023-09-20T12:57:33.674Z	Hamburg	image-1.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg	1	1	3.2	Room	1	2	44591	Towels;Transfer;Air conditioner	2	0	49.411911	8.747972
+House-1	Bizzarre room	2023-09-20T12:57:33.674Z	Amsterdam	image-5.jpg	image-5.jpg;image-6.jpg	1	1	2.1	Apartment	6	9	46653	Transfer;Air conditioner	5	0	49.598938	9.954882
+House-2	Better apartment	2023-09-20T12:57:33.674Z	Hamburg	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	1.5	House	4	3	32726	Transfer;Air conditioner	2	0	53.602828	8.435199
+House-2	Better apartment	2023-09-24T12:57:33.674Z	Hamburg	image-3.jpg	image-1.jpg;image-2.jpg	0	0	4	Apartment	1	2	51868	Transfer;Air conditioner	4	0	50.551383	10.442705
+Apartment-2	Better apartment	2023-09-22T12:57:33.674Z	Cologne	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	4.7	Hotel	4	5	49871	Towels;Transfer	3	0	50.893113	8.757747
+Apartment-1	The qorst house	2023-09-22T12:57:33.674Z	Brussels	image-6.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	2.9	Hotel	4	7	36425	Transfer;Air conditioner	4	0	48.611637	5.579469
+House-2	Bizzarre room	2023-09-22T12:57:33.674Z	Cologne	image-2.jpg	image-5.jpg;image-6.jpg	0	0	3.7	Apartment	1	6	10098	Transfer;Air conditioner	4	0	49.32467	2.223119
+The lost room	Good apartment	2023-09-19T12:57:33.674Z	Cologne	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	0	2	Room	1	9	48686	Transfer;Air conditioner	2	0	50.407297	8.900401
+House-2	Good apartment	2023-09-23T12:57:33.674Z	Paris	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	2.2	House	7	8	17892	Breakfast	4	0	52.557957	4.868031
+Apartment-2	Better apartment	2023-09-22T12:57:33.674Z	Hamburg	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	1.2	Room	2	9	20609	Towels;Transfer;Air conditioner	1	0	49.384358	3.475921
+House-2	The qorst house	2023-09-23T12:57:33.675Z	Dusseldorf	image-4.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	0	0	1.8	Hotel	3	2	59500	Air conditioner	1	0	52.141103	4.074687
+House-2	Good apartment	2023-09-19T12:57:33.675Z	Brussels	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	0	1.7	Room	5	4	29775	Breakfast;Towels;Transfer;Air conditioner	5	0	49.24149	7.990152
+House-2	The qorst house	2023-09-20T12:57:33.675Z	Brussels	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	1.5	Room	6	10	29439	Towels;Transfer	2	0	51.291765	10.503086
+House-2	Better apartment	2023-09-23T12:57:33.675Z	Dusseldorf	image-3.jpg	image-2.jpg;image-3.jpg	0	0	4.5	Room	8	2	13750	Transfer;Air conditioner	3	0	51.562884	5.753789
+The lost room	Good apartment	2023-09-21T12:57:33.675Z	Amsterdam	image-6.jpg	image-6.jpg	1	1	4.1	House	2	9	45998	Air conditioner	4	0	51.220566	6.555982
+House-1	Bizzarre room	2023-09-21T12:57:33.675Z	Amsterdam	image-5.jpg	image-1.jpg;image-2.jpg;image-3.jpg	0	0	3.1	Apartment	4	4	61019	Air conditioner	2	0	51.428572	10.962939
+House-2	Better apartment	2023-09-19T12:57:33.675Z	Cologne	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	4.3	House	3	4	41931	Towels	1	0	49.249895	4.236012
+Apartment-2	The qorst house	2023-09-19T12:57:33.675Z	Amsterdam	image-4.jpg	image-2.jpg;image-3.jpg	1	0	3.8	House	2	10	85627	Transfer;Air conditioner	2	0	51.445197	8.397029
+House-1	The qorst house	2023-09-22T12:57:33.676Z	Cologne	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	1.5	House	7	9	84371	Towels;Transfer	3	0	49.148978	2.666907
+House-1	Good apartment	2023-09-19T12:57:33.676Z	Paris	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	4.4	Room	4	9	87678	Towels;Transfer;Air conditioner	3	0	52.787042	8.223926
+House-1	Good apartment	2023-09-24T12:57:33.676Z	Amsterdam	image-6.jpg	image-2.jpg;image-3.jpg	1	0	3.9	House	2	7	33507	Towels;Transfer	2	0	49.783989	5.303392
+Apartment-1	The qorst house	2023-09-22T12:57:33.676Z	Cologne	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	1.4	Apartment	4	7	4267	Breakfast;Towels	4	0	49.736699	9.066054
+House-1	Good apartment	2023-09-21T12:57:33.676Z	Hamburg	image-6.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	4	House	8	2	85757	Towels	3	0	52.092468	6.0902
+Apartment-2	Better apartment	2023-09-20T12:57:33.676Z	Dusseldorf	image-2.jpg	image-6.jpg	0	1	2.7	Room	5	3	6474	Air conditioner	1	0	51.679788	3.488328
+Apartment-2	The best house	2023-09-20T12:57:33.676Z	Amsterdam	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	3.4	House	4	3	59598	Towels;Transfer;Air conditioner	5	0	50.117861	10.159963
+House-1	Good apartment	2023-09-19T12:57:33.676Z	Dusseldorf	image-5.jpg	image-5.jpg;image-6.jpg	1	0	1.9	Room	5	4	93353	Towels;Transfer;Air conditioner	5	0	53.905719	7.816098
+Apartment-2	Better apartment	2023-09-23T12:57:33.676Z	Dusseldorf	image-6.jpg	image-5.jpg;image-6.jpg	0	1	1.4	Apartment	6	7	55645	Towels;Transfer;Air conditioner	4	0	48.443527	9.458052
+House-2	The qorst house	2023-09-24T12:57:33.677Z	Hamburg	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	1.4	Hotel	3	9	4152	Towels;Transfer;Air conditioner	2	0	52.436691	2.038232
+House-2	Better apartment	2023-09-22T12:57:33.677Z	Dusseldorf	image-4.jpg	image-2.jpg	1	1	4.9	House	1	9	69377	Transfer;Air conditioner	4	0	49.458587	2.729994
+The lost room	Bizzarre room	2023-09-23T12:57:33.677Z	Cologne	image-6.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	1	1.3	Hotel	3	4	13293	Transfer;Air conditioner	5	0	52.144092	8.367461
+Apartment-2	The qorst house	2023-09-23T12:57:33.677Z	Cologne	image-2.jpg	image-1.jpg	1	1	2	Room	7	5	28444	Air conditioner	3	0	51.814211	7.588743
+House-1	Better apartment	2023-09-22T12:57:33.677Z	Brussels	image-4.jpg	image-5.jpg;image-6.jpg	0	0	2.8	Room	5	4	97308	Air conditioner	4	0	53.99301	4.77155
+House-1	The best house	2023-09-19T12:57:33.677Z	Brussels	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg	0	1	2.6	House	4	6	11307	Transfer;Air conditioner	1	0	53.123292	7.877496
+House-2	The best house	2023-09-24T12:57:33.677Z	Brussels	image-3.jpg	image-5.jpg;image-6.jpg	0	0	3.7	Hotel	6	8	58483	Towels;Transfer;Air conditioner	3	0	52.651365	7.040402
+The lost room	The best house	2023-09-20T12:57:33.677Z	Dusseldorf	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg	0	0	4	Apartment	8	8	95850	Towels;Transfer;Air conditioner	2	0	52.844145	4.771827
+Apartment-1	Better apartment	2023-09-22T12:57:33.678Z	Brussels	image-5.jpg	image-3.jpg;image-4.jpg	0	1	1.8	Room	6	4	36157	Transfer;Air conditioner	1	0	49.629402	10.710257
+House-2	Bizzarre room	2023-09-21T12:57:33.678Z	Brussels	image-6.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	3.5	House	3	7	41498	Breakfast	3	0	52.214806	7.178446
+House-2	The best house	2023-09-24T12:57:33.678Z	Cologne	image-2.jpg	image-5.jpg;image-6.jpg	1	0	1.4	Room	6	4	17726		4	0	50.908079	3.920442
+House-2	The qorst house	2023-09-18T12:57:33.678Z	Hamburg	image-4.jpg	image-3.jpg;image-4.jpg	0	1	3	Hotel	2	8	31977	Breakfast	3	0	53.52184	7.092432
+Apartment-2	The qorst house	2023-09-21T12:57:33.678Z	Cologne	image-4.jpg	image-3.jpg;image-4.jpg	1	0	4.9	Apartment	1	5	19489	Towels;Transfer	2	0	50.117304	5.31921
+Apartment-1	Bizzarre room	2023-09-18T12:57:33.678Z	Brussels	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg	0	0	2	Room	6	8	23091	Transfer;Air conditioner	3	0	52.287581	4.976233
+The lost room	The qorst house	2023-09-20T12:57:33.678Z	Brussels	image-3.jpg	image-5.jpg;image-6.jpg	0	0	3.5	House	5	3	72266	Transfer;Air conditioner	1	0	50.667775	6.583377
+House-2	The best house	2023-09-18T12:57:33.678Z	Cologne	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	2	House	1	1	39979	Transfer;Air conditioner	2	0	51.282365	3.359849
+House-1	Good apartment	2023-09-21T12:57:33.679Z	Brussels	image-2.jpg	image-2.jpg;image-3.jpg	0	1	4.1	Room	3	9	45570	Transfer;Air conditioner	5	0	49.142319	6.943577
+House-1	Better apartment	2023-09-18T12:57:33.679Z	Dusseldorf	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	4.9	Hotel	8	5	39620	Transfer;Air conditioner	3	0	53.402569	3.78192
+House-2	The qorst house	2023-09-18T12:57:33.679Z	Hamburg	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	2.3	Hotel	4	5	42556	Transfer;Air conditioner	4	0	48.96429	4.970159
+House-1	Bizzarre room	2023-09-20T12:57:33.679Z	Brussels	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	4.6	Hotel	2	4	6402	Towels;Transfer;Air conditioner	2	0	50.790913	5.067962
+House-2	The qorst house	2023-09-19T12:57:33.679Z	Dusseldorf	image-6.jpg	image-5.jpg;image-6.jpg	1	0	3.7	Room	2	2	94796	Transfer;Air conditioner	3	0	53.482528	8.902135
+Apartment-2	Good apartment	2023-09-23T12:57:33.679Z	Paris	image-4.jpg	image-2.jpg;image-3.jpg	0	0	1.4	House	4	7	82886	Air conditioner	3	0	53.028432	8.39515
+House-1	Good apartment	2023-09-24T12:57:33.679Z	Hamburg	image-2.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	1.2	House	6	6	96834	Transfer;Air conditioner	5	0	52.439817	7.609308
+House-1	The best house	2023-09-23T12:57:33.679Z	Cologne	image-6.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	2.3	House	4	8	32924	Transfer;Air conditioner	3	0	48.924017	3.828994
+House-1	The qorst house	2023-09-24T12:57:33.679Z	Amsterdam	image-2.jpg	image-1.jpg	1	1	1.4	Hotel	2	8	98338	Transfer;Air conditioner	4	0	53.297049	9.016004
+House-2	The best house	2023-09-20T12:57:33.680Z	Amsterdam	image-2.jpg	image-5.jpg;image-6.jpg	0	0	1.2	Room	7	10	80912	Towels;Transfer;Air conditioner	5	0	49.358602	9.125651
+House-2	Better apartment	2023-09-20T12:57:33.680Z	Paris	image-6.jpg	image-5.jpg;image-6.jpg	0	0	3.7	Hotel	7	8	33132	Towels;Transfer;Air conditioner	3	0	52.226549	9.076053
+The lost room	The qorst house	2023-09-18T12:57:33.680Z	Brussels	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	1	2.9	House	4	7	94083	Towels;Transfer	4	0	52.252874	5.936623
+Apartment-2	Better apartment	2023-09-23T12:57:33.680Z	Amsterdam	image-4.jpg	image-2.jpg;image-3.jpg	1	0	2.8	Room	1	4	13211		2	0	50.356314	2.713434
+House-2	Good apartment	2023-09-20T12:57:33.680Z	Amsterdam	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	3.9	Room	5	10	62878	Towels;Transfer;Air conditioner	5	0	48.108871	6.423589
+The lost room	The qorst house	2023-09-23T12:57:33.680Z	Hamburg	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	2.7	House	6	5	13476	Towels;Transfer	2	0	52.353384	6.69714
+House-1	Bizzarre room	2023-09-24T12:57:33.680Z	Hamburg	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	0	0	1.7	Apartment	3	3	50441	Transfer;Air conditioner	3	0	49.545778	7.773662
+Apartment-2	Bizzarre room	2023-09-18T12:57:33.680Z	Brussels	image-5.jpg	image-5.jpg;image-6.jpg	1	1	4.8	House	6	9	19894	Breakfast;Towels;Transfer	3	0	48.539488	5.667823
+The lost room	The best house	2023-09-23T12:57:33.680Z	Paris	image-1.jpg	image-5.jpg;image-6.jpg	0	1	1.8	House	2	6	77855	Air conditioner	1	0	53.104659	6.705657
+Apartment-1	The best house	2023-09-20T12:57:33.681Z	Brussels	image-6.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	2.5	Room	8	3	37283	Transfer;Air conditioner	2	0	48.949907	2.792655
+House-1	The qorst house	2023-09-24T12:57:33.681Z	Hamburg	image-4.jpg	image-5.jpg;image-6.jpg	0	0	1.7	Apartment	5	10	51112	Transfer;Air conditioner	2	0	48.524438	8.015339
+House-1	The best house	2023-09-24T12:57:33.681Z	Cologne	image-4.jpg	image-3.jpg;image-4.jpg	0	0	2.2	Hotel	6	8	20536	Transfer;Air conditioner	2	0	49.459047	2.585208
+House-2	The qorst house	2023-09-19T12:57:33.681Z	Hamburg	image-2.jpg	image-2.jpg;image-3.jpg	1	0	2.2	Apartment	4	9	50700	Air conditioner	3	0	48.468835	6.99031
+The lost room	Bizzarre room	2023-09-24T12:57:33.681Z	Paris	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg	1	0	2.8	House	7	8	7222	Transfer;Air conditioner	2	0	53.457685	4.454307
+House-2	The qorst house	2023-09-20T12:57:33.681Z	Brussels	image-5.jpg	image-5.jpg;image-6.jpg	1	1	4.2	House	2	8	32102	Transfer;Air conditioner	4	0	52.009298	5.248532
+House-1	The best house	2023-09-19T12:57:33.681Z	Cologne	image-3.jpg	image-2.jpg	1	1	2.7	Hotel	2	2	68756	Towels;Transfer;Air conditioner	1	0	48.428083	3.279604
+Apartment-1	The best house	2023-09-22T12:57:33.681Z	Amsterdam	image-6.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	1.4	Apartment	7	5	47848	Transfer;Air conditioner	5	0	49.60756	7.905027
+House-1	Bizzarre room	2023-09-23T12:57:33.681Z	Cologne	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg	1	0	1.7	Room	8	6	89001	Breakfast;Towels;Transfer;Air conditioner	3	0	50.179756	9.647911
+Apartment-1	The qorst house	2023-09-21T12:57:33.682Z	Cologne	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	0	4.1	Apartment	3	5	21485	Air conditioner	4	0	51.63954	7.920266
+House-2	The qorst house	2023-09-20T12:57:33.682Z	Cologne	image-6.jpg	image-5.jpg;image-6.jpg	0	0	5	House	6	4	84645	Towels;Transfer;Air conditioner	4	0	50.178315	3.154765
+Apartment-2	Bizzarre room	2023-09-23T12:57:33.682Z	Brussels	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	3.8	Hotel	3	4	63618	Air conditioner	3	0	50.470341	8.50762
+Apartment-2	Better apartment	2023-09-20T12:57:33.682Z	Brussels	image-4.jpg	image-5.jpg;image-6.jpg	1	1	3.9	House	8	2	33552	Transfer;Air conditioner	5	0	51.416952	4.91454
+House-1	The best house	2023-09-19T12:57:33.682Z	Hamburg	image-6.jpg	image-2.jpg;image-3.jpg;image-4.jpg	0	0	3.8	Hotel	2	8	77103	Transfer;Air conditioner	4	0	50.693374	6.091655
+House-1	The qorst house	2023-09-20T12:57:33.682Z	Cologne	image-6.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	1	2.5	House	6	7	9357	Transfer;Air conditioner	1	0	48.44625	5.425914
+House-2	Better apartment	2023-09-24T12:57:33.682Z	Brussels	image-2.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	1	1	4.9	Room	8	10	22090	Breakfast;Towels;Transfer	5	0	51.93359	3.951242
+Apartment-2	The best house	2023-09-19T12:57:33.682Z	Brussels	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	2.9	House	7	6	28076	Air conditioner	2	0	50.79561	6.407048
+House-2	Better apartment	2023-09-19T12:57:33.682Z	Cologne	image-2.jpg	image-5.jpg;image-6.jpg	0	1	4.9	Hotel	4	6	60657	Towels;Transfer	4	0	52.965276	10.223216
+House-2	The best house	2023-09-24T12:57:33.682Z	Brussels	image-4.jpg	image-5.jpg;image-6.jpg	1	1	3.7	Room	3	9	9909	Air conditioner	4	0	48.50562	4.621224
+Apartment-2	Better apartment	2023-09-20T12:57:33.683Z	Hamburg	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	1.7	Room	5	8	31811	Transfer;Air conditioner	5	0	53.290331	3.326366
+House-2	Good apartment	2023-09-24T12:57:33.683Z	Brussels	image-5.jpg	image-1.jpg;image-2.jpg;image-3.jpg	0	1	2.1	Room	7	3	58535	Transfer;Air conditioner	1	0	50.738669	5.442631
+House-2	The qorst house	2023-09-22T12:57:33.683Z	Amsterdam	image-1.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	1	1.5	Room	5	5	30410	Air conditioner	3	0	48.902507	7.415728
+Apartment-2	The qorst house	2023-09-18T12:57:33.683Z	Dusseldorf	image-4.jpg	image-5.jpg;image-6.jpg	1	1	2.1	Hotel	5	6	33362	Transfer;Air conditioner	4	0	53.479454	10.022596
+House-1	The best house	2023-09-20T12:57:33.683Z	Brussels	image-4.jpg	image-5.jpg;image-6.jpg	1	1	1.9	House	4	2	46982	Transfer;Air conditioner	2	0	53.822836	6.562231
+Apartment-2	The qorst house	2023-09-24T12:57:33.683Z	Cologne	image-4.jpg	image-6.jpg	0	1	3.2	Room	7	3	61413	Transfer;Air conditioner	2	0	53.921668	2.372209
+The lost room	The qorst house	2023-09-23T12:57:33.683Z	Hamburg	image-2.jpg	image-5.jpg;image-6.jpg	1	1	1.1	Room	3	4	38811	Towels;Transfer	2	0	48.181485	3.080239
+Apartment-1	The best house	2023-09-24T12:57:33.683Z	Cologne	image-2.jpg	image-2.jpg;image-3.jpg;image-4.jpg	0	1	3.1	Room	6	5	72129	Towels;Transfer;Air conditioner	2	0	51.674363	2.611828
+Apartment-1	The qorst house	2023-09-18T12:57:33.683Z	Cologne	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg	0	1	1.2	House	3	1	17311	Towels;Transfer	3	0	51.444522	3.102826
+House-1	Better apartment	2023-09-22T12:57:33.684Z	Cologne	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.7	House	6	7	73114	Air conditioner	2	0	53.308824	4.053148
+House-1	Better apartment	2023-09-19T12:57:33.684Z	Dusseldorf	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	3.7	House	1	9	61095	Towels;Transfer;Air conditioner	3	0	53.17185	2.131317
+House-1	Better apartment	2023-09-24T12:57:33.684Z	Amsterdam	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.3	Hotel	3	8	57355	Air conditioner	3	0	48.900746	6.843563
+House-1	Better apartment	2023-09-19T12:57:33.684Z	Cologne	image-3.jpg	image-6.jpg	0	1	1.3	House	7	7	83598	Air conditioner	5	0	48.023148	4.259867
+House-2	Better apartment	2023-09-21T12:57:33.684Z	Dusseldorf	image-1.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.5	Room	8	3	52779	Air conditioner	2	0	53.885481	4.205452
+House-1	The qorst house	2023-09-19T12:57:33.684Z	Brussels	image-4.jpg	image-5.jpg;image-6.jpg	0	0	4.8	Hotel	8	2	3401	Transfer;Air conditioner	3	0	51.782876	7.11459
+House-2	Good apartment	2023-09-19T12:57:33.684Z	Dusseldorf	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	4.6	Room	4	10	88061	Breakfast	3	0	51.138014	9.729129
+Apartment-2	The qorst house	2023-09-22T12:57:33.684Z	Brussels	image-4.jpg	image-5.jpg;image-6.jpg	1	0	4.7	Room	6	6	14187	Transfer;Air conditioner	4	0	50.340557	9.641772
+House-2	The qorst house	2023-09-24T12:57:33.684Z	Dusseldorf	image-4.jpg	image-3.jpg;image-4.jpg	0	0	1.3	Hotel	5	5	9649		4	0	50.457152	4.221369
+House-2	The qorst house	2023-09-21T12:57:33.685Z	Paris	image-2.jpg	image-6.jpg	1	0	2.8	Room	5	3	97101	Transfer;Air conditioner	3	0	50.512113	4.910061
+House-2	Better apartment	2023-09-19T12:57:33.685Z	Amsterdam	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.2	House	2	2	4835	Towels;Transfer;Air conditioner	3	0	50.128722	6.175541
+House-1	Bizzarre room	2023-09-20T12:57:33.685Z	Cologne	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg	0	0	3.1	Apartment	5	7	41330	Air conditioner	4	0	52.367767	9.042157
+Apartment-2	Good apartment	2023-09-24T12:57:33.685Z	Brussels	image-1.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	1.8	House	7	9	98001	Breakfast	3	0	53.772121	4.288267
+Apartment-2	Better apartment	2023-09-24T12:57:33.685Z	Brussels	image-3.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg	0	0	4.3	Hotel	5	6	70173	Transfer;Air conditioner	2	0	48.44741	8.715581
+House-1	Bizzarre room	2023-09-21T12:57:33.685Z	Paris	image-3.jpg	image-6.jpg	0	0	4.6	Room	5	3	19083	Transfer;Air conditioner	2	0	53.36861	3.65201
+House-2	Good apartment	2023-09-23T12:57:33.685Z	Hamburg	image-6.jpg	image-5.jpg;image-6.jpg	1	1	1.1	House	3	2	95894	Breakfast;Towels;Transfer	3	0	50.709832	2.911686
+House-1	The qorst house	2023-09-24T12:57:33.685Z	Amsterdam	image-2.jpg		1	1	3.7	Room	2	3	98396	Transfer;Air conditioner	4	0	51.495549	10.651986
+House-1	The best house	2023-09-22T12:57:33.685Z	Amsterdam	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	1	House	1	4	82282	Transfer;Air conditioner	1	0	51.502688	6.428761
+House-2	Better apartment	2023-09-22T12:57:33.686Z	Hamburg	image-1.jpg	image-3.jpg;image-4.jpg	0	0	4	House	6	4	9050	Towels;Transfer;Air conditioner	2	0	52.78276	3.746278
+House-1	Better apartment	2023-09-19T12:57:33.686Z	Dusseldorf	image-6.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	3	Apartment	7	3	64084	Transfer;Air conditioner	1	0	48.463409	10.316643
+Apartment-2	Bizzarre room	2023-09-23T12:57:33.686Z	Amsterdam	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	4.9	Hotel	5	6	78142	Towels;Transfer;Air conditioner	2	0	53.727963	5.271333
+Apartment-1	Better apartment	2023-09-20T12:57:33.686Z	Cologne	image-3.jpg	image-5.jpg;image-6.jpg	1	0	2.4	Hotel	5	7	41167	Towels;Transfer	2	0	53.858673	10.622429
+Apartment-2	Good apartment	2023-09-22T12:57:33.686Z	Cologne	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	1.8	House	8	7	19513	Towels;Transfer;Air conditioner	1	0	49.778727	3.096835
+House-1	Good apartment	2023-09-19T12:57:33.686Z	Hamburg	image-6.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	2.9	Room	4	6	74557	Transfer;Air conditioner	4	0	52.388213	6.106598
+Apartment-2	The best house	2023-09-20T12:57:33.686Z	Amsterdam	image-2.jpg	image-5.jpg;image-6.jpg	1	0	2.3	House	7	7	14321	Air conditioner	3	0	51.816984	2.877908
+Apartment-2	Good apartment	2023-09-22T12:57:33.687Z	Cologne	image-2.jpg	image-6.jpg	0	1	1.1	Hotel	5	7	78420	Transfer;Air conditioner	4	0	53.631328	5.233636
+Apartment-1	Good apartment	2023-09-20T12:57:33.687Z	Cologne	image-4.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	0	1	2.7	Apartment	3	6	27098	Air conditioner	4	0	53.771422	4.375846
+House-2	Good apartment	2023-09-21T12:57:33.687Z	Cologne	image-3.jpg	image-1.jpg;image-2.jpg;image-3.jpg	1	0	3.7	Room	2	5	64714	Towels;Transfer	2	0	49.452423	10.658844
+House-2	Better apartment	2023-09-21T12:57:33.687Z	Paris	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	3.7	House	2	8	48335	Towels;Transfer;Air conditioner	5	0	52.20427	6.536157
+House-1	Good apartment	2023-09-18T12:57:33.687Z	Brussels	image-3.jpg	image-5.jpg;image-6.jpg	1	1	3.5	Room	7	10	82412	Towels	4	0	50.634793	9.733159
+House-2	Better apartment	2023-09-24T12:57:33.687Z	Paris	image-4.jpg	image-5.jpg;image-6.jpg	1	0	2.3	Room	4	10	37429	Breakfast;Towels;Transfer	4	0	48.074396	9.546366
+Apartment-2	The qorst house	2023-09-23T12:57:33.687Z	Hamburg	image-2.jpg	image-5.jpg;image-6.jpg	1	1	3.7	Room	1	3	69439	Air conditioner	3	0	52.336551	7.333872
+House-2	Better apartment	2023-09-19T12:57:33.687Z	Cologne	image-1.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	1	2.1	Room	5	4	41900	Air conditioner	3	0	49.042146	8.933646
+Apartment-2	Good apartment	2023-09-20T12:57:33.687Z	Hamburg	image-6.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	3.1	House	2	3	31454	Transfer;Air conditioner	2	0	53.189528	6.158598
+Apartment-2	The qorst house	2023-09-19T12:57:33.688Z	Hamburg	image-4.jpg	image-5.jpg;image-6.jpg	1	1	2.3	Hotel	6	9	35907	Towels;Transfer;Air conditioner	3	0	49.414896	6.723984
+Apartment-2	Bizzarre room	2023-09-22T12:57:33.688Z	Cologne	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	4.2	House	3	7	26254	Breakfast;Towels;Transfer;Air conditioner	2	0	53.203476	5.373207
+House-2	Good apartment	2023-09-19T12:57:33.688Z	Hamburg	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	1	2.1	House	3	2	71609	Breakfast;Towels	5	0	50.460372	2.697258
+House-1	The best house	2023-09-21T12:57:33.688Z	Hamburg	image-4.jpg	image-5.jpg;image-6.jpg	0	0	2.2	Room	4	5	68156	Transfer;Air conditioner	2	0	48.088003	10.259848
+House-1	The qorst house	2023-09-22T12:57:33.688Z	Hamburg	image-5.jpg	image-5.jpg;image-6.jpg	0	0	4.6	House	3	7	69750	Transfer;Air conditioner	3	0	50.442072	2.287833
+House-2	Bizzarre room	2023-09-19T12:57:33.688Z	Cologne	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg	1	1	4.9	Apartment	8	4	65085	Towels;Transfer	1	0	53.245551	9.012491
+House-1	The best house	2023-09-22T12:57:33.688Z	Brussels	image-6.jpg	image-5.jpg;image-6.jpg	1	0	2.2	Room	1	5	23675	Air conditioner	4	0	48.158795	5.294683
+House-2	The best house	2023-09-19T12:57:33.688Z	Amsterdam	image-5.jpg	image-6.jpg	0	1	3.2	Hotel	1	4	10949		4	0	50.68351	2.214988
+Apartment-1	Good apartment	2023-09-22T12:57:33.688Z	Paris	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	1.4	Hotel	6	8	60431	Breakfast;Towels;Transfer;Air conditioner	4	0	51.38369	7.709333
+House-1	Better apartment	2023-09-19T12:57:33.688Z	Hamburg	image-1.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	1	0	1.5	House	6	5	55907	Air conditioner	2	0	48.480954	9.904083
+Apartment-2	Bizzarre room	2023-09-23T12:57:33.689Z	Brussels	image-4.jpg		1	1	3.7	House	7	10	98085	Transfer;Air conditioner	4	0	48.089647	7.836206
+Apartment-2	The best house	2023-09-20T12:57:33.689Z	Amsterdam	image-2.jpg	image-2.jpg;image-3.jpg;image-4.jpg	1	1	1	Hotel	4	10	18531	Towels;Transfer	4	0	52.324175	3.787797
+Apartment-1	Better apartment	2023-09-22T12:57:33.689Z	Brussels	image-6.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	2	Room	3	1	29528	Towels;Transfer;Air conditioner	3	0	51.89354	3.754217
+House-2	The qorst house	2023-09-22T12:57:33.689Z	Brussels	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.3	Room	6	2	24813	Transfer;Air conditioner	4	0	52.389152	6.157896
+The lost room	The best house	2023-09-19T12:57:33.689Z	Amsterdam	image-3.jpg	image-5.jpg;image-6.jpg	1	0	2.8	Apartment	2	2	28610	Towels;Transfer	4	0	50.019172	10.610684
+Apartment-2	The best house	2023-09-20T12:57:33.689Z	Amsterdam	image-2.jpg	image-2.jpg;image-3.jpg	1	0	2.4	House	8	5	87613	Towels;Transfer	3	0	50.77537	10.536403
+House-2	Good apartment	2023-09-19T12:57:33.689Z	Dusseldorf	image-6.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.1	House	4	4	10927	Transfer;Air conditioner	2	0	52.4096	6.322048
+Apartment-1	The best house	2023-09-19T12:57:33.689Z	Brussels	image-5.jpg	image-6.jpg	0	1	1.3	Hotel	7	7	5492	Breakfast;Towels	1	0	51.33997	9.024447
+Apartment-2	Better apartment	2023-09-23T12:57:33.689Z	Hamburg	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	1	1	4.1	Room	3	6	53868	Transfer;Air conditioner	3	0	51.149372	2.027297
+House-1	Better apartment	2023-09-18T12:57:33.690Z	Brussels	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	2.2	House	4	3	5904	Towels	2	0	50.763368	3.904184
+Apartment-1	The qorst house	2023-09-19T12:57:33.690Z	Paris	image-2.jpg	image-5.jpg;image-6.jpg	1	1	4.8	House	4	2	96940	Transfer;Air conditioner	4	0	51.986882	8.281339
+House-1	The best house	2023-09-22T12:57:33.690Z	Amsterdam	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	1.3	Hotel	6	8	26254	Breakfast;Towels	4	0	53.452365	7.060362
+House-1	The best house	2023-09-24T12:57:33.690Z	Brussels	image-2.jpg	image-2.jpg;image-3.jpg	1	0	2.5	House	4	5	55994	Towels;Transfer	3	0	48.087489	8.866224
+Apartment-2	The qorst house	2023-09-23T12:57:33.690Z	Amsterdam	image-3.jpg	image-5.jpg;image-6.jpg	0	0	3.4	House	3	7	93852	Towels;Transfer;Air conditioner	1	0	49.40914	9.93813
+Apartment-2	The best house	2023-09-23T12:57:33.690Z	Cologne	image-4.jpg	image-6.jpg	0	1	3.2	Apartment	5	8	25723	Transfer;Air conditioner	5	0	49.981661	5.54424
+House-1	The best house	2023-09-24T12:57:33.690Z	Amsterdam	image-6.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	2	Room	4	6	90562	Air conditioner	3	0	48.911464	7.787996
+House-1	The best house	2023-09-19T12:57:33.690Z	Hamburg	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.2	Apartment	7	6	69419	Towels;Transfer;Air conditioner	3	0	48.165167	10.064589
+House-1	The qorst house	2023-09-20T12:57:33.690Z	Paris	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	2.9	Room	6	10	27260	Transfer;Air conditioner	3	0	52.456406	6.878164
+House-2	The qorst house	2023-09-24T12:57:33.690Z	Paris	image-3.jpg	image-5.jpg;image-6.jpg	1	1	3.8	Apartment	7	8	27591		1	0	52.738277	5.149006
+House-1	Better apartment	2023-09-19T12:57:33.691Z	Amsterdam	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	1.6	Apartment	6	6	85161	Transfer;Air conditioner	5	0	53.692694	9.646701
+House-2	The best house	2023-09-21T12:57:33.691Z	Amsterdam	image-2.jpg	image-5.jpg;image-6.jpg	1	1	3.5	House	3	5	33691	Air conditioner	2	0	51.019701	3.184864
+Apartment-1	The best house	2023-09-20T12:57:33.691Z	Cologne	image-1.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	3.9	Room	2	2	7545	Transfer;Air conditioner	4	0	48.769109	6.002331
+House-1	Better apartment	2023-09-24T12:57:33.691Z	Cologne	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	2	Room	2	7	651	Transfer;Air conditioner	2	0	52.450836	3.54466
+House-1	The qorst house	2023-09-20T12:57:33.691Z	Dusseldorf	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	2.7	Hotel	6	1	35215	Transfer;Air conditioner	4	0	51.182283	7.628658
+Apartment-1	Bizzarre room	2023-09-19T12:57:33.691Z	Brussels	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	0	0	3.5	House	8	9	67077	Transfer;Air conditioner	2	0	48.37352	8.797264
+Apartment-1	The qorst house	2023-09-20T12:57:33.691Z	Amsterdam	image-4.jpg	image-1.jpg;image-2.jpg;image-3.jpg	1	1	3.4	Room	7	8	41384	Air conditioner	4	0	51.966785	9.620613
+House-1	The best house	2023-09-19T12:57:33.691Z	Cologne	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	0	3.5	Room	7	3	12891	Transfer;Air conditioner	2	0	48.878575	9.755889
+House-2	Better apartment	2023-09-24T12:57:33.691Z	Amsterdam	image-6.jpg	image-5.jpg;image-6.jpg	0	1	1.8	Apartment	3	6	23548	Towels;Transfer	1	0	52.174477	3.371826
+House-2	The best house	2023-09-19T12:57:33.691Z	Cologne	image-3.jpg	image-6.jpg	0	1	3	Room	2	9	96921	Transfer;Air conditioner	4	0	53.517258	8.435362
+House-1	The best house	2023-09-22T12:57:33.692Z	Hamburg	image-6.jpg	image-2.jpg;image-3.jpg;image-4.jpg	0	0	2.9	House	4	10	16862	Towels	3	0	50.467338	5.866107
+Apartment-2	Better apartment	2023-09-18T12:57:33.692Z	Brussels	image-3.jpg	image-2.jpg	1	1	1.1	Room	7	6	6565	Towels;Transfer;Air conditioner	2	0	48.414808	6.008904
+House-2	The qorst house	2023-09-22T12:57:33.692Z	Amsterdam	image-1.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	0	1	4.6	Hotel	5	10	49388	Transfer;Air conditioner	2	0	53.303418	4.69454
+Apartment-2	The qorst house	2023-09-23T12:57:33.692Z	Hamburg	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	4.3	Room	4	6	54334	Towels;Transfer	3	0	52.219922	7.348835
+House-2	The best house	2023-09-24T12:57:33.692Z	Brussels	image-5.jpg	image-5.jpg;image-6.jpg	1	1	5	Room	3	8	66798	Air conditioner	1	0	53.367415	4.75615
+House-2	Good apartment	2023-09-24T12:57:33.692Z	Dusseldorf	image-5.jpg	image-5.jpg;image-6.jpg	1	1	3.2	Hotel	1	10	33095	Towels;Transfer;Air conditioner	2	0	53.167048	10.51536
+House-1	The best house	2023-09-20T12:57:33.692Z	Hamburg	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	3.5	Room	5	8	40548	Towels;Transfer;Air conditioner	3	0	53.440038	4.062026
+House-1	Good apartment	2023-09-24T12:57:33.692Z	Hamburg	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	3.2	Hotel	8	9	25339	Towels;Transfer;Air conditioner	3	0	51.023014	9.227264
+House-1	Better apartment	2023-09-22T12:57:33.692Z	Cologne	image-5.jpg	image-5.jpg;image-6.jpg	0	0	1.7	Room	4	4	77070		2	0	53.37419	4.806218
+Apartment-2	The best house	2023-09-23T12:57:33.692Z	Cologne	image-6.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	2	Apartment	8	9	8125	Transfer;Air conditioner	4	0	50.59636	2.114695
+House-2	The qorst house	2023-09-19T12:57:33.693Z	Amsterdam	image-4.jpg	image-2.jpg;image-3.jpg	1	0	1.6	Room	6	3	98548	Transfer;Air conditioner	1	0	53.734113	6.250406
+House-2	The qorst house	2023-09-22T12:57:33.693Z	Cologne	image-6.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	0	1.7	Room	7	9	43392	Air conditioner	4	0	49.517097	5.885115
+Apartment-2	Better apartment	2023-09-20T12:57:33.693Z	Cologne	image-6.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	2.6	Hotel	7	3	21656	Transfer;Air conditioner	2	0	51.555785	8.601288
+Apartment-2	The best house	2023-09-22T12:57:33.693Z	Paris	image-1.jpg	image-2.jpg	0	1	1.9	House	7	8	2999	Towels	4	0	53.720045	4.597353
+House-2	Bizzarre room	2023-09-22T12:57:33.693Z	Amsterdam	image-4.jpg	image-5.jpg;image-6.jpg	0	0	1.9	Room	2	7	4539	Towels;Transfer	4	0	53.909058	9.451524
+Apartment-2	The qorst house	2023-09-19T12:57:33.693Z	Hamburg	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	0	3.4	Apartment	5	7	73716	Transfer;Air conditioner	2	0	49.605995	2.950573
+House-2	The best house	2023-09-24T12:57:33.693Z	Amsterdam	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	4.2	Room	3	8	33274	Breakfast	2	0	53.876807	7.991142
+Apartment-1	Good apartment	2023-09-22T12:57:33.693Z	Cologne	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	1.3	Hotel	1	9	17026		2	0	50.561105	2.660807
+House-1	The best house	2023-09-20T12:57:33.694Z	Paris	image-5.jpg	image-5.jpg;image-6.jpg	1	0	4.3	House	2	8	13754	Transfer;Air conditioner	5	0	53.452508	6.674416
+Apartment-2	The best house	2023-09-20T12:57:33.694Z	Amsterdam	image-6.jpg	image-5.jpg;image-6.jpg	1	1	4.5	House	3	9	37935	Transfer;Air conditioner	1	0	51.002316	2.481708
+Apartment-1	The best house	2023-09-19T12:57:33.694Z	Amsterdam	image-6.jpg	image-2.jpg;image-3.jpg;image-4.jpg	0	1	1	Room	5	5	19777	Transfer;Air conditioner	1	0	52.663118	4.159868
+Apartment-1	The qorst house	2023-09-19T12:57:33.694Z	Cologne	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	2.9	Room	6	6	27834	Transfer;Air conditioner	2	0	49.851863	7.081526
+House-1	Better apartment	2023-09-22T12:57:33.694Z	Amsterdam	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	4.4	Room	5	8	92464	Towels;Transfer	3	0	49.736487	8.174112
+House-2	Better apartment	2023-09-18T12:57:33.694Z	Dusseldorf	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	2.7	House	7	8	10192	Towels	4	0	53.791583	10.580249
+House-1	Better apartment	2023-09-23T12:57:33.694Z	Amsterdam	image-6.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	3.7	Room	6	10	52241	Transfer;Air conditioner	5	0	48.137017	9.005343
+Apartment-2	The qorst house	2023-09-21T12:57:33.695Z	Amsterdam	image-6.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	0	4.1	Apartment	7	6	31166	Towels;Transfer	4	0	53.741606	2.75363
+Apartment-2	Better apartment	2023-09-23T12:57:33.695Z	Amsterdam	image-6.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.8	Apartment	7	6	22402	Transfer;Air conditioner	5	0	53.125157	10.889895
+The lost room	Bizzarre room	2023-09-20T12:57:33.695Z	Cologne	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	1.6	Room	2	5	61436	Breakfast	1	0	52.133215	5.476652
+House-1	The qorst house	2023-09-22T12:57:33.695Z	Hamburg	image-1.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	2.1	House	5	6	17356	Transfer;Air conditioner	3	0	49.010557	8.172059
+House-1	Good apartment	2023-09-24T12:57:33.695Z	Brussels	image-5.jpg	image-5.jpg;image-6.jpg	0	1	4.6	Room	6	7	43450	Air conditioner	1	0	50.890288	9.946632
+House-1	Better apartment	2023-09-21T12:57:33.695Z	Amsterdam	image-5.jpg	image-6.jpg	0	1	1.7	House	4	7	67529	Towels;Transfer	2	0	53.809682	3.263859
+House-1	The best house	2023-09-21T12:57:33.695Z	Cologne	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	3.2	House	4	7	36567	Towels	2	0	48.86022	6.261796
+Apartment-2	Good apartment	2023-09-23T12:57:33.695Z	Hamburg	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	3.4	Hotel	7	5	39807	Towels;Transfer;Air conditioner	2	0	52.198882	2.521411
+The lost room	Bizzarre room	2023-09-23T12:57:33.695Z	Cologne	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	4	Apartment	2	3	64150	Towels;Transfer	1	0	50.593246	7.964792
+House-1	The qorst house	2023-09-21T12:57:33.696Z	Brussels	image-4.jpg	image-5.jpg;image-6.jpg	0	1	1.9	Room	1	7	42854	Towels;Transfer	2	0	49.670908	3.483494
+Apartment-2	Good apartment	2023-09-23T12:57:33.696Z	Brussels	image-5.jpg	image-5.jpg;image-6.jpg	1	0	4.2	Room	7	5	92397	Air conditioner	1	0	51.545257	2.352003
+Apartment-1	Bizzarre room	2023-09-20T12:57:33.696Z	Amsterdam	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	1	2.9	House	6	8	88932	Air conditioner	4	0	52.149175	5.308857
+House-2	The best house	2023-09-22T12:57:33.696Z	Hamburg	image-3.jpg	image-5.jpg;image-6.jpg	0	0	2.8	Hotel	7	2	18345	Air conditioner	5	0	50.931389	8.811659
+Apartment-2	Better apartment	2023-09-23T12:57:33.696Z	Dusseldorf	image-4.jpg	image-2.jpg	1	0	4.1	Apartment	2	10	49806	Transfer;Air conditioner	3	0	49.364839	3.502259
+Apartment-1	Good apartment	2023-09-22T12:57:33.696Z	Dusseldorf	image-2.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	2.1	Room	3	5	23292	Towels	2	0	50.102331	10.072626
+Apartment-2	The best house	2023-09-19T12:57:33.696Z	Brussels	image-3.jpg	image-5.jpg;image-6.jpg	1	1	4	House	5	3	51819	Transfer;Air conditioner	2	0	48.664582	4.014169
+Apartment-1	Better apartment	2023-09-20T12:57:33.696Z	Amsterdam	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	3.7	Hotel	2	4	94533	Transfer;Air conditioner	1	0	51.630563	8.601562
+House-1	Better apartment	2023-09-21T12:57:33.696Z	Paris	image-6.jpg	image-6.jpg	0	0	4.9	Room	4	7	1982	Air conditioner	3	0	51.116334	8.005739
+Apartment-1	The best house	2023-09-22T12:57:33.697Z	Amsterdam	image-2.jpg	image-2.jpg;image-3.jpg;image-4.jpg	1	1	3.9	Apartment	3	6	69977	Towels;Transfer;Air conditioner	3	0	48.635329	7.473561
+House-2	The qorst house	2023-09-21T12:57:33.697Z	Dusseldorf	image-4.jpg	image-6.jpg	1	0	2.1	House	3	3	81406	Transfer;Air conditioner	3	0	50.80377	4.898018
+Apartment-2	The best house	2023-09-19T12:57:33.697Z	Paris	image-6.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	3.3	Apartment	3	9	47434	Air conditioner	2	0	53.773444	6.955894
+House-1	The best house	2023-09-23T12:57:33.697Z	Dusseldorf	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	0	2.5	House	6	8	4626	Breakfast;Towels;Transfer	3	0	49.5297	8.908278
+The lost room	Bizzarre room	2023-09-18T12:57:33.697Z	Cologne	image-2.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	2.3	Room	6	1	34449	Transfer;Air conditioner	4	0	53.836966	2.516612
+Apartment-2	Bizzarre room	2023-09-23T12:57:33.697Z	Cologne	image-6.jpg	image-5.jpg;image-6.jpg	0	1	2.8	Room	8	7	98037	Towels;Transfer;Air conditioner	3	0	53.403546	8.753541
+The lost room	The best house	2023-09-23T12:57:33.697Z	Amsterdam	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	3	Apartment	6	1	76880	Towels;Transfer;Air conditioner	2	0	49.662215	9.378347
+Apartment-1	Better apartment	2023-09-24T12:57:33.697Z	Amsterdam	image-3.jpg	image-2.jpg;image-3.jpg	1	1	3.7	Room	1	9	55070	Air conditioner	5	0	48.691944	3.540559
+House-1	The qorst house	2023-09-20T12:57:33.697Z	Dusseldorf	image-2.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg	1	0	1.3	Apartment	4	10	59813	Towels;Transfer;Air conditioner	2	0	48.977027	2.509222
+House-1	The best house	2023-09-22T12:57:33.698Z	Amsterdam	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	2.3	House	5	3	27416	Breakfast	2	0	51.056713	10.909138
+House-2	The best house	2023-09-21T12:57:33.698Z	Cologne	image-4.jpg	image-2.jpg;image-3.jpg	1	0	1.1	Room	7	7	43767	Transfer;Air conditioner	3	0	51.968184	5.657143
+The lost room	The qorst house	2023-09-20T12:57:33.698Z	Brussels	image-6.jpg	image-6.jpg	0	0	1.5	House	4	7	90519	Breakfast;Towels;Transfer;Air conditioner	2	0	49.860219	3.586696
+House-2	Good apartment	2023-09-18T12:57:33.698Z	Brussels	image-3.jpg	image-5.jpg;image-6.jpg	0	0	3.5	House	3	5	55780	Air conditioner	3	0	52.855581	9.881727
+House-1	Bizzarre room	2023-09-20T12:57:33.698Z	Brussels	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	1	4.1	Room	3	5	76082	Towels	2	0	53.760698	3.28938
+Apartment-2	The best house	2023-09-22T12:57:33.698Z	Brussels	image-6.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	0	2.3	Room	4	1	66036	Air conditioner	4	0	52.452873	3.261352
+Apartment-2	Good apartment	2023-09-19T12:57:33.698Z	Amsterdam	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.7	Room	6	6	13737	Transfer;Air conditioner	3	0	51.113398	9.369562
+Apartment-2	Better apartment	2023-09-23T12:57:33.698Z	Hamburg	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg	0	1	2.8	House	5	8	94847	Air conditioner	5	0	50.206979	5.261147
+House-2	The qorst house	2023-09-23T12:57:33.698Z	Amsterdam	image-3.jpg	image-2.jpg;image-3.jpg	0	1	3.1	Room	2	2	64467	Transfer;Air conditioner	2	0	51.841253	7.144668
+Apartment-2	The qorst house	2023-09-19T12:57:33.699Z	Paris	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	3.3	House	4	2	83570	Breakfast	2	0	51.840771	4.747162
+Apartment-2	Better apartment	2023-09-20T12:57:33.699Z	Paris	image-6.jpg	image-5.jpg;image-6.jpg	1	0	2.6	Hotel	3	5	987	Towels	5	0	50.227546	7.440031
+House-1	The qorst house	2023-09-24T12:57:33.699Z	Paris	image-1.jpg	image-2.jpg;image-3.jpg	1	1	4.3	Apartment	4	8	45525	Breakfast	2	0	52.569436	9.758133
+The lost room	The best house	2023-09-20T12:57:33.699Z	Brussels	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.5	Room	5	2	83703	Transfer;Air conditioner	2	0	48.33399	9.156968
+House-2	Bizzarre room	2023-09-23T12:57:33.699Z	Hamburg	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.5	Hotel	6	3	99697	Towels;Transfer	5	0	52.038383	4.287522
+Apartment-2	Bizzarre room	2023-09-19T12:57:33.699Z	Dusseldorf	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.7	Apartment	3	8	10606	Transfer;Air conditioner	4	0	51.752759	8.555148
+The lost room	Better apartment	2023-09-19T12:57:33.699Z	Hamburg	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	3.1	House	8	2	79803	Towels;Transfer;Air conditioner	3	0	53.425715	9.600114
+House-1	The best house	2023-09-21T12:57:33.699Z	Hamburg	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg	1	1	3.2	Apartment	7	2	29187	Transfer;Air conditioner	1	0	48.694723	10.193116
+House-1	Better apartment	2023-09-23T12:57:33.700Z	Brussels	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.1	Room	4	3	31081	Air conditioner	3	0	48.399624	7.870917
+Apartment-2	The best house	2023-09-22T12:57:33.700Z	Brussels	image-3.jpg	image-5.jpg;image-6.jpg	1	1	2.5	Room	5	9	34600	Transfer;Air conditioner	4	0	50.250531	6.927592
+Apartment-1	Bizzarre room	2023-09-21T12:57:33.700Z	Hamburg	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	4.7	House	6	4	40888	Transfer;Air conditioner	4	0	48.349472	4.63261
+Apartment-2	Better apartment	2023-09-23T12:57:33.700Z	Amsterdam	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	1.9	Apartment	7	2	50974	Air conditioner	2	0	53.924813	7.305171
+House-1	The qorst house	2023-09-24T12:57:33.700Z	Amsterdam	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	0	0	1.8	Apartment	3	10	71232	Towels	5	0	53.0835	4.091396
+Apartment-2	Better apartment	2023-09-21T12:57:33.700Z	Amsterdam	image-1.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	4.8	Hotel	2	7	53426	Towels;Transfer;Air conditioner	3	0	50.774261	5.45129
+House-1	Better apartment	2023-09-20T12:57:33.700Z	Hamburg	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg	0	1	4.7	House	6	1	79465	Transfer;Air conditioner	3	0	48.157569	3.124911
+House-2	Good apartment	2023-09-19T12:57:33.700Z	Cologne	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	4.7	Apartment	1	7	52800	Transfer;Air conditioner	3	0	53.863139	10.173818
+Apartment-2	The qorst house	2023-09-23T12:57:33.700Z	Brussels	image-6.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	3.9	Room	2	3	59565	Breakfast;Towels	3	0	53.244289	7.91304
+Apartment-2	The best house	2023-09-21T12:57:33.701Z	Amsterdam	image-6.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	0	2.6	Apartment	3	9	42646	Towels;Transfer;Air conditioner	3	0	49.473503	10.967231
+House-1	The qorst house	2023-09-19T12:57:33.701Z	Cologne	image-6.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	1.9	Hotel	5	6	19767		2	0	49.662499	6.642442
+Apartment-1	The best house	2023-09-21T12:57:33.701Z	Amsterdam	image-3.jpg	image-2.jpg;image-3.jpg	1	1	4.4	Room	3	4	89427	Air conditioner	5	0	53.469503	10.124224
+Apartment-2	The best house	2023-09-22T12:57:33.701Z	Paris	image-6.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	4.6	Apartment	7	6	47160	Towels;Transfer;Air conditioner	4	0	51.520973	6.045331
+House-1	The qorst house	2023-09-23T12:57:33.701Z	Amsterdam	image-3.jpg	image-1.jpg	0	1	1.2	Room	8	4	5256	Breakfast;Towels;Transfer;Air conditioner	3	0	48.326683	9.551625
+House-2	The qorst house	2023-09-22T12:57:33.701Z	Amsterdam	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	2.5	House	5	7	72679	Towels	4	0	51.577993	5.047414
+Apartment-2	Good apartment	2023-09-23T12:57:33.701Z	Cologne	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	3	Hotel	3	8	83555	Air conditioner	3	0	51.500352	5.935645
+Apartment-1	Bizzarre room	2023-09-18T12:57:33.701Z	Amsterdam	image-3.jpg	image-1.jpg	1	0	4.1	House	8	10	13966	Towels;Transfer;Air conditioner	3	0	51.463891	7.445493
+House-1	The best house	2023-09-23T12:57:33.702Z	Brussels	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	2.6	Apartment	8	2	19798	Towels;Transfer;Air conditioner	4	0	50.399539	3.236685
+Apartment-1	Good apartment	2023-09-23T12:57:33.702Z	Brussels	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	0	4.2	House	6	5	80004	Towels;Transfer;Air conditioner	5	0	52.655176	2.327772
+House-2	The qorst house	2023-09-20T12:57:33.702Z	Brussels	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	1.2	Hotel	7	5	32571	Transfer;Air conditioner	4	0	52.640273	10.089677
+House-1	Better apartment	2023-09-21T12:57:33.702Z	Dusseldorf	image-1.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	3.3	Room	7	8	13712	Breakfast;Towels	1	0	48.451641	5.548613
+Apartment-2	Bizzarre room	2023-09-22T12:57:33.702Z	Hamburg	image-4.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	2.3	House	7	3	3162	Air conditioner	1	0	50.118053	7.84104
+House-2	The best house	2023-09-24T12:57:33.702Z	Hamburg	image-4.jpg	image-5.jpg;image-6.jpg	0	0	4	House	2	6	67798	Breakfast	2	0	53.425076	9.273825
+House-2	Better apartment	2023-09-19T12:57:33.702Z	Cologne	image-5.jpg	image-5.jpg;image-6.jpg	1	0	1.8	Hotel	6	2	91105	Transfer;Air conditioner	4	0	52.037837	3.767541
+House-1	The best house	2023-09-24T12:57:33.702Z	Amsterdam	image-1.jpg	image-5.jpg;image-6.jpg	0	1	3.2	Apartment	1	7	66996	Towels;Transfer	2	0	53.788952	2.242186
+House-2	The best house	2023-09-23T12:57:33.703Z	Cologne	image-2.jpg	image-5.jpg;image-6.jpg	0	1	2.7	Apartment	3	2	50865	Transfer;Air conditioner	2	0	49.188677	3.512084
+House-2	Better apartment	2023-09-18T12:57:33.703Z	Amsterdam	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	1	4.4	House	4	9	29648		3	0	49.643832	10.982295
+House-2	Better apartment	2023-09-19T12:57:33.703Z	Amsterdam	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	0	1.3	House	2	9	38178	Transfer;Air conditioner	2	0	52.853842	7.057946
+House-1	Better apartment	2023-09-23T12:57:33.703Z	Paris	image-2.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	0	0	5	Apartment	7	9	84453	Towels;Transfer	5	0	53.609069	8.596416
+Apartment-2	The best house	2023-09-23T12:57:33.703Z	Dusseldorf	image-5.jpg	image-5.jpg;image-6.jpg	0	0	4.2	House	5	10	94208	Towels;Transfer;Air conditioner	3	0	49.953853	5.097544
+House-2	The qorst house	2023-09-19T12:57:33.703Z	Brussels	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	0	1	4.6	House	5	3	46278	Towels;Transfer	3	0	51.805113	5.436943
+The lost room	Better apartment	2023-09-22T12:57:33.703Z	Brussels	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	3.1	Room	6	9	65995	Towels;Transfer	5	0	49.046262	5.617563
+The lost room	The qorst house	2023-09-20T12:57:33.703Z	Dusseldorf	image-5.jpg	image-6.jpg	1	1	3.3	Room	1	2	99584	Towels	3	0	49.090811	8.047404
+Apartment-1	Better apartment	2023-09-23T12:57:33.704Z	Hamburg	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	3.3	Room	4	4	27584	Breakfast;Towels	4	0	48.372786	9.90824
+House-1	The best house	2023-09-23T12:57:33.704Z	Cologne	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg	0	1	2.8	House	3	1	393	Towels;Transfer	5	0	50.25953	7.764965
+Apartment-1	The best house	2023-09-19T12:57:33.704Z	Paris	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	1.9	House	5	7	58767	Breakfast	4	0	48.603131	5.879303
+House-2	The qorst house	2023-09-21T12:57:33.704Z	Paris	image-1.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	4.7	Room	1	6	41952		1	0	48.688844	4.405564
+Apartment-1	Better apartment	2023-09-21T12:57:33.704Z	Amsterdam	image-1.jpg	image-5.jpg;image-6.jpg	1	0	4.3	House	8	3	24750	Towels;Transfer;Air conditioner	2	0	52.352542	5.312107
+House-1	The best house	2023-09-21T12:57:33.704Z	Cologne	image-5.jpg	image-2.jpg;image-3.jpg	0	1	1.1	House	2	6	49383	Breakfast	5	0	49.152172	6.154546
+House-1	The best house	2023-09-21T12:57:33.704Z	Hamburg	image-3.jpg		1	0	2.6	Apartment	6	10	46372	Towels	4	0	48.244769	5.80295
+House-2	Better apartment	2023-09-23T12:57:33.704Z	Brussels	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	4.7	Room	4	6	15366	Towels;Transfer;Air conditioner	4	0	52.241715	8.456356
+House-2	The qorst house	2023-09-18T12:57:33.705Z	Amsterdam	image-6.jpg	image-1.jpg;image-2.jpg;image-3.jpg;image-4.jpg	0	1	4.2	Room	7	7	10998	Breakfast;Towels	4	0	53.362069	8.731413
+House-1	The qorst house	2023-09-18T12:57:33.705Z	Amsterdam	image-1.jpg	image-5.jpg;image-6.jpg	1	0	2.9	House	2	7	11451	Transfer;Air conditioner	1	0	52.800598	3.34906
+House-1	Better apartment	2023-09-23T12:57:33.705Z	Amsterdam	image-1.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	3.4	House	7	6	76657	Transfer;Air conditioner	2	0	50.816735	10.287113
+House-1	Bizzarre room	2023-09-22T12:57:33.705Z	Cologne	image-5.jpg	image-5.jpg;image-6.jpg	0	0	1.8	House	1	5	14520	Towels;Transfer	2	0	51.942471	7.457322
+House-1	Better apartment	2023-09-24T12:57:33.705Z	Dusseldorf	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	1.8	Hotel	5	2	86579	Towels	2	0	53.959723	2.368543
+House-2	Good apartment	2023-09-19T12:57:33.705Z	Brussels	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	0	0	1.5	Room	7	3	14456	Breakfast;Towels	3	0	51.851771	9.180973
+House-1	The qorst house	2023-09-20T12:57:33.705Z	Brussels	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	1	2.6	Hotel	3	5	14409	Towels;Transfer	2	0	51.524477	3.27358
+House-1	The qorst house	2023-09-22T12:57:33.705Z	Dusseldorf	image-3.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	0	1	1.3	House	2	4	82912	Towels;Transfer	4	0	51.954783	8.03484
+Apartment-2	The qorst house	2023-09-20T12:57:33.705Z	Hamburg	image-5.jpg	image-5.jpg;image-6.jpg	0	0	1.5	Room	2	2	89539	Towels;Transfer;Air conditioner	4	0	50.073071	8.081383
+Apartment-2	Good apartment	2023-09-20T12:57:33.706Z	Dusseldorf	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg	1	1	2.5	House	3	2	7217	Towels;Transfer	2	0	50.854727	10.176174
+Apartment-2	Good apartment	2023-09-21T12:57:33.706Z	Amsterdam	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	0	2.9	Room	6	10	3425	Air conditioner	5	0	48.264313	4.027352
+House-1	The best house	2023-09-21T12:57:33.706Z	Cologne	image-4.jpg	image-6.jpg	0	0	4.8	House	5	8	25592	Towels;Transfer	4	0	51.799884	8.258401
+Apartment-2	Good apartment	2023-09-19T12:57:33.706Z	Brussels	image-6.jpg	image-5.jpg;image-6.jpg	1	1	1.2	Hotel	4	4	29143	Breakfast;Towels	4	0	48.708258	4.001156
+House-2	Better apartment	2023-09-22T12:57:33.706Z	Amsterdam	image-5.jpg	image-5.jpg;image-6.jpg	0	0	3.8	Room	3	3	23221	Towels;Transfer;Air conditioner	2	0	53.489029	6.483372
+Apartment-1	The qorst house	2023-09-20T12:57:33.706Z	Paris	image-6.jpg	image-6.jpg	0	1	1.8	Apartment	7	4	79704		3	0	52.961437	9.091564
+Apartment-2	Better apartment	2023-09-21T12:57:33.706Z	Amsterdam	image-4.jpg	image-2.jpg;image-3.jpg;image-4.jpg;image-5.jpg	1	0	4.6	Room	2	3	71836	Towels	3	0	53.049055	4.910978
+House-2	Better apartment	2023-09-20T12:57:33.706Z	Cologne	image-5.jpg	image-5.jpg;image-6.jpg	1	1	3.6	Apartment	1	3	37091	Transfer;Air conditioner	4	0	51.832932	2.711615
+The lost room	Better apartment	2023-09-19T12:57:33.707Z	Cologne	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	2.2	Hotel	5	8	3574		1	0	52.065304	9.802536
+Apartment-2	The qorst house	2023-09-22T12:57:33.707Z	Brussels	image-5.jpg	image-2.jpg;image-3.jpg;image-4.jpg	0	0	4.7	Hotel	7	2	27773	Towels;Transfer;Air conditioner	2	0	48.279097	3.174039
+House-1	Better apartment	2023-09-20T12:57:33.707Z	Paris	image-2.jpg	image-6.jpg	1	0	3.7	Hotel	3	10	43146	Towels;Transfer;Air conditioner	2	0	50.468434	6.993568
+House-1	The qorst house	2023-09-22T12:57:33.707Z	Hamburg	image-4.jpg	image-2.jpg;image-3.jpg	0	0	3.2	Room	5	7	90880	Air conditioner	4	0	51.034627	6.422163
+Apartment-2	Better apartment	2023-09-22T12:57:33.707Z	Hamburg	image-4.jpg	image-1.jpg;image-2.jpg	0	0	2.3	Room	2	8	62173	Breakfast;Towels;Transfer;Air conditioner	3	0	51.192821	9.949532
+Apartment-2	The qorst house	2023-09-19T12:57:33.707Z	Brussels	image-5.jpg	image-5.jpg;image-6.jpg	1	1	3.5	Room	2	8	72993	Breakfast	4	0	50.716618	6.169203
+Apartment-2	The best house	2023-09-21T12:57:33.707Z	Brussels	image-3.jpg	image-2.jpg;image-3.jpg	1	0	2	Room	7	7	7921	Air conditioner	2	0	52.471979	8.222919
+The lost room	The best house	2023-09-18T12:57:33.707Z	Cologne	image-5.jpg	image-5.jpg;image-6.jpg	0	0	3.8	House	6	4	83498	Air conditioner	5	0	49.166483	10.201074
+Apartment-1	Better apartment	2023-09-21T12:57:33.708Z	Brussels	image-1.jpg	image-6.jpg	0	0	4.5	Room	6	5	26954	Towels;Transfer	5	0	51.378936	4.73803
+House-2	The best house	2023-09-21T12:57:33.708Z	Hamburg	image-2.jpg	image-6.jpg	1	1	4.7	Apartment	7	6	17824	Towels;Transfer;Air conditioner	4	0	50.117105	3.490287
+House-1	The qorst house	2023-09-24T12:57:33.708Z	Amsterdam	image-6.jpg	image-5.jpg;image-6.jpg	0	0	2.4	Room	5	4	69318	Towels;Transfer;Air conditioner	2	0	48.968476	6.282587
+House-2	Good apartment	2023-09-20T12:57:33.708Z	Brussels	image-5.jpg	image-6.jpg	1	0	1.1	House	8	1	87674	Transfer;Air conditioner	3	0	52.536423	3.958525
+House-1	The qorst house	2023-09-20T12:57:33.708Z	Cologne	image-3.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	1	3.2	House	4	6	22966	Towels;Transfer	2	0	53.361241	2.705062
+Apartment-2	Better apartment	2023-09-21T12:57:33.708Z	Dusseldorf	image-4.jpg	image-3.jpg;image-4.jpg;image-5.jpg	1	1	3.5	Room	6	5	34446	Towels;Transfer;Air conditioner	4	0	51.892708	3.676254
+House-1	Good apartment	2023-09-22T12:57:33.708Z	Cologne	image-4.jpg		1	0	4	Room	4	7	48764	Transfer;Air conditioner	1	0	51.048262	2.755837
+Apartment-2	The best house	2023-09-22T12:57:33.708Z	Brussels	image-6.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	0	0	1.4	Room	6	7	29561	Air conditioner	5	0	48.803126	2.600906
+House-1	Better apartment	2023-09-18T12:57:33.708Z	Dusseldorf	image-5.jpg	image-3.jpg;image-4.jpg;image-5.jpg;image-6.jpg	1	1	1.8	Apartment	6	6	23247	Air conditioner	5	0	51.178229	6.567828
+House-1	Good apartment	2023-09-22T12:57:33.709Z	Brussels	image-3.jpg	image-4.jpg;image-5.jpg;image-6.jpg	0	1	1.4	Hotel	4	5	1458	Transfer;Air conditioner	2	0	51.871797	7.623202
+House-1	The best house	2023-09-19T12:57:33.709Z	Brussels	image-5.jpg	image-5.jpg;image-6.jpg	0	1	3.9	Hotel	8	2	45050	Transfer;Air conditioner	4	0	48.184395	9.199923
+Apartment-2	The best house	2023-09-22T12:57:33.709Z	Paris	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	3	Room	5	3	55029	Towels;Transfer;Air conditioner	5	0	53.463484	9.370368
+House-2	The best house	2023-09-24T12:57:33.709Z	Dusseldorf	image-2.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	0	4.1	Apartment	1	9	29786	Transfer;Air conditioner	4	0	51.265074	9.787851
+The lost room	The qorst house	2023-09-24T12:57:33.709Z	Hamburg	image-5.jpg	image-4.jpg;image-5.jpg;image-6.jpg	1	1	1.4	Hotel	3	4	75108	Towels;Transfer;Air conditioner	3	0	49.605213	3.414808
