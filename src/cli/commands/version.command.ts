@@ -14,6 +14,8 @@ const isPackageJSONConfig = (value: unknown): value is PackageJSONConfig =>
   Object.hasOwn(value, 'version');
 
 export class VersionCommand implements Command {
+  private readonly name = '--version';
+
   constructor(private readonly filePath: string = './package.json') {}
 
   private readVersion(): string {
@@ -28,7 +30,7 @@ export class VersionCommand implements Command {
   }
 
   public getName(): string {
-    return '--version';
+    return this.name;
   }
 
   public async execute(..._parameters: string[]): Promise<void> {
