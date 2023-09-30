@@ -1,4 +1,6 @@
 import { CITIES } from '../const/cities.js';
+import { CityType } from '../types/city-type.enum.js';
+import { GoodsType } from '../types/goods-type.enum.js';
 import { OfferType } from '../types/offer-type.enum.js';
 import { Offer } from '../types/offer.type.js';
 
@@ -27,17 +29,17 @@ export function createOffer(offerData: string): Offer {
     title,
     description,
     date: new Date(date),
-    city: CITIES[city],
+    city: CITIES[city as CityType],
     preview,
     images: images.split(';'),
     isPremium: !!Number(isPremium),
     isFavorite: !!Number(isFavorite),
     rating: Number(rating),
-    type: OfferType[type as 'Apartment' | 'House' | 'Room' | 'Hotel'],
+    type: type as OfferType,
     rooms: Number(rooms),
     guests: Number(guests),
     price: Number(price),
-    goods: goods.split(';'),
+    goods: goods.split(';') as GoodsType[],
     author,
     commentsCount: Number(commentsCount),
     latitude: Number(latitude),

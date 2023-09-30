@@ -1,5 +1,7 @@
+import { CityType } from './city-type.enum.js';
+
 export type City = {
-  name: string;
+  name: CityType;
   latitude: number;
   longitude: number;
 };
