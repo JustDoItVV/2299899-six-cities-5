@@ -1,3 +1,4 @@
+import chalk from 'chalk';
 import { getErrorMessage } from '../../shared/helpers/common.js';
 import { createOffer } from '../../shared/helpers/offer.js';
 import { TSVFileReader } from '../../shared/libs/file-reader/tsv-file-reader.js';
@@ -21,16 +22,20 @@ export class ImportCommand implements Command {
 
   public async execute(...parameters: string[]): Promise<void> {
     const [filename] = parameters;
-    const fileReader = new TSVFileReader(filename.trim());
-
-    fileReader.on('line', this.onImportedLine);
-    fileReader.on('end', this.onCompleteImport);
-
     try {
+      if (!filename || filename.trim().length === 0) {
+        throw new Error('No <path> argument');
+      }
+
+      const fileReader = new TSVFileReader(filename.trim());
+
+      fileReader.on('line', this.onImportedLine);
+      fileReader.on('end', this.onCompleteImport);
+
       await fileReader.read();
     } catch (error) {
-      console.error(`Can't import fata from file ${filename}`);
-      console.error(`Details: ${getErrorMessage(error)}`);
+      console.error(chalk.red(`Can't import data from file ${filename}`));
+      console.error(chalk.red(`Details: ${getErrorMessage(error)}`));
     }
   }
 }

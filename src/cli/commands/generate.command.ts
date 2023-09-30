@@ -1,9 +1,10 @@
+import chalk from 'chalk';
 import got from 'got';
 import { MockServerData } from '../../shared/types/mock-server-data.type.js';
 import { Command } from './command.interface.js';
-import chalk from 'chalk';
 import { TSVOfferGenerator } from '../../shared/libs/offer-generator/tsv-offer-generator.js';
 import { TSVFileWriter } from '../../shared/libs/file-writer/tsv-file-writer.js';
+import { getErrorMessage } from '../../shared/helpers/common.js';
 
 export class GenerateCommand implements Command {
   private initialData: MockServerData;
@@ -32,18 +33,25 @@ export class GenerateCommand implements Command {
 
   public async execute(...parameters: string[]): Promise<void> {
     const [count, filepath, url] = parameters;
-    const offersCount = Number.parseInt(count, 10);
-
     try {
+      if (!count || count.length === 0) {
+        throw new Error('No <n> argument');
+      }
+      if (!filepath || filepath.length === 0) {
+        throw new Error('No <path> argument');
+      }
+      if (!url || url.length === 0) {
+        throw new Error('No <url> argument');
+      }
+
+      const offersCount = Number.parseInt(count, 10);
+
       await this.load(url);
       await this.write(filepath, offersCount);
       console.info(chalk.green(`File ${filepath} was created!`));
-    } catch (error: unknown) {
+    } catch (error) {
       console.error(chalk.red('Can\'t generate data'));
-
-      if (error instanceof Error) {
-        console.error(chalk.red(error.message));
-      }
+      console.error(chalk.red(`Details: ${getErrorMessage(error)}`));
     }
   }
 }
