@@ -5,12 +5,11 @@ type CommandsCollection = Record<string, Command>;
 
 export class CLIApplication {
   private commands: CommandsCollection = {};
-
-  constructor(private readonly defaultCommand: string = '--help') {}
+  private readonly defaultCommand = '--help';
 
   public registerCommands(commandList: Command[]): void {
     commandList.forEach((command) => {
-      if (Object.hasOwn(this.commands, command.getName())) {
+      if (this.commands[command.getName()]) {
         throw new Error(`Command ${command.getName()} is already registered`);
       }
       this.commands[command.getName()] = command;
@@ -23,9 +22,7 @@ export class CLIApplication {
 
   public getDefaultCommand(): Command | never {
     if (!this.commands[this.defaultCommand]) {
-      throw new Error(
-        `The default command (${this.defaultCommand}) is not registered`
-      );
+      throw new Error(`The default command (${this.defaultCommand}) is not registered`);
     }
     return this.commands[this.defaultCommand];
   }

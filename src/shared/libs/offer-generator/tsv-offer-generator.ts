@@ -1,11 +1,7 @@
 import dayjs from 'dayjs';
 import { OfferGenerator } from './offer-generator.interface.js';
 import { MockServerData } from '../../types/mock-server-data.type.js';
-import {
-  generateRandomValue,
-  getRandomItem,
-  getRandomItems,
-} from '../../helpers/common.js';
+import { generateRandomValue, getRandomItem, getRandomItems } from '../../helpers/common.js';
 import { CITIES } from '../../const/cities.js';
 import { OfferType } from '../../types/offer-type.enum.js';
 import * as CONSTS from './const.js';
@@ -18,17 +14,12 @@ export class TSVOfferGenerator implements OfferGenerator {
     const description = getRandomItem<string>(this.mockData.descriptions);
 
     const date = dayjs()
-      .subtract(
-        generateRandomValue(CONSTS.WeekDay.FIRST, CONSTS.WeekDay.LAST),
-        'days'
-      )
+      .subtract(generateRandomValue(CONSTS.WeekDay.FIRST, CONSTS.WeekDay.LAST), 'days')
       .toISOString();
 
     const city = getRandomItem<string>(Object.keys(CITIES));
     const preview = getRandomItem<string>(this.mockData.offerImages);
-    const offerImages = getRandomItems<string>(this.mockData.offerImages).join(
-      ';'
-    );
+    const offerImages = getRandomItems<string>(this.mockData.offerImages).join(';');
     const isPremium = generateRandomValue(0, 1);
     const isFavorite = generateRandomValue(0, 1);
     const rating = generateRandomValue(CONSTS.Rating.MIN, CONSTS.Rating.MAX, 1);

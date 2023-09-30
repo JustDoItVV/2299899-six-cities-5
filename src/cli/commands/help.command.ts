@@ -15,10 +15,10 @@ export class HelpCommand implements Command {
       Пример:
           ${chalk.green('cli.js --<command> [--arguments]')}
       Команды:
-          ${chalk.green('--version')}:                    # выводит номер версии
-          ${chalk.green('--help')}:                       # печатает этот текст
-          ${chalk.green('--import <path>')}:              # импортирует данные из TSV
-          ${chalk.green('--generate <n> <path> <url>')}:  # генерирует произвольное количество тестовых данных
+          ${chalk.green('--version')}:                    # выводит номер версии приложения из package.json
+          ${chalk.green('--help')}:                       # печатает текст помощи по командам
+          ${chalk.green('--import <path>')}:              # импортирует данные из файла TSV по пути <path>
+          ${chalk.green('--generate <n> <path> <url>')}:  # генерирует количество <n> тестовых данных в файл <path> по начальным API данным с адреса <url>
     `)
     );
   }
