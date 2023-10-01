@@ -1,9 +1,8 @@
 import dayjs from 'dayjs';
 import { OfferGenerator } from './offer-generator.interface.js';
-import { MockServerData } from '../../types/mock-server-data.type.js';
-import { generateRandomValue, getRandomItem, getRandomItems } from '../../helpers/common.js';
+import { MockServerData, OfferType } from '../../types/index.js';
+import { generateRandomValue, getRandomItem, getRandomItems } from '../../helpers/index.js';
 import { CITIES } from '../../const/cities.js';
-import { OfferType } from '../../types/offer-type.enum.js';
 import * as CONSTS from './const.js';
 
 export class TSVOfferGenerator implements OfferGenerator {

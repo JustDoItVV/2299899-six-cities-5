@@ -1,8 +1,5 @@
 import { CITIES } from '../const/cities.js';
-import { CityType } from '../types/city-type.enum.js';
-import { GoodsType } from '../types/goods-type.enum.js';
-import { OfferType } from '../types/offer-type.enum.js';
-import { Offer } from '../types/offer.type.js';
+import { CityType, GoodsType, OfferType, Offer } from '../types/index.js';
 
 export function createOffer(offerData: string): Offer {
   const [
