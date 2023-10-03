@@ -3,14 +3,14 @@ import { config } from 'dotenv';
 import { Logger } from '../logger/index.js';
 import { Config } from './config.interface.js';
 import { RestSchema, configRestSchema } from './rest.schema.js';
-import { Component } from '../../types/index.js';
+import { Service } from '../../types/index.js';
 
 @injectable()
 export class RestConfig implements Config<RestSchema> {
   private readonly config: RestSchema;
 
   constructor(
-    @inject(Component.Logger) private readonly logger: Logger
+    @inject(Service.Logger) private readonly logger: Logger
   ) {
     const parsedOutput = config();
 
