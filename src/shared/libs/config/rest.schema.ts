@@ -1,20 +1,15 @@
 import convict from 'convict';
 import validator from 'convict-format-with-validator';
+import { RestSchema } from './rest.schema.type.js';
 
 convict.addFormats(validator);
-
-export type RestSchema = {
-  PORT: number;
-  SALT: string;
-  DB_HOST: string;
-};
 
 export const configRestSchema = convict<RestSchema>({
   PORT: {
     doc: 'Port for incoming connections',
     format: 'port',
     env: 'PORT',
-    default: 4000,
+    default: null,
   },
   SALT: {
     doc: 'Salt for password hash',
@@ -26,6 +21,6 @@ export const configRestSchema = convict<RestSchema>({
     doc: 'IP address of the database server (MongoDB)',
     format: 'ipaddress',
     env: 'DB_HOST',
-    default: '127.0.0.1',
+    default: null,
   },
 });
