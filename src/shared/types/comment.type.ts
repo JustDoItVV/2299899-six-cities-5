@@ -1,6 +1,6 @@
 export type Comment = {
   text: string;
-  date: string;
+  date: Date;
   rating: number;
   author: string;
 };
