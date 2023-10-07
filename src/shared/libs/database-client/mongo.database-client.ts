@@ -3,6 +3,8 @@ import { DatabaseClient } from './database-client.interface.js';
 import * as Mongoose from 'mongoose';
 import { Service } from '../../types/index.js';
 import { Logger } from '../logger/index.js';
+import { RetryConnection } from './const.js';
+import { setTimeout } from 'node:timers/promises';
 
 @injectable()
 export class MongoDatabaseClient implements DatabaseClient {
@@ -22,10 +24,24 @@ export class MongoDatabaseClient implements DatabaseClient {
       throw new Error('MongoDB client is already connected');
     }
 
-    this.logger.info('Trying to connect to MongoDB');
-    this.mongoose = await Mongoose.connect(uri);
-    this.isconnected = true;
-    this.logger.info('MongoDB connection is established');
+    this.logger.info('Trying to connect to MongoDB...');
+    let attempt = 0;
+    while (attempt < RetryConnection.COUNT) {
+      try {
+        this.mongoose = await Mongoose.connect(uri);
+        this.isconnected = true;
+        this.logger.info('MongoDB connection is established');
+        return;
+      } catch (error) {
+        attempt++;
+        this.logger.error(`Failed to connect to the database. Attempt ${attempt}`, error as Error);
+        await setTimeout(RetryConnection.TIMEOUT);
+      }
+    }
+
+    throw new Error(`Unable to establish database connection after ${RetryConnection.COUNT} attempts`);
+
+
   }
 
   public async disconnect(): Promise<void> {
