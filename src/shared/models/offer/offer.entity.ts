@@ -1,7 +1,8 @@
-import { defaultClasses, getModelForClass, modelOptions, prop } from '@typegoose/typegoose';
+import { Ref, defaultClasses, getModelForClass, modelOptions, prop } from '@typegoose/typegoose';
 import { City, GoodsType, Offer, OfferType } from '../../types/index.js';
 import * as CONST from './const.js';
 import { CITIES } from '../../const/cities.js';
+import { UserEntity } from '../user/user.entity.js';
 
 // eslint-disable-next-line @typescript-eslint/no-unsafe-declaration-merging
 export interface OfferEntity extends defaultClasses.Base {}
@@ -13,14 +14,14 @@ export interface OfferEntity extends defaultClasses.Base {}
   }
 })
 // eslint-disable-next-line @typescript-eslint/no-unsafe-declaration-merging
-export class OfferEntity extends defaultClasses.TimeStamps implements Offer {
+export class OfferEntity extends defaultClasses.TimeStamps {
   @prop({
     required: true,
     minlength: [CONST.TitleLength.MIN, `Min length for title is ${CONST.TitleLength.MIN}`],
     maxlength: [CONST.TitleLength.MAX, `Max length for title is ${CONST.TitleLength.MAX}`],
     default: '',
   })
-  public title: string;
+  public title!: string;
 
   @prop({
     required: true,
@@ -28,7 +29,7 @@ export class OfferEntity extends defaultClasses.TimeStamps implements Offer {
     maxlength: [CONST.DescriptionLength.MAX, `Max length for description is ${CONST.DescriptionLength.MAX}`],
     default: '',
   })
-  public description: string;
+  public description!: string;
 
   @prop({
     required: true,
@@ -107,16 +108,16 @@ export class OfferEntity extends defaultClasses.TimeStamps implements Offer {
 
   @prop({
     required: true,
+    type: String,
     enum: GoodsType,
-    default: [],
   })
   public goods: GoodsType[];
 
   @prop({
     required: true,
-    default: '',
+    ref: UserEntity,
   })
-  public author: string;
+  public authorId: Ref<UserEntity>;
 
   @prop({
     default: 0,
@@ -155,7 +156,6 @@ export class OfferEntity extends defaultClasses.TimeStamps implements Offer {
     this.guests = offerData.guests;
     this.price = offerData.price;
     this.goods = offerData.goods;
-    this.author = offerData.author;
     this.commentsCount = offerData.commentsCount;
     this.latitude = offerData.latitude;
     this.longitude = offerData.longitude;
