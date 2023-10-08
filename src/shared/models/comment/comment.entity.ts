@@ -51,4 +51,4 @@ export class CommentEntity extends defaultClasses.TimeStamps implements Comment 
 
 }
 
-export const UserModel = getModelForClass(CommentEntity);
+export const CommentModel = getModelForClass(CommentEntity);
