@@ -8,8 +8,8 @@ import { DefaultOfferService, OfferModel, OfferService } from '../../shared/mode
 import { DatabaseClient, MongoDatabaseClient } from '../../shared/libs/database-client/index.js';
 import { ConsoleLogger, Logger } from '../../shared/libs/logger/index.js';
 import { Offer } from '../../shared/types/index.js';
-import { DEFAULT_DB_PORT } from './command.const.js';
 import { getMongoURI } from '../../shared/helpers/database.js';
+import { RestConfig } from '../../shared/libs/config/index.js';
 
 export class ImportCommand implements Command {
   private readonly name = '--import';
@@ -18,12 +18,14 @@ export class ImportCommand implements Command {
   private databaseClient: DatabaseClient;
   private logger: Logger;
   private salt: string;
+  private config: RestConfig;
 
   constructor() {
     this.onImportedLine = this.onImportedLine.bind(this);
     this.onCompleteImport = this.onCompleteImport.bind(this);
 
     this.logger = new ConsoleLogger();
+    this.config = new RestConfig(this.logger);
     this.userService = new DefaultUserService(this.logger, UserModel);
     this.offerService = new DefaultOfferService(this.logger, OfferModel);
     this.databaseClient = new MongoDatabaseClient(this.logger);
@@ -67,14 +69,20 @@ export class ImportCommand implements Command {
     });
   }
 
-  public async execute(filename: string, login: string, password: string, host: string, dbname: string, salt: string): Promise<void> {
+  public async execute(filename: string): Promise<void> {
     try {
       if (!filename || filename.trim().length === 0) {
         throw new Error('No <path> argument');
       }
 
-      const uri = getMongoURI(login, password, host, DEFAULT_DB_PORT, dbname);
-      this.salt = salt;
+      const uri = getMongoURI(
+        this.config.get('DB_USER'),
+        this.config.get('DB_PASSWORD'),
+        this.config.get('DB_HOST'),
+        this.config.get('DB_PORT'),
+        this.config.get('DB_NAME'),
+      );
+      this.salt = this.config.get('SALT');
 
       await this.databaseClient.connect(uri);
 
