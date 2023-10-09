@@ -13,12 +13,12 @@ export class MongoDatabaseClient implements DatabaseClient {
 
   constructor(@inject(Service.Logger) private readonly logger: Logger) {}
 
-  public isConnectedToDatabase() {
+  public get isConnectedToDatabase() {
     return this.isconnected;
   }
 
   public async connect(uri: string): Promise<void> {
-    if (this.isConnectedToDatabase()) {
+    if (this.isConnectedToDatabase) {
       throw new Error('MongoDB client is already connected');
     }
 
@@ -43,7 +43,7 @@ export class MongoDatabaseClient implements DatabaseClient {
   }
 
   public async disconnect(): Promise<void> {
-    if (!this.isConnectedToDatabase()) {
+    if (!this.isConnectedToDatabase) {
       throw new Error('MongoDB isn\t connected');
     }
 
