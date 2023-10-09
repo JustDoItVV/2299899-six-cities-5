@@ -1,6 +1,5 @@
 import { defaultClasses, getModelForClass, modelOptions, prop } from '@typegoose/typegoose';
 import { User, UserType } from '../../types/index.js';
-import { AVATAR_PATTERN, EMAIL_PATTERN, NameLength, PasswordLength } from './const.js';
 import { createSHA256 } from '../../helpers/index.js';
 
 // eslint-disable-next-line @typescript-eslint/no-unsafe-declaration-merging
@@ -14,40 +13,19 @@ export interface UserEntity extends defaultClasses.Base {}
 })
 // eslint-disable-next-line @typescript-eslint/no-unsafe-declaration-merging
 export class UserEntity extends defaultClasses.TimeStamps implements User {
-  @prop({
-    required: true,
-    minlength: [NameLength.MIN, `Min length for name is ${NameLength.MIN}`],
-    maxlength: [NameLength.MAX, `Max length for name is ${NameLength.MAX}`],
-    default: '',
-  })
+  @prop({ required: true, default: '' })
   public name: string;
 
-  @prop({
-    required: true,
-    unique: true,
-    match: [EMAIL_PATTERN, 'Email is incorrect'],
-    default: '',
-  })
+  @prop({ required: true, unique: true, default: '' })
   public email: string;
 
-  @prop({
-    match: [AVATAR_PATTERN, 'Avatar image name is incorrect'],
-    default: '',
-  })
+  @prop({ default: '' })
   public avatar: string;
 
-  @prop({
-    required: true,
-    default: UserType.Common,
-  })
+  @prop({ required: true, default: UserType.Common })
   public type: UserType;
 
-  @prop({
-    required: true,
-    minlength: [PasswordLength.MIN, `Min length for password is ${PasswordLength.MIN}`],
-    maxlength: [PasswordLength.MAX, `Max length for password is ${PasswordLength.MAX}`],
-    default: '',
-  })
+  @prop({ required: true, default: '' })
   public password: string;
 
   constructor(userData: User) {
