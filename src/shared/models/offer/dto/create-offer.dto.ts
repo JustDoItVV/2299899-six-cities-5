@@ -15,8 +15,7 @@ export class CreateOfferDto {
   public guests: number;
   public price: number;
   public goods: GoodsType[];
-  public author: string;
-  public commentsCount: number;
+  public authorId: string;
   public latitude: number;
   public longitude: number;
 }

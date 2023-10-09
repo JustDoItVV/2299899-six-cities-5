@@ -1,5 +1,5 @@
 import { CITIES } from '../const/cities.js';
-import { CityType, GoodsType, OfferType, Offer } from '../types/index.js';
+import { CityType, GoodsType, OfferType, Offer, UserType } from '../types/index.js';
 
 export function createOffer(offerData: string): Offer {
   const [
@@ -17,7 +17,11 @@ export function createOffer(offerData: string): Offer {
     guests,
     price,
     goods,
-    author,
+    name,
+    email,
+    avatar,
+    userType,
+    password,
     commentsCount,
     latitude,
     longitude,
@@ -36,8 +40,14 @@ export function createOffer(offerData: string): Offer {
     rooms: Number(rooms),
     guests: Number(guests),
     price: Number(price),
-    goods: goods.split(';') as GoodsType[],
-    author,
+    goods: goods.split(';').map((key) => GoodsType[key as keyof typeof GoodsType]),
+    author: {
+      name,
+      email,
+      avatar,
+      type: userType as UserType,
+      password,
+    },
     commentsCount: Number(commentsCount),
     latitude: Number(latitude),
     longitude: Number(longitude),

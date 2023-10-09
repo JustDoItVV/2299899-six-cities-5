@@ -26,14 +26,14 @@
       "Breakfast",
       "Towels",
       "Transfer",
-      "Air conditioner"
+      "Air",
+      "Laptop",
+      "BabySeat",
+      "Washer",
+      "Fridge"
     ],
-    "users": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5"
-    ]
+    "names": ["Max", "Liza", "Matt"],
+    "emails": ["liza@email.com", "max@email.com", "matt@email.com"],
+    "avatars": ["avatar1.jpg", "avatar2.jpg", "avatar3.jpg"]
   }
 }

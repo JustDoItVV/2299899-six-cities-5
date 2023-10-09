@@ -1,6 +1,6 @@
 import dayjs from 'dayjs';
 import { OfferGenerator } from './offer-generator.interface.js';
-import { MockServerData, OfferType } from '../../types/index.js';
+import { MockServerData, OfferType, UserType } from '../../types/index.js';
 import { generateRandomValue, getRandomItem, getRandomItems } from '../../helpers/index.js';
 import { CITIES } from '../../const/cities.js';
 import * as CONSTS from './const.js';
@@ -22,14 +22,18 @@ export class TSVOfferGenerator implements OfferGenerator {
     const isPremium = generateRandomValue(0, 1);
     const isFavorite = generateRandomValue(0, 1);
     const rating = generateRandomValue(CONSTS.Rating.MIN, CONSTS.Rating.MAX, 1);
-    const type = getRandomItem<string>(Object.keys(OfferType));
+    const type = getRandomItem<string>(Object.values(OfferType));
 
     const rooms = generateRandomValue(CONSTS.Rooms.MIN, CONSTS.Rooms.MAX);
     const guests = generateRandomValue(CONSTS.Guests.MIN, CONSTS.Guests.MAX);
     const price = generateRandomValue(CONSTS.Price.MIN, CONSTS.Guests.MAX);
     const goods = getRandomItems<string>(this.mockData.goods).join(';');
 
-    const user = getRandomItem<string>(this.mockData.users);
+    const name = getRandomItem<string>(this.mockData.names);
+    const email = getRandomItem<string>(this.mockData.emails);
+    const avatar = getRandomItem<string>(this.mockData.avatars);
+    const userType = getRandomItem<string>(Object.keys(UserType));
+    const password = generateRandomValue(CONSTS.MockNumericPasswordValue.MIN, CONSTS.MockNumericPasswordValue.MAX);
     const commentsCount = 0;
     const latitude = generateRandomValue(
       CONSTS.Latitude.MIN,
@@ -57,7 +61,11 @@ export class TSVOfferGenerator implements OfferGenerator {
       guests,
       price,
       goods,
-      user,
+      name,
+      email,
+      avatar,
+      userType,
+      password,
       commentsCount,
       latitude,
       longitude,

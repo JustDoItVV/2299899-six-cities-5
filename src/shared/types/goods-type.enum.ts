@@ -6,4 +6,5 @@ export enum GoodsType {
   Washer = 'Washer',
   Towels = 'Towels',
   Fridge = 'Fridge',
+  Transfer = 'Transfer',
 }

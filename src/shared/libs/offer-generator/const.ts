@@ -34,3 +34,8 @@ export enum Longitude {
 }
 
 export const COORDINATES_FLOAT_DIGITS = 6;
+
+export enum MockNumericPasswordValue {
+  MIN = 1000,
+  MAX = 9999,
+}
