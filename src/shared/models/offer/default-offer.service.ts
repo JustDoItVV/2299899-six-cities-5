@@ -6,7 +6,7 @@ import { OfferService } from './offer-service.interface.js';
 import { OfferEntity } from './offer.entity.js';
 import { CreateOfferDto } from './dto/create-offer.dto.js';
 import { UpdateOfferDto } from './dto/update-offer.dto.js';
-import { DEFAULT_OFFER_COUNT } from './offer.const.js';
+import { MAX_OFFERS_COUNT } from './offer.const.js';
 
 @injectable()
 export class DefaultOfferService implements OfferService {
@@ -52,13 +52,32 @@ export class DefaultOfferService implements OfferService {
 
   public async find(): Promise<DocumentType<OfferEntity>[]> {
     return this.offerModel
-      .find()
-      .populate(['authorId'])
-      .exec();
+      .aggregate([
+        {
+          $lookup: {
+            from: 'comments',
+            let: { offerId: '$_id' },
+            pipeline: [
+              { $match: { $expr: { $in: ['$$offerId', '$offers'] } } },
+              { $project: { _id: 1 } },
+            ],
+            as: 'comments',
+          }
+        },
+        {
+          $addFields: {
+            id: { $toString: '$_id' },
+            commentsCount: { $size: '$comments' },
+          },
+        },
+        { $unset: 'comments' },
+        { $limit: MAX_OFFERS_COUNT },
+        { $sort: { commentsCount: SortType.DOWN } },
+      ]).exec();
   }
 
   public async findNew(count: number): Promise<DocumentType<OfferEntity>[]> {
-    const limit = count ?? DEFAULT_OFFER_COUNT;
+    const limit = count ?? MAX_OFFERS_COUNT;
     return this.offerModel
       .find()
       .sort({ createdAt: SortType.DOWN })
@@ -68,7 +87,7 @@ export class DefaultOfferService implements OfferService {
   }
 
   public async findDiscussed(count: number): Promise<DocumentType<OfferEntity>[]> {
-    const limit = count ?? DEFAULT_OFFER_COUNT;
+    const limit = count ?? MAX_OFFERS_COUNT;
     return this.offerModel
       .find()
       .sort({ commentCount: SortType.DOWN })
