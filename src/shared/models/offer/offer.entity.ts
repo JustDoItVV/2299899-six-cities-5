@@ -1,6 +1,6 @@
 import { Ref, Severity, defaultClasses, getModelForClass, modelOptions, prop } from '@typegoose/typegoose';
 import { City, GoodsType, OfferType } from '../../types/index.js';
-import * as CONST from './const.js';
+import * as CONST from './offer.const.js';
 import { CITIES } from '../../const/cities.js';
 import { UserEntity } from '../user/user.entity.js';
 
