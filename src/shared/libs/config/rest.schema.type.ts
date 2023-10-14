@@ -6,4 +6,7 @@ export type RestSchema = {
   DB_PASSWORD: string;
   DB_PORT: string;
   DB_NAME: string;
+  DB_UI_PORT: string;
+  DB_UI_USER: string;
+  DB_UI_PASSWORD: string;
 };

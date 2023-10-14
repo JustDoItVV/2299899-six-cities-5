@@ -47,4 +47,22 @@ export const configRestSchema = convict<RestSchema>({
     env: 'DB_NAME',
     default: null,
   },
+  DB_UI_PORT: {
+    doc: 'Database UI port (MongoExpress)',
+    format: String,
+    env: 'DB_UI_PORT',
+    default: null,
+  },
+  DB_UI_USER: {
+    doc: 'Database UI user (MongoExpress)',
+    format: String,
+    env: 'DB_UI_USER',
+    default: null,
+  },
+  DB_UI_PASSWORD: {
+    doc: 'Database UI password (MongoExpress)',
+    format: String,
+    env: 'DB_UI_PASSWORD',
+    default: null,
+  },
 });
