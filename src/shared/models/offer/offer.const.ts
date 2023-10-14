@@ -37,3 +37,5 @@ export enum Longitude {
   MIN = 2.351499,
   MAX = 10.000654,
 }
+
+export const DEFAULT_OFFER_COUNT = 25;
