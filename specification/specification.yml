@@ -122,6 +122,8 @@ paths:
         - offers
       summary: Создание нового предложения
       description: Создание нового предложения. Возвращает объект нового предложения.
+      security:
+        - BearerAuth: []
 
       requestBody:
         description: Информация для создания нового предложения.
@@ -139,6 +141,7 @@ paths:
               schema:
                 type: object
                 $ref: '#/components/schemas/offer'
+
 
   /offers/{offerId}:
     get:
@@ -383,6 +386,11 @@ paths:
 
 
 components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+
   schemas:
     userCreation:
       type: object
@@ -556,10 +564,6 @@ components:
         description:
           type: string
           example: Very cool and spacious house
-
-        date:
-          type: string
-          example: 2023-10-03T13:40:33.225Z
 
         city:
           type: string
