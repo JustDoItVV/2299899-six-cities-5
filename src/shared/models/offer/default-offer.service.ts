@@ -68,6 +68,22 @@ export class DefaultOfferService implements OfferService {
           $addFields: {
             id: { $toString: '$_id' },
             commentsCount: { $size: '$comments' },
+            rating: {
+              $divide: [
+                {
+                  $reduce: {
+                    input: '$comments',
+                    initialValue: 0,
+                    in: {
+                      $add: ['$$value', '$$this.rating'],
+                    },
+                  },
+                },
+                {
+                  $cond: [{ $ne: [{ $size: '$comments' }, 0] }, { $size: '$comments' }, 1],
+                },
+              ],
+            },
           },
         },
         { $unset: 'comments' },
