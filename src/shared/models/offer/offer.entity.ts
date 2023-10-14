@@ -61,7 +61,10 @@ export class OfferEntity extends defaultClasses.TimeStamps {
   public goods!: GoodsType[];
 
   @prop({ required: true, ref: UserEntity })
-  public authorId: Ref<UserEntity>;
+  public authorId!: Ref<UserEntity>;
+
+  @prop({ default: 0 })
+  public commentsCount!: number;
 
   @prop({ required: true, default: CONST.Latitude.MIN })
   public latitude!: number;
