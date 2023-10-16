@@ -4,6 +4,7 @@ import { Logger } from '../../logger/index.js';
 import { Controller, Route } from '../index.js';
 import { DEFAULT_CONTENT_TYPE } from './controller.const.js';
 import { StatusCodes } from 'http-status-codes';
+import expressAsyncHandler from 'express-async-handler';
 
 @injectable()
 export abstract class BaseController implements Controller {
@@ -18,7 +19,8 @@ export abstract class BaseController implements Controller {
   }
 
   public addRoute(route: Route) {
-    this._router[route.method](route.path, route.handler.bind(this));
+    const wrapperAsyncHandler = expressAsyncHandler(route.handler.bind(this));
+    this._router[route.method](route.path, wrapperAsyncHandler);
     this.logger.info(`Route is registered: ${route.method.toUpperCase()} ${route.path}}`);
   }
 
