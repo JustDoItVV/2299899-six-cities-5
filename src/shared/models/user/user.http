@@ -1,0 +1,15 @@
+# Пользователи
+## Создать нового пользователя
+
+POST http://localhost:5000/users/register HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "TestName",
+  "email": "test_request_create_email@email.com",
+  "avatar": "avatar_request.png",
+  "type": "обычный",
+  "password": "12345"
+}
+
+###
