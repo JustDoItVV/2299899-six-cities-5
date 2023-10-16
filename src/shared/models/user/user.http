@@ -13,3 +13,27 @@ Content-Type: application/json
 }
 
 ###
+
+## Авторизовать существующего пользователя
+
+POST http://localhost:5000/users/login HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "test_request_create_email@email.com",
+  "password": "12345"
+}
+
+###
+
+## Попытка авторизовать несуществующего пользователя
+
+POST http://localhost:5000/users/login HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "not_existed@email.com",
+  "password": "12345"
+}
+
+###
