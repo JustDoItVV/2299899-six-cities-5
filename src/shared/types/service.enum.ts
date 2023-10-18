@@ -12,4 +12,5 @@ export const Service = {
   ExceptionFilter: Symbol.for('ExceptionFilter'),
   OfferController: Symbol.for('OfferController'),
   UserController: Symbol.for('UserController'),
+  CommentController: Symbol.for('CommentController'),
 } as const;

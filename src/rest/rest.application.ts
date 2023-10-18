@@ -19,6 +19,7 @@ export class RestApplication {
     @inject(Service.OfferController) private readonly offerController: Controller,
     @inject(Service.UserController) private readonly userController: Controller,
     @inject(Service.ExceptionFilter) private readonly defaultExceptionFilter: ExceptionFilter,
+    @inject(Service.CommentController) private readonly commentController: Controller,
   ) {}
 
   async #initDb() {
@@ -40,6 +41,7 @@ export class RestApplication {
   async #initControllers() {
     this.server.use('/offers', this.offerController.router);
     this.server.use('/users', this.userController.router);
+    this.server.use('/comments', this.commentController.router);
   }
 
   async #initMiddleware() {
