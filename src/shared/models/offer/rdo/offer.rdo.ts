@@ -1,5 +1,7 @@
-import { Expose } from 'class-transformer';
-import { City, GoodsType, OfferType, User } from '../../../types/index.js';
+import { Expose, Type } from 'class-transformer';
+
+import { City, GoodsType, OfferType } from '../../../types/index.js';
+import { UserRdo } from '../../user/index.js';
 
 export class OfferRdo {
   @Expose()
@@ -47,8 +49,9 @@ export class OfferRdo {
   @Expose()
   public goods: GoodsType[];
 
-  @Expose()
-  public authorId: User;
+  @Expose({ name: 'authorId' })
+  @Type(() => UserRdo)
+  public author: UserRdo;
 
   @Expose()
   public commentsCount: number;

@@ -5,3 +5,4 @@ export * from './offer.container.js';
 export * from './offer.controller.js';
 export * from './offer.entity.js';
 export * from './rdo/offer.rdo.js';
+export * from './type/param-offerid.type.js';
