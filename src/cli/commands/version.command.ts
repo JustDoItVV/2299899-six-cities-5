@@ -1,7 +1,8 @@
-import { Command } from './command.interface.js';
-import { resolve } from 'node:path';
-import { readFile } from 'node:fs/promises';
 import chalk from 'chalk';
+import { readFile } from 'node:fs/promises';
+import { resolve } from 'node:path';
+
+import { Command } from './command.interface.js';
 
 type PackageJSONConfig = {
   version: string;

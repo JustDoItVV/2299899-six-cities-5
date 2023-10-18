@@ -1,5 +1,5 @@
 import { CITIES } from '../const/cities.js';
-import { CityType, GoodsType, OfferType, Offer, UserType } from '../types/index.js';
+import { CityType, GoodsType, Offer, OfferType, UserType } from '../types/index.js';
 
 export function createOffer(offerData: string): Offer {
   const [

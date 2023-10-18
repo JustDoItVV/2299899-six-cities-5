@@ -1,5 +1,6 @@
 import convict from 'convict';
 import validator from 'convict-format-with-validator';
+
 import { RestSchema } from './rest.schema.type.js';
 
 convict.addFormats(validator);

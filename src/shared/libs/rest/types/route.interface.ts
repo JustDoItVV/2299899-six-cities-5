@@ -1,4 +1,5 @@
 import { NextFunction, Request, Response } from 'express';
+
 import { HttpMethod } from './http-method.enum.js';
 
 export interface Route {

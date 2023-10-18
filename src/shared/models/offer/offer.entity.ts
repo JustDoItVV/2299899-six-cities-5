@@ -1,8 +1,11 @@
-import { Ref, Severity, defaultClasses, getModelForClass, modelOptions, prop } from '@typegoose/typegoose';
-import { City, GoodsType, OfferType } from '../../types/index.js';
-import * as CONST from './offer.const.js';
+import {
+  defaultClasses, getModelForClass, modelOptions, prop, Ref, Severity
+} from '@typegoose/typegoose';
+
 import { CITIES } from '../../const/cities.js';
+import { City, GoodsType, OfferType } from '../../types/index.js';
 import { UserEntity } from '../user/user.entity.js';
+import * as CONST from './offer.const.js';
 
 // eslint-disable-next-line @typescript-eslint/no-unsafe-declaration-merging
 export interface OfferEntity extends defaultClasses.Base {}

@@ -1,15 +1,16 @@
 import chalk from 'chalk';
+
 import { getErrorMessage } from '../../shared/helpers/common.js';
-import { createOffer } from '../../shared/helpers/offer.js';
-import { TSVFileReader } from '../../shared/libs/file-reader/tsv-file-reader.js';
-import { Command } from './command.interface.js';
-import { DefaultUserService, UserModel, UserService } from '../../shared/models/user/index.js';
-import { DefaultOfferService, OfferModel, OfferService } from '../../shared/models/offer/index.js';
-import { DatabaseClient, MongoDatabaseClient } from '../../shared/libs/database-client/index.js';
-import { ConsoleLogger, Logger } from '../../shared/libs/logger/index.js';
-import { Offer } from '../../shared/types/index.js';
 import { getMongoURI } from '../../shared/helpers/database.js';
+import { createOffer } from '../../shared/helpers/offer.js';
 import { RestConfig } from '../../shared/libs/config/index.js';
+import { DatabaseClient, MongoDatabaseClient } from '../../shared/libs/database-client/index.js';
+import { TSVFileReader } from '../../shared/libs/file-reader/tsv-file-reader.js';
+import { ConsoleLogger, Logger } from '../../shared/libs/logger/index.js';
+import { DefaultOfferService, OfferModel, OfferService } from '../../shared/models/offer/index.js';
+import { DefaultUserService, UserModel, UserService } from '../../shared/models/user/index.js';
+import { Offer } from '../../shared/types/index.js';
+import { Command } from './command.interface.js';
 
 export class ImportCommand implements Command {
   private readonly name = '--import';

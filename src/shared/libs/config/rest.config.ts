@@ -1,9 +1,10 @@
-import { inject, injectable } from 'inversify';
 import { config } from 'dotenv';
+import { inject, injectable } from 'inversify';
+
+import { Service } from '../../types/index.js';
 import { Logger } from '../logger/index.js';
 import { Config } from './config.interface.js';
 import { configRestSchema } from './rest.schema.js';
-import { Service } from '../../types/index.js';
 import { RestSchema } from './rest.schema.type.js';
 
 @injectable()

@@ -1,10 +1,11 @@
 import { Response, Router } from 'express';
+import expressAsyncHandler from 'express-async-handler';
+import { StatusCodes } from 'http-status-codes';
 import { injectable } from 'inversify';
+
 import { Logger } from '../../logger/index.js';
 import { Controller, Route } from '../index.js';
 import { DEFAULT_CONTENT_TYPE } from './controller.const.js';
-import { StatusCodes } from 'http-status-codes';
-import expressAsyncHandler from 'express-async-handler';
 
 @injectable()
 export abstract class BaseController implements Controller {

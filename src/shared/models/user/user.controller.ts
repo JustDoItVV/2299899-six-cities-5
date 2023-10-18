@@ -1,15 +1,16 @@
+import { Response } from 'express';
+import { StatusCodes } from 'http-status-codes';
 import { inject, injectable } from 'inversify';
+
+import { fillDTO } from '../../helpers/common.js';
+import { Config, RestSchema } from '../../libs/config/index.js';
+import { Logger } from '../../libs/logger/index.js';
 import { BaseController, HttpError, HttpMethod } from '../../libs/rest/index.js';
 import { Service } from '../../types/index.js';
-import { Logger } from '../../libs/logger/index.js';
-import { CreateUserRequest } from './types/create-user-request.type.js';
-import { Response } from 'express';
-import { UserService } from './user-service.interface.js';
-import { Config, RestSchema } from '../../libs/config/index.js';
-import { StatusCodes } from 'http-status-codes';
-import { fillDTO } from '../../helpers/common.js';
 import { UserRdo } from './rdo/user.rdo.js';
+import { CreateUserRequest } from './types/create-user-request.type.js';
 import { LoginUserRequest } from './types/login-user-request.type.js';
+import { UserService } from './user-service.interface.js';
 
 @injectable()
 export class UserController extends BaseController {
