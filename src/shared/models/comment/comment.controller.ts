@@ -4,10 +4,13 @@ import { inject, injectable } from 'inversify';
 import { Logger } from 'pino';
 
 import { fillDTO } from '../../helpers/index.js';
-import { BaseController, HttpError, HttpMethod } from '../../libs/rest/index.js';
+import {
+  BaseController, HttpError, HttpMethod, ValidateDtoMiddleware
+} from '../../libs/rest/index.js';
 import { Service } from '../../types/index.js';
 import { OfferService } from '../offer/offer-service.interface.js';
 import { CommentService } from './comment-service.interface.js';
+import { CreateCommentDto } from './dto/create-comment.dto.js';
 import { CommentRdo } from './rdo/comment.rdo.js';
 import { CreateCommentRequest } from './type/create-comment-request.type.js';
 
@@ -21,7 +24,7 @@ export default class CommentController extends BaseController {
     super(logger);
 
     this.logger.info('Registering routes for CommentController...');
-    this.addRoute({ path: '/', method: HttpMethod.Post, handler: this.create });
+    this.addRoute({ path: '/', method: HttpMethod.Post, handler: this.create, middlewares: [new ValidateDtoMiddleware(CreateCommentDto)] });
   }
 
   public async create(
