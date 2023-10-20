@@ -4,6 +4,7 @@ export * from './controller/controller.interface.js';
 export * from './errors/index.js';
 export * from './exception-filter/default-exception-filter.js';
 export * from './exception-filter/exception-filter.interface.js';
+export * from './middleware/document-exists.middleware.js';
 export * from './middleware/middleware.interface.js';
 export * from './middleware/validate-dto.middleware.js';
 export * from './middleware/validate-objectid.middleware.js';
