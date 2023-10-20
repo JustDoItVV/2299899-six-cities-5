@@ -9,4 +9,5 @@ export type RestSchema = {
   DB_UI_PORT: string;
   DB_UI_USER: string;
   DB_UI_PASSWORD: string;
+  UPLOAD_DIRECTORY: string;
 };
