@@ -5,10 +5,11 @@ import { inject, injectable } from 'inversify';
 import { fillDTO } from '../../helpers/index.js';
 import { Logger } from '../../libs/logger/index.js';
 import {
-  BaseController, HttpError, HttpMethod, ValidateObjectIdMiddleware
+  BaseController, HttpError, HttpMethod, ValidateDtoMiddleware, ValidateObjectIdMiddleware
 } from '../../libs/rest/index.js';
 import { Service } from '../../types/index.js';
 import { CommentRdo, CommentService } from '../comment/index.js';
+import { CreateOfferDto } from './dto/create-offer.dto.js';
 import { UpdateOfferDto } from './dto/update-offer.dto.js';
 import { OfferService } from './offer-service.interface.js';
 import { OfferRdo } from './rdo/offer.rdo.js';
@@ -26,9 +27,9 @@ export class OfferController extends BaseController {
 
     this.logger.info('Registering routes for OfferController...');
     this.addRoute({ path: '/', method: HttpMethod.Get, handler: this.index });
-    this.addRoute({ path: '/', method: HttpMethod.Post, handler: this.create });
+    this.addRoute({ path: '/', method: HttpMethod.Post, handler: this.create, middlewares: [new ValidateDtoMiddleware(CreateOfferDto)] });
     this.addRoute({ path: '/:offerId', method: HttpMethod.Get, handler: this.show, middlewares: [new ValidateObjectIdMiddleware('offerId')] });
-    this.addRoute({ path: '/:offerId', method: HttpMethod.Patch, handler: this.update, middlewares: [new ValidateObjectIdMiddleware('offerId')] });
+    this.addRoute({ path: '/:offerId', method: HttpMethod.Patch, handler: this.update, middlewares: [new ValidateObjectIdMiddleware('offerId'), new ValidateDtoMiddleware(UpdateOfferDto)] });
     this.addRoute({ path: '/:offerId/comments', method: HttpMethod.Get, handler: this.getComments, middlewares: [new ValidateObjectIdMiddleware('offerId')] });
   }
 
