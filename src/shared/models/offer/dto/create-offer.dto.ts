@@ -7,57 +7,57 @@ import { CityType, GoodsType, OfferType } from '../../../types/index.js';
 import * as CONSTS from '../offer.const.js';
 
 export class CreateOfferDto {
-  @MinLength(CONSTS.TitleLength.MIN)
-  @MaxLength(CONSTS.TitleLength.MAX)
+  @MinLength(CONSTS.TitleLength.MIN, { message: `Min title length is ${CONSTS.TitleLength.MIN}` })
+  @MaxLength(CONSTS.TitleLength.MAX, { message: `Max title length is ${CONSTS.TitleLength.MAX}` })
   public title: string;
 
-  @MinLength(CONSTS.DescriptionLength.MIN)
-  @MaxLength(CONSTS.DescriptionLength.MAX)
+  @MinLength(CONSTS.DescriptionLength.MIN, { message: `Min description length is ${CONSTS.DescriptionLength.MIN}` })
+  @MaxLength(CONSTS.DescriptionLength.MAX, { message: `Max description length is ${CONSTS.DescriptionLength.MAX}` })
   public description: string;
 
-  @IsEnum(CityType)
+  @IsEnum(CityType, { message: `City must be ${CityType}` })
   public city: CityType;
 
-  @MinLength(5)
+  @MinLength(CONSTS.MIN_IMAGE_FILENAME_LENGTH, { message: `Min filename length with extension is ${CONSTS.MIN_IMAGE_FILENAME_LENGTH}` })
   public preview: string;
 
-  @IsArray()
-  @ArrayMinSize(CONSTS.IMAGES_ARRAY_LENGTH)
-  @ArrayMaxSize(CONSTS.IMAGES_ARRAY_LENGTH)
-  @MinLength(5, { each: true })
+  @IsArray({ message: 'Images must be array' })
+  @ArrayMinSize(CONSTS.IMAGES_ARRAY_LENGTH, { message: `Number of images must be exactly ${CONSTS.IMAGES_ARRAY_LENGTH}` })
+  @ArrayMaxSize(CONSTS.IMAGES_ARRAY_LENGTH, { message: `Number of images must be exactly ${CONSTS.IMAGES_ARRAY_LENGTH}` })
+  @MinLength(CONSTS.MIN_IMAGE_FILENAME_LENGTH, { each: true, message: `Min filename length with extension is ${CONSTS.MIN_IMAGE_FILENAME_LENGTH}` })
   public images: string[];
 
-  @IsBoolean()
+  @IsBoolean({ message: 'isPremium must be boolean' })
   public isPremium: boolean;
 
-  @IsEnum(OfferType)
+  @IsEnum(OfferType, { message: `Offer type must be ${OfferType}` })
   public type: OfferType;
 
-  @IsInt()
-  @Min(CONSTS.RoomsCount.MIN)
-  @Max(CONSTS.RoomsCount.MAX)
+  @IsInt({ message: 'Rooms is required and must be an integer' })
+  @Min(CONSTS.RoomsCount.MIN, { message: `Rooms min value is ${CONSTS.RoomsCount.MIN}` })
+  @Max(CONSTS.RoomsCount.MAX, { message: `Rooms max value is ${CONSTS.RoomsCount.MAX}` })
   public rooms: number;
 
-  @IsInt()
-  @Min(CONSTS.GuestsCount.MIN)
-  @Max(CONSTS.GuestsCount.MAX)
+  @IsInt({ message: 'Guests is required and must be an integer' })
+  @Min(CONSTS.GuestsCount.MIN, { message: `Guests min value is ${CONSTS.GuestsCount.MIN}` })
+  @Max(CONSTS.GuestsCount.MAX, { message: `Guests max value is ${CONSTS.GuestsCount.MAX}` })
   public guests: number;
 
-  @IsInt()
-  @Min(CONSTS.Price.MIN)
-  @Max(CONSTS.Price.MAX)
+  @IsInt({ message: 'Price is required and must be an integer' })
+  @Min(CONSTS.Price.MIN, { message: `Price min value is ${CONSTS.Price.MIN}` })
+  @Max(CONSTS.Price.MAX, { message: `Price max value is ${CONSTS.Price.MAX}` })
   public price: number;
 
-  @IsArray()
-  @IsEnum(GoodsType, { each: true })
+  @IsArray({ message: 'Goods must be array' })
+  @IsEnum(GoodsType, { each: true, message: `Goods must be ${GoodsType}` })
   public goods: GoodsType[];
 
-  @IsMongoId()
+  @IsMongoId({ message: 'authorId is required and must be a valid Mongo id' })
   public authorId: string;
 
-  @IsLatitude()
+  @IsLatitude({ message: 'Latitude field must be a valid coordinate' })
   public latitude: number;
 
-  @IsLongitude()
+  @IsLongitude({ message: 'Longitude field must be a valid coordinate' })
   public longitude: number;
 }

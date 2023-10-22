@@ -1,24 +1,32 @@
-import { IsEnum, IsString, Length } from 'class-validator';
+import { IsEmail, IsEnum, IsString, Length, Matches } from 'class-validator';
 
 import { UserType } from '../../../types/index.js';
 import * as CONSTS from '../user.const.js';
-import { CreateUserMessages } from './create-user.messages.js';
 
 export class CreateUserDto {
-  @IsString({ message: CreateUserMessages.name.invalidFormat })
-  @Length(CONSTS.NameLength.MIN, CONSTS.NameLength.MAX, { message: CreateUserMessages.name.lengthField })
+  @IsString({ message: 'Name is required and must be string' })
+  @Length(
+    CONSTS.NameLength.MIN,
+    CONSTS.NameLength.MAX,
+    { message: `Min name length is ${CONSTS.NameLength.MIN}, max is ${CONSTS.NameLength.MAX}` })
   public name: string;
 
-  @IsString({ message: CreateUserMessages.email.invalidFormat })
+  @IsString({ message: 'Email is required and must be string' })
+  @IsEmail({}, { message: 'Email must be valid' })
+  @Matches(CONSTS.EMAIL_PATTERN, { message: 'Email must be valid' })
   public email: string;
 
-  @IsString({ message: CreateUserMessages.avatar.invalidFormat })
+  @IsString({ message: 'Avatar is required' })
+  @Matches(CONSTS.AVATAR_PATTERN)
   public avatar: string;
 
-  @IsEnum(UserType, { message: CreateUserMessages.type.invalidFormat })
+  @IsEnum(UserType, { message: `User type must be ${UserType}` })
   public type: UserType;
 
-  @IsString({ message: CreateUserMessages.password.invalidFormat })
-  @Length(CONSTS.PasswordLength.MIN, CONSTS.PasswordLength.MAX, { message: CreateUserMessages.password.lengthField })
+  @IsString({ message: 'Password is required' })
+  @Length(
+    CONSTS.PasswordLength.MIN,
+    CONSTS.PasswordLength.MAX,
+    { message: `Min length for password is ${CONSTS.PasswordLength.MIN}, max is ${CONSTS.PasswordLength.MAX}` })
   public password: string;
 }

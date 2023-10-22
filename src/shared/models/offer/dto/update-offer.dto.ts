@@ -1,65 +1,63 @@
 import {
-  IsArray, IsBoolean, IsDateString, IsEnum, IsInt, IsLatitude, IsLongitude, IsMongoId, IsObject,
-  Max, MaxLength, Min, MinLength
+  ArrayMaxSize, ArrayMinSize, IsArray, IsBoolean, IsEnum, IsInt, IsLatitude, IsLongitude,
+  IsMongoId, Max, MaxLength, Min, MinLength
 } from 'class-validator';
 
-import { City, GoodsType, OfferType } from '../../../types/index.js';
+import { CityType, GoodsType, OfferType } from '../../../types/index.js';
 import * as CONSTS from '../offer.const.js';
-import { UpdateOfferValidationMessage } from './update-offer.messages.js';
 
 export class UpdateOfferDto {
-  @MinLength(CONSTS.TitleLength.MIN, { message: UpdateOfferValidationMessage.title.minLength })
-  @MaxLength(CONSTS.TitleLength.MAX, { message: UpdateOfferValidationMessage.title.maxLength })
+  @MinLength(CONSTS.TitleLength.MIN, { message: `Min title length is ${CONSTS.TitleLength.MIN}` })
+  @MaxLength(CONSTS.TitleLength.MAX, { message: `Max title length is ${CONSTS.TitleLength.MAX}` })
   public title?: string;
 
-  @MinLength(CONSTS.DescriptionLength.MIN, { message: UpdateOfferValidationMessage.description.minLength })
-  @MaxLength(CONSTS.DescriptionLength.MAX, { message: UpdateOfferValidationMessage.description.maxLength })
+  @MinLength(CONSTS.DescriptionLength.MIN, { message: `Min description length is ${CONSTS.DescriptionLength.MIN}` })
+  @MaxLength(CONSTS.DescriptionLength.MAX, { message: `Max description length is ${CONSTS.DescriptionLength.MAX}` })
   public description?: string;
 
-  @IsDateString({}, { message: UpdateOfferValidationMessage.date.invalidFormat })
-  public date?: Date;
+  @IsEnum(CityType, { message: `City must be ${CityType}` })
+  public city?: CityType;
 
-  @IsObject({ message: UpdateOfferValidationMessage.city.invalid })
-  public city?: City;
-
-  @MinLength(5, { message: UpdateOfferValidationMessage.preview.minLength })
+  @MinLength(CONSTS.MIN_IMAGE_FILENAME_LENGTH, { message: `Min filename length with extension is ${CONSTS.MIN_IMAGE_FILENAME_LENGTH}` })
   public preview?: string;
 
-  @IsArray({ message: UpdateOfferValidationMessage.images.invalidFormat })
-  @MinLength(5, { message: UpdateOfferValidationMessage.images.minLength })
+  @IsArray({ message: 'Images must be array' })
+  @ArrayMinSize(CONSTS.IMAGES_ARRAY_LENGTH, { message: `Number of images must be exactly ${CONSTS.IMAGES_ARRAY_LENGTH}` })
+  @ArrayMaxSize(CONSTS.IMAGES_ARRAY_LENGTH, { message: `Number of images must be exactly ${CONSTS.IMAGES_ARRAY_LENGTH}` })
+  @MinLength(CONSTS.MIN_IMAGE_FILENAME_LENGTH, { each: true, message: `Min filename length with extension is ${CONSTS.MIN_IMAGE_FILENAME_LENGTH}` })
   public images?: string[];
 
-  @IsBoolean({ message: UpdateOfferValidationMessage.isPremium.invalidFormat })
+  @IsBoolean({ message: 'isPremium must be boolean' })
   public isPremium?: boolean;
 
-  @IsEnum(OfferType, { message: UpdateOfferValidationMessage.type.invalid })
+  @IsEnum(OfferType, { message: `Offer type must be ${OfferType}` })
   public type?: OfferType;
 
-  @IsInt({ message: UpdateOfferValidationMessage.rooms.invalidFormat })
-  @Min(CONSTS.RoomsCount.MIN, { message: UpdateOfferValidationMessage.rooms.minValue })
-  @Max(CONSTS.RoomsCount.MAX, { message: UpdateOfferValidationMessage.rooms.maxValue })
+  @IsInt({ message: 'Rooms is required and must be an integer' })
+  @Min(CONSTS.RoomsCount.MIN, { message: `Rooms min value is ${CONSTS.RoomsCount.MIN}` })
+  @Max(CONSTS.RoomsCount.MAX, { message: `Rooms max value is ${CONSTS.RoomsCount.MAX}` })
   public rooms?: number;
 
-  @IsInt({ message: UpdateOfferValidationMessage.guests.invalidFormat })
-  @Min(CONSTS.GuestsCount.MIN, { message: UpdateOfferValidationMessage.guests.minValue })
-  @Max(CONSTS.GuestsCount.MAX, { message: UpdateOfferValidationMessage.guests.maxValue })
+  @IsInt({ message: 'Guests is required and must be an integer' })
+  @Min(CONSTS.GuestsCount.MIN, { message: `Guests min value is ${CONSTS.GuestsCount.MIN}` })
+  @Max(CONSTS.GuestsCount.MAX, { message: `Guests max value is ${CONSTS.GuestsCount.MAX}` })
   public guests?: number;
 
-  @IsInt({ message: UpdateOfferValidationMessage.price.invalidFormat })
-  @Min(CONSTS.Price.MIN, { message: UpdateOfferValidationMessage.price.minValue })
-  @Max(CONSTS.Price.MAX, { message: UpdateOfferValidationMessage.price.maxValue })
+  @IsInt({ message: 'Price is required and must be an integer' })
+  @Min(CONSTS.Price.MIN, { message: `Price min value is ${CONSTS.Price.MIN}` })
+  @Max(CONSTS.Price.MAX, { message: `Price max value is ${CONSTS.Price.MAX}` })
   public price?: number;
 
-  @IsArray({ message: UpdateOfferValidationMessage.goods.invalidFormat })
-  @IsEnum(GoodsType, { message: UpdateOfferValidationMessage.goods.invalid })
+  @IsArray({ message: 'Goods must be array' })
+  @IsEnum(GoodsType, { each: true, message: `Goods must be ${GoodsType}` })
   public goods?: GoodsType[];
 
-  @IsMongoId({ message: UpdateOfferValidationMessage.authorId.invalidId })
+  @IsMongoId({ message: 'authorId is required and must be a valid Mongo id' })
   public authorId?: string;
 
-  @IsLatitude({ message: UpdateOfferValidationMessage.latitude.invalid })
+  @IsLatitude({ message: 'Latitude field must be a valid coordinate' })
   public latitude?: number;
 
-  @IsLongitude({ message: UpdateOfferValidationMessage.longitude.invalid })
+  @IsLongitude({ message: 'Longitude field must be a valid coordinate' })
   public longitude?: number;
 }

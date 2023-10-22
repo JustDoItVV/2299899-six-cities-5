@@ -1,21 +1,20 @@
 import { IsInt, IsMongoId, IsString, Length, Max, Min } from 'class-validator';
 
 import * as CONSTS from '../comment.const.js';
-import { CreateCommentMessages } from './create-comment.messages.js';
 
 export class CreateCommentDto {
-  @IsString({ message: CreateCommentMessages.text.invalidFormat })
-  @Length(CONSTS.TextLength.MIN, CONSTS.TextLength.MAX, { message: CreateCommentMessages.text.lengthField })
+  @IsString({ message: 'Text is required' })
+  @Length(CONSTS.TextLength.MIN, CONSTS.TextLength.MAX, { message: `Min length is ${CONSTS.TextLength.MIN}, max is ${CONSTS.TextLength.MAX}` })
   public text: string;
 
-  @IsInt({ message: CreateCommentMessages.rating.invalidFormat })
-  @Min(CONSTS.Rating.MIN, { message: CreateCommentMessages.rating.range })
-  @Max(CONSTS.Rating.MAX, { message: CreateCommentMessages.rating.range })
+  @IsInt({ message: 'Rating is required and must be integer' })
+  @Min(CONSTS.Rating.MIN, { message: `Min rating is ${CONSTS.Rating.MIN}` })
+  @Max(CONSTS.Rating.MAX, { message: `Max rating is ${CONSTS.Rating.MAX}` })
   public rating: number;
 
-  @IsMongoId({ message: CreateCommentMessages.authorId.invalidFormat })
+  @IsMongoId({ message: 'AuthorId field is required and must be a valid Mongo id' })
   public authorId: string;
 
-  @IsMongoId({ message: CreateCommentMessages.offerId.invalidFormat })
+  @IsMongoId({ message: 'OfferId field is required and must be a valid Mongo id' })
   public offerId: string;
 }

@@ -8,6 +8,7 @@ export enum DescriptionLength {
   MAX = 1024,
 }
 
+export const MIN_IMAGE_FILENAME_LENGTH = 5;
 export const IMAGES_ARRAY_LENGTH = 6;
 
 export enum Rating {
