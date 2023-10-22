@@ -1,5 +1,6 @@
 import { Request, Response } from 'express';
 import { inject, injectable } from 'inversify';
+import { Types } from 'mongoose';
 
 import { fillDTO } from '../../helpers/index.js';
 import { Logger } from '../../libs/logger/index.js';
@@ -7,7 +8,7 @@ import {
   BaseController, DocumentExistsMiddleware, HttpMethod, ValidateDtoMiddleware,
   ValidateObjectIdMiddleware
 } from '../../libs/rest/index.js';
-import { Service } from '../../types/index.js';
+import { Service, SortType } from '../../types/index.js';
 import { CommentRdo, CommentService } from '../comment/index.js';
 import { CreateOfferDto } from './dto/create-offer.dto.js';
 import { UpdateOfferDto } from './dto/update-offer.dto.js';
@@ -79,20 +80,19 @@ export class OfferController extends BaseController {
   }
 
   public async index(_req: Request, res: Response): Promise<void> {
-    const offers = await this.offerService.findMany({}, 60);
+    const offers = await this.offerService.findMany({ params: {}, limit: 60, sortOptions: { field: 'createdAt', order: SortType.UP } });
     const responseData = fillDTO(OfferRdo, offers);
     this.ok(res, responseData);
   }
 
   public async create({ body }: CreateOfferRequest, res: Response): Promise<void> {
     const result = await this.offerService.create(body);
-    const offer = await this.offerService.findOne({ id: result.id });
-    this.created(res, fillDTO(OfferRdo, offer));
+    this.created(res, fillDTO(OfferRdo, result));
   }
 
   public async show({ params }: Request<ParamOfferId>, res: Response): Promise<void> {
     const { offerId } = params;
-    const offer = await this.offerService.findOne({ id: offerId });
+    const offer = await this.offerService.findOne({ _id: new Types.ObjectId(offerId) });
     this.ok(res, fillDTO(OfferRdo, offer));
   }
 

@@ -5,6 +5,12 @@ Content-Type: : application/json
 
 ###
 
+## Получить подробную информацию по предложению с offerId
+GET http://localhost:5000/offers/6534ef05065d207294aabba9 HTTP/1.1
+Content-Type: : application/json
+
+###
+
 ## Добавить новое предложение
 POST http://localhost:5000/offers HTTP/1.1
 Content-Type: application/json
@@ -21,7 +27,7 @@ Content-Type: application/json
   "guests": 10,
   "price": 666,
   "goods": ["Laptop friendly workspace", "Towels"],
-  "authorId": "6534ef05065d207294aabb88",
+  "authorId": "6534ef05065d207294aabb90",
   "latitude": 5.55,
   "longitude": 6.66
 }
