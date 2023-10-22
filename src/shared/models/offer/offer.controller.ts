@@ -12,7 +12,7 @@ import { Service, SortType } from '../../types/index.js';
 import { CommentRdo, CommentService } from '../comment/index.js';
 import { CreateOfferDto } from './dto/create-offer.dto.js';
 import { UpdateOfferDto } from './dto/update-offer.dto.js';
-import { OfferService } from './offer-service.interface.js';
+import { OfferService } from './interface/offer-service.interface.js';
 import { OfferRdo } from './rdo/offer.rdo.js';
 import { CreateOfferRequest } from './type/create-offer-request.type.js';
 import { ParamOfferId } from './type/param-offerid.type.js';

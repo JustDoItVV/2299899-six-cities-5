@@ -1,10 +1,10 @@
 import { defaultClasses, DocumentType } from '@typegoose/typegoose';
 
-import { DocumentExists } from '../../types/index.js';
-import { CreateOfferDto } from './dto/create-offer.dto.js';
-import { UpdateOfferDto } from './dto/update-offer.dto.js';
-import { OfferFindManyQuery } from './interface/offer-find-many-query.interface.js';
-import { OfferEntity } from './offer.entity.js';
+import { DocumentExists } from '../../../types/index.js';
+import { CreateOfferDto } from '../dto/create-offer.dto.js';
+import { UpdateOfferDto } from '../dto/update-offer.dto.js';
+import { OfferEntity } from '../offer.entity.js';
+import { OfferFindManyQuery } from './offer-find-many-query.interface.js';
 
 export interface OfferService extends DocumentExists {
   create(dto: CreateOfferDto): Promise<DocumentType<OfferEntity>>;

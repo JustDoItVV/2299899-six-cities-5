@@ -8,7 +8,7 @@ import {
   BaseController, HttpError, HttpMethod, ValidateDtoMiddleware
 } from '../../libs/rest/index.js';
 import { Service } from '../../types/index.js';
-import { OfferService } from '../offer/offer-service.interface.js';
+import { OfferService } from '../offer/interface/offer-service.interface.js';
 import { CommentService } from './comment-service.interface.js';
 import { CreateCommentDto } from './dto/create-comment.dto.js';
 import { CommentRdo } from './rdo/comment.rdo.js';

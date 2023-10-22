@@ -9,7 +9,7 @@ import { Service, SortType } from '../../types/index.js';
 import { CreateOfferDto } from './dto/create-offer.dto.js';
 import { UpdateOfferDto } from './dto/update-offer.dto.js';
 import { OfferFindManyQuery } from './interface/offer-find-many-query.interface.js';
-import { OfferService } from './offer-service.interface.js';
+import { OfferService } from './interface/offer-service.interface.js';
 import { MAX_OFFERS_COUNT } from './offer.const.js';
 import { OfferEntity } from './offer.entity.js';
 
