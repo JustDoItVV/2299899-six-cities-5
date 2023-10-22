@@ -2,10 +2,11 @@ import { inject, injectable } from 'inversify';
 
 import { types } from '@typegoose/typegoose';
 
-import { Service } from '../../types/index.js';
-import { CommentService } from './comment-service.interface.js';
+import { Service, SortType } from '../../types/index.js';
 import { CommentEntity } from './comment.entity.ts.js';
 import { CreateCommentDto } from './dto/create-comment.dto.js';
+import { CommentFindManyQuery } from './interface/comment-find-many-query.interface.js';
+import { CommentService } from './interface/comment-service.interface.js';
 
 @injectable()
 export class DefaultCommentService implements CommentService {
@@ -16,10 +17,13 @@ export class DefaultCommentService implements CommentService {
     return comment.populate('authorId');
   }
 
-  public async findByOfferId(id: string): Promise<types.DocumentType<CommentEntity>[]> {
+  public async findMany({ params = {}, limit = 10, sortOptions = { field: 'createdAt', order: SortType.DOWN } }: CommentFindManyQuery): Promise<types.DocumentType<CommentEntity>[] | null> {
     return this.commentModel
-      .find({ offerId: id })
-      .populate('authorId');
+      .find(params)
+      .limit(limit)
+      .populate('authorId')
+      .sort({ [sortOptions.field]: sortOptions.order })
+      .exec();
   }
 
   public async deleteByOfferId(id: string): Promise<number | null> {

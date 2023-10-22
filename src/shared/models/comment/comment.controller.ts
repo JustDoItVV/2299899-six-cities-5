@@ -1,16 +1,18 @@
-import { Response } from 'express';
+import { Request, Response } from 'express';
 import { StatusCodes } from 'http-status-codes';
 import { inject, injectable } from 'inversify';
 import { Logger } from 'pino';
 
 import { fillDTO } from '../../helpers/index.js';
 import {
-  BaseController, HttpError, HttpMethod, ValidateDtoMiddleware
+  BaseController, DocumentExistsMiddleware, HttpError, HttpMethod, ValidateDtoMiddleware,
+  ValidateObjectIdMiddleware
 } from '../../libs/rest/index.js';
 import { Service } from '../../types/index.js';
+import { ParamOfferId } from '../offer/index.js';
 import { OfferService } from '../offer/interface/offer-service.interface.js';
-import { CommentService } from './comment-service.interface.js';
 import { CreateCommentDto } from './dto/create-comment.dto.js';
+import { CommentService } from './interface/comment-service.interface.js';
 import { CommentRdo } from './rdo/comment.rdo.js';
 import { CreateCommentRequest } from './type/create-comment-request.type.js';
 
@@ -24,7 +26,23 @@ export default class CommentController extends BaseController {
     super(logger);
 
     this.logger.info('Registering routes for CommentController...');
-    this.addRoute({ path: '/', method: HttpMethod.Post, handler: this.create, middlewares: [new ValidateDtoMiddleware(CreateCommentDto)] });
+    this.addRoute({
+      path: '/', method:
+      HttpMethod.Post,
+      handler: this.create,
+      middlewares: [
+        new ValidateDtoMiddleware(CreateCommentDto),
+      ],
+    });
+    this.addRoute({
+      path: '/:offerId',
+      method: HttpMethod.Get,
+      handler: this.index,
+      middlewares: [
+        new ValidateObjectIdMiddleware('offerId'),
+        new DocumentExistsMiddleware(this.offerService, 'offer', 'offerId'),
+      ],
+    });
   }
 
   public async create(
@@ -42,5 +60,12 @@ export default class CommentController extends BaseController {
     const comment = await this.commentService.create(body);
     await this.offerService.incCommentCount(body.offerId);
     this.created(res, fillDTO(CommentRdo, comment));
+  }
+
+  public async index({ params }: Request<ParamOfferId>, res: Response): Promise<void> {
+    const comments = await this.commentService.findMany({ params });
+    const responseData = fillDTO(CommentRdo, comments);
+    this.ok(res, responseData);
+
   }
 }
