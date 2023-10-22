@@ -1,10 +1,12 @@
 import { inject, injectable } from 'inversify';
+import { Types } from 'mongoose';
 
 import { DocumentType, types } from '@typegoose/typegoose';
+import { Base, TimeStamps } from '@typegoose/typegoose/lib/defaultClasses.js';
 
 import { CITIES } from '../../const/cities.js';
 import { Logger } from '../../libs/logger/index.js';
-import { Service, SortType } from '../../types/index.js';
+import { Offer, Service, SortType } from '../../types/index.js';
 import { CreateOfferDto } from './dto/create-offer.dto.js';
 import { UpdateOfferDto } from './dto/update-offer.dto.js';
 import { OfferService } from './offer-service.interface.js';
@@ -39,26 +41,22 @@ export class DefaultOfferService implements OfferService {
       .exec();
   }
 
-  public async findById(id: string): Promise<DocumentType<OfferEntity> | null> {
+  public async findOne(params: Partial<Base<Types.ObjectId>>): Promise<DocumentType<OfferEntity> | null> {
     return this.offerModel
-      .findById(id)
+      .findOne(params)
       .populate(['authorId'])
       .exec();
   }
 
-  public async findByIdOrCreate(dto: CreateOfferDto, id: string): Promise<DocumentType<OfferEntity>> {
-    const existedOffer = await this.findById(id);
+  public async findOneOrCreate(params: Partial<Base<Types.ObjectId>>, dto: CreateOfferDto): Promise<DocumentType<OfferEntity>> {
+    const existedOffer = await this.findOne(params);
     if (existedOffer) {
       return existedOffer;
     }
     return this.create(dto);
   }
 
-  public async findOne(): Promise<DocumentType<OfferEntity> | null> {
-    return null;
-  }
-
-  public async find(): Promise<DocumentType<OfferEntity>[]> {
+  public async findMany(_params: Partial<Base<Types.ObjectId> | TimeStamps | Offer>, limit = MAX_OFFERS_COUNT, sortOptions = { field: 'createdAt', order: SortType.DOWN }): Promise<DocumentType<OfferEntity>[] | null> {
     return this.offerModel
       .aggregate([
         {
@@ -95,29 +93,9 @@ export class DefaultOfferService implements OfferService {
           },
         },
         { $unset: 'comments' },
-        { $limit: MAX_OFFERS_COUNT },
-        { $sort: { commentsCount: SortType.DOWN } },
+        { $limit: limit },
+        { $sort: { [sortOptions.field]: sortOptions.order } },
       ]).exec();
-  }
-
-  public async findNew(count: number): Promise<DocumentType<OfferEntity>[]> {
-    const limit = count ?? MAX_OFFERS_COUNT;
-    return this.offerModel
-      .find()
-      .sort({ createdAt: SortType.DOWN })
-      .limit(limit)
-      .populate(['authorId'])
-      .exec();
-  }
-
-  public async findDiscussed(count: number): Promise<DocumentType<OfferEntity>[]> {
-    const limit = count ?? MAX_OFFERS_COUNT;
-    return this.offerModel
-      .find()
-      .sort({ commentCount: SortType.DOWN })
-      .limit(limit)
-      .populate(['authorId'])
-      .exec();
   }
 
   public async exists(id: string): Promise<boolean> {

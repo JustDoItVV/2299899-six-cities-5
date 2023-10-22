@@ -13,7 +13,7 @@ export class OfferRdo {
   @Expose()
   public description: string;
 
-  @Expose()
+  @Expose({ name: 'updatedAt' })
   public date: Date;
 
   @Expose()
@@ -38,7 +38,7 @@ export class OfferRdo {
   public type: OfferType;
 
   @Expose()
-  public rooms!: number;
+  public rooms: number;
 
   @Expose()
   public guests: number;
