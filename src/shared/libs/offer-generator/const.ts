@@ -3,11 +3,6 @@ export enum WeekDay {
   LAST = 7,
 }
 
-export enum Rating {
-  MIN = 1,
-  MAX = 5,
-}
-
 export enum Rooms {
   MIN = 1,
   MAX = 8,

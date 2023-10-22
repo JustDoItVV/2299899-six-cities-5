@@ -6,13 +6,10 @@ import { User } from './user.type.js';
 export type Offer = {
   title: string;
   description: string;
-  date: Date;
   city: City;
   preview: string;
   images: string[];
   isPremium: boolean;
-  isFavorite: boolean;
-  rating: number;
   type: OfferType;
   rooms: number;
   guests: number;

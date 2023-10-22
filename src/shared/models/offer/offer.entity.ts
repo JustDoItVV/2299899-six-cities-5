@@ -27,9 +27,6 @@ export class OfferEntity extends defaultClasses.TimeStamps {
   @prop({ required: true, default: '' })
   public description!: string;
 
-  @prop({ required: true, default: Date.now() })
-  public date!: Date;
-
   @prop({ required: true, default: CITIES.Paris })
   public city!: City;
 
@@ -41,9 +38,6 @@ export class OfferEntity extends defaultClasses.TimeStamps {
 
   @prop({ required: true, default: false })
   public isPremium!: boolean;
-
-  @prop({ required: true, default: false })
-  public isFavorite!: boolean;
 
   @prop({ required: true, default: CONST.Rating.MAX })
   public rating!: number;

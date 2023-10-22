@@ -2,6 +2,7 @@ import { inject, injectable } from 'inversify';
 
 import { DocumentType, types } from '@typegoose/typegoose';
 
+import { CITIES } from '../../const/cities.js';
 import { Logger } from '../../libs/logger/index.js';
 import { Service, SortType } from '../../types/index.js';
 import { CreateOfferDto } from './dto/create-offer.dto.js';
@@ -18,8 +19,9 @@ export class DefaultOfferService implements OfferService {
   ) {}
 
   public async create(dto: CreateOfferDto): Promise<DocumentType<OfferEntity>> {
-    const result = await this.offerModel.create(dto);
-    this.logger.info(`New offer created: ${dto.title}`);
+    const modifiedDto = { ...dto, city: CITIES[dto.city] };
+    const result = await this.offerModel.create(modifiedDto);
+    this.logger.info(`New offer created: id - ${result.id}, title - ${result.title}, authorId - ${result.authorId}`);
 
     return result;
   }
@@ -50,6 +52,10 @@ export class DefaultOfferService implements OfferService {
       return existedOffer;
     }
     return this.create(dto);
+  }
+
+  public async findOne(): Promise<DocumentType<OfferEntity> | null> {
+    return null;
   }
 
   public async find(): Promise<DocumentType<OfferEntity>[]> {

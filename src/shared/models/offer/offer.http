@@ -11,24 +11,17 @@ Content-Type: application/json
 
 {
   "title": "New house new offer",
-  "description": "New description",
-  "date": "0",
-  "city": {
-    "name": "Paris"
-  },
+  "description": "New description very long enough to be at least 20 chars length",
+  "city": "Paris",
   "preview": "av1.png",
-  "images": [1, 2, 3, 4, 5, 6],
+  "images": ["av1.png", "av2.png", "av3.png", "av4.png", "av5.png", "av6.png"],
   "isPremium": true,
-  "isFavorite": true,
-  "rating": 2.2,
   "type": "house",
-  "rooms": 10,
+  "rooms": 8,
   "guests": 10,
   "price": 666,
-  "goods": ["Laptop"],
-  "author": {
-    "name": "Max"
-  },
+  "goods": ["Laptop friendly workspace", "Towels"],
+  "authorId": "6534ef05065d207294aabb88",
   "latitude": 5.55,
   "longitude": 6.66
 }
@@ -37,7 +30,7 @@ Content-Type: application/json
 
 ## Удалить объявление по идентификатору
 
-DELETE http://localhost:5000/offers/62825028a75295825778ac80 HTTP/1.1
+DELETE http://localhost:5000/offers/6534fc6b91dfa8c2f5175f0b HTTP/1.1
 
 ###
 

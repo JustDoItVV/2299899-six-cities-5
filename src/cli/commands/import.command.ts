@@ -46,19 +46,16 @@ export class ImportCommand implements Command {
     console.info(`${count} rows imported`);
   }
 
-  private async saveOffer(offer: Offer,) {
+  private async saveOffer(offer: Offer) {
     const user = await this.userService.findOrCreate({ ...offer.author }, this.salt);
 
     await this.offerService.create({
       title: offer.title,
       description: offer.description,
-      date: offer.date,
-      city: offer.city,
+      city: offer.city.name,
       preview: offer.preview,
       images: offer.images,
       isPremium: offer.isPremium,
-      isFavorite: offer.isFavorite,
-      rating: offer.rating,
       type: offer.type,
       rooms: offer.rooms,
       guests: offer.guests,

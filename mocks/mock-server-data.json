@@ -24,13 +24,13 @@
     ],
     "goods": [
       "Breakfast",
-      "Towels",
-      "Transfer",
-      "Air",
-      "Laptop",
-      "BabySeat",
+      "Air conditioning",
+      "Laptop friendly workspace",
+      "Baby seat",
       "Washer",
-      "Fridge"
+      "Towels",
+      "Fridge",
+      "Transfer"
     ],
     "names": ["Max", "Liza", "Matt"],
     "emails": ["liza@email.com", "max@email.com", "matt@email.com"],

@@ -8,6 +8,8 @@ export enum DescriptionLength {
   MAX = 1024,
 }
 
+export const IMAGES_ARRAY_LENGTH = 6;
+
 export enum Rating {
   MIN = 1,
   MAX = 5,

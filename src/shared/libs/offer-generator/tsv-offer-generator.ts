@@ -1,5 +1,3 @@
-import dayjs from 'dayjs';
-
 import { CITIES } from '../../const/cities.js';
 import { generateRandomValue, getRandomItem, getRandomItems } from '../../helpers/index.js';
 import { MockServerData, OfferType, UserType } from '../../types/index.js';
@@ -13,28 +11,23 @@ export class TSVOfferGenerator implements OfferGenerator {
     const title = getRandomItem<string>(this.mockData.titles);
     const description = getRandomItem<string>(this.mockData.descriptions);
 
-    const date = dayjs()
-      .subtract(generateRandomValue(CONSTS.WeekDay.FIRST, CONSTS.WeekDay.LAST), 'days')
-      .toISOString();
-
     const city = getRandomItem<string>(Object.keys(CITIES));
     const preview = getRandomItem<string>(this.mockData.offerImages);
-    const offerImages = getRandomItems<string>(this.mockData.offerImages).join(';');
+    const offerImages = this.mockData.offerImages.join(';');
     const isPremium = generateRandomValue(0, 1);
-    const isFavorite = generateRandomValue(0, 1);
-    const rating = generateRandomValue(CONSTS.Rating.MIN, CONSTS.Rating.MAX, 1);
     const type = getRandomItem<string>(Object.values(OfferType));
 
     const rooms = generateRandomValue(CONSTS.Rooms.MIN, CONSTS.Rooms.MAX);
     const guests = generateRandomValue(CONSTS.Guests.MIN, CONSTS.Guests.MAX);
-    const price = generateRandomValue(CONSTS.Price.MIN, CONSTS.Guests.MAX);
+    const price = generateRandomValue(CONSTS.Price.MIN, CONSTS.Price.MAX);
     const goods = getRandomItems<string>(this.mockData.goods).join(';');
 
     const name = getRandomItem<string>(this.mockData.names);
     const email = getRandomItem<string>(this.mockData.emails);
     const avatar = getRandomItem<string>(this.mockData.avatars);
-    const userType = getRandomItem<string>(Object.keys(UserType));
+    const userType = getRandomItem<string>(Object.values(UserType));
     const password = generateRandomValue(CONSTS.MockNumericPasswordValue.MIN, CONSTS.MockNumericPasswordValue.MAX);
+
     const commentsCount = 0;
     const latitude = generateRandomValue(
       CONSTS.Latitude.MIN,
@@ -50,13 +43,10 @@ export class TSVOfferGenerator implements OfferGenerator {
     return [
       title,
       description,
-      date,
       city,
       preview,
       offerImages,
       isPremium,
-      isFavorite,
-      rating,
       type,
       rooms,
       guests,

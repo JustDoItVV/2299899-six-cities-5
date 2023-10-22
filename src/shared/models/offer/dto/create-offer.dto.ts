@@ -1,65 +1,63 @@
 import {
-  IsArray, IsBoolean, IsDateString, IsEnum, IsInt, IsLatitude, IsLongitude, IsMongoId, Max,
-  MaxLength, Min, MinLength
+  ArrayMaxSize, ArrayMinSize, IsArray, IsBoolean, IsEnum, IsInt, IsLatitude, IsLongitude,
+  IsMongoId, Max, MaxLength, Min, MinLength
 } from 'class-validator';
 
-import { City, CityType, GoodsType, OfferType } from '../../../types/index.js';
+import { CityType, GoodsType, OfferType } from '../../../types/index.js';
 import * as CONSTS from '../offer.const.js';
-import { CreateOfferValidationMessage } from './create-offer.messages.js';
 
 export class CreateOfferDto {
-  @MinLength(CONSTS.TitleLength.MIN, { message: CreateOfferValidationMessage.title.minLength })
-  @MaxLength(CONSTS.TitleLength.MAX, { message: CreateOfferValidationMessage.title.maxLength })
+  @MinLength(CONSTS.TitleLength.MIN)
+  @MaxLength(CONSTS.TitleLength.MAX)
   public title: string;
 
-  @MinLength(CONSTS.DescriptionLength.MIN, { message: CreateOfferValidationMessage.description.minLength })
-  @MaxLength(CONSTS.DescriptionLength.MAX, { message: CreateOfferValidationMessage.description.maxLength })
+  @MinLength(CONSTS.DescriptionLength.MIN)
+  @MaxLength(CONSTS.DescriptionLength.MAX)
   public description: string;
 
-  @IsDateString({}, { message: CreateOfferValidationMessage.date.invalidFormat })
-  public date: Date;
+  @IsEnum(CityType)
+  public city: CityType;
 
-  @IsEnum(CityType, { message: CreateOfferValidationMessage.city.invalid })
-  public city: City;
-
-  @MinLength(5, { message: CreateOfferValidationMessage.preview.minLength })
+  @MinLength(5)
   public preview: string;
 
-  @IsArray({ message: CreateOfferValidationMessage.images.invalidFormat })
-  @MinLength(5, { message: CreateOfferValidationMessage.images.minLength })
+  @IsArray()
+  @ArrayMinSize(CONSTS.IMAGES_ARRAY_LENGTH)
+  @ArrayMaxSize(CONSTS.IMAGES_ARRAY_LENGTH)
+  @MinLength(5, { each: true })
   public images: string[];
 
-  @IsBoolean({ message: CreateOfferValidationMessage.isPremium.invalidFormat })
+  @IsBoolean()
   public isPremium: boolean;
 
-  @IsEnum(OfferType, { message: CreateOfferValidationMessage.type.invalid })
+  @IsEnum(OfferType)
   public type: OfferType;
 
-  @IsInt({ message: CreateOfferValidationMessage.rooms.invalidFormat })
-  @Min(CONSTS.RoomsCount.MIN, { message: CreateOfferValidationMessage.rooms.minValue })
-  @Max(CONSTS.RoomsCount.MAX, { message: CreateOfferValidationMessage.rooms.maxValue })
+  @IsInt()
+  @Min(CONSTS.RoomsCount.MIN)
+  @Max(CONSTS.RoomsCount.MAX)
   public rooms: number;
 
-  @IsInt({ message: CreateOfferValidationMessage.guests.invalidFormat })
-  @Min(CONSTS.GuestsCount.MIN, { message: CreateOfferValidationMessage.guests.minValue })
-  @Max(CONSTS.GuestsCount.MAX, { message: CreateOfferValidationMessage.guests.maxValue })
+  @IsInt()
+  @Min(CONSTS.GuestsCount.MIN)
+  @Max(CONSTS.GuestsCount.MAX)
   public guests: number;
 
-  @IsInt({ message: CreateOfferValidationMessage.price.invalidFormat })
-  @Min(CONSTS.Price.MIN, { message: CreateOfferValidationMessage.price.minValue })
-  @Max(CONSTS.Price.MAX, { message: CreateOfferValidationMessage.price.maxValue })
+  @IsInt()
+  @Min(CONSTS.Price.MIN)
+  @Max(CONSTS.Price.MAX)
   public price: number;
 
-  @IsArray({ message: CreateOfferValidationMessage.goods.invalidFormat })
-  @IsEnum(GoodsType, { message: CreateOfferValidationMessage.goods.invalid })
+  @IsArray()
+  @IsEnum(GoodsType, { each: true })
   public goods: GoodsType[];
 
-  @IsMongoId({ message: CreateOfferValidationMessage.authorId.invalidId })
+  @IsMongoId()
   public authorId: string;
 
-  @IsLatitude({ message: CreateOfferValidationMessage.latitude.invalid })
+  @IsLatitude()
   public latitude: number;
 
-  @IsLongitude({ message: CreateOfferValidationMessage.longitude.invalid })
+  @IsLongitude()
   public longitude: number;
 }
