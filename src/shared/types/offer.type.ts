@@ -16,7 +16,6 @@ export type Offer = {
   price: number;
   goods: GoodsType[];
   author: User;
-  commentsCount: number;
   latitude: number;
   longitude: number;
 };

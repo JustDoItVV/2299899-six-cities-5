@@ -8,7 +8,7 @@ import {
   BaseController, DocumentExistsMiddleware, HttpMethod, ValidateDtoMiddleware,
   ValidateObjectIdMiddleware
 } from '../../libs/rest/index.js';
-import { Service, SortType } from '../../types/index.js';
+import { Service } from '../../types/index.js';
 import { CommentService } from '../comment/index.js';
 import { CreateOfferDto } from './dto/create-offer.dto.js';
 import { UpdateOfferDto } from './dto/update-offer.dto.js';
@@ -71,7 +71,7 @@ export class OfferController extends BaseController {
   }
 
   public async index(_req: Request, res: Response): Promise<void> {
-    const offers = await this.offerService.findMany({ params: {}, limit: 60, sortOptions: { field: 'createdAt', order: SortType.UP } });
+    const offers = await this.offerService.findMany({ });
     const responseData = fillDTO(OfferRdo, offers);
     this.ok(res, responseData);
   }

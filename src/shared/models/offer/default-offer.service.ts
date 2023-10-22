@@ -56,6 +56,7 @@ export class DefaultOfferService implements OfferService {
   }
 
   public async findMany({
+    params = {},
     limit = MAX_OFFERS_COUNT,
     sortOptions = {
       field: 'createdAt',
@@ -64,16 +65,14 @@ export class DefaultOfferService implements OfferService {
   }: OfferFindManyQuery): Promise<DocumentType<OfferEntity>[] | null> {
     return this.offerModel
       .aggregate([
+        { $match: params },
         {
           $lookup: {
             from: 'comments',
-            let: { offerId: '$_id' },
-            pipeline: [
-              { $match: { $expr: { $in: ['$$offerId', '$offers'] } } },
-              { $project: { _id: 1 } },
-            ],
+            localField: '_id',
+            foreignField: 'offerId',
             as: 'comments',
-          }
+          },
         },
         {
           $addFields: {
@@ -85,9 +84,7 @@ export class DefaultOfferService implements OfferService {
                   $reduce: {
                     input: '$comments',
                     initialValue: 0,
-                    in: {
-                      $add: ['$$value', '$$this.rating'],
-                    },
+                    in: { $add: ['$$value', '$$this.rating'] },
                   },
                 },
                 {
@@ -105,12 +102,5 @@ export class DefaultOfferService implements OfferService {
 
   public async exists(id: string): Promise<boolean> {
     return (await this.offerModel.exists({ _id: id })) !== null;
-  }
-
-  public async incCommentCount(id: string): Promise<DocumentType<OfferEntity> | null> {
-    return this.offerModel
-      .findByIdAndUpdate(id, {
-        '$inc': { commentsCount: 1 }
-      }).exec();
   }
 }

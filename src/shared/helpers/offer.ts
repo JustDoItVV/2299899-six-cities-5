@@ -19,7 +19,6 @@ export function createOffer(offerData: string): Offer {
     avatar,
     userType,
     password,
-    commentsCount,
     latitude,
     longitude,
   ] = offerData.replace('\n', '').split('\t');
@@ -42,7 +41,6 @@ export function createOffer(offerData: string): Offer {
       type: UserType[userType as keyof typeof UserType],
       password,
     },
-    commentsCount: Number(commentsCount),
     latitude: Number(latitude),
     longitude: Number(longitude),
   };

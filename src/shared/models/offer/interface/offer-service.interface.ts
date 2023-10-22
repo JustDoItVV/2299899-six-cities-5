@@ -14,6 +14,5 @@ export interface OfferService extends DocumentExists {
   findOneOrCreate(params: Partial<defaultClasses.Base>, dto: CreateOfferDto): Promise<DocumentType<OfferEntity>>;
   findMany({ params, limit, sortOptions}: OfferFindManyQuery): Promise<DocumentType<OfferEntity>[] | null>;
   exists(id: string): Promise<boolean>;
-  incCommentCount(id: string): Promise<DocumentType<OfferEntity> | null>;
 }
 
