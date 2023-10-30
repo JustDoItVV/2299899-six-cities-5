@@ -20,6 +20,7 @@ export class RestApplication {
     @inject(Service.UserController) private readonly userController: Controller,
     @inject(Service.ExceptionFilter) private readonly defaultExceptionFilter: ExceptionFilter,
     @inject(Service.CommentController) private readonly commentController: Controller,
+    @inject(Service.AuthExceptionFilter) private readonly authExceptionFilter: ExceptionFilter,
   ) {}
 
   async #initDb() {
@@ -50,6 +51,7 @@ export class RestApplication {
   }
 
   async #initExceptionFilters() {
+    this.server.use(this.authExceptionFilter.catch.bind(this.authExceptionFilter));
     this.server.use(this.defaultExceptionFilter.catch.bind(this.defaultExceptionFilter));
   }
 

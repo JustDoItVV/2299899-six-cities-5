@@ -72,4 +72,10 @@ export const configRestSchema = convict<RestSchema>({
     env: 'UPLOAD_DIRECTORY',
     default: null,
   },
+  JWT_SECRET: {
+    doc: 'Secret for sign JWT',
+    format: String,
+    env: 'JWT_SECRET',
+    default: null,
+  },
 });
