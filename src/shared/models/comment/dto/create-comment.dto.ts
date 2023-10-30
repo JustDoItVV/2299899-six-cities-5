@@ -12,7 +12,6 @@ export class CreateCommentDto {
   @Max(CONSTS.Rating.MAX, { message: `Max rating is ${CONSTS.Rating.MAX}` })
   public rating: number;
 
-  @IsMongoId({ message: 'AuthorId field is required and must be a valid Mongo id' })
   public authorId: string;
 
   @IsMongoId({ message: 'OfferId field is required and must be a valid Mongo id' })
