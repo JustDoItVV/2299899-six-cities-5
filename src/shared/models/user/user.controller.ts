@@ -55,6 +55,11 @@ export class UserController extends BaseController {
         new UploadFileMiddleware(this.config.get('UPLOAD_DIRECTORY'), 'avatar'),
       ]
     });
+    this.addRoute({
+      path: '/login',
+      method: HttpMethod.Get,
+      handler: this.checkAuthenticate,
+    });
   }
 
   public async create({ body }: CreateUserRequest, res: Response): Promise<void> {
@@ -86,5 +91,19 @@ export class UserController extends BaseController {
     this.created(res, {
       filepath: req.file?.path
     });
+  }
+
+  public async checkAuthenticate({ tokenPayload: { email } }: Request, res: Response) {
+    const user = await this.userService.findOne({ email });
+
+    if (!user) {
+      throw new HttpError(
+        StatusCodes.UNAUTHORIZED,
+        'Unauthorized',
+        'UserController',
+      );
+    }
+
+    this.ok(res, fillDTO(LoggedUserRdo, user));
   }
 }
