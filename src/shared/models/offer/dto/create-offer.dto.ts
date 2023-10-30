@@ -1,6 +1,6 @@
 import {
-  ArrayMaxSize, ArrayMinSize, IsArray, IsBoolean, IsEnum, IsInt, IsLatitude, IsLongitude,
-  IsMongoId, Max, MaxLength, Min, MinLength
+  ArrayMaxSize, ArrayMinSize, IsArray, IsBoolean, IsEnum, IsInt, IsLatitude, IsLongitude, Max,
+  MaxLength, Min, MinLength
 } from 'class-validator';
 
 import { CityType, GoodsType, OfferType } from '../../../types/index.js';
@@ -52,7 +52,6 @@ export class CreateOfferDto {
   @IsEnum(GoodsType, { each: true, message: `Goods must be ${GoodsType}` })
   public goods: GoodsType[];
 
-  @IsMongoId({ message: 'authorId is required and must be a valid Mongo id' })
   public authorId: string;
 
   @IsLatitude({ message: 'Latitude field must be a valid coordinate' })

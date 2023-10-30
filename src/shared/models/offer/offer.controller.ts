@@ -5,8 +5,8 @@ import { Types } from 'mongoose';
 import { fillDTO } from '../../helpers/index.js';
 import { Logger } from '../../libs/logger/index.js';
 import {
-  BaseController, DocumentExistsMiddleware, HttpMethod, ValidateDtoMiddleware,
-  ValidateObjectIdMiddleware
+  BaseController, DocumentExistsMiddleware, HttpMethod, PrivateRouteMiddleware,
+  ValidateDtoMiddleware, ValidateObjectIdMiddleware
 } from '../../libs/rest/index.js';
 import { Service } from '../../types/index.js';
 import { CommentService } from '../comment/index.js';
@@ -37,6 +37,7 @@ export class OfferController extends BaseController {
       method: HttpMethod.Post,
       handler: this.create,
       middlewares: [
+        new PrivateRouteMiddleware(),
         new ValidateDtoMiddleware(CreateOfferDto),
       ],
     });
@@ -54,6 +55,7 @@ export class OfferController extends BaseController {
       method: HttpMethod.Patch,
       handler: this.update,
       middlewares: [
+        new PrivateRouteMiddleware(),
         new ValidateObjectIdMiddleware('offerId'),
         new ValidateDtoMiddleware(UpdateOfferDto),
         new DocumentExistsMiddleware(this.offerService, 'offer', 'offerId'),
@@ -64,6 +66,7 @@ export class OfferController extends BaseController {
       method: HttpMethod.Delete,
       handler: this.delete,
       middlewares: [
+        new PrivateRouteMiddleware(),
         new ValidateObjectIdMiddleware('offerId'),
         new DocumentExistsMiddleware(this.offerService, 'offer', 'offerId'),
       ],
@@ -76,8 +79,11 @@ export class OfferController extends BaseController {
     this.ok(res, responseData);
   }
 
-  public async create({ body }: CreateOfferRequest, res: Response): Promise<void> {
-    const result = await this.offerService.create(body);
+  public async create({ body, tokenPayload }: CreateOfferRequest, res: Response): Promise<void> {
+    const result = await this.offerService.create({
+      ...body,
+      authorId: tokenPayload.id,
+    });
     this.created(res, fillDTO(OfferRdo, result));
   }
 
