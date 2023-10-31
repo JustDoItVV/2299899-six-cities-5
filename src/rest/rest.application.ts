@@ -22,6 +22,8 @@ export class RestApplication {
     @inject(Service.ExceptionFilter) private readonly defaultExceptionFilter: ExceptionFilter,
     @inject(Service.CommentController) private readonly commentController: Controller,
     @inject(Service.AuthExceptionFilter) private readonly authExceptionFilter: ExceptionFilter,
+    @inject(Service.HttpExceptionFilter) private readonly httpExceptionFilter: ExceptionFilter,
+    @inject(Service.ValidationExceptionFilter) private readonly validationExceptionFilter: ExceptionFilter,
   ) {}
 
   async #initDb() {
@@ -55,6 +57,8 @@ export class RestApplication {
 
   async #initExceptionFilters() {
     this.server.use(this.authExceptionFilter.catch.bind(this.authExceptionFilter));
+    this.server.use(this.validationExceptionFilter.catch.bind(this.validationExceptionFilter));
+    this.server.use(this.httpExceptionFilter.catch.bind(this.httpExceptionFilter));
     this.server.use(this.defaultExceptionFilter.catch.bind(this.defaultExceptionFilter));
   }
 
