@@ -5,7 +5,7 @@ import { defaultClasses, DocumentType, types } from '@typegoose/typegoose';
 
 import { Logger } from '../../libs/logger/index.js';
 import { Service, SortType, User } from '../../types/index.js';
-import { CreateUserDto } from './index.js';
+import { CreateUserDto, DEFAULT_AVATAR_FILENAME } from './index.js';
 import { UserFindManyQuery } from './interface/user-find-many-query.interface.js';
 import { UserService } from './interface/user-service.interface.js';
 import { UserEntity } from './user.entity.js';
@@ -18,7 +18,7 @@ export class DefaultUserService implements UserService {
   ) {}
 
   public async create(dto: CreateUserDto, salt: string): Promise<DocumentType<UserEntity>> {
-    const user = new UserEntity(dto);
+    const user = new UserEntity({ ...dto, avatar: DEFAULT_AVATAR_FILENAME });
     user.setPassword(dto.password, salt);
 
     const result = await this.userModel.create(user);

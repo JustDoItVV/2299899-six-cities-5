@@ -16,10 +16,6 @@ export class CreateUserDto {
   @Matches(CONSTS.EMAIL_PATTERN, { message: 'Email must be valid' })
   public email: string;
 
-  @IsString({ message: 'Avatar is required' })
-  @Matches(CONSTS.AVATAR_PATTERN)
-  public avatar: string;
-
   @IsEnum(UserType, { message: `User type must be ${UserType}` })
   public type: UserType;
 

@@ -6,6 +6,12 @@ import { RestSchema } from './rest.schema.type.js';
 convict.addFormats(validator);
 
 export const configRestSchema = convict<RestSchema>({
+  HOST: {
+    doc: 'Host to start service',
+    format: String,
+    env: 'HOST',
+    default: null,
+  },
   PORT: {
     doc: 'Port for incoming connections',
     format: 'port',
@@ -70,6 +76,12 @@ export const configRestSchema = convict<RestSchema>({
     doc: 'Directory for uploaded files',
     format: String,
     env: 'UPLOAD_DIRECTORY',
+    default: null,
+  },
+  STATIC_DIRECTORY_PATH: {
+    doc: 'Path to directory with static resources',
+    format: String,
+    env: 'STATIC_DIRECTORY_PATH',
     default: null,
   },
   JWT_SECRET: {

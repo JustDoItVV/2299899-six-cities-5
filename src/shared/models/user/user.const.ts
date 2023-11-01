@@ -10,3 +10,5 @@ export enum PasswordLength {
   MIN = 6,
   MAX = 12,
 }
+
+export const DEFAULT_AVATAR_FILENAME = 'default-avatar.jpg';
