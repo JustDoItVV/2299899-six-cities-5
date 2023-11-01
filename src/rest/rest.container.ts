@@ -9,6 +9,7 @@ import {
 import {
   ValidationExceptionFilter
 } from '../shared/libs/rest/middleware/validation.exception-filter.js';
+import { PathTransformer } from '../shared/libs/rest/transform/path-transformer.js';
 import { Service } from '../shared/types/index.js';
 import { RestApplication } from './rest.application.js';
 
@@ -22,6 +23,7 @@ export function createRestApplicationContainer() {
   restApplicationContainer.bind<ExceptionFilter>(Service.ExceptionFilter).to(DefaultExceptionFilter).inSingletonScope();
   restApplicationContainer.bind<ExceptionFilter>(Service.HttpExceptionFilter).to(HttpErrorExceptionFilter).inSingletonScope();
   restApplicationContainer.bind<ExceptionFilter>(Service.ValidationExceptionFilter).to(ValidationExceptionFilter).inSingletonScope();
+  restApplicationContainer.bind<PathTransformer>(Service.PathTransformer).to(PathTransformer).inSingletonScope();
 
   return restApplicationContainer;
 }
