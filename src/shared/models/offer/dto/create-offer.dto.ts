@@ -1,6 +1,5 @@
 import {
-  ArrayMaxSize, ArrayMinSize, IsArray, IsBoolean, IsEnum, IsInt, IsLatitude, IsLongitude, Max,
-  MaxLength, Min, MinLength
+  IsArray, IsBoolean, IsEnum, IsInt, IsLatitude, IsLongitude, Max, MaxLength, Min, MinLength
 } from 'class-validator';
 
 import { CityType, GoodsType, OfferType } from '../../../types/index.js';
@@ -17,15 +16,6 @@ export class CreateOfferDto {
 
   @IsEnum(CityType, { message: `City must be ${CityType}` })
   public city: CityType;
-
-  @MinLength(CONSTS.MIN_IMAGE_FILENAME_LENGTH, { message: `Min filename length with extension is ${CONSTS.MIN_IMAGE_FILENAME_LENGTH}` })
-  public preview: string;
-
-  @IsArray({ message: 'Images must be array' })
-  @ArrayMinSize(CONSTS.IMAGES_ARRAY_LENGTH, { message: `Number of images must be exactly ${CONSTS.IMAGES_ARRAY_LENGTH}` })
-  @ArrayMaxSize(CONSTS.IMAGES_ARRAY_LENGTH, { message: `Number of images must be exactly ${CONSTS.IMAGES_ARRAY_LENGTH}` })
-  @MinLength(CONSTS.MIN_IMAGE_FILENAME_LENGTH, { each: true, message: `Min filename length with extension is ${CONSTS.MIN_IMAGE_FILENAME_LENGTH}` })
-  public images: string[];
 
   @IsBoolean({ message: 'isPremium must be boolean' })
   public isPremium: boolean;

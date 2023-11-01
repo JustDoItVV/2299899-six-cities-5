@@ -13,7 +13,7 @@ import { Service } from '../../types/index.js';
 import { AuthService } from '../auth/index.js';
 import { CreateUserDto } from './dto/create-user.dto.js';
 import { LoginUserDto } from './dto/login-user.dto.js';
-import { LoggedUserRdo } from './index.js';
+import { LoggedUserRdo, UploadUserAvatarRdo } from './index.js';
 import { UserService } from './interface/user-service.interface.js';
 import { UserRdo } from './rdo/user.rdo.js';
 import { CreateUserRequest } from './types/create-user-request.type.js';
@@ -79,18 +79,15 @@ export class UserController extends BaseController {
   public async login({ body }: LoginUserRequest, res: Response): Promise<void> {
     const user = await this.authService.verify(body);
     const token = await this.authService.authenticate(user);
-    const responseData = fillDTO(LoggedUserRdo, {
-      token,
-      email: user.email,
-      id: user.id,
-    });
-    this.ok(res, responseData);
+    const responseData = fillDTO(LoggedUserRdo, user);
+    this.ok(res, Object.assign(responseData, { token }));
   }
 
-  public async uploadAvatar(req: Request, res: Response) {
-    this.created(res, {
-      filepath: req.file?.path
-    });
+  public async uploadAvatar({ params, file }: Request, res: Response) {
+    const { userId } = params;
+    const uploadFile = { avatarPath: file?.filename };
+    await this.userService.updateById(userId, uploadFile);
+    this.created(res, fillDTO(UploadUserAvatarRdo, { filepath: uploadFile.avatarPath }));
   }
 
   public async checkAuthenticate({ tokenPayload: { email } }: Request, res: Response) {
