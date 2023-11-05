@@ -32,7 +32,7 @@ export class PathTransformer {
 
       for (const key in current) {
         if (Object.hasOwn(current, key)) {
-          const value = current[key];
+          const value = current[key] as Record<string, unknown>;
 
           if (isObject(value)) {
             stack.push(value);

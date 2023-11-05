@@ -5,6 +5,7 @@ import { defaultClasses, DocumentType, types } from '@typegoose/typegoose';
 
 import { Logger } from '../../libs/logger/index.js';
 import { Service, SortType, User } from '../../types/index.js';
+import UpdateUserDto from './dto/update-user.dto.js';
 import { CreateUserDto, DEFAULT_AVATAR_FILENAME } from './index.js';
 import { UserFindManyQuery } from './interface/user-find-many-query.interface.js';
 import { UserService } from './interface/user-service.interface.js';
@@ -44,6 +45,12 @@ export class DefaultUserService implements UserService {
       .find(params)
       .limit(limit)
       .sort({ [sortOptions.field]: sortOptions.order })
+      .exec();
+  }
+
+  public async updateById(id: string, dto: UpdateUserDto): Promise<DocumentType<UserEntity> | null> {
+    return this.userModel
+      .findByIdAndUpdate(id, dto, { new: true })
       .exec();
   }
 }

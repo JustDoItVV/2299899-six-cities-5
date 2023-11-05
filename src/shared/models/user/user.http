@@ -9,7 +9,7 @@ Content-Type: application/json
   "email": "test_request_create_email@email.com",
   "avatar": "avatar_request.png",
   "type": "обычный",
-  "password": "12345"
+  "password": "123456"
 }
 
 ###
@@ -21,7 +21,7 @@ Content-Type: application/json
 
 {
   "email": "test_request_create_email@email.com",
-  "password": "12345"
+  "password": "123456"
 }
 
 ###
@@ -33,11 +33,16 @@ Content-Type: application/json
 
 {
   "email": "not_existed@email.com",
-  "password": "12345"
+  "password": "123456"
 }
 
 ###
 
+## Проверить токен пользователя
+GET http://localhost:5000/users/login HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhdGVfZW1haWxAZW1haWwuY29tIiwibmFtZSI6IlRlc3ROYW1lIiwiaWQiOiI2NTQ4MWU1NzYxNjc4MGVkMWRmMDVmOWMiLCJpYXQiOjE2OTkyMjU0MDcsImV4cCI6MTY5OTM5ODIwN30.tX1GR7B_IuAjQdCvbQffOEzeDqts990N1AsBZfJ1zd0
+
+###
 
 ## Отправить изображение
 
@@ -53,8 +58,3 @@ Content-Type: image/png
 
 ###
 
-## Проверить токен пользователя
-GET http://localhost:5000/users/login HTTP/1.1
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRvcmFuc0BvdmVybG9vay5uZXQiLCJpZCI6IjY0NzBiYzM4M2UzMGRiNjc5ZGZhYzJkMiIsImlhdCI6MTY4NTk3NTQ4MiwiZXhwIjoxNjg2MTQ4MjgyfQ.Gq2-B1egouAnMxmXlR2ElVT6wCa97PS6lxzVI8LnGvo
-
-###

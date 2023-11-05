@@ -1,4 +1,4 @@
-import UserDto from '../../user/dto/user.dto.js';
+import UserDto from '../../user/dto/update-user.dto.js';
 
 export default class CommentDto {
   public id!: string;

@@ -58,15 +58,15 @@ paths:
         required: true
 
       responses:
-        '201':
-          description: Пользователь зарегистрирован. Объект пользователя.
+        '200':
+          description: Пользователь авторизован. Объект пользователя с токеном.
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/user'
 
-        '409':
-          description: Пользователь с таким email уже существует.
+        '404':
+          description: Пользователь не найден
 
     get:
       tags:
@@ -81,6 +81,9 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/user'
+
+        '400':
+          description: Неверный токен
 
         '401':
           description: Пользователь не авторизован. Ошибка доступа.

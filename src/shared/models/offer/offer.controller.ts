@@ -120,7 +120,7 @@ export class OfferController extends BaseController {
 
   public async uploadImages({ params, file }: Request<ParamOfferId>, res: Response) {
     const { offerId } = params;
-    const updateDto = { image: file?.filename };
+    const updateDto = { preview: file?.filename };
     await this.offerService.updateById(offerId, updateDto);
     this.created(res, fillDTO(UploadImagesRdo, updateDto));
   }
