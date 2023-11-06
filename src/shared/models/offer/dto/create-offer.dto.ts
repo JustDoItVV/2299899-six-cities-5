@@ -1,5 +1,6 @@
 import {
-  IsArray, IsBoolean, IsEnum, IsInt, IsLatitude, IsLongitude, Max, MaxLength, Min, MinLength
+  IsArray, IsBoolean, IsEnum, IsInt, IsLatitude, IsLongitude, IsString, Max, MaxLength, Min,
+  MinLength
 } from 'class-validator';
 
 import { CityType, GoodsType, OfferType } from '../../../types/index.js';
@@ -14,13 +15,19 @@ export class CreateOfferDto {
   @MaxLength(CONSTS.DescriptionLength.MAX, { message: `Max description length is ${CONSTS.DescriptionLength.MAX}` })
   public description: string;
 
-  @IsEnum(CityType, { message: `City must be ${CityType}` })
+  @IsEnum(CityType, { message: `City must be ${Object.values(CityType).join(', ')}` })
   public city: CityType;
+
+  @IsString({ message: 'Preview image is required' })
+  public preview: string;
+
+  @IsArray()
+  public images: string[];
 
   @IsBoolean({ message: 'isPremium must be boolean' })
   public isPremium: boolean;
 
-  @IsEnum(OfferType, { message: `Offer type must be ${OfferType}` })
+  @IsEnum(OfferType, { message: `Offer type must be ${Object.values(OfferType).join(', ')}` })
   public type: OfferType;
 
   @IsInt({ message: 'Rooms is required and must be an integer' })
@@ -39,7 +46,7 @@ export class CreateOfferDto {
   public price: number;
 
   @IsArray({ message: 'Goods must be array' })
-  @IsEnum(GoodsType, { each: true, message: `Goods must be ${GoodsType}` })
+  @IsEnum(GoodsType, { each: true, message: `Goods must be ${Object.values(GoodsType).join(', ')}` })
   public goods: GoodsType[];
 
   public authorId: string;

@@ -1,7 +1,7 @@
 import { inject, injectable } from 'inversify';
-import { Types } from 'mongoose';
 
-import { defaultClasses, DocumentType, types } from '@typegoose/typegoose';
+import { DocumentType, types } from '@typegoose/typegoose';
+import { Base, TimeStamps } from '@typegoose/typegoose/lib/defaultClasses.js';
 
 import { CITIES } from '../../const/cities.js';
 import { Logger } from '../../libs/logger/index.js';
@@ -40,14 +40,11 @@ export class DefaultOfferService implements OfferService {
       .exec();
   }
 
-  public async findOne(params: Partial<defaultClasses.Base<Types.ObjectId>>): Promise<DocumentType<OfferEntity> | null> {
-    return this.offerModel
-      .findOne(params)
-      .populate(['authorId'])
-      .exec();
+  public async findOne(params: Partial<Base | TimeStamps>): Promise<DocumentType<OfferEntity> | null> {
+    return this.findMany({ params, limit: 1 }).then((array) => array ? array[0] : null);
   }
 
-  public async findOneOrCreate(params: Partial<defaultClasses.Base<Types.ObjectId>>, dto: CreateOfferDto): Promise<DocumentType<OfferEntity>> {
+  public async findOneOrCreate(params: Partial<Base | TimeStamps>, dto: CreateOfferDto): Promise<DocumentType<OfferEntity>> {
     const existedOffer = await this.findOne(params);
     if (existedOffer) {
       return existedOffer;
@@ -75,6 +72,14 @@ export class DefaultOfferService implements OfferService {
           },
         },
         {
+          $lookup: {
+            from: 'users',
+            localField: 'authorId',
+            foreignField: '_id',
+            as: 'authorId',
+          },
+        },
+        {
           $addFields: {
             id: { $toString: '$_id' },
             commentsCount: { $size: '$comments' },
@@ -97,7 +102,8 @@ export class DefaultOfferService implements OfferService {
         { $unset: 'comments' },
         { $limit: limit },
         { $sort: { [sortOptions.field]: sortOptions.order } },
-      ]).exec();
+      ])
+      .exec();
   }
 
   public async exists(id: string): Promise<boolean> {

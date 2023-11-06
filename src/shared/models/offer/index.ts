@@ -5,6 +5,7 @@ export * from './interface/offer-service.interface.js';
 export * from './offer.container.js';
 export * from './offer.controller.js';
 export * from './offer.entity.js';
-export * from './rdo/offer.rdo.js';
+export * from './default-offer.service.js';
+export * from './rdo/offers.rdo.js';
 export * from './rdo/upload-image.rdo.js';
 export * from './type/param-offerid.type.js';

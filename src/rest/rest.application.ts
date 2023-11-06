@@ -71,22 +71,22 @@ export class RestApplication {
 
     this.logger.info('Init database...');
     await this.#initDb();
-    this.logger.info('Init database is completed');
+    this.logger.info('Init database complete.');
 
-    this.logger.info('Init app-level middleware');
+    this.logger.info('Init app-level middleware...');
     await this.#initMiddleware();
-    this.logger.info('App-level middleware initialization completed');
+    this.logger.info('App-level middleware initialization complete.');
 
     this.logger.info('Init controllers...');
     await this.#initControllers();
-    this.logger.info('Controller initialization is completed');
+    this.logger.info('Controller initialization complete.');
 
     this.logger.info('Init exception filters...');
     await this.#initExceptionFilters();
-    this.logger.info('Exception filters initialization is compleated');
+    this.logger.info('Exception filters initialization compleate.');
 
     this.logger.info('Init server...');
     await this.#initServer();
-    this.logger.info(`🚀 Server started ${getFullServerPath(this.config.get('HOST'), this.config.get('PORT'))}`);
+    this.logger.info(`🚀 Server started ${getFullServerPath(this.config.get('HOST'), this.config.get('PORT'))}.`);
   }
 }

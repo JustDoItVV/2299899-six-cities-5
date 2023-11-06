@@ -1,4 +1,4 @@
-import { IsInt, IsMongoId, IsString, Length, Max, Min } from 'class-validator';
+import { IsInt, IsString, Length, Max, Min } from 'class-validator';
 
 import * as CONSTS from '../comment.const.js';
 
@@ -11,9 +11,4 @@ export class CreateCommentDto {
   @Min(CONSTS.Rating.MIN, { message: `Min rating is ${CONSTS.Rating.MIN}` })
   @Max(CONSTS.Rating.MAX, { message: `Max rating is ${CONSTS.Rating.MAX}` })
   public rating: number;
-
-  public authorId: string;
-
-  @IsMongoId({ message: 'OfferId field is required and must be a valid Mongo id' })
-  public offerId: string;
 }

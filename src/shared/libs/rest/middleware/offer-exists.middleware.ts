@@ -1,24 +1,23 @@
 import { NextFunction, Request, Response } from 'express';
 import { StatusCodes } from 'http-status-codes';
 
-import { DocumentExists } from '../../../types/index.js';
+import { OfferExists } from '../../../types/index.js';
 import { HttpError } from '../index.js';
 import { Middleware } from './middleware.interface.js';
 
-export class DocumentExistsMiddleware implements Middleware {
+export class OfferExistsMiddleware implements Middleware {
   constructor(
-    private readonly service: DocumentExists,
-    private readonly entityName: string,
+    private readonly service: OfferExists,
     private readonly paramName: string,
   ) {}
 
   public async execute({ params }: Request, _res: Response, next: NextFunction): Promise<void> {
-    const documentId = params[this.paramName];
+    const offerId = params[this.paramName];
 
-    if (!await this.service.exists(documentId)) {
+    if (!await this.service.exists(offerId)) {
       throw new HttpError(
         StatusCodes.NOT_FOUND,
-        `${this.entityName} with ${documentId} not found.`,
+        `Offer with ${offerId} not found.`,
         'DocumentExistsMiddleware'
       );
     }

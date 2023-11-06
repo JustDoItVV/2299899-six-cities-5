@@ -185,6 +185,8 @@ paths:
         - offers
       summary:  Изменение информации о предложении
       description: Изменение информации о предложении. Возвращает новый объект предложения.
+      security:
+        - BearerAuth: []
 
       parameters:
         - in: path
@@ -216,13 +218,15 @@ paths:
         - offers
       summary: Удаление предложения
       description: Удаление предложения пользователя
+      security:
+        - BearerAuth: []
 
       responses:
         '204':
           description: Предложение удалено
 
         '400':
-          description: Неверный запрос. Ошибки валидации
+          description: Неверный запрос. Ошибка авторизации
 
         '404':
           description: Предложение с offerId не найдено

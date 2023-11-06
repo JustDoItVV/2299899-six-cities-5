@@ -6,15 +6,17 @@ import { fillDTO } from '../../helpers/index.js';
 import { Config, RestSchema } from '../../libs/config/index.js';
 import { Logger } from '../../libs/logger/index.js';
 import {
-  BaseController, DocumentExistsMiddleware, HttpMethod, PrivateRouteMiddleware,
-  UploadFileMiddleware, ValidateDtoMiddleware, ValidateObjectIdMiddleware
+  BaseController, ConfirmAuthorMiddleware, HttpMethod, OfferExistsMiddleware,
+  PrivateRouteMiddleware, UploadFileMiddleware, ValidateDtoMiddleware, ValidateObjectIdMiddleware
 } from '../../libs/rest/index.js';
 import { Service } from '../../types/index.js';
 import { CommentService } from '../comment/index.js';
 import { CreateOfferDto } from './dto/create-offer.dto.js';
 import { UpdateOfferDto } from './dto/update-offer.dto.js';
 import { OfferService } from './interface/offer-service.interface.js';
-import { OfferRdo } from './rdo/offer.rdo.js';
+import { MAX_OFFERS_COUNT } from './offer.const.js';
+import { DetailedOfferRdo } from './rdo/datailed-offer.rdo.js';
+import { OffersRdo } from './rdo/offers.rdo.js';
 import { UploadImagesRdo } from './rdo/upload-image.rdo.js';
 import { CreateOfferRequest } from './type/create-offer-request.type.js';
 import { ParamOfferId } from './type/param-offerid.type.js';
@@ -50,7 +52,7 @@ export class OfferController extends BaseController {
       handler: this.show,
       middlewares: [
         new ValidateObjectIdMiddleware('offerId'),
-        new DocumentExistsMiddleware(this.offerService, 'offer', 'offerId'),
+        new OfferExistsMiddleware(this.offerService, 'offerId'),
       ],
     });
     this.addRoute({
@@ -60,8 +62,9 @@ export class OfferController extends BaseController {
       middlewares: [
         new PrivateRouteMiddleware(),
         new ValidateObjectIdMiddleware('offerId'),
+        new OfferExistsMiddleware(this.offerService, 'offerId'),
+        new ConfirmAuthorMiddleware(this.offerService, 'offerId'),
         new ValidateDtoMiddleware(UpdateOfferDto),
-        new DocumentExistsMiddleware(this.offerService, 'offer', 'offerId'),
       ],
     });
     this.addRoute({
@@ -71,7 +74,8 @@ export class OfferController extends BaseController {
       middlewares: [
         new PrivateRouteMiddleware(),
         new ValidateObjectIdMiddleware('offerId'),
-        new DocumentExistsMiddleware(this.offerService, 'offer', 'offerId'),
+        new OfferExistsMiddleware(this.offerService, 'offerId'),
+        new ConfirmAuthorMiddleware(this.offerService, 'offerId'),
       ],
     });
     this.addRoute({
@@ -86,9 +90,10 @@ export class OfferController extends BaseController {
     });
   }
 
-  public async index(_req: Request, res: Response): Promise<void> {
-    const offers = await this.offerService.findMany({ });
-    const responseData = fillDTO(OfferRdo, offers);
+  public async index({ query }: Request, res: Response): Promise<void> {
+    const limit = query['limit'] ? Number(query['limit']) : MAX_OFFERS_COUNT;
+    const offers = await this.offerService.findMany({ limit });
+    const responseData = fillDTO(OffersRdo, offers);
     this.ok(res, responseData);
   }
 
@@ -97,13 +102,13 @@ export class OfferController extends BaseController {
       ...body,
       authorId: tokenPayload.id,
     });
-    this.created(res, fillDTO(OfferRdo, result));
+    this.created(res, fillDTO(DetailedOfferRdo, result));
   }
 
   public async show({ params }: Request<ParamOfferId>, res: Response): Promise<void> {
     const { offerId } = params;
     const offer = await this.offerService.findOne({ _id: new Types.ObjectId(offerId) });
-    this.ok(res, fillDTO(OfferRdo, offer));
+    this.ok(res, fillDTO(DetailedOfferRdo, offer));
   }
 
   public async delete({ params }: Request<ParamOfferId>, res: Response): Promise<void> {
@@ -115,7 +120,7 @@ export class OfferController extends BaseController {
 
   public async update({ body, params }: Request<ParamOfferId, unknown, UpdateOfferDto>, res: Response): Promise<void> {
     const updatedOffer = await this.offerService.updateById(params.offerId, body);
-    this.ok(res, fillDTO(OfferRdo, updatedOffer));
+    this.ok(res, fillDTO(DetailedOfferRdo, updatedOffer));
   }
 
   public async uploadImages({ params, file }: Request<ParamOfferId>, res: Response) {

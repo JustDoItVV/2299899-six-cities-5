@@ -5,7 +5,7 @@ import { Logger } from 'pino';
 
 import { fillDTO } from '../../helpers/index.js';
 import {
-  BaseController, DocumentExistsMiddleware, HttpError, HttpMethod, PrivateRouteMiddleware,
+  BaseController, HttpError, HttpMethod, OfferExistsMiddleware, PrivateRouteMiddleware,
   ValidateDtoMiddleware, ValidateObjectIdMiddleware
 } from '../../libs/rest/index.js';
 import { Service } from '../../types/index.js';
@@ -27,42 +27,25 @@ export default class CommentController extends BaseController {
 
     this.logger.info('Registering routes for CommentController...');
     this.addRoute({
-      path: '/', method:
-      HttpMethod.Post,
-      handler: this.create,
-      middlewares: [
-        new PrivateRouteMiddleware(),
-        new ValidateDtoMiddleware(CreateCommentDto),
-      ],
-    });
-    this.addRoute({
       path: '/:offerId',
       method: HttpMethod.Get,
       handler: this.index,
       middlewares: [
         new ValidateObjectIdMiddleware('offerId'),
-        new DocumentExistsMiddleware(this.offerService, 'offer', 'offerId'),
+        new OfferExistsMiddleware(this.offerService, 'offerId'),
       ],
     });
-  }
-
-  public async create(
-    { body, tokenPayload }: CreateCommentRequest,
-    res: Response
-  ): Promise<void> {
-    if (!await this.offerService.exists(body.offerId)) {
-      throw new HttpError(
-        StatusCodes.NOT_FOUND,
-        `Offer with id ${body.offerId} not found.`,
-        'CommentController'
-      );
-    }
-
-    const comment = await this.commentService.create({
-      ...body,
-      authorId: tokenPayload.id,
+    this.addRoute({
+      path: '/:offerId', method:
+      HttpMethod.Post,
+      handler: this.create,
+      middlewares: [
+        new PrivateRouteMiddleware(),
+        new ValidateObjectIdMiddleware('offerId'),
+        new OfferExistsMiddleware(this.offerService, 'offerId'),
+        new ValidateDtoMiddleware(CreateCommentDto),
+      ],
     });
-    this.created(res, fillDTO(CommentRdo, comment));
   }
 
   public async index({ params }: Request<ParamOfferId>, res: Response): Promise<void> {
@@ -70,5 +53,23 @@ export default class CommentController extends BaseController {
     const responseData = fillDTO(CommentRdo, comments);
     this.ok(res, responseData);
 
+  }
+
+  public async create(
+    { params, body, tokenPayload }: CreateCommentRequest,
+    res: Response
+  ): Promise<void> {
+    const offerId = params['offerId'] as string;
+
+    if (!await this.offerService.exists(offerId)) {
+      throw new HttpError(
+        StatusCodes.NOT_FOUND,
+        `Offer with id ${offerId} not found.`,
+        'CommentController'
+      );
+    }
+
+    const comment = await this.commentService.create(body, offerId, tokenPayload);
+    this.created(res, fillDTO(CommentRdo, comment));
   }
 }

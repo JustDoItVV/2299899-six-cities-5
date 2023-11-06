@@ -44,7 +44,7 @@ export class DefaultAuthService implements AuthService {
     }
 
     if (!user.verifyPassword(dto.password, this.config.get('SALT'))) {
-      this.logger.warn(`incorrect password for ${dto.email}`);
+      this.logger.warn(`Incorrect password for ${dto.email}`);
       throw new UserPasswordIncorrectException();
     }
     return user;
