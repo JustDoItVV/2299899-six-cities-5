@@ -8,8 +8,12 @@ import { Logger } from '../../libs/logger/index.js';
 import { Service, SortType } from '../../types/index.js';
 import { CreateOfferDto } from './dto/create-offer.dto.js';
 import { UpdateOfferDto } from './dto/update-offer.dto.js';
+import { OfferFindOneQuery } from './index.js';
 import { OfferFindManyQuery } from './interface/offer-find-many-query.interface.js';
 import { OfferService } from './interface/offer-service.interface.js';
+import {
+  authorPipeline, commentsPipeline, getUserPipeline, mainOffersPipeline
+} from './offer.aggregation.js';
 import { MAX_OFFERS_COUNT } from './offer.const.js';
 import { OfferEntity } from './offer.entity.js';
 
@@ -40,12 +44,12 @@ export class DefaultOfferService implements OfferService {
       .exec();
   }
 
-  public async findOne(params: Partial<Base | TimeStamps>): Promise<DocumentType<OfferEntity> | null> {
-    return this.findMany({ params, limit: 1 }).then((array) => array ? array[0] : null);
+  public async findOne({ params, userId }: OfferFindOneQuery): Promise<DocumentType<OfferEntity> | null> {
+    return this.findMany({ params, limit: 1, userId }).then((array) => array ? array[0] : null);
   }
 
   public async findOneOrCreate(params: Partial<Base | TimeStamps>, dto: CreateOfferDto): Promise<DocumentType<OfferEntity>> {
-    const existedOffer = await this.findOne(params);
+    const existedOffer = await this.findOne({ params });
     if (existedOffer) {
       return existedOffer;
     }
@@ -54,53 +58,27 @@ export class DefaultOfferService implements OfferService {
 
   public async findMany({
     params = {},
+    userId,
     limit = MAX_OFFERS_COUNT,
+    favorites = false,
     sortOptions = {
       field: 'createdAt',
       order: SortType.DOWN,
     }
   }: OfferFindManyQuery): Promise<DocumentType<OfferEntity>[] | null> {
+    const userPipeline = userId ? getUserPipeline(userId) : [];
+    const favoritesPipeline = favorites ? [{ $match: { $expr: { $in: ['$_id', '$user.favorites'] } } }] : [];
+    const limitPipeline = userId ? [] : [{ $limit: limit }];
     return this.offerModel
       .aggregate([
         { $match: params },
-        {
-          $lookup: {
-            from: 'comments',
-            localField: '_id',
-            foreignField: 'offerId',
-            as: 'comments',
-          },
-        },
-        {
-          $lookup: {
-            from: 'users',
-            localField: 'authorId',
-            foreignField: '_id',
-            as: 'authorId',
-          },
-        },
-        {
-          $addFields: {
-            id: { $toString: '$_id' },
-            commentsCount: { $size: '$comments' },
-            rating: {
-              $divide: [
-                {
-                  $reduce: {
-                    input: '$comments',
-                    initialValue: 0,
-                    in: { $add: ['$$value', '$$this.rating'] },
-                  },
-                },
-                {
-                  $cond: [{ $ne: [{ $size: '$comments' }, 0] }, { $size: '$comments' }, 1],
-                },
-              ],
-            },
-          },
-        },
+        ...commentsPipeline,
+        ...userPipeline,
+        ...authorPipeline,
+        ...mainOffersPipeline,
+        ...favoritesPipeline,
         { $unset: 'comments' },
-        { $limit: limit },
+        ...limitPipeline,
         { $sort: { [sortOptions.field]: sortOptions.order } },
       ])
       .exec();

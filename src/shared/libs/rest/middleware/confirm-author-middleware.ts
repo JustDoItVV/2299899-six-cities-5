@@ -14,9 +14,9 @@ export class ConfirmAuthorMiddleware implements Middleware {
 
   public async execute({ params, tokenPayload }: Request, _res: Response, next: NextFunction): Promise<void> {
     const offerId = params[this.paramName];
-    const offer = await this.service.findOne({ _id: new Types.ObjectId(offerId) });
+    const offer = await this.service.findOne({ params: { _id: new Types.ObjectId(offerId) }});
 
-    if (offer?.authorId.id === tokenPayload.id) {
+    if (offer?.authorId._id.toString() === tokenPayload.id) {
       return next();
     }
 

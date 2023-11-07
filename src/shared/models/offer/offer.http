@@ -2,7 +2,7 @@
 ## Добавить новое предложение
 POST http://localhost:5000/offers HTTP/1.1
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhdGVfZW1haWxAZW1haWwuY29tIiwibmFtZSI6IlRlc3ROYW1lIiwiaWQiOiI2NTQ4MWU1NzYxNjc4MGVkMWRmMDVmOWMiLCJpYXQiOjE2OTkyOTQ0MTgsImV4cCI6MTY5OTQ2NzIxOH0.jpJpmEa-ZYn8TzntIgTGInP8tE0iInf5JxGQ-AKcrAo
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhdGVfZW1haWxfMUBlbWFpbC5jb20iLCJuYW1lIjoiVGVzdE5hbWUxIiwiaWQiOiI2NTRhYThlMDZlYjU0YzNkNmE0NTYzNzEiLCJpYXQiOjE2OTkzOTE3MjcsImV4cCI6MTY5OTU2NDUyN30.5Xco5Y_netDvBNp0LS3dgWbmTR74Xx6ZpJoJSHKPo9w
 
 {
   "title": "New house new offer",
@@ -23,9 +23,9 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhd
 ###
 
 ## Обновить объявление
-PATCH http://localhost:5000/offers/6549382cf9c12f0af3af26c0 HTTP/1.1
+PATCH http://localhost:5000/offers/654aa9216eb54c3d6a456376 HTTP/1.1
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhdGVfZW1haWxAZW1haWwuY29tIiwibmFtZSI6IlRlc3ROYW1lIiwiaWQiOiI2NTQ4MWU1NzYxNjc4MGVkMWRmMDVmOWMiLCJpYXQiOjE2OTkyOTQ0MTgsImV4cCI6MTY5OTQ2NzIxOH0.jpJpmEa-ZYn8TzntIgTGInP8tE0iInf5JxGQ-AKcrAo
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhdGVfZW1haWxfMUBlbWFpbC5jb20iLCJuYW1lIjoiVGVzdE5hbWUxIiwiaWQiOiI2NTRhYThlMDZlYjU0YzNkNmE0NTYzNzEiLCJpYXQiOjE2OTkzOTE3MjcsImV4cCI6MTY5OTU2NDUyN30.5Xco5Y_netDvBNp0LS3dgWbmTR74Xx6ZpJoJSHKPo9w
 
 {
   "title": "Updated house title",
@@ -47,25 +47,48 @@ GET http://localhost:5000/offers HTTP/1.1
 ###
 
 ## получить список предложений авторизованным пользователем
-GET http://localhost:5000/offers?limit=2 HTTP/1.1
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhdGVfZW1haWxAZW1haWwuY29tIiwibmFtZSI6IlRlc3ROYW1lIiwiaWQiOiI2NTQ4MWU1NzYxNjc4MGVkMWRmMDVmOWMiLCJpYXQiOjE2OTkyOTQ0MTgsImV4cCI6MTY5OTQ2NzIxOH0.jpJpmEa-ZYn8TzntIgTGInP8tE0iInf5JxGQ-AKcrAo
+GET http://localhost:5000/offers HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhdGVfZW1haWxfMUBlbWFpbC5jb20iLCJuYW1lIjoiVGVzdE5hbWUxIiwiaWQiOiI2NTRhYThlMDZlYjU0YzNkNmE0NTYzNzEiLCJpYXQiOjE2OTkzOTE3MjcsImV4cCI6MTY5OTU2NDUyN30.5Xco5Y_netDvBNp0LS3dgWbmTR74Xx6ZpJoJSHKPo9w
+
+###
+
+## получить список предложений авторизованным пользователем с указанием города и лимита
+GET http://localhost:5000/offers?city=Hamburg&limit=2 HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhdGVfZW1haWxfMUBlbWFpbC5jb20iLCJuYW1lIjoiVGVzdE5hbWUxIiwiaWQiOiI2NTRhYThlMDZlYjU0YzNkNmE0NTYzNzEiLCJpYXQiOjE2OTkzOTE3MjcsImV4cCI6MTY5OTU2NDUyN30.5Xco5Y_netDvBNp0LS3dgWbmTR74Xx6ZpJoJSHKPo9w
+
+###
+
+## получить список премиальных предложений неавторизованным пользователем для конкретного города с флагом премиум
+GET http://localhost:5000/offers?city=Cologne&premium=1 HTTP/1.1
+
+###
+
+## получить список избранных предложений пользователя
+GET http://localhost:5000/offers/favorites HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhdGVfZW1haWxfMUBlbWFpbC5jb20iLCJuYW1lIjoiVGVzdE5hbWUxIiwiaWQiOiI2NTRhYThlMDZlYjU0YzNkNmE0NTYzNzEiLCJpYXQiOjE2OTkzOTE3MjcsImV4cCI6MTY5OTU2NDUyN30.5Xco5Y_netDvBNp0LS3dgWbmTR74Xx6ZpJoJSHKPo9w
+
+###
+
+## получить список премиальных предложений авторизованным пользователем для города по умолчанию (Париж) с флагом премиум
+GET http://localhost:5000/offers?premium=1 HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhdGVfZW1haWxfMUBlbWFpbC5jb20iLCJuYW1lIjoiVGVzdE5hbWUxIiwiaWQiOiI2NTRhYThlMDZlYjU0YzNkNmE0NTYzNzEiLCJpYXQiOjE2OTkzOTE3MjcsImV4cCI6MTY5OTU2NDUyN30.5Xco5Y_netDvBNp0LS3dgWbmTR74Xx6ZpJoJSHKPo9w
 
 ###
 
 ## Получить подробную информацию по предложению с offerId неавторизованным пользователем
-GET http://localhost:5000/offers/654944f64ca8c133d3e9888b HTTP/1.1
+GET http://localhost:5000/offers/654aa9216eb54c3d6a456376 HTTP/1.1
 
 ###
 
 ## Получить подробную информацию по предложению с offerId авторизованным пользователем
-GET http://localhost:5000/offers/654944f64ca8c133d3e9888b HTTP/1.1
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhdGVfZW1haWxAZW1haWwuY29tIiwibmFtZSI6IlRlc3ROYW1lIiwiaWQiOiI2NTQ4MWU1NzYxNjc4MGVkMWRmMDVmOWMiLCJpYXQiOjE2OTkyOTQ0MTgsImV4cCI6MTY5OTQ2NzIxOH0.jpJpmEa-ZYn8TzntIgTGInP8tE0iInf5JxGQ-AKcrAo
+GET http://localhost:5000/offers/654aa9216eb54c3d6a456376 HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhdGVfZW1haWxfMUBlbWFpbC5jb20iLCJuYW1lIjoiVGVzdE5hbWUxIiwiaWQiOiI2NTRhYThlMDZlYjU0YzNkNmE0NTYzNzEiLCJpYXQiOjE2OTkzOTE3MjcsImV4cCI6MTY5OTU2NDUyN30.5Xco5Y_netDvBNp0LS3dgWbmTR74Xx6ZpJoJSHKPo9w
 
 ###
 
 ## Загрузить изображение для объявления
 POST http://localhost:5000/offers/65258514a30fc6ef77c0edf7/image HTTP/1.1
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRvcmFuc0BvdmVybG9vay5uZXQiLCJmaXJzdG5hbWUiOiJKYWNrIiwibGFzdG5hbWUiOiJUb3JyYW5jZSIsImlkIjoiNjUyNTk2ZjdlMGE2OTEyZDI5MzA1ZGQ2IiwiaWF0IjoxNjk4Njc3ODAyLCJleHAiOjE2OTg4NTA2MDJ9.HDAdzzjP9Cnfrl9c_TdIzXdjAls2dboO_FU-bScOwmU
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhdGVfZW1haWxfMUBlbWFpbC5jb20iLCJuYW1lIjoiVGVzdE5hbWUxIiwiaWQiOiI2NTRhYThlMDZlYjU0YzNkNmE0NTYzNzEiLCJpYXQiOjE2OTkzOTE3MjcsImV4cCI6MTY5OTU2NDUyN30.5Xco5Y_netDvBNp0LS3dgWbmTR74Xx6ZpJoJSHKPo9w
 Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
 
 ------WebKitFormBoundary7MA4YWxkTrZu0gW

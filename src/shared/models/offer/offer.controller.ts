@@ -2,6 +2,7 @@ import { Request, Response } from 'express';
 import { inject, injectable } from 'inversify';
 import { Types } from 'mongoose';
 
+import { CITIES } from '../../const/cities.js';
 import { fillDTO } from '../../helpers/index.js';
 import { Config, RestSchema } from '../../libs/config/index.js';
 import { Logger } from '../../libs/logger/index.js';
@@ -9,13 +10,13 @@ import {
   BaseController, ConfirmAuthorMiddleware, HttpMethod, OfferExistsMiddleware,
   PrivateRouteMiddleware, UploadFileMiddleware, ValidateDtoMiddleware, ValidateObjectIdMiddleware
 } from '../../libs/rest/index.js';
-import { Service } from '../../types/index.js';
+import { CityType, Service } from '../../types/index.js';
 import { CommentService } from '../comment/index.js';
 import { CreateOfferDto } from './dto/create-offer.dto.js';
 import { UpdateOfferDto } from './dto/update-offer.dto.js';
 import { OfferService } from './interface/offer-service.interface.js';
-import { MAX_OFFERS_COUNT } from './offer.const.js';
-import { DetailedOfferRdo } from './rdo/datailed-offer.rdo.js';
+import { MAX_OFFERS_COUNT, MAX_PREMIUM_OFFERS_COUNT } from './offer.const.js';
+import { DetailedOfferRdo } from './rdo/detailed-offer.rdo.js';
 import { OffersRdo } from './rdo/offers.rdo.js';
 import { UploadImagesRdo } from './rdo/upload-image.rdo.js';
 import { CreateOfferRequest } from './type/create-offer-request.type.js';
@@ -44,6 +45,14 @@ export class OfferController extends BaseController {
       middlewares: [
         new PrivateRouteMiddleware(),
         new ValidateDtoMiddleware(CreateOfferDto),
+      ],
+    });
+    this.addRoute({
+      path: '/favorites',
+      method: HttpMethod.Get,
+      handler: this.getFavorites,
+      middlewares: [
+        new PrivateRouteMiddleware(),
       ],
     });
     this.addRoute({
@@ -90,9 +99,21 @@ export class OfferController extends BaseController {
     });
   }
 
-  public async index({ query }: Request, res: Response): Promise<void> {
-    const limit = query['limit'] ? Number(query['limit']) : MAX_OFFERS_COUNT;
-    const offers = await this.offerService.findMany({ limit });
+  public async index({ query, tokenPayload }: Request, res: Response): Promise<void> {
+    let limit = query['limit'] ? Number(query['limit']) : MAX_OFFERS_COUNT;
+
+    const params = {};
+    const city = query['city'] ? CITIES[query['city'] as CityType] : CITIES.Paris;
+    Object.assign(params, { city });
+    const premium = query['premium'] ? { isPremium: true } : null;
+    Object.assign(params, premium);
+    if (premium) {
+      limit = limit > MAX_PREMIUM_OFFERS_COUNT ? MAX_PREMIUM_OFFERS_COUNT : limit;
+    }
+
+    const userId = tokenPayload ? tokenPayload.id : undefined;
+
+    const offers = await this.offerService.findMany({ params, limit, userId });
     const responseData = fillDTO(OffersRdo, offers);
     this.ok(res, responseData);
   }
@@ -105,9 +126,10 @@ export class OfferController extends BaseController {
     this.created(res, fillDTO(DetailedOfferRdo, result));
   }
 
-  public async show({ params }: Request<ParamOfferId>, res: Response): Promise<void> {
+  public async show({ params, tokenPayload }: Request<ParamOfferId>, res: Response): Promise<void> {
     const { offerId } = params;
-    const offer = await this.offerService.findOne({ _id: new Types.ObjectId(offerId) });
+    const userId = tokenPayload ? tokenPayload.id : undefined;
+    const offer = await this.offerService.findOne({ params: {_id: new Types.ObjectId(offerId)}, userId },);
     this.ok(res, fillDTO(DetailedOfferRdo, offer));
   }
 
@@ -123,10 +145,15 @@ export class OfferController extends BaseController {
     this.ok(res, fillDTO(DetailedOfferRdo, updatedOffer));
   }
 
-  public async uploadImages({ params, file }: Request<ParamOfferId>, res: Response) {
+  public async uploadImages({ params, file }: Request<ParamOfferId>, res: Response): Promise<void> {
     const { offerId } = params;
     const updateDto = { preview: file?.filename };
     await this.offerService.updateById(offerId, updateDto);
     this.created(res, fillDTO(UploadImagesRdo, updateDto));
+  }
+
+  public async getFavorites({ tokenPayload }: Request, res: Response): Promise<void> {
+    const favoriteOffers = await this.offerService.findMany({ userId: tokenPayload.id, favorites: true });
+    this.ok(res, fillDTO(OffersRdo, favoriteOffers));
   }
 }

@@ -4,8 +4,8 @@ POST http://localhost:5000/users/register HTTP/1.1
 Content-Type: application/json
 
 {
-  "name": "TestName2",
-  "email": "test_request_create_email_3@email.com",
+  "name": "TestName1",
+  "email": "test_request_create_email_1@email.com",
   "type": "обычный",
   "password": "123456"
 }
@@ -17,7 +17,7 @@ POST http://localhost:5000/users/login HTTP/1.1
 Content-Type: application/json
 
 {
-  "email": "test_request_create_email_2@email.com",
+  "email": "test_request_create_email_1@email.com",
   "password": "123456"
 }
 
@@ -36,7 +36,7 @@ Content-Type: application/json
 
 ## Проверить токен пользователя
 GET http://localhost:5000/users/login HTTP/1.1
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhdGVfZW1haWxfMkBlbWFpbC5jb20iLCJuYW1lIjoiVGVzdE5hbWUyIiwiaWQiOiI2NTQ5NWIzOTcxYzNkYWYwZjdlMWI0ODUiLCJpYXQiOjE2OTkzMDY0MjIsImV4cCI6MTY5OTQ3OTIyMn0.Ydhx-K9N6klfC0ufbPpXudBBFLhtp1k0iGO-2fMKSXw
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhdGVfZW1haWxfMUBlbWFpbC5jb20iLCJuYW1lIjoiVGVzdE5hbWUxIiwiaWQiOiI2NTRhYThlMDZlYjU0YzNkNmE0NTYzNzEiLCJpYXQiOjE2OTkzOTE3MjcsImV4cCI6MTY5OTU2NDUyN30.5Xco5Y_netDvBNp0LS3dgWbmTR74Xx6ZpJoJSHKPo9w
 
 ###
 
