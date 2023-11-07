@@ -86,7 +86,12 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhd
 
 ###
 
-## добавить/удалить предложение в/из избранного
+## добавить/удалить предложение в/из избранного для неавторизованного
+PUT http://localhost:5000/offers/654aa9216eb54c3d6a456376/favorite HTTP/1.1
+
+###
+
+## добавить/удалить предложение в/из избранного для авторизованного
 PUT http://localhost:5000/offers/654aa9216eb54c3d6a456376/favorite HTTP/1.1
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhdGVfZW1haWxfMUBlbWFpbC5jb20iLCJuYW1lIjoiVGVzdE5hbWUxIiwiaWQiOiI2NTRhYThlMDZlYjU0YzNkNmE0NTYzNzEiLCJpYXQiOjE2OTkzOTE3MjcsImV4cCI6MTY5OTU2NDUyN30.5Xco5Y_netDvBNp0LS3dgWbmTR74Xx6ZpJoJSHKPo9w
 
