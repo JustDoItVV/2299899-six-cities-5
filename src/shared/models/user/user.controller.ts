@@ -1,6 +1,7 @@
 import { Request, Response } from 'express';
 import { StatusCodes } from 'http-status-codes';
 import { inject, injectable } from 'inversify';
+import { Types } from 'mongoose';
 
 import { fillDTO } from '../../helpers/common.js';
 import { Config, RestSchema } from '../../libs/config/index.js';
@@ -86,7 +87,7 @@ export class UserController extends BaseController {
   public async uploadAvatar({ params, file }: Request, res: Response) {
     const { userId } = params;
     const uploadFile = { avatar: file?.filename };
-    await this.userService.updateById(userId, uploadFile);
+    await this.userService.updateById(new Types.ObjectId(userId), uploadFile);
     this.created(res, fillDTO(UploadUserAvatarRdo, { filepath: uploadFile.avatar }));
   }
 

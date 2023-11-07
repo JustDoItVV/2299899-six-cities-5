@@ -1,3 +1,5 @@
+import { Types } from 'mongoose';
+
 import { defaultClasses, DocumentType } from '@typegoose/typegoose';
 
 import { User } from '../../../types/index.js';
@@ -11,5 +13,5 @@ export interface UserService {
   findOne(params: Partial<defaultClasses.Base | Pick<User, 'email'>>): Promise<DocumentType<UserEntity> | null>;
   findOneOrCreate(params: Partial<defaultClasses.Base | Pick<User, 'email'>>, dto: CreateUserDto, salt: string): Promise<DocumentType<UserEntity>>;
   findMany({ params, limit, sortOptions }: UserFindManyQuery): Promise<DocumentType<UserEntity>[] | null>;
-  updateById(id: string, dto: UpdateUserDto): Promise<DocumentType<UserEntity> | null>;
+  updateById(id: Types.ObjectId, dto: UpdateUserDto): Promise<DocumentType<UserEntity> | null>;
 }

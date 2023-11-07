@@ -12,6 +12,8 @@ import {
 } from '../../libs/rest/index.js';
 import { CityType, Service } from '../../types/index.js';
 import { CommentService } from '../comment/index.js';
+import UpdateUserDto from '../user/dto/update-user.dto.js';
+import { UserService } from '../user/index.js';
 import { CreateOfferDto } from './dto/create-offer.dto.js';
 import { UpdateOfferDto } from './dto/update-offer.dto.js';
 import { OfferService } from './interface/offer-service.interface.js';
@@ -27,6 +29,7 @@ export class OfferController extends BaseController {
   constructor(
     @inject(Service.Logger) protected readonly logger: Logger,
     @inject(Service.OfferService) private readonly offerService: OfferService,
+    @inject(Service.UserService) private readonly userService: UserService,
     @inject(Service.CommentService) private readonly commentService: CommentService,
     @inject(Service.Config) private readonly configService: Config<RestSchema>,
   ) {
@@ -94,7 +97,19 @@ export class OfferController extends BaseController {
       middlewares: [
         new PrivateRouteMiddleware(),
         new ValidateObjectIdMiddleware('offerId'),
+        new OfferExistsMiddleware(this.offerService, 'offerId'),
         new UploadFileMiddleware(this.configService.get('UPLOAD_DIRECTORY'), 'images'),
+      ],
+    });
+    this.addRoute({
+      path: '/:offerId/favorite',
+      method: HttpMethod.Put,
+      handler: this.changeFavoriteStatus,
+      middlewares: [
+        new PrivateRouteMiddleware(),
+        new ValidateObjectIdMiddleware('offerId'),
+        new OfferExistsMiddleware(this.offerService, 'offerId'),
+        new ValidateDtoMiddleware(UpdateOfferDto),
       ],
     });
   }
@@ -155,5 +170,21 @@ export class OfferController extends BaseController {
   public async getFavorites({ tokenPayload }: Request, res: Response): Promise<void> {
     const favoriteOffers = await this.offerService.findMany({ userId: tokenPayload.id, favorites: true });
     this.ok(res, fillDTO(OffersRdo, favoriteOffers));
+  }
+
+  public async changeFavoriteStatus({ params, tokenPayload }: Request, res: Response): Promise<void> {
+    const offerId = new Types.ObjectId(params['offerId']);
+    const userId = new Types.ObjectId(tokenPayload.id);
+    const user = await this.userService.findOne({ _id: userId });
+
+    if (user?.favorites.includes(offerId)) {
+      user.favorites.splice(user.favorites.indexOf(offerId), 1);
+    } else {
+      user?.favorites.push(offerId);
+    }
+
+    const updateDto = { favorites: user?.favorites };
+    const updatedUser = await this.userService.updateById(userId, updateDto);
+    this.ok(res, fillDTO(UpdateUserDto, updatedUser));
   }
 }

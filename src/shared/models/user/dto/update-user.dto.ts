@@ -1,5 +1,8 @@
-import { IsEmail, IsString, Length, Matches } from 'class-validator';
+import { IsArray, IsEmail, IsString, Length, Matches } from 'class-validator';
 
+import { Ref } from '@typegoose/typegoose/lib/types.js';
+
+import { OfferEntity } from '../../offer/index.js';
 import * as CONSTS from '../user.const.js';
 
 export default class UpdateUserDto {
@@ -21,4 +24,7 @@ export default class UpdateUserDto {
     CONSTS.PasswordLength.MAX,
     { message: `Min length for password is ${CONSTS.PasswordLength.MIN}, max is ${CONSTS.PasswordLength.MAX}` })
   public avatar?: string;
+
+  @IsArray()
+  public favorites?: Ref<OfferEntity>[];
 }
