@@ -1,4 +1,5 @@
 import { Request, Response } from 'express';
+import { StatusCodes } from 'http-status-codes';
 import { inject, injectable } from 'inversify';
 import { Types } from 'mongoose';
 
@@ -7,7 +8,7 @@ import { fillDTO } from '../../helpers/index.js';
 import { Config, RestSchema } from '../../libs/config/index.js';
 import { Logger } from '../../libs/logger/index.js';
 import {
-  BaseController, ConfirmAuthorMiddleware, HttpMethod, OfferExistsMiddleware,
+  BaseController, ConfirmAuthorMiddleware, HttpError, HttpMethod, OfferExistsMiddleware,
   PrivateRouteMiddleware, UploadFileMiddleware, ValidateDtoMiddleware, ValidateObjectIdMiddleware
 } from '../../libs/rest/index.js';
 import { CityType, Service } from '../../types/index.js';
@@ -16,11 +17,14 @@ import UpdateUserDto from '../user/dto/update-user.dto.js';
 import { UserService } from '../user/index.js';
 import { CreateOfferDto } from './dto/create-offer.dto.js';
 import { UpdateOfferDto } from './dto/update-offer.dto.js';
+import { UploadPreviewRdo } from './index.js';
 import { OfferService } from './interface/offer-service.interface.js';
-import { MAX_OFFERS_COUNT, MAX_PREMIUM_OFFERS_COUNT } from './offer.const.js';
+import {
+  ALLOWED_IMAGE_MIME_TYPES, MAX_OFFERS_COUNT, MAX_PREMIUM_OFFERS_COUNT
+} from './offer.const.js';
 import { DetailedOfferRdo } from './rdo/detailed-offer.rdo.js';
 import { OffersRdo } from './rdo/offers.rdo.js';
-import { UploadImagesRdo } from './rdo/upload-image.rdo.js';
+import { UploadImagesRdo } from './rdo/upload-images.rdo.js';
 import { CreateOfferRequest } from './type/create-offer-request.type.js';
 import { ParamOfferId } from './type/param-offerid.type.js';
 
@@ -91,6 +95,18 @@ export class OfferController extends BaseController {
       ],
     });
     this.addRoute({
+      path: '/:offerId/preview',
+      method: HttpMethod.Post,
+      handler: this.uploadPreview,
+      middlewares: [
+        new PrivateRouteMiddleware(),
+        new ValidateObjectIdMiddleware('offerId'),
+        new OfferExistsMiddleware(this.offerService, 'offerId'),
+        new ConfirmAuthorMiddleware(this.offerService, 'offerId'),
+        new UploadFileMiddleware(this.configService.get('UPLOAD_DIRECTORY'), 'preview', ALLOWED_IMAGE_MIME_TYPES),
+      ],
+    });
+    this.addRoute({
       path: '/:offerId/images',
       method: HttpMethod.Post,
       handler: this.uploadImages,
@@ -98,7 +114,7 @@ export class OfferController extends BaseController {
         new PrivateRouteMiddleware(),
         new ValidateObjectIdMiddleware('offerId'),
         new OfferExistsMiddleware(this.offerService, 'offerId'),
-        new UploadFileMiddleware(this.configService.get('UPLOAD_DIRECTORY'), 'images'),
+        new UploadFileMiddleware(this.configService.get('UPLOAD_DIRECTORY'), 'images', ALLOWED_IMAGE_MIME_TYPES),
       ],
     });
     this.addRoute({
@@ -160,9 +176,25 @@ export class OfferController extends BaseController {
     this.ok(res, fillDTO(DetailedOfferRdo, updatedOffer));
   }
 
-  public async uploadImages({ params, file }: Request<ParamOfferId>, res: Response): Promise<void> {
+  public async uploadPreview({ params, file }: Request<ParamOfferId>, res: Response): Promise<void> {
+    if (!file) {
+      throw new HttpError(StatusCodes.INTERNAL_SERVER_ERROR, 'No file was uploaded');
+    }
+
     const { offerId } = params;
-    const updateDto = { preview: file?.filename };
+    const updateDto = { preview: file.filename };
+    await this.offerService.updateById(offerId, updateDto);
+    this.created(res, fillDTO(UploadPreviewRdo, updateDto));
+  }
+
+  public async uploadImages({ params, files }: Request<ParamOfferId>, res: Response): Promise<void> {
+    this.logger.warn(`${files}`);
+    if (!Array.isArray(files)) {
+      throw new HttpError(StatusCodes.INTERNAL_SERVER_ERROR, 'No files were uploaded');
+    }
+
+    const { offerId } = params;
+    const updateDto = { images: files.map((file) => file.filename) };
     await this.offerService.updateById(offerId, updateDto);
     this.created(res, fillDTO(UploadImagesRdo, updateDto));
   }

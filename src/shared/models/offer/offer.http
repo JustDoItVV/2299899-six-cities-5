@@ -97,16 +97,55 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhd
 
 ###
 
-## Загрузить изображение для объявления
-POST http://localhost:5000/offers/65258514a30fc6ef77c0edf7/image HTTP/1.1
+## Загрузить изображения для объявления
+POST http://localhost:5000/offers/654aa9216eb54c3d6a456376/preview HTTP/1.1
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhdGVfZW1haWxfMUBlbWFpbC5jb20iLCJuYW1lIjoiVGVzdE5hbWUxIiwiaWQiOiI2NTRhYThlMDZlYjU0YzNkNmE0NTYzNzEiLCJpYXQiOjE2OTkzOTE3MjcsImV4cCI6MTY5OTU2NDUyN30.5Xco5Y_netDvBNp0LS3dgWbmTR74Xx6ZpJoJSHKPo9w
 Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
 
 ------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="image"; filename="screen.png"
-Content-Type: image/png
+Content-Disposition: form-data; name="preview"; filename="cat_1.jpeg"
+Content-Type: image/jpg
 
-< /Users/spider_net/Desktop/screen.png
+< /home/justdoit/Desktop/cat_1.jpeg
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+###
+
+## Загрузить изображения для объявления
+POST http://localhost:5000/offers/654aa9216eb54c3d6a456376/images HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhdGVfZW1haWxfMUBlbWFpbC5jb20iLCJuYW1lIjoiVGVzdE5hbWUxIiwiaWQiOiI2NTRhYThlMDZlYjU0YzNkNmE0NTYzNzEiLCJpYXQiOjE2OTkzOTE3MjcsImV4cCI6MTY5OTU2NDUyN30.5Xco5Y_netDvBNp0LS3dgWbmTR74Xx6ZpJoJSHKPo9w
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="images"; filename="cat_1.jpg"
+Content-Type: image/jpg
+
+< ./.http-test-data/cat_1.jpg
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+Content-Disposition: form-data; name="images"; filename="cat_2.jpg"
+Content-Type: image/jpg
+
+< ./.http-test-data/cat_2.jpg
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+Content-Disposition: form-data; name="images"; filename="cat_3.jpg"
+Content-Type: image/jpg
+
+< ./.http-test-data/cat_3.jpg
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+Content-Disposition: form-data; name="images"; filename="cat_4.jpg"
+Content-Type: image/jpg
+
+< ./.http-test-data/cat_4.jpg
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+Content-Disposition: form-data; name="images"; filename="cat_5.jpg"
+Content-Type: image/jpg
+
+< ./.http-test-data/cat_5.jpg
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+Content-Disposition: form-data; name="images"; filename="cat_6.jpg"
+Content-Type: image/jpg
+
+< ./.http-test-data/cat_6.jpg
 ------WebKitFormBoundary7MA4YWxkTrZu0gW--
 
 ###

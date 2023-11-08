@@ -44,3 +44,11 @@ export enum Longitude {
 export const MAX_OFFERS_COUNT = 60;
 
 export const MAX_PREMIUM_OFFERS_COUNT = 3;
+
+export const ALLOWED_IMAGE_MIME_TYPES = [
+  'image/png',
+  'image/jpeg',
+  'image/jpg',
+];
+
+export const OFFER_IMAGES_COUNT = 6;

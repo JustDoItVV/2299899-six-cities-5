@@ -7,6 +7,7 @@ export * from './exception-filter/exception-filter.interface.js';
 export * from './exception-filter/http-error-exception-filter.js';
 export * from './middleware/confirm-author-middleware.js';
 export * from './middleware/offer-exists.middleware.js';
+export * from './middleware/is-anonymus.middleware.js';
 export * from './middleware/middleware.interface.js';
 export * from './middleware/parse-token.middleware.js';
 export * from './middleware/private-route.middleware.js';
