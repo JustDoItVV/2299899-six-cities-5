@@ -1,0 +1,151 @@
+# Предложения по аренде
+## Добавить новое предложение
+POST http://localhost:5000/offers HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhdGVfZW1haWxfMUBlbWFpbC5jb20iLCJuYW1lIjoiVGVzdE5hbWUxIiwiaWQiOiI2NTRhYThlMDZlYjU0YzNkNmE0NTYzNzEiLCJpYXQiOjE2OTkzOTE3MjcsImV4cCI6MTY5OTU2NDUyN30.5Xco5Y_netDvBNp0LS3dgWbmTR74Xx6ZpJoJSHKPo9w
+
+{
+  "title": "New house new offer",
+  "description": "New description very long enough to be at least 20 chars length",
+  "city": "Paris",
+  "preview": "av1.png",
+  "images": ["av1.png", "av2.png", "av3.png", "av4.png", "av5.png", "av6.png"],
+  "isPremium": true,
+  "type": "house",
+  "rooms": 8,
+  "guests": 10,
+  "price": 666,
+  "goods": ["Laptop friendly workspace", "Towels"],
+  "latitude": 5.55,
+  "longitude": 6.66
+}
+
+###
+
+## Обновить объявление
+PATCH http://localhost:5000/offers/654aa9216eb54c3d6a456376 HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhdGVfZW1haWxfMUBlbWFpbC5jb20iLCJuYW1lIjoiVGVzdE5hbWUxIiwiaWQiOiI2NTRhYThlMDZlYjU0YzNkNmE0NTYzNzEiLCJpYXQiOjE2OTkzOTE3MjcsImV4cCI6MTY5OTU2NDUyN30.5Xco5Y_netDvBNp0LS3dgWbmTR74Xx6ZpJoJSHKPo9w
+
+{
+  "title": "Updated house title",
+  "description": "Updated house offer description",
+  "price": 1100
+}
+
+###
+
+## Удалить объявление по идентификатору
+DELETE http://localhost:5000/offers/654944f64ca8c133d3e9888b HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhdGVfZW1haWxAZW1haWwuY29tIiwibmFtZSI6IlRlc3ROYW1lIiwiaWQiOiI2NTQ4MWU1NzYxNjc4MGVkMWRmMDVmOWMiLCJpYXQiOjE2OTkyOTQ0MTgsImV4cCI6MTY5OTQ2NzIxOH0.jpJpmEa-ZYn8TzntIgTGInP8tE0iInf5JxGQ-AKcrAo
+
+###
+
+## получить список предложений неавторизованным пользователем
+GET http://localhost:5000/offers HTTP/1.1
+
+###
+
+## получить список предложений авторизованным пользователем
+GET http://localhost:5000/offers HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhdGVfZW1haWxfMUBlbWFpbC5jb20iLCJuYW1lIjoiVGVzdE5hbWUxIiwiaWQiOiI2NTRhYThlMDZlYjU0YzNkNmE0NTYzNzEiLCJpYXQiOjE2OTkzOTE3MjcsImV4cCI6MTY5OTU2NDUyN30.5Xco5Y_netDvBNp0LS3dgWbmTR74Xx6ZpJoJSHKPo9w
+
+###
+
+## получить список предложений авторизованным пользователем с указанием города и лимита
+GET http://localhost:5000/offers?city=Hamburg&limit=2 HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhdGVfZW1haWxfMUBlbWFpbC5jb20iLCJuYW1lIjoiVGVzdE5hbWUxIiwiaWQiOiI2NTRhYThlMDZlYjU0YzNkNmE0NTYzNzEiLCJpYXQiOjE2OTkzOTE3MjcsImV4cCI6MTY5OTU2NDUyN30.5Xco5Y_netDvBNp0LS3dgWbmTR74Xx6ZpJoJSHKPo9w
+
+###
+
+## получить список премиальных предложений неавторизованным пользователем для конкретного города с флагом премиум
+GET http://localhost:5000/offers?city=Cologne&premium=1 HTTP/1.1
+
+###
+
+## получить список избранных предложений пользователя
+GET http://localhost:5000/offers/favorites HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhdGVfZW1haWxfMUBlbWFpbC5jb20iLCJuYW1lIjoiVGVzdE5hbWUxIiwiaWQiOiI2NTRhYThlMDZlYjU0YzNkNmE0NTYzNzEiLCJpYXQiOjE2OTkzOTE3MjcsImV4cCI6MTY5OTU2NDUyN30.5Xco5Y_netDvBNp0LS3dgWbmTR74Xx6ZpJoJSHKPo9w
+
+###
+
+## получить список премиальных предложений авторизованным пользователем для города по умолчанию (Париж) с флагом премиум
+GET http://localhost:5000/offers?premium=1 HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhdGVfZW1haWxfMUBlbWFpbC5jb20iLCJuYW1lIjoiVGVzdE5hbWUxIiwiaWQiOiI2NTRhYThlMDZlYjU0YzNkNmE0NTYzNzEiLCJpYXQiOjE2OTkzOTE3MjcsImV4cCI6MTY5OTU2NDUyN30.5Xco5Y_netDvBNp0LS3dgWbmTR74Xx6ZpJoJSHKPo9w
+
+###
+
+## Получить подробную информацию по предложению с offerId неавторизованным пользователем
+GET http://localhost:5000/offers/654aa9216eb54c3d6a456376 HTTP/1.1
+
+###
+
+## Получить подробную информацию по предложению с offerId авторизованным пользователем
+GET http://localhost:5000/offers/654aa9216eb54c3d6a456376 HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhdGVfZW1haWxfMUBlbWFpbC5jb20iLCJuYW1lIjoiVGVzdE5hbWUxIiwiaWQiOiI2NTRhYThlMDZlYjU0YzNkNmE0NTYzNzEiLCJpYXQiOjE2OTkzOTE3MjcsImV4cCI6MTY5OTU2NDUyN30.5Xco5Y_netDvBNp0LS3dgWbmTR74Xx6ZpJoJSHKPo9w
+
+###
+
+## добавить/удалить предложение в/из избранного для неавторизованного
+PUT http://localhost:5000/offers/654aa9216eb54c3d6a456376/favorite HTTP/1.1
+
+###
+
+## добавить/удалить предложение в/из избранного для авторизованного
+PUT http://localhost:5000/offers/654aa9216eb54c3d6a456376/favorite HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhdGVfZW1haWxfMUBlbWFpbC5jb20iLCJuYW1lIjoiVGVzdE5hbWUxIiwiaWQiOiI2NTRhYThlMDZlYjU0YzNkNmE0NTYzNzEiLCJpYXQiOjE2OTkzOTE3MjcsImV4cCI6MTY5OTU2NDUyN30.5Xco5Y_netDvBNp0LS3dgWbmTR74Xx6ZpJoJSHKPo9w
+
+###
+
+## Загрузить изображения для объявления
+POST http://localhost:5000/offers/654aa9216eb54c3d6a456376/preview HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhdGVfZW1haWxfMUBlbWFpbC5jb20iLCJuYW1lIjoiVGVzdE5hbWUxIiwiaWQiOiI2NTRhYThlMDZlYjU0YzNkNmE0NTYzNzEiLCJpYXQiOjE2OTkzOTE3MjcsImV4cCI6MTY5OTU2NDUyN30.5Xco5Y_netDvBNp0LS3dgWbmTR74Xx6ZpJoJSHKPo9w
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="preview"; filename="cat_1.jpeg"
+Content-Type: image/jpg
+
+< /home/justdoit/Desktop/cat_1.jpeg
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+###
+
+## Загрузить изображения для объявления
+POST http://localhost:5000/offers/654aa9216eb54c3d6a456376/images HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RfcmVxdWVzdF9jcmVhdGVfZW1haWxfMUBlbWFpbC5jb20iLCJuYW1lIjoiVGVzdE5hbWUxIiwiaWQiOiI2NTRhYThlMDZlYjU0YzNkNmE0NTYzNzEiLCJpYXQiOjE2OTkzOTE3MjcsImV4cCI6MTY5OTU2NDUyN30.5Xco5Y_netDvBNp0LS3dgWbmTR74Xx6ZpJoJSHKPo9w
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="images"; filename="cat_1.jpg"
+Content-Type: image/jpg
+
+< ./.http-test-data/cat_1.jpg
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+Content-Disposition: form-data; name="images"; filename="cat_2.jpg"
+Content-Type: image/jpg
+
+< ./.http-test-data/cat_2.jpg
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+Content-Disposition: form-data; name="images"; filename="cat_3.jpg"
+Content-Type: image/jpg
+
+< ./.http-test-data/cat_3.jpg
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+Content-Disposition: form-data; name="images"; filename="cat_4.jpg"
+Content-Type: image/jpg
+
+< ./.http-test-data/cat_4.jpg
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+Content-Disposition: form-data; name="images"; filename="cat_5.jpg"
+Content-Type: image/jpg
+
+< ./.http-test-data/cat_5.jpg
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+Content-Disposition: form-data; name="images"; filename="cat_6.jpg"
+Content-Type: image/jpg
+
+< ./.http-test-data/cat_6.jpg
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+###

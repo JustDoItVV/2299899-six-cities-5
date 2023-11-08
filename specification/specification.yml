@@ -1,0 +1,680 @@
+openapi: 3.0.0
+info:
+  title: API сервер для проекта «Шесть городов».
+  description: |-
+    * Список ресурсов и маршрутов сервера «Шесть городов».
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+  version: 2.0.0
+tags:
+  - name: users
+    description: Действия с пользователем.
+  - name: offers
+    description: действия с предложениями об аренде.
+  - name: comments
+    description: действия с комментариями.
+
+paths:
+  /users/register:
+    post:
+      tags:
+        - users
+      summary: Регистрация пользователя
+      description: Регистрация нового пользователя.
+
+      requestBody:
+        description: Информация для создания нового пользователя.
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/userCreation'
+        required: true
+
+      responses:
+        '201':
+          description: Пользователь зарегистрирован. Объект пользователя.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/user'
+
+        '409':
+          description: Пользователь с таким email уже существует.
+
+  /users/login:
+    post:
+      tags:
+        - users
+      summary: Авторизация пользователя
+      description: Авторизация пользователя на основе логина и пароля.
+
+      requestBody:
+        description: Информация для создания нового пользователя.
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/userLogin'
+        required: true
+
+      responses:
+        '200':
+          description: Пользователь авторизован. Объект пользователя с токеном.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/user'
+
+        '404':
+          description: Пользователь не найден
+
+    get:
+      tags:
+        - users
+      summary: Проверка состояния пользователя
+      description: Возвращает информацию по авторизованному пользователю.
+
+      responses:
+        '200':
+          description: Пользователь авторизован. Объект пользователя.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/user'
+
+        '400':
+          description: Неверный токен
+
+        '401':
+          description: Пользователь не авторизован. Ошибка доступа.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/errorAuth'
+
+  /users/logout:
+    delete:
+      tags:
+        - users
+      summary: Завершение сеанса пользователя
+      description: Завершение сеанса пользователя - выход из закрытой части приложения
+
+      responses:
+        '204':
+          description: Сеанс завершен
+
+  /offers:
+    get:
+      tags:
+        - offers
+      summary: Список предложений по аренде
+      description: Просмотр и пополнение списка предложений по аренде.
+
+      responses:
+        '200':
+          description: Массив предложений
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/offer'
+
+    post:
+      tags:
+        - offers
+      summary: Создание нового предложения
+      description: Создание нового предложения. Возвращает объект нового предложения.
+      security:
+        - BearerAuth: []
+
+      requestBody:
+        description: Информация для создания нового предложения.
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/offerCreation'
+        required: true
+
+      responses:
+        '201':
+          description: Предложение создано
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: '#/components/schemas/offer'
+
+        '400':
+          description: Неверный запрос. Ошибки валидации
+
+  /offers/{offerId}:
+    get:
+      tags:
+        - offers
+      summary: Подробная информация о предложении
+      description: Возвращает объект с подробной информацией о предложении.
+
+      parameters:
+        - in: path
+          name: offerId
+          description: ID запращиваемого предложения
+          schema:
+            type: string
+          required: true
+
+      responses:
+        '200':
+          description: Предложение
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: '#/components/schemas/offer'
+
+        '404':
+          description: Предложение с offerId не найдено
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: '#/components/schemas/errorNotFound'
+
+    put:
+      tags:
+        - offers
+      summary:  Изменение информации о предложении
+      description: Изменение информации о предложении. Возвращает новый объект предложения.
+      security:
+        - BearerAuth: []
+
+      parameters:
+        - in: path
+          name: offerId
+          description: ID запращиваемого предложения
+          schema:
+            type: string
+          required: true
+
+      responses:
+        '200':
+          description: Измененное предложение
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: '#/components/schemas/offer'
+
+        '404':
+          description: Предложение с offerId не найдено
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: '#/components/schemas/errorNotFound'
+
+    delete:
+      tags:
+        - offers
+      summary: Удаление предложения
+      description: Удаление предложения пользователя
+      security:
+        - BearerAuth: []
+
+      responses:
+        '204':
+          description: Предложение удалено
+
+        '400':
+          description: Неверный запрос. Ошибка авторизации
+
+        '404':
+          description: Предложение с offerId не найдено
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: '#/components/schemas/errorNotFound'
+
+  /offers/{offerId}/nearby:
+    get:
+      tags:
+        - offers
+      summary: Список предложений неподалеку
+      description: Возвращает список предложений неподалеку - в текущем городе.
+
+      parameters:
+        - in: path
+          name: offerId
+          description: ID предложения
+          schema:
+            type: string
+          required: true
+
+      responses:
+        '200':
+          description: Массив предложений
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/offer'
+
+        '404':
+          description: Предложение с offerId не найдено
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: '#/components/schemas/errorNotFound'
+
+  /favorite:
+    get:
+      tags:
+        - offers
+      summary: Список избранных предложений
+      description: Возвращает список избранных предложений авторизованного пользователя.
+
+      responses:
+        '200':
+          description: Массив предложений
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/offer'
+
+        '401':
+          description: Пользователь не авторизован. Ошибка доступа.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/errorAuth'
+
+  /favorite/{offerId}/{status}:
+    post:
+      tags:
+        - offers
+      summary:  Изменение информации о предложении
+      description: Изменение информации о предложении. Возвращает новый объект предложения.
+
+      parameters:
+        - in: path
+          name: offerId
+          description: ID запращиваемого предложения
+          schema:
+            type: string
+          required: true
+        - in: path
+          name: status
+          description: Новый статус избранного у предложения offerId
+          schema:
+            type: number
+          required: true
+
+      responses:
+        '200':
+          description: Обновленное предложение
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: '#/components/schemas/offer'
+
+        '401':
+          description: Пользователь не авторизован. Ошибка доступа.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/errorAuth'
+
+        '404':
+          description: Предложение с offerId не найдено
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: '#/components/schemas/errorNotFound'
+
+  /comments/{offerId}:
+    get:
+      tags:
+        - comments
+      summary: Список комментариев предложения
+      description: Возвращает список комментариев предложения с offerId.
+
+      parameters:
+        - in: path
+          name: offerId
+          description: ID запращиваемого предложения
+          schema:
+            type: string
+          required: true
+
+      responses:
+        '200':
+          description: Массив комментариев
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/comment'
+
+        '404':
+          description: Предложение с offerId не найдено
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: '#/components/schemas/errorNotFound'
+
+    post:
+      tags:
+        - comments
+      summary: Добавление нового комментария
+      description: Добавление нового комментария. Возврат обеъкта комментария
+
+      parameters:
+        - in: path
+          name: offerId
+          description: ID предложения
+          schema:
+            type: string
+          required: true
+
+      responses:
+        '201':
+          description: Добавленный комментарий
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: '#/components/schemas/commentCreation'
+
+        '404':
+          description: Предложение с offerId не найдено
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: '#/components/schemas/errorNotFound'
+
+
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+
+  schemas:
+    userCreation:
+      type: object
+      properties:
+        name:
+          type: string
+          example: Name
+
+        email:
+          type: string
+          example: email@email.com
+
+        avatar:
+          type: string
+          example: avatar1.jpg
+
+        password:
+          type: string
+          example: passw0rd!
+
+    user:
+      type: object
+      properties:
+        id:
+          type: string
+          example: 6329c3d6a04ab1061c6425ea
+
+        name:
+          type: string
+          example: Name
+
+        email:
+          type: string
+          example: email@email.com
+
+        avatar:
+          type: string
+          example: avatar1.jpg
+
+        password:
+          type: string
+          example: passw0rd!
+
+        userType:
+          type: string
+          example: pro
+
+    userLogin:
+      type: object
+      properties:
+        email:
+          type: string
+          example: email@email.com
+
+        password:
+          type: string
+          example: passw0rd!
+
+    errorAuth:
+      type: object
+      properties:
+        errorType:
+          type: string
+          example: 'COMMON_ERROR'
+
+        message:
+          type: string
+          example: 'Access denied'
+
+    offer:
+      type: object
+      properties:
+        id:
+          type: string
+          example: 6329c3d6a04ab1061c6425ea
+
+        title:
+          type: string
+          example: Cool house
+
+        description:
+          type: string
+          example: Very cool and spacious house
+
+        date:
+          type: string
+          example: 2023-10-03T13:40:33.225Z
+
+        city:
+          type: object
+          properties:
+            name:
+              type: string
+              example: Paris
+
+            latitude:
+              type: number
+              example: 49.87262
+
+            longitude:
+              type: number
+              example: 5.314119
+
+        preview:
+          type: string
+          example: avatar1.jpg
+
+        images:
+          type: array
+          items:
+            type: string
+          example: [avatar1.jpg, avatar2.jpg, avatar3.jpg, avatar4.jpg, avatar5.jpg, avatar6.jpg]
+
+        isPremium:
+          type: boolean
+          example: false
+
+        isFavorite:
+          type: boolean
+          example: true
+
+        rating:
+          type: number
+          example: 4.9
+
+        type:
+          type: string
+          example: house
+
+        rooms:
+          type: number
+          example: 5
+
+        guests:
+          type: number
+          example: 5
+
+        price:
+          type: number
+          example: 500
+
+        goods:
+          type: array
+          items:
+            type: string
+          example: [Laptop, Washer, Fridge]
+
+        authorId:
+          type: string
+          example: 6329c3d6a04ab1061c6425ea
+
+        commentsCount:
+          type: number
+          example: 1
+
+        latitude:
+          type: number
+          example: 49.87262
+
+        longitude:
+          type: number
+          example: 5.314119
+
+    offerCreation:
+      type: object
+      properties:
+        title:
+          type: string
+          example: Cool house
+
+        description:
+          type: string
+          example: Very cool and spacious house
+
+        city:
+          type: string
+          example: Paris
+
+        preview:
+          type: string
+          example: avatar1.jpg
+
+        images:
+          type: array
+          items:
+            type: string
+          example: [avatar1.jpg, avatar2.jpg, avatar3.jpg, avatar4.jpg, avatar5.jpg, avatar6.jpg]
+
+        isPremium:
+          type: boolean
+          example: false
+
+        type:
+          type: string
+          example: house
+
+        rooms:
+          type: number
+          example: 5
+
+        guests:
+          type: number
+          example: 5
+
+        price:
+          type: number
+          example: 500
+
+        goods:
+          type: array
+          items:
+            type: string
+          example: [Laptop, Washer, Fridge]
+
+        authorId:
+          type: string
+          example: 6329c3d6a04ab1061c6425ea
+
+        latitude:
+          type: number
+          example: 49.87262
+
+        longitude:
+          type: number
+          example: 5.314119
+
+    errorNotFound:
+      type: object
+      properties:
+        errorType:
+          type: string
+          example: 'COMMON_ERROR'
+
+        message:
+          type: string
+          example: 'Not found'
+
+    comment:
+      type: object
+      properties:
+        id:
+          type: string
+          example: 6329c3d6a04ab1061c6425e1
+        text:
+          type: string
+          example: Very cool
+
+        date:
+          type: string
+          example: 2023-10-03T13:40:33.225Z
+
+        rating:
+          type: number
+          example: 5
+
+        authorId:
+          type: string
+          example: 6329c3d6a04ab1061c6425ea
+
+    commentCreation:
+      type: object
+      properties:
+        text:
+          type: string
+          example: Very cool
+
+        rating:
+          type: number
+          example: 5
